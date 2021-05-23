@@ -1,9 +1,7 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: oneplus-services.jar
+apkFileName: oneplus-services_patched.jar
 compressionType: false
-doNotCompress:
-- classes.dex
-- META-INF/MANIFEST.MF
+doNotCompress: null
 isFrameworkApk: false
 packageInfo: null
 sdkInfo: null

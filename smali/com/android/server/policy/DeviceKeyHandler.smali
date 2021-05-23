@@ -1178,7 +1178,7 @@
 .end method
 
 .method private j()V
-    .locals 8
+    .locals 11
 
     iget-object v0, p0, Lcom/android/server/policy/DeviceKeyHandler;->you:Landroid/content/Context;
 
@@ -1324,12 +1324,36 @@
 
     move v1, v4
 
+    const/4 v5, 0x1
+
+    new-instance v10, Lcom/amog787/DT2W;
+
+    invoke-direct {v10}, Lcom/amog787/DT2W;-><init>()V
+
+    invoke-virtual {v10, v5}, Lcom/amog787/DT2W;->enableDT2W(I)V
+
+    const-string v5, "1"
+
     goto :goto_1
 
     :cond_5
     move v1, v2
 
+    const/4 v5, 0x0
+
+    new-instance v10, Lcom/amog787/DT2W;
+
+    invoke-direct {v10}, Lcom/amog787/DT2W;-><init>()V
+
+    invoke-virtual {v10, v5}, Lcom/amog787/DT2W;->enableDT2W(I)V
+
+    const-string v5, "0"
+
     :goto_1
+    const-string v6, "/sys/touchpanel/double_tap"
+
+    invoke-static {v6, v5}, Lcom/android/server/policy/you;->tsu(Ljava/lang/String;Ljava/lang/String;)Z
+
     iput-boolean v1, p0, Lcom/android/server/policy/DeviceKeyHandler;->ugm:Z
 
     iget v1, p0, Lcom/android/server/policy/DeviceKeyHandler;->dma:I
