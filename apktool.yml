@@ -1,0 +1,15 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: oneplus-services.jar
+compressionType: false
+doNotCompress:
+- classes.dex
+- META-INF/MANIFEST.MF
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework: null
+version: 2.5.0
+versionInfo: null
