@@ -114,6 +114,56 @@
     return p0
 .end method
 
+.method public static write2Node(Ljava/lang/String;Ljava/lang/String;)Z
+    .locals 4
+
+    :try_start_0
+    new-instance v0, Ljava/io/FileOutputStream;
+
+    invoke-direct {v0, p0}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;->write([B)V
+
+    invoke-virtual {v0}, Ljava/io/FileOutputStream;->flush()V
+
+    invoke-virtual {v0}, Ljava/io/FileOutputStream;->close()V
+    :try_end_12
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_12} :catch_14
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :catch_14
+    move-exception p1
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "Could not write to file "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v0, "FileUtils"
+
+    invoke-static {v0, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
 .method public static you(Ljava/lang/String;[B)Z
     .locals 2
 

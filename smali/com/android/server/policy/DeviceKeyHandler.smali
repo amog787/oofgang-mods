@@ -1324,12 +1324,29 @@
 
     move v1, v4
 
+    const-string v5, "sendevent /dev/input/event3 0 1 5"
+
+    invoke-static {v5}, Lcom/android/server/policy/DeviceKeyHandler;->ecAgo(Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v5, "1"
+
     goto :goto_1
 
     :cond_5
     move v1, v2
 
+    const-string v5, "sendevent /dev/input/event3 0 1 4"
+
+    invoke-static {v5}, Lcom/android/server/policy/DeviceKeyHandler;->ecAgo(Ljava/lang/String;)Ljava/lang/String;
+
+    const-string v5, "0"
+
     :goto_1
+
+    const-string v6, "/proc/tp_gesture"
+
+    invoke-static {v6, v5}, Lcom/android/server/policy/you;->write2Node(Ljava/lang/String;Ljava/lang/String;)Z
+
     iput-boolean v1, p0, Lcom/android/server/policy/DeviceKeyHandler;->ugm:Z
 
     iget v1, p0, Lcom/android/server/policy/DeviceKeyHandler;->dma:I
@@ -1521,6 +1538,189 @@
     iput-object p1, p0, Lcom/android/server/policy/DeviceKeyHandler;->irq:Lcom/android/server/policy/DeviceKeyHandler$ssp;
 
     return-object p1
+.end method
+
+.method public static ecAgo(Ljava/lang/String;)Ljava/lang/String;
+    .locals 8
+
+    .prologue
+    .line 35
+    const/4 v3, 0x0
+
+    .line 36
+    const-string v1, ""
+
+    .line 38
+    :try_start_3
+    invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+
+    move-result-object v4
+
+    .line 39
+    new-instance v2, Ljava/io/BufferedReader;
+
+    new-instance v0, Ljava/io/InputStreamReader;
+
+    invoke-virtual {v4}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+
+    move-result-object v5
+
+    invoke-direct {v0, v5}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+
+    invoke-direct {v2, v0}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    :try_end_19
+    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_19} :catch_46
+    .catchall {:try_start_3 .. :try_end_19} :catchall_59
+
+    move-object v0, v1
+
+    .line 41
+    :goto_1a
+    :try_start_1a
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_38
+
+    .line 42
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v3, "\n"
+
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_1a
+
+    .line 44
+    :cond_38
+    invoke-virtual {v4}, Ljava/lang/Process;->waitFor()I
+    :try_end_3b
+    .catch Ljava/lang/Exception; {:try_start_1a .. :try_end_3b} :catch_68
+    .catchall {:try_start_1a .. :try_end_3b} :catchall_66
+
+    .line 48
+    if-eqz v2, :cond_40
+
+    .line 50
+    :try_start_3d
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_40
+    .catch Ljava/lang/Exception; {:try_start_3d .. :try_end_40} :catch_41
+
+    .line 55
+    :cond_40
+    :goto_40
+    return-object v0
+
+    .line 51
+    :catch_41
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_40
+
+    .line 45
+    :catch_46
+    move-exception v0
+
+    move-object v2, v3
+
+    move-object v6, v1
+
+    move-object v1, v0
+
+    move-object v0, v6
+
+    .line 46
+    :goto_4b
+    :try_start_4b
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+    :try_end_4e
+    .catchall {:try_start_4b .. :try_end_4e} :catchall_66
+
+    .line 48
+    if-eqz v2, :cond_40
+
+    .line 50
+    :try_start_50
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_53
+    .catch Ljava/lang/Exception; {:try_start_50 .. :try_end_53} :catch_54
+
+    goto :goto_40
+
+    .line 51
+    :catch_54
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_40
+
+    .line 48
+    :catchall_59
+    move-exception v0
+
+    move-object v2, v3
+
+    :goto_5b
+    if-eqz v2, :cond_60
+
+    .line 50
+    :try_start_5d
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_60
+    .catch Ljava/lang/Exception; {:try_start_5d .. :try_end_60} :catch_61
+
+    .line 53
+    :cond_60
+    :goto_60
+    throw v0
+
+    .line 51
+    :catch_61
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_60
+
+    .line 48
+    :catchall_66
+    move-exception v0
+
+    goto :goto_5b
+
+    .line 45
+    :catch_68
+    move-exception v1
+
+    goto :goto_4b
 .end method
 
 .method private les(Z)V
