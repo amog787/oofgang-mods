@@ -144,7 +144,7 @@
 .end method
 
 .method public getSummary()Ljava/lang/CharSequence;
-    .locals 3
+    .locals 5
 
     .line 59
     iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x2
+    const/4 v2, 0x3
 
     invoke-static {v0, v1, v2}, Landroid/provider/Settings$Global;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
@@ -166,20 +166,18 @@
     .line 60
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    if-ne v0, v2, :cond_1
-
-    .line 61
-    invoke-static {}, Lcom/oneplus/settings/utils/OPUtils;->isSupportHighVsync()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
+    if-ne v0, v2, :cond_0
 
     sget v0, Lcom/android/settings/R$string;->oneplus_screen_refresh_rate_high_vsync:I
 
     goto :goto_0
 
     :cond_0
+    const/4 v2, 0x2
+
+    if-ne v0, v2, :cond_1
+
+    .line 61
     sget v0, Lcom/android/settings/R$string;->oneplus_screen_refresh_rate_auto:I
 
     goto :goto_0

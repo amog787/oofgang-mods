@@ -137,16 +137,12 @@
 
     move-result v0
 
+    const v0, 0x1
+
     if-eqz v0, :cond_1
 
-    const-string v0, "90"
-
-    const-string v1, "120"
-
     .line 72
-    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object p0
+    const-string p0, "OPRRFix by amog787"
 
     .line 74
     :cond_1
@@ -241,15 +237,11 @@
     .line 58
     iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mAutoMode:Lcom/android/settings/widget/RadioButtonPreference;
 
-    invoke-virtual {p1, v0}, Landroidx/preference/Preference;->setVisible(Z)V
-
     goto :goto_0
 
     .line 60
     :cond_0
     iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mHighVsyncMode:Lcom/android/settings/widget/RadioButtonPreference;
-
-    invoke-virtual {p1, v0}, Landroidx/preference/Preference;->setVisible(Z)V
 
     :goto_0
     const-string p1, "footer_preference"
@@ -270,7 +262,7 @@
 .end method
 
 .method public onRadioButtonClicked(Lcom/android/settings/widget/RadioButtonPreference;)V
-    .locals 6
+    .locals 8
 
     .line 90
     iget-object v0, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mAutoMode:Lcom/android/settings/widget/RadioButtonPreference;
@@ -290,6 +282,10 @@
 
     .line 92
     iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->m60HzMode:Lcom/android/settings/widget/RadioButtonPreference;
+
+    invoke-virtual {p1, v3}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+
+    iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mHighVsyncMode:Lcom/android/settings/widget/RadioButtonPreference;
 
     invoke-virtual {p1, v3}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
 
@@ -336,17 +332,19 @@
 
     .line 99
     :cond_1
-    iget-object v0, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mHighVsyncMode:Lcom/android/settings/widget/RadioButtonPreference;
+    iget-object v1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mHighVsyncMode:Lcom/android/settings/widget/RadioButtonPreference;
 
-    if-ne p1, v0, :cond_2
+    if-ne p1, v1, :cond_2
 
     .line 100
-    invoke-virtual {v0, v4}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+    invoke-virtual {v1, v4}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
 
     .line 101
     iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->m60HzMode:Lcom/android/settings/widget/RadioButtonPreference;
 
     invoke-virtual {p1, v3}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+
+    invoke-virtual {v0, v3}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
 
     .line 102
     iget-object p1, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mContext:Landroid/content/Context;
@@ -354,6 +352,8 @@
     invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p1
+
+    const v1, 0x3
 
     invoke-static {p1, v2, v1}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
@@ -422,6 +422,8 @@
 
     .line 84
     iget-object v3, p0, Lcom/oneplus/settings/OPScreenRefreshRate;->mHighVsyncMode:Lcom/android/settings/widget/RadioButtonPreference;
+
+    const v2, 0x3
 
     if-ne v0, v2, :cond_2
 
