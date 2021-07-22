@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Material.Body2" android:textColor="@color/oneplus_accent_text_color" android:gravity="center_vertical" android:id="@id/op_single_lottie_introducton_title" android:paddingLeft="@dimen/oneplus_contorl_layout_margin_left4" android:paddingRight="@dimen/oneplus_settings_layout_margin_left2" android:paddingBottom="@dimen/oneplus_contorl_margin_text_top2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/op_list_item_min_height" android:text="@string/oneplus_instrucitons" android:textAllCaps="true" style="@style/op_control_text_style_subtitle" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/op_single_lottie_view" android:layout_width="@dimen/oneplus_fod_fingerprint_enroll_edge_lottie_witdh" android:layout_height="@dimen/oneplus_fod_fingerprint_enroll_edge_lottie_height" android:layout_marginTop="200.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="op_face_unlock_by_swipe_up_light.json" app:lottie_loop="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="580.0px" android:width="580.0px" android:viewportWidth="580.0" android:viewportHeight="580.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/oneplus_fod_bg_path_color" android:pathData="M183.2,204.5c-0.6,0-1.3-0.1-1.9-0.4c-2.5-1.1-3.7-4-2.6-6.5 c19.4-45.9,64.2-75.6,114-75.6h0c33.1,0,64.2,12.9,87.6,36.3c1.9,1.9,1.9,5.1,0,7c-1.9,1.9-5.1,1.9-7,0 c-21.5-21.5-50.1-33.4-80.6-33.4c-45.9,0-87.1,27.3-104.9,69.6C186.9,203.4,185.1,204.5,183.2,204.5z M403.3,369.6 c-0.2,0-0.4,0-0.6,0c-2.7-0.3-4.6-2.8-4.3-5.5l0.8-6.3c4.9-37,7.3-74.7,7.3-112c0-14.1-2.6-27.9-7.6-41c-1-2.5,0.3-5.4,2.8-6.4 c2.5-1,5.4,0.3,6.4,2.8c5.5,14.2,8.3,29.2,8.3,44.6c0,37.7-2.5,75.8-7.4,113.3l-0.8,6.3C407.8,367.8,405.7,369.6,403.3,369.6z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/oneplus_fod_bg_path_color" android:pathData="M173.8,243.7L173.8,243.7c-2.7,0-5,2.2-5,4.9c-0.1,32.7-2,64.8-5.9,97.3c-0.3,2.7,1.6,5.2,4.3,5.5 c0.2,0,0.4,0,0.6,0c2.5,0,4.6-1.9,4.9-4.4c3.8-32.6,5.8-65.7,5.9-98.5C178.7,245.9,176.6,243.7,173.8,243.7z" android:fillType="evenOdd" />
+</vector>

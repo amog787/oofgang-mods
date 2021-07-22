@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/manage_device_admin" android:key="device_admin_settings" settings:controller="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminListPreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/no_device_admins" android:selectable="false" android:key="device_admin_footer" settings:searchable="false" />
+</PreferenceScreen>

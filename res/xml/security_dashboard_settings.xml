@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_security_lock_settings_title" android:key="security_dashboard_page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/security_status_title" android:key="security_status" android:order="-10" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="1" />
+    <PreferenceCategory android:title="@string/lock_settings_title" android:key="security_category" android:order="10">
+        <com.android.settings.widget.GearPreference android:title="@string/unlock_set_unlock_launch_picker_title" android:key="unlock_set_or_change" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_lockscreen" />
+        <Preference android:title="@string/security_settings_fingerprint_preference_title" android:key="fingerprint_settings" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_fingerprint_settings" />
+        <Preference android:title="@string/security_settings_face_preference_title" android:key="face_settings" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_face_settings" />
+        <Preference android:persistent="false" android:title="@string/oneplus_face_unlock_settings_title" android:key="oneplus_face_unlock" android:summary="@string/oneplus_face_unlock_settings_summary" android:fragment="com.oneplus.settings.faceunlock.OPFaceUnlockSettings" settings:keywords="@string/oneplus_search_keyword_face_unlock" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_settings_profile_title" android:key="security_category_profile" android:order="20">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/lock_settings_profile_unification_title" android:key="unification" android:summary="@string/lock_settings_profile_unification_summary" settings:keywords="@string/keywords_unification" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/unlock_set_unlock_launch_picker_title_profile" android:key="unlock_set_or_change_profile" android:summary="@string/unlock_set_unlock_mode_pattern" settings:keywords="@string/keywords_lockscreen" />
+        <SwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="visiblepattern_profile" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.security.VisiblePatternProfilePreferenceController" />
+        <Preference android:title="@string/security_settings_fingerprint_preference_title" android:key="fingerprint_settings_profile" android:summary="@string/summary_placeholder" />
+        <Preference android:title="@string/security_settings_face_preference_title" android:key="face_settings_profile" android:summary="@string/summary_placeholder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_personal_safe" android:key="security_settings_device_admin_category" android:order="40">
+        <Preference android:title="@string/oneplus_emergency_rescue_settings" android:key="emergency_rescue_settings" android:summary="@string/oneplus_emergency_rescue_settings_summary" />
+    </PreferenceCategory>
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/oneplus_security_detection_title" android:key="security_detection" android:summary="@string/oneplus_security_detection_summary" android:order="41" settings:allowDividerAbove="true" />
+    <Preference android:title="@string/manage_device_admin" android:key="device_administrators" android:summary="@string/summary_placeholder" android:order="55" android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings" settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController" />
+    <Preference android:title="@string/enterprise_privacy_settings" android:key="enterprise_privacy" android:summary="@string/summary_placeholder" android:order="43" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" />
+    <Preference android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings" android:order="50">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/encryption_and_credential_settings_title" android:key="encryption_and_credential" android:summary="@string/encryption_and_credential_settings_summary" android:order="60" android:fragment="com.android.settings.security.EncryptionAndCredential" />
+    <Preference android:title="@string/manage_trust_agents" android:key="manage_trust_agents" android:summary="@string/summary_placeholder" android:order="70" android:fragment="com.android.settings.security.trustagent.TrustAgentSettings" />
+    <Preference android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:summary="@string/summary_placeholder" android:order="80" android:fragment="com.android.settings.security.ScreenPinningSettings" settings:keywords="@string/keywords_app_pinning" />
+    <Preference android:title="@string/op_switch_record_title" android:key="op_switch_record" android:summary="@string/summary_placeholder" android:order="85" android:fragment="com.oneplus.settings.security.OPSwitchRecordList" settings:keywords="@string/keywords_app_pinning" />
+    <SwitchPreference android:title="@string/confirm_sim_deletion_title" android:key="confirm_sim_deletion" android:summary="@string/confirm_sim_deletion_description" android:order="90" settings:controller="com.android.settings.security.ConfirmSimDeletionPreferenceController" />
+    <Preference android:title="@string/reset_collect_diagnostics_title" android:key="reset_collect_diagnostics" android:summary="@string/reset_collect_diagnostics_summary" android:order="100" />
+</PreferenceScreen>

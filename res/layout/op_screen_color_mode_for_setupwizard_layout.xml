@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textColor="@android:color/white" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top1" android:layout_marginBottom="@dimen/op_control_margin_space9" android:minWidth="91.0dip" android:text="@string/fingerprint_enroll_button_next" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/op_control_margin_space9" android:layout_alignParentEnd="true" android:backgroundTint="@color/oneplus_setupwizard_accent_color" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Mini" />
+    <com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout="@layout/sud_glif_blank_template" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderContainer">
+            <ImageView android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_ic_screen_setupwizard" style="@style/SudGlifIcon" />
+            <TextView android:gravity="center_horizontal" android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_screen_color_mode_title" android:accessibilityLiveRegion="polite" style="@style/SudGlifHeaderTitle" />
+        </LinearLayout>
+    </com.google.android.setupdesign.GlifLayout>
+    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_above="@id/next_button" android:layout_below="@id/setup_wizard_layout" />
+</RelativeLayout>

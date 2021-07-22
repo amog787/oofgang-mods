@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="noBackground" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.setupdesign.view.CheckableLinearLayout android:orientation="horizontal" android:id="@id/sud_items_expandable_switch_content" android:background="?selectableItemBackground" android:paddingLeft="?listPreferredItemPaddingLeft" android:paddingRight="@dimen/sud_switch_content_padding_end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_weight="1.0" android:paddingStart="?listPreferredItemPaddingLeft" android:paddingEnd="@dimen/sud_switch_content_padding_end" style="@style/SudItemContainer">
+        <FrameLayout android:gravity="start" android:layout_gravity="top" android:id="@id/sud_items_icon_container" android:layout_width="@dimen/sud_items_icon_container_width" android:layout_height="wrap_content">
+            <ImageView android:id="@id/sud_items_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sud_items_padding_bottom_extra" android:layout_weight="1.0">
+            <com.google.android.setupdesign.view.RichTextView android:gravity="start" android:id="@id/sud_items_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/sud_ic_expand" android:drawablePadding="@dimen/sud_expand_arrow_drawable_padding" android:drawableEnd="@drawable/sud_ic_expand" android:textAlignment="viewStart" android:labelFor="@id/sud_items_switch" style="@style/SudItemTitle" />
+            <com.google.android.setupdesign.view.RichTextView android:gravity="start" android:id="@id/sud_items_summary" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/SudItemSummary" />
+        </LinearLayout>
+    </com.google.android.setupdesign.view.CheckableLinearLayout>
+    <View android:layout_gravity="top" android:id="@id/sud_items_switch_divider" android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="@dimen/sud_switch_divider_height" android:layout_marginTop="@dimen/sud_switch_divider_padding_top" />
+    <androidx.appcompat.widget.SwitchCompat android:gravity="top" android:layout_gravity="top" android:id="@id/sud_items_switch" android:paddingTop="@dimen/sud_switch_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/SudSwitchStyle.Divided" />
+</LinearLayout>

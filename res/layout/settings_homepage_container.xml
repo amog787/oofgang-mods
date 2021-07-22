@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/settings_homepage_container" android:background="@color/op_control_custom_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.edgeeffect.SpringNestScrollView android:id="@id/main_content_scrollable_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <LinearLayout android:orientation="vertical" android:id="@id/homepage_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/contextual_cards_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space4" />
+                <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space4" android:animateLayoutChanges="true" />
+            </LinearLayout>
+        </com.google.android.material.edgeeffect.SpringNestScrollView>
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@color/op_control_custom_background_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingAppbarLayout android:id="@id/toolbar_layout" android:background="@color/op_control_custom_background_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" style="@style/Widget.Design.CollapsingAppbarLayout.WithoutTab">
+                <com.google.android.material.appbar.Appbar android:id="@id/appbar" android:background="@color/op_control_custom_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_appbar_size_standard" app:layout_collapseMode="pin" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OnePlus.Widget.AppCompat.Collapsing.Toolbar.WithoutTab" />
+            </com.google.android.material.appbar.CollapsingAppbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

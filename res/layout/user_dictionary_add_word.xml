@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/user_dict_settings_add_dialog_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.internal.widget.DialogTitle android:ellipsize="end" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="0.0dip" android:text="@string/user_dict_settings_add_dialog_title" android:singleLine="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?android:windowTitleStyle" />
+    </LinearLayout>
+    <EditText android:layout_gravity="fill_horizontal|center" android:id="@id/user_dictionary_add_word_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="24.0dip" android:hint="@string/user_dict_settings_add_word_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="beginning" android:dividerPadding="0.0dip">
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:buttonBarStyle">
+            <Button android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="8.0dip" android:text="@string/cancel" android:maxLines="2" android:onClick="onClickCancel" style="?android:buttonBarButtonStyle" />
+            <Button android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_margin="8.0dip" android:text="@string/user_dict_settings_add_dialog_confirm" android:maxLines="2" android:onClick="onClickConfirm" style="?android:buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

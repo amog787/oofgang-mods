@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneplus_faceulock_mode_lottie_top_margin">450.0px</dimen>
+    <dimen name="oneplus_finger_anim_anim_bg_height">1067.0px</dimen>
+    <dimen name="oneplus_finger_anim_anim_bg_width">533.0px</dimen>
+    <dimen name="oneplus_finger_bottom_icon_image_margin_bottom">167.0px</dimen>
+    <dimen name="oneplus_finger_bottom_icon_image_size">99.0px</dimen>
+    <dimen name="oneplus_finger_video_container_height">916.0px</dimen>
+    <dimen name="oneplus_finger_video_container_width">480.0px</dimen>
+    <dimen name="oneplus_finger_video_height">283.0px</dimen>
+    <dimen name="oneplus_finger_video_width">283.0px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_secondary_text_size">44.0px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_title_text_size">108.0px</dimen>
+    <dimen name="oneplus_fnatic_video_height">1440.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_height">1386.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_margin">112.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_margin">220.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_textsize">108.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_width">640.0px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_height">904.0px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_width">800.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_complete_layout_margin_top">1000.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_height">1037.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_witdh">828.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_layout_margin_top">560.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_layout_margin_top">750.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_view_width">710.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_top_margin">189.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_view_width">580.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_complete_layout_margin_top">795.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_layout_margin_top">600.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_top_margin">371.0px</dimen>
+    <dimen name="op_guide_anim_show_height">1037.0px</dimen>
+    <dimen name="op_lab_feature_plugin_head_height">812.0px</dimen>
+    <dimen name="op_reading_mode_effect_show_height">938.0px</dimen>
+</resources>

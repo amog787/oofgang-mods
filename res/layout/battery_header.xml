@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/battery_entity_header" android:paddingTop="30.0dip" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left2" android:paddingEnd="@dimen/op_control_margin_screen_right2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/contextual_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space5" android:layout_marginBottom="26.0dip" android:layout_weight="1.0">
+            <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="center_vertical" android:id="@id/battery_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/op_control_margin_screen_left3" style="@style/op_control_text_style_h2" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/summary1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/op_control_margin_screen_left3" style="@style/op_control_text_style_body1" />
+            <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/btn_show_stats" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:text="@string/oneplus_battery_menu_stats_total" style="?borderlessButtonStyle" />
+        </LinearLayout>
+        <com.android.settings.fuelgauge.BatteryMeterView android:layout_gravity="center" android:id="@id/battery_header_icon" android:layout_width="59.0dip" android:layout_height="109.0dip" android:scaleType="center" android:layout_marginEnd="@dimen/op_control_margin_space5" />
+    </LinearLayout>
+</LinearLayout>

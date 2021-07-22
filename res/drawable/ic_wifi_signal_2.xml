@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.TintDrawable android:tint="?wifi_signal_color" android:drawable="@android:drawable/input_extract_action_bg_pressed_material_dark"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

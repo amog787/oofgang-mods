@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_product_info" settings:keywords="@string/oneplus_product_info"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <PreferenceScreen android:title="@string/oneplus_product_info_introduce" android:key="oneplus_product_info_introduce">
+        <intent android:action="com.oneplus.action.PRODUCT_INFO_INTRODUCE" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/oneplus_pre_application" android:key="oneplus_pre_application">
+        <intent android:action="com.oneplus.action.PRE_INSTALLED_APP_LIST" />
+    </PreferenceScreen>
+</PreferenceScreen>

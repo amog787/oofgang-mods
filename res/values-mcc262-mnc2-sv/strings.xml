@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Det går inte att ringa nödsamtal via Wi-Fi. Om du ringer ett nödnummer på enheten används mobilnätverket automatiskt. Det går bara att ringa nödsamtal där mobilnätet har täckning."</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oneplus="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/choose_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.oneplus.settings.ui.RadiusImageView android:layout_gravity="center" android:id="@id/choose_image" android:background="@drawable/op_custom_item_stroke_bg" android:layout_width="@dimen/op_custom_shape_item_size" android:layout_height="@dimen/op_custom_shape_item_size" android:scaleType="fitXY" oneplus:round_radius="@dimen/op_control_radius_r12" oneplus:shape_mode="round_rect" />
+        <com.oneplus.settings.ui.RadiusImageView android:layout_gravity="center" android:id="@id/choose_mask" android:visibility="invisible" android:layout_width="@dimen/op_custom_shape_item_size" android:layout_height="@dimen/op_custom_shape_item_size" android:src="@drawable/op_custom_checkbox_mask" android:scaleType="fitXY" oneplus:round_radius="@dimen/op_control_radius_r12" oneplus:shape_mode="round_rect" oneplus:stroke_color="@color/op_control_radius_image_outline_color" />
+    </FrameLayout>
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/op_text_focused" android:gravity="center" android:id="@id/choose_name" android:layout_width="@dimen/op_custom_shape_item_size" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="25.0dip" />
+</LinearLayout>

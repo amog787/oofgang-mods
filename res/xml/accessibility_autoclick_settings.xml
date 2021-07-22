@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_autoclick_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.android.settings.widget.RadioButtonPreference android:title="@string/accessibility_autoclick_default_title" android:key="accessibility_control_autoclick_default" settings:allowDividerAbove="false" />
+    <com.android.settings.widget.RadioButtonPreference android:title="@string/accessibility_autoclick_short_title" android:key="accessibility_control_autoclick_200ms" android:summary="@string/accessibility_autoclick_short_summary" />
+    <com.android.settings.widget.RadioButtonPreference android:title="@string/accessibility_autoclick_medium_title" android:key="accessibility_control_autoclick_600ms" android:summary="@string/accessibility_autoclick_medium_summary" />
+    <com.android.settings.widget.RadioButtonPreference android:title="@string/accessibility_autoclick_long_title" android:key="accessibility_control_autoclick_1sec" android:summary="@string/accessibility_autoclick_long_summary" />
+    <com.android.settings.widget.RadioButtonPreference android:title="@string/accessibility_autoclick_custom_title" android:key="accessibility_control_autoclick_custom" />
+    <com.android.settingslib.widget.LayoutPreference android:visibility="gone" android:layout="@layout/accessibility_autoclick_custom_seekbar" android:selectable="false" android:key="autoclick_custom_seekbar" settings:allowDividerBelow="true" settings:controller="com.android.settings.accessibility.ToggleAutoclickCustomSeekbarController" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/accessibility_autoclick_description" android:selectable="false" android:key="autoclick_footer" settings:searchable="false" />
+</PreferenceScreen>

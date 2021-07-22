@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/copyright_title" android:key="copyright" settings:controller="com.android.settings.deviceinfo.legal.CopyrightPreferenceController" />
+    <Preference android:title="@string/license_title" android:key="license" settings:controller="com.android.settings.deviceinfo.legal.LicensePreferenceController" />
+    <Preference android:title="@string/terms_title" android:key="terms" settings:controller="com.android.settings.deviceinfo.legal.TermsPreferenceController" />
+    <Preference android:title="@string/module_license_title" android:key="module_license" android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard" settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController" />
+    <Preference android:title="@string/webview_license_title" android:key="webview_license" settings:controller="com.android.settings.deviceinfo.legal.WebViewLicensePreferenceController" />
+    <Preference android:title="@string/oneplus_user_agreement" android:key="op_user_agreements" />
+    <Preference android:title="@string/oneplus_privacy_policy" android:key="op_privacy_policy" />
+    <Preference android:title="@string/oneplus_permission_agreement" android:key="op_permission_agreement" />
+    <Preference android:title="@string/oneplus_health_safety_information" android:key="health_safety_information" />
+    <Preference android:title="@string/wallpaper_attributions" android:key="wallpaper_attributions" settings:controller="com.android.settings.deviceinfo.legal.WallpaperAttributionsPreferenceController" />
+</PreferenceScreen>

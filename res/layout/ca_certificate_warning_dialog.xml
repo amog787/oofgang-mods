@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_warning_googred_48dp" android:id="@id/setup_wizard_layout" android:layout="@layout/sud_glif_blank_template" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:sucHeaderText="@string/ca_certificate_warning_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="vertical" android:id="@id/topLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderContainer">
+            <ImageView android:id="@id/sud_layout_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_warning_googred_48dp" style="@style/OnePlusSuwGlifIcon" />
+            <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="187.0dip" android:text="@string/ca_certificate_warning_title" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/SudContentFrame">
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/suc_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ca_certificate_warning_description" android:layout_marginHorizontal="?sudMarginSides" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</com.google.android.setupdesign.GlifLayout>

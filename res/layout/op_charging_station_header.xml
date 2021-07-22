@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/op_control_margin_space3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/op_charging_station_animation" android:layout_width="fill_parent" android:layout_height="209.0dip" android:layout_marginTop="@dimen/op_control_margin_space3">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/animation_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_rawRes="@raw/charging_pillar_animation_1" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/animation_view_dots" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/charging_pillar_animation_2" />
+    </RelativeLayout>
+    <include android:id="@id/op_charging_station_header1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space3" android:layout_marginStart="@dimen/op_control_margin_list_bottom1" android:layout_marginEnd="@dimen/op_control_margin_space3" layout="@layout/op_charging_station_header_details" />
+    <include android:id="@id/op_charging_station_header2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space6" android:layout_marginStart="@dimen/op_control_margin_list_bottom1" android:layout_marginEnd="@dimen/op_control_margin_space3" layout="@layout/op_charging_station_off_header" />
+    <include android:id="@id/op_charging_station_header3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space6" android:layout_marginStart="@dimen/op_control_margin_list_bottom1" android:layout_marginEnd="@dimen/op_control_margin_space3" layout="@layout/op_charging_station_feature_request" />
+</LinearLayout>

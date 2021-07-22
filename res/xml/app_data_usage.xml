@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_app_summary_title" android:key="app_data_usage_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.datausage.SpinnerPreference android:key="cycle" settings:isPreferenceVisible="false" />
+    <PreferenceCategory android:key="app_data_usage_summary_category">
+        <Preference android:layout="@layout/data_usage_top_preference" android:key="pf_cycle" />
+        <Preference android:layout="@layout/data_usage_middle_preference" android:title="@string/total_size_label" android:selectable="false" android:key="total_usage" />
+        <Preference android:layout="@layout/data_usage_middle_preference" android:title="@string/data_usage_label_foreground" android:selectable="false" android:key="foreground_usage" />
+        <Preference android:layout="@layout/data_usage_bottom_preference" android:title="@string/data_usage_label_background" android:selectable="false" android:key="background_usage" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:title="XXXXXXXXXXXX" android:key="app_data_usage_settings_category">
+        <Preference android:title="@string/data_usage_app_settings" android:key="app_settings" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/data_usage_app_restrict_background" android:key="restrict_background" android:summary="@string/data_usage_app_restrict_background_summary" settings:restrictedSwitchSummary="@string/disabled_by_admin" settings:useAdditionalSummary="true" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/restrict_background_uss_title" android:key="restrict_background_uss" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/unrestricted_app_title" android:key="unrestricted_data_saver" android:summary="@string/unrestricted_app_summary" settings:restrictedSwitchSummary="@string/disabled_by_admin" settings:useAdditionalSummary="true" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/oneplus_network_wifi_restrict_title" android:key="disabled_wifi" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/oneplus_network_datausage_restrict_title" android:key="disabled_mobile" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/data_usage_other_apps" android:key="app_list" />
+</PreferenceScreen>

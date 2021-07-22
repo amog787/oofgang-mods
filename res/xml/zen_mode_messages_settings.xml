@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_messages_title" android:key="zen_mode_messages_settings_page" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/zen_mode_messages_header" android:key="zen_mode_settings_category_messages">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/zen_mode_senders_image" android:selectable="false" android:key="zen_mode_messages_image" />
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference />
+</PreferenceScreen>

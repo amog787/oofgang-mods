@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_menu_setting_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <Preference android:title="@string/cards_passes_sentence" android:key="gesture_global_actions_panel_summary" android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings" settings:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" />
+    <Preference android:title="@string/device_controls_sentence" android:key="gesture_device_controls_summary" android:fragment="com.android.settings.gestures.DeviceControlsSettings" settings:controller="com.android.settings.gestures.DeviceControlsPreferenceController" />
+    <PreferenceCategory android:title="@string/power_menu_lock_screen_category">
+        <SwitchPreference android:title="@string/power_menu_privacy" android:key="gesture_power_menu_privacy" settings:controller="com.android.settings.gestures.PowerMenuPrivacyPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

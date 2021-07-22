@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/anim_notification_lottie" android:layout_width="fill_parent" android:layout_height="267.0dip" app:lottie_autoPlay="false" app:lottie_loop="true" />
+</FrameLayout>

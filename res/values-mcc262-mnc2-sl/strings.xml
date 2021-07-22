@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Klicanje v sili prek Wi-Fi-ja ni mogoče. Če poskusite opraviti klic v sili, bo naprava samodejno uporabila mobilno omrežje. Klice v sili lahko opravite samo na območjih s signalom mobilnega omrežja."</string>
+</resources>

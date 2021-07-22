@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage_summary_screen" settings:keywords="@string/keywords_battery"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/battery_header" android:title="@string/summary_placeholder" android:selectable="false" android:key="battery_header" settings:controller="com.android.settings.fuelgauge.BatteryHeaderPreferenceController" />
+    <com.android.settings.widget.CardPreference android:title="@string/summary_placeholder" android:key="battery_tip" settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
+    <Preference android:title="@string/battery_saver" android:key="battery_saver_summary" android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings" settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
+    <Preference android:title="@string/high_power_apps" android:key="op_power_optimize" android:fragment="com.oneplus.settings.backgroundoptimize.BgOptimizeApps" settings:controller="com.oneplus.settings.controllers.OPPowerOptimizePreferenceController" />
+    <SwitchPreference android:title="@string/op_charging_optimization" android:key="charging_optimization_summary" android:summary="@string/op_charging_optimization_summary" settings:controller="com.oneplus.settings.controllers.OPChargeOptimizePreferenceController" />
+    <PreferenceCategory android:title="@string/reverse_wireless_charging_category" android:key="wireless_charging_category" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:controller="com.oneplus.settings.controllers.WirelessChargingCategoryPreferenceController">
+        <Preference android:title="@string/reverse_wireless_charging" android:key="reverse_wireless_charging" android:summary="@string/reverse_wireless_charging_summary" android:fragment="com.oneplus.settings.battery.ReverseWirelessChargingSettings" />
+        <Preference android:title="@string/oneplus_bed_time_mode_title" android:key="bed_time_mode_settings" android:summary="@string/oneplus_bed_time_mode_summary" android:fragment="com.oneplus.settings.battery.OPBedTimeModeSettings" />
+    </PreferenceCategory>
+    <Preference android:title="@string/battery_last_full_charge" android:selectable="false" android:key="last_full_charge" />
+    <Preference android:title="@string/device_screen_usage" android:selectable="false" android:key="screen_usage" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/op_charging_station" android:key="op_charging_station_setting" android:summary="@string/op_charging_station_summary" android:fragment="com.oneplus.settings.chargingstations.OPChargingStationSettings" settings:controller="com.oneplus.settings.chargingstations.OPChargingStationPrefController" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/battery_footer_summary" android:selectable="false" android:key="power_usage_footer" settings:searchable="false" />
+</PreferenceScreen>

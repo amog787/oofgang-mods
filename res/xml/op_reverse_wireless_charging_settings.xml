@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/reverse_wireless_charging"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/reverse_wireless_charging" android:key="reverse_wireless_charging_switch" android:summary="@string/reverse_wireless_charging_summary" />
+    <com.oneplus.settings.ui.OPReverseWirelessChargingInStructionsCategory android:selectable="false" />
+</PreferenceScreen>

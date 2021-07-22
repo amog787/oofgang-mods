@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Wi-Fi-hívással nem tud segélyhívást kezdeményezni. Segélyhívás kezdeményezéséhez eszköze automatikusan mobilhálózatra vált. Segélyhívást csak hálózatilag lefedett helyekről indíthat."</string>
+</resources>

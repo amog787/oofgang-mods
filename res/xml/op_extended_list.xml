@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/extended_title" android:key="network_extenders_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

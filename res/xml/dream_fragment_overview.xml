@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screensaver_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_header_margin" />
+    <com.android.settings.widget.GearPreference android:title="@string/screensaver_settings_current" android:key="current_screensaver" android:fragment="com.android.settings.dream.CurrentDreamPicker" settings:controller="com.android.settings.dream.CurrentDreamPreferenceController" />
+    <Preference android:title="@string/screensaver_settings_when_to_dream" android:key="when_to_start" android:fragment="com.android.settings.dream.WhenToDreamPicker" />
+    <PreferenceCategory android:key="dream_start_now_category">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/dream_start_button" android:selectable="false" android:key="dream_start_now_button_container" />
+    </PreferenceCategory>
+</PreferenceScreen>

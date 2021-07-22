@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/accessibility_display_daltonizer_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.accessibility.PaletteListPreference android:persistent="false" android:title="@string/summary_placeholder" android:selectable="false" android:key="daltonizer_preview" settings:allowDividerBelow="false" settings:searchable="false" />
+    <PreferenceCategory android:title="@string/daltonizer_type" android:key="daltonizer_mode_category">
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/daltonizer_mode_deuteranomaly_title" android:key="daltonizer_mode_deuteranomaly" android:summary="@string/daltonizer_mode_deuteranomaly_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/daltonizer_mode_protanomaly_title" android:key="daltonizer_mode_protanomaly" android:summary="@string/daltonizer_mode_protanomaly_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/daltonizer_mode_tritanomaly_title" android:key="daltonizer_mode_tritanomaly" android:summary="@string/daltonizer_mode_tritanomaly_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

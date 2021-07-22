@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.edgeeffect.SpringListView2 android:id="@id/op_app_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/op_empty_list_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/op_empty_list_tips_icon" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_empty_list_tips_icon" />
+        <TextView android:textSize="@dimen/oneplus_settings_dashboard_tite_title_text_size" android:textColor="@color/oneplus_font_list_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/op_list_tips_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/oneplus_app_list_empty" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <include layout="@layout/loading_container" />
+</RelativeLayout>

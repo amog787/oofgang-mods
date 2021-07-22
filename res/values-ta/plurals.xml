@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d நாளுக்கு முன்</item>
+        <item quantity="one">%d நாளுக்கு முன்</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d நிமி. முன்</item>
+        <item quantity="one">%d நிமி. முன்</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ஆண்டிற்கு முன்</item>
+        <item quantity="one">%d ஆண்டிற்கு முன்</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">உங்கள் சாதனத்திற்கான முழு அணுகல் %1$d ஆப்ஸிற்கு உள்ளது</item>
+        <item quantity="one">உங்கள் சாதனத்திற்கான முழு அணுகல் ஓர் ஆப்ஸிற்கு உள்ளது</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s வினாடிகள்</item>
+        <item quantity="one">%1$s வினாடி</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">அதிக தாமதம் (%1$s வினாடிகள்)</item>
+        <item quantity="one">அதிக தாமதம் (%1$s வினாடி)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">மிதமான தாமதம் (%1$s வினாடிகள்)</item>
+        <item quantity="one">மிதமான தாமதம் (%1$s வினாடி)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">குறைந்த தாமதம் (%1$s வினாடிகள்)</item>
+        <item quantity="one">குறைந்த தாமதம் (%1$s வினாடி)</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">ஆப்ஸ் %d இணைப்புகளைக் கையாள்வதாகத் தெரிவிக்கிறது</item>
+        <item quantity="one">ஆப்ஸ் %d இணைப்பையும் கையாள்கிறது என்று தெரிவிக்கிறது</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d ஆப்ஸுக்கு ஆஃப் செய்யப்பட்டுள்ளது</item>
+        <item quantity="one">%d பயன்பாட்டுக்கு ஆஃப் செய்யப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d ஆப்ஸ் கட்டுப்படுத்தப்பட்டன</item>
+        <item quantity="one">%1$d ஆப்ஸ் கட்டுப்படுத்தப்பட்டது</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d ஆப்ஸைக் கட்டுப்படுத்தவா?</item>
+        <item quantity="one">ஆப்ஸைக் கட்டுப்படுத்தவா?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">இந்த ஆப்ஸை, பின்னணியில் இயக்க முடியாது</item>
+        <item quantity="one">இந்த ஆப்ஸை, பின்னணியில் இயக்க முடியாது</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d ஆப்ஸ், சமீபத்தில் கட்டுப்படுத்தப்பட்டன</item>
+        <item quantity="one">%1$s ஆப்ஸ், சமீபத்தில் கட்டுப்படுத்தப்பட்டது</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d ஆப்ஸ், பின்னணியில் பேட்டரியை அதிகமாகப் பயன்படுத்துகின்றன</item>
+        <item quantity="one">%1$s ஆப்ஸ், பின்னணியில் பேட்டரியை அதிகமாகப் பயன்படுத்துகிறது</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d ஆப்ஸைக் கட்டுப்படுத்தவும்</item>
+        <item quantity="one">%1$d பயன்பாட்டைக் கட்டுப்படுத்தவும்</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d நாட்கள் உள்ளன</item>
+        <item quantity="one">%d நாள் உள்ளது</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">டேட்டா சேமிப்பான் இயக்கப்பட்டிருக்கும் போது, பயனரின் எல்லா தகவலையும் பயன்படுத்த %1$d ஆப்ஸ் அனுமதிக்கப்பட்டுள்ளன</item>
+        <item quantity="one">டேட்டா சேமிப்பான் இயக்கப்பட்டிருக்கும் போது, பயனரின் எல்லா தகவலையும் பயன்படுத்த 1 ஆப்ஸ் அனுமதிக்கப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">கேமரா ஆப்ஸ்</item>
+        <item quantity="one">கேமரா பயன்பாடு</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">மின்னஞ்சல் கிளையண்ட் ஆப்ஸ்</item>
+        <item quantity="one">மின்னஞ்சல் கிளையண்ட் பயன்பாடு</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">ஃபோன் ஆப்ஸ்</item>
+        <item quantity="one">ஃபோன் பயன்பாடு</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d வகைகள் நீக்கப்பட்டன</item>
+        <item quantity="one">%d வகை நீக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">தேர்ந்தெடுத்த மொழிகளை அகற்றவா?</item>
+        <item quantity="one">தேர்ந்தெடுத்த மொழியை அகற்றவா?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d ஆப்ஸ்கள், ஆதரிக்கப்படும் இணைப்புகளைத் திறக்கும்</item>
+        <item quantity="one">ஒரு ஆப்ஸ், ஆதரிக்கப்படும் இணைப்புகளைத் திறக்கும்</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">குறைந்தபட்சம் %d CA சான்றிதழ்கள்</item>
+        <item quantity="one">குறைந்தபட்சம் %d CA சான்றிதழ்</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d ஆப்ஸ்கள்</item>
+        <item quantity="one">%d ஆப்ஸ்</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">குறைந்தபட்சம் %d ஆப்ஸ்</item>
+        <item quantity="one">குறைந்தபட்சம் %d பயன்பாடு</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s மணிநேரம்</item>
+        <item quantity="one">1 மணிநேரம்</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d ஆப்ஸ் இணைக்கப்பட்டுள்ளன</item>
+        <item quantity="one">%d ஆப்ஸ் இணைக்கப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%2$d ஆப்ஸில் %1$d ஆப்ஸ் இருப்பிட அணுகலைப் பெற்றுள்ளன</item>
+        <item quantity="one">%2$d ஆப்ஸில் %1$d ஆப்ஸ் இருப்பிட அணுகலைப் பெற்றுள்ளது</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">%1$d ஆப்ஸிற்கு இருப்பிட அனுமதி ஆன் செய்யப்பட்டுள்ளது</item>
+        <item quantity="one">%1$d ஆப்ஸிற்கு இருப்பிட அனுமதி ஆன் செய்யப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">குறைந்தது %d எழுத்துகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது 1 எழுத்து இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">குறைந்தது %d சிற்றெழுத்துகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது 1 சிற்றெழுத்து இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">குறைந்தது எழுத்து அல்லாத %d குறிகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது எழுத்து அல்லாத 1 குறி இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">எண் அல்லாத %d எழுத்துகளாவது இருக்க வேண்டும்</item>
+        <item quantity="one">எண் அல்லாத 1 எழுத்தாவது இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">குறைந்தது %d எண் இலக்கங்கள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது 1 எண் இலக்கம் இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">குறைந்தது %d சிறப்புக் குறிகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது 1 சிறப்புக் குறி இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">குறைந்தது %d பேரெழுத்துகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது 1 பேரெழுத்து இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%dஐ விடக் குறைவான எழுத்துகள் இருக்க வேண்டும்</item>
+        <item quantity="one">%dஐ விடக் குறைவான எழுத்து இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">குறைந்தது %d எழுத்துகள் இருக்க வேண்டும்</item>
+        <item quantity="one">குறைந்தது %d எழுத்து இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d இலக்கங்களை விடக் குறைவாக இருக்க வேண்டும்</item>
+        <item quantity="one">%d இலக்கத்தை விடக் குறைவாக இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">பின்னில் குறைந்தது %d இலக்கங்கள் இருக்க வேண்டும்</item>
+        <item quantity="one">பின்னில் குறைந்தது %d இலக்கம் இருக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ஆப்ஸ்கள் அறிவிப்புகளைப் படிக்கலாம்</item>
+        <item quantity="one">%d ஆப்ஸ் அறிவிப்புகளைப் படிக்கலாம்</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d நம்பக ஏஜெண்ட்டுகள் இயங்குகின்றன</item>
+        <item quantity="one">1 நம்பக ஏஜெண்ட் இயங்குகிறது</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">கடந்த %2$s இல் %1$d ஆப்ஸ்கள் நினைவகத்தைப் பயன்படுத்தியுள்ளன</item>
+        <item quantity="one">கடந்த %2$s இல் 1 ஆப்ஸ் நினைவகத்தைப் பயன்படுத்தியுள்ளது</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s நிமிடங்கள்</item>
+        <item quantity="one">1 நிமிடம்</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d சிம்கள்</item>
+        <item quantity="one">%1$d சிம்</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d கட்டுப்பாடுகள்</item>
+        <item quantity="one">1 கட்டுப்பாடு</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d பிரிவுகள்</item>
+        <item quantity="one">%d பிரிவு</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d அறிவிப்புகள்</item>
+        <item quantity="one">%d அறிவிப்பு</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d பயன்பாடுகளுக்கு முடக்கப்பட்டுள்ளது</item>
+        <item quantity="one">1 பயன்பாட்டிற்கு முடக்கப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d வகைகள் ஆஃப் செய்யப்பட்டன</item>
+        <item quantity="one">%d வகை ஆஃப் செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d அறிவிப்புகள் / நாள்</item>
+        <item quantity="one">~%d அறிவிப்பு / நாள்</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d அறிவிப்புகள் / வாரம்</item>
+        <item quantity="one">~%d அறிவிப்பு / வாரம்</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d ஆப்ஸ்கள் இயங்குகின்றன</item>
+        <item quantity="one">%d ஆப்ஸ் இயங்குகிறது</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s ஆப்ஸ்</item>
+        <item quantity="one">1 ஆப்ஸ்</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d அனுமதிகள் வழங்கப்பட்டன</item>
+        <item quantity="one">%d அனுமதி வழங்கப்பட்டது</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">வழக்கத்திற்கு மாறாக %2$d ஆப்ஸ் செயல்படுகின்றன</item>
+        <item quantity="one">வழக்கத்திற்கு மாறாக %1$s செயல்படுகிறது</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">பேட்டரியை அதிகமாகப் பயன்படுத்தும் ஆப்ஸ்</item>
+        <item quantity="one">பேட்டரியை அதிகமாகப் பயன்படுத்தும் %1$s பயன்பாடு</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d அச்சுப் பணிகள்</item>
+        <item quantity="one">1 அச்சுப் பணி</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d அச்சிடல் சேவைகள் இயக்கத்தில் உள்ளன</item>
+        <item quantity="one">1 அச்சிடல் சேவை இயக்கத்தில் உள்ளது</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d முன்னுரிமை அளிக்கப்பட்ட உரையாடல்கள்</item>
+        <item quantity="one">%d முன்னுரிமை அளிக்கப்பட்ட உரையாடல்</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d ஆப்ஸிற்கு, பேட்டரி உபயோகத்தைக் கட்டுப்படுத்துகிறது</item>
+        <item quantity="one">%1$d பயன்பாட்டிற்கு, பேட்டரி உபயோகத்தைக் கட்டுப்படுத்துகிறது</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d கூடுதல் அனுமதிகள்</item>
+        <item quantity="one">%d கூடுதல் அனுமதி</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d / %2$d அனுமதிகள் வழங்கப்பட்டன</item>
+        <item quantity="one">%1$d / %2$d அனுமதி வழங்கப்பட்டது</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s வினாடிகள்</item>
+        <item quantity="one">1 வினாடி</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d கைரேகைகளின் அமைவு</item>
+        <item quantity="one">%1$d கைரேகையின் அமைவு</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">%1$d ஆப்ஸையும் காட்டு</item>
+        <item quantity="one">எல்லா ஆப்ஸையும் காட்டு</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">மறைந்துள்ள %d உருப்படிகளைக் காட்டு</item>
+        <item quantity="one">மறைந்துள்ள %d உருப்படியைக் காட்டு</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">டெவெலப்பராவதற்கு இப்போது %1$d படிகளே உள்ளன.</item>
+        <item quantity="one">டெவெலப்பராவதற்கு இப்போது %1$d படியே உள்ளது.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">சேமித்த செவித்துணைக் கருவிகள்: %1$d</item>
+        <item quantity="one">சேமித்த செவித்துணைக் கருவி: %1$d</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d ஆப்ஸால் எல்லா தகவலையும் பயன்படுத்த முடியும்</item>
+        <item quantity="one">1 ஆப்ஸால் எல்லா தகவலையும் பயன்படுத்த முடியும்</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">சான்றிதழ்களை நம்பு அல்லது அகற்று</item>
+        <item quantity="one">சான்றிதழை நம்பு அல்லது அகற்று</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s உங்கள் பணிச் சுயவிவரத்திற்குச் சான்றிதழ் அங்கீகாரங்களை நிறுவியுள்ளது. இது மின்னஞ்சல்கள், ஆப்ஸ், பாதுகாப்பான இணையதளங்கள் உட்பட பணி நெட்வொர்க் செயல்பாட்டைக் கண்காணிப்பதற்கு அவற்றை அனுமதிக்கக்கூடும்.
+
+சான்றிதழ்களைப் பற்றிய கூடுதல் தகவலுக்கு, உங்கள் நிர்வாகியைத் தொடர்புகொள்ளவும்."</item>
+        <item quantity="one">"%s உங்கள் பணிச் சுயவிவரத்திற்குச் சான்றிதழ் அங்கீகாரத்தை நிறுவியுள்ளது. இது மின்னஞ்சல்கள், ஆப்ஸ், பாதுகாப்பான இணையதளங்கள் உட்பட பணி நெட்வொர்க் செயல்பாட்டைக் கண்காணிப்பதற்கு அதை அனுமதிக்கக்கூடும்.
+
+சான்றிதழைப் பற்றிய கூடுதல் தகவலுக்கு, உங்கள் நிர்வாகியைத் தொடர்புகொள்ளவும்."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s உங்கள் சாதனத்தில் சான்றிதழ் அங்கீகாரங்களை நிறுவியுள்ளது. இது மின்னஞ்சல்கள், ஆப்ஸ், பாதுகாப்பான இணையதளங்கள் உட்பட சாதன நெட்வொர்க் செயல்பாட்டைக் கண்காணிப்பதற்கு அவற்றை அனுமதிக்கக்கூடும்.
+
+சான்றிதழ்களைப் பற்றிய கூடுதல் தகவலுக்கு, உங்கள் நிர்வாகியைத் தொடர்புகொள்ளவும்."</item>
+        <item quantity="one">"%s உங்கள் சாதனத்தில் சான்றிதழ் அங்கீகாரத்தை நிறுவியுள்ளது. இது மின்னஞ்சல்கள், ஆப்ஸ், பாதுகாப்பான இணையதளங்கள் உட்பட சாதன நெட்வொர்க் செயல்பாட்டைக் கண்காணிப்பதற்கு அதை அனுமதிக்கக்கூடும்.
+
+சான்றிதழைப் பற்றிய கூடுதல் தகவலுக்கு, உங்கள் நிர்வாகியைத் தொடர்புகொள்ளவும்."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">சான்றிதழ்களைச் சரிபார்</item>
+        <item quantity="one">சான்றிதழைச் சரிபார்</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d பரிந்துரைகள்</item>
+        <item quantity="one">+1 பரிந்துரை</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d பரிந்துரைகள்</item>
+        <item quantity="one">1 பரிந்துரை</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d உருப்படிகள்</item>
+        <item quantity="one">1 உருப்படி</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d நெட்வொர்க்குகள்</item>
+        <item quantity="one">1 நெட்வொர்க்</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d நெட்வொர்க்குகள் &amp; சந்தாக்கள்</item>
+        <item quantity="one">ஒரு நெட்வொர்க் &amp; சந்தா</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d நெட்வொர்க்குகள்</item>
+        <item quantity="one">1 நெட்வொர்க்</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d சாதனங்கள் இணைக்கப்பட்டன</item>
+        <item quantity="one">%1$d சாதனம் இணைக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">சிம்மின் பின் குறியீடு தவறானது, உங்களிடம் %d முயற்சிகள் மீதமுள்ளன.</item>
+        <item quantity="one">சிம்மின் பின் குறியீடு தவறானது, மேலும் %d முயற்சிக்குப் பின்னர், சாதனத்தைத் திறக்க, கண்டிப்பாக உங்கள் மொபைல் நிறுவனத்தைத் தொடர்புகொள்ள வேண்டும்.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">%s ஆகிய ஆப்ஸால் குறுக்கிட முடியும்</item>
+        <item quantity="one">%s ஆப்ஸால் குறுக்கிட முடியும்</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d தொடர்புகள்</item>
+        <item quantity="one">1 தொடர்பு</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d உரையாடல்கள்</item>
+        <item quantity="one">1 உரையாடல்</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="one">1 மணிநேரம்</item>
+    </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s ஆகிய ஒலிகளால் குறுக்கிட முடியும்</item>
+        <item quantity="one">%s குறுக்கிட முடியும்</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d திட்டமிடல்கள் அமைக்கப்பட்டன</item>
+        <item quantity="one">1 திட்டமிடல் அமைக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d கால அட்டவணைகள் தானாகவே ஆன் செய்யப்படலாம்</item>
+        <item quantity="one">1 கால அட்டவணை தானாகவே ஆன் செய்யப்படலாம்</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d பேர்</item>
+        <item quantity="one">ஒருவர்</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$s வரை, %1$d மணிநேரத்திற்கு அலாரங்கள் மட்டும் என மாற்றவும்</item>
+        <item quantity="one">%2$s வரை, ஒரு மணிநேரத்திற்கு அலாரங்கள் மட்டும் என மாற்றவும்</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d நிமிடங்களுக்கு (%2$s வரை) அலாரங்கள் மட்டும் என மாற்றவும்</item>
+        <item quantity="one">%2$s வரை, ஒரு நிமிடத்திற்கு அலாரங்கள் மட்டும் என மாற்றவும்</item>
+    </plurals>
+</resources>

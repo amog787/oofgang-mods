@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/write_settings" android:key="write_system_settings_permission_detail_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/permit_write_settings" android:key="app_ops_settings_switch" />
+    <Preference android:selectable="false" android:summary="@string/write_settings_description" />
+</PreferenceScreen>

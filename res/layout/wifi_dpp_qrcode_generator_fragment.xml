@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_qrcode_32dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/qrcode_view" android:layout_width="@dimen/qrcode_size" android:layout_height="@dimen/qrcode_size" android:src="@android:color/transparent" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:id="@id/password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" />
+        </LinearLayout>
+        <TextView android:textColor="@color/op_control_text_color_primary" android:layout_gravity="center_horizontal" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_importance_toggle_marginTop" android:textAlignment="center" android:layout_marginStart="?sudMarginSides" android:layout_marginEnd="?sudMarginSides" android:accessibilityLiveRegion="polite" style="@style/op_control_text_style_h6" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/assist_gesture_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.VideoPreference android:key="gesture_assist_video" app:animation="@raw/gesture_assist" app:preview="@drawable/gesture_assist" />
+    <SwitchPreference android:title="@string/assist_gesture_title" android:key="gesture_assist" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" app:keywords="@string/keywords_assist_gesture_launch" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/fingerprint_find_sensor_graphic_size" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/op_fingerprint_enroll_tips_view" android:layout_width="760.0px" android:layout_height="760.0px" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="op_fingerprint_enroll_tips_light.json" app:lottie_loop="true" />
+</RelativeLayout>

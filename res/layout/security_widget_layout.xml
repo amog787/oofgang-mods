@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/op_control_text_color_primary_light" android:gravity="start|bottom|center" android:id="@id/widget_action_bar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/widget_name" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/oneplus_security_layout_margin_left2" android:layout_marginEnd="@dimen/oneplus_security_layout_margin_left2" style="@style/op_control_text_style_subtitle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="84.0dip" android:baselineAligned="false" android:layout_below="@id/widget_action_bar" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_datausage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_value_size" android:textColor="@color/op_control_system_color_tips_light" android:gravity="bottom" android:id="@id/widget_datausage_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_system_color_tips_light" android:id="@id/widget_datausage_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_invalid_value_hint" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_primary_light" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/widget_datausage_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="100.0dip" android:text="@string/data_usage_left_title" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:background="@color/widget_divider_color" android:layout_width="1.0dip" android:layout_height="45.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_storage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_value_size" android:textColor="@color/op_control_system_color_tips_light" android:gravity="bottom" android:id="@id/widget_storage_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_system_color_tips_light" android:gravity="bottom" android:id="@id/widget_storage_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/symbol_percent" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_primary_light" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="100.0dip" android:text="@string/storage_space" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:background="@color/widget_divider_color" android:layout_width="1.0dip" android:layout_height="45.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_value_size" android:textColor="@color/op_control_system_color_tips_light" android:gravity="bottom" android:id="@id/widget_battery_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_system_color_tips_light" android:gravity="bottom" android:id="@id/widget_battery_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/symbol_percent" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_primary_light" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="100.0dip" android:text="@string/battery_use" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

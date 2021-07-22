@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContextualCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/dismissal_swipe_background" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@drawable/contextual_card_background" android:paddingTop="@dimen/contextual_half_card_padding_top" android:paddingBottom="@dimen/contextual_half_card_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/contextual_card_padding_end">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/contextual_card_icon_size" android:layout_height="@dimen/contextual_card_icon_size" android:layout_marginStart="@dimen/contextual_card_icon_padding_start" />
+            <TextView android:textAppearance="@style/TextAppearance.HomepageCardTitle" android:ellipsize="end" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contextual_half_card_title_margin_top" android:maxLines="2" android:minLines="1" android:layout_marginStart="@dimen/contextual_card_text_padding_start" />
+        </LinearLayout>
+        <include layout="@layout/contextual_card_dismissal_view" />
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

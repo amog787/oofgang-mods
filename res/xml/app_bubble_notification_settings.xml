@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bubbles_app_toggle_title" android:key="app_bubble_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:key="pref_app_header" />
+    <com.android.settings.notification.app.BubblePreference android:title="@string/notification_bubbles_title" android:key="bubble_pref" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:visibility="gone" android:title="@string/bubble_app_setting_selected_conversation_title" android:key="bubble_conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/bluetooth_audio_channel_mode_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/developer_option_dialog_margin_start">
+            <include android:id="@id/bluetooth_audio_channel_mode_default" layout="@layout/preference_widget_dialog_radiobutton" />
+            <include android:id="@id/bluetooth_audio_channel_mode_mono" layout="@layout/preference_widget_dialog_radiobutton" />
+            <include android:id="@id/bluetooth_audio_channel_mode_stereo" layout="@layout/preference_widget_dialog_radiobutton" />
+        </RadioGroup>
+        <include android:id="@id/bluetooth_audio_codec_help_info" layout="@layout/preference_widget_dialog_summary" />
+    </LinearLayout>
+</ScrollView>

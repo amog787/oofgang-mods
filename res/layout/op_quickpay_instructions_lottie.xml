@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="288.0dip" android:minHeight="288.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/anim_quickpay_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="false" app:lottie_fileName="op_quickpay_instroduction_anim_enchilada_white.json" app:lottie_loop="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/img_quickpay_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_ic_play" />
+</FrameLayout>

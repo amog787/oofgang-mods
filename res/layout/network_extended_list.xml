@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_search_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:gravity="center" android:id="@id/tv_searching_network" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_network_extenders" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:indeterminate="true" style="?android:progressBarStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_empty_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_empty_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_page" />
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_network_extenders" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

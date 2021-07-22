@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/op_ic_lock" android:id="@id/setup_wizard_layout" android:layout="@layout/sud_glif_blank_template" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sudGlifIconStyle="@style/OnePlusSuwGlifIcon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderContainer">
+            <ImageView android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_ic_lock" style="@style/OnePlusSuwGlifIcon" />
+            <TextView android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OnePlusSuwGlifHeaderTitle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/SudContentFrame">
+            <TextView android:textColor="@color/oneplus_settings_text_color_primary" android:gravity="center_horizontal" android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+            <RelativeLayout android:id="@id/layout_lockPattern_parent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/LockPatternContainerStyle">
+                <com.android.internal.widget.LockPatternView android:layout_gravity="center" android:id="@id/lockPattern" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" />
+                <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/errorText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-18.0dip" android:layout_alignTop="@id/lockPattern" android:layout_marginStart="@dimen/op_control_margin_space8" android:layout_marginEnd="@dimen/op_control_margin_space8" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.ErrorText" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/fingerprintIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+    <Button android:layout_gravity="start|bottom|center" android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/oneplus_suw_margin_bottom" android:minWidth="95.0dip" android:text="@string/cancel" android:layout_marginStart="@dimen/op_control_margin_space8" android:layout_marginEnd="@dimen/op_control_margin_space8" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Borderless.Mini" />
+</com.google.android.setupdesign.GlifLayout>

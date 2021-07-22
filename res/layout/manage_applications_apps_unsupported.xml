@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/empty_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disabled_feature" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/empty_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disabled_feature_reason_slow_down_phone" />
+        <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/pinned_header" android:layout_width="fill_parent" android:layout_height="wrap_content" settings:layout_scrollFlags="enterAlways|scroll" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/captioning_more_options_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.accessibility.LocalePreference android:title="@string/captioning_locale" android:key="captioning_locale" android:summary="%s" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/accessibility_caption_preference_summary" android:selectable="false" />
+</PreferenceScreen>

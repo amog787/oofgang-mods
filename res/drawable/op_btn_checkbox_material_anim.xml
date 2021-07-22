@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oneplus="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:drawable="@drawable/op_checkbox_indeterminate_disable" android:alpha="?android:disabledAlpha" oneplus:state_indeterminate="true" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/op_checkbox_checked_disable" android:alpha="?android:disabledAlpha" />
+    <item android:state_enabled="false" android:drawable="@drawable/op_checkbox_unchecked_disable" android:alpha="?android:disabledAlpha" />
+    <item android:id="@id/indeterminate" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14" oneplus:state_indeterminate="true" />
+    <item android:state_checked="true" android:id="@id/on" android:drawable="@drawable/op_checkbox_15" />
+    <item android:id="@id/off" android:drawable="@drawable/op_checkbox_00" />
+    <transition android:toId="@id/on" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_08" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_09" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_10" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_11" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_12" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_13" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_14" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_15" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_14" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_13" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_12" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_11" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_10" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_09" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_08" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_00" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/indeterminate" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_08" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_09" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_10" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_11" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_12" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_13" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/indeterminate">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_13" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_12" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_11" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_10" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_09" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_08" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_00" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/indeterminate" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/on" android:fromId="@id/indeterminate">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_01" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_02" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_03" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_04" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_05" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_06" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_07" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_15" />
+        </animation-list>
+    </transition>
+</animated-selector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/tone_preview" android:background="@color/oneplus_theme_custom_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/choose_title" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body2" android:textColor="@color/settings_accent_color" android:gravity="start|center" android:id="@id/choose_title" android:background="@color/op_control_bg_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:layout_marginTop="@dimen/op_control_margin_space8" android:text="@string/oneplus_theme_tone_effect_title" android:layout_above="@id/custom_style_container" android:textAllCaps="true" android:importantForAccessibility="no" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="@dimen/op_control_margin_space8" style="@style/op_control_text_style_subtitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_style_container" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/custom_style_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

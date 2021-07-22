@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_primary_default" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/switch_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/op_control_text_style_h6" />
+    <ImageView android:theme="@android:style/Theme.Material" android:layout_gravity="center_vertical" android:id="@id/restricted_icon" android:visibility="gone" android:layout_width="@dimen/restricted_icon_size" android:layout_height="@dimen/restricted_icon_size" android:tint="?android:colorAccent" android:layout_marginEnd="@dimen/restricted_icon_margin_end" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginStart="@dimen/op_control_margin_space2" android:layout_marginEnd="@dimen/op_control_margin_screen_right1">
+        <com.android.settings.widget.ToggleSwitch android:theme="@style/OnePlus.Base.Widget.AppCompat.CompoundButton.Switch" android:gravity="center" android:id="@id/switch_widget" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

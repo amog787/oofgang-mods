@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/one_handed_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/one_handed_mode_enable" android:key="one_hand_mode" />
+    <com.oneplus.settings.ui.OPOneHandModeInStructionsCategory android:selectable="false" android:key="key_one_hand_mode_instructions" />
+</PreferenceScreen>

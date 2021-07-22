@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/oneplus_contorl_bg_color_cardview" />
+    <corners android:topLeftRadius="@dimen/op_control_radius_r2" android:topRightRadius="@dimen/op_control_radius_r2" android:bottomLeftRadius="@dimen/op_control_radius_r2" android:bottomRightRadius="@dimen/op_control_radius_r2" />
+</shape>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/sim_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/cdma_settings" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/min_number_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_min_number" style="@style/device_info_dialog_label" />
+            <TextView android:id="@id/min_number_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/device_info_dialog_value" />
+            <TextView android:id="@id/prl_version_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_prl_version" style="@style/device_info_dialog_label" />
+            <TextView android:id="@id/prl_version_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/device_info_dialog_value" />
+            <TextView android:id="@id/meid_number_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_meid_number" style="@style/device_info_dialog_label" />
+            <TextView android:id="@id/meid_number_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/device_info_dialog_value" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/gsm_settings" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/imei_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_imei" style="@style/device_info_dialog_label" />
+            <TextView android:id="@id/imei_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/device_info_dialog_value" />
+            <TextView android:id="@id/imei_sv_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_imei_sv" style="@style/device_info_dialog_label" />
+            <TextView android:id="@id/imei_sv_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/device_info_dialog_value" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

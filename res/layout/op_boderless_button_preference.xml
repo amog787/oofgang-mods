@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/op_control_custom_background_color" android:paddingTop="@dimen/op_control_margin_space1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@android:id/title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_add_user_or_profile_menu" style="?borderlessButtonStyle" />
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/op_control_text_color_disable_default" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:paddingStart="@dimen/op_control_margin_screen_left2" style="@style/OnePlus.TextAppearance.List.Summary" />
+</LinearLayout>

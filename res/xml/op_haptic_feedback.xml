@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_haptic_feedback_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/oneplus_haptic_feedback_title" android:key="op_haptic_feedback_switch" />
+    <PreferenceCategory android:title="@string/oneplus_haptic_feedback_support" android:key="op_haptic_feedback_support_category" settings:allowDividerBelow="false">
+        <com.oneplus.settings.widget.WallOfTextPreference android:enabled="false" android:title="@string/oneplus_haptic_feedback_no_app" android:selectable="false" android:key="op_haptic_feedback_no_app" android:summary="@string/oneplus_haptic_feedback_no_app_tip" settings:allowDividerAbove="false" />
+    </PreferenceCategory>
+    <com.oneplus.settings.widget.WallOfTextPreference android:icon="@drawable/ic_info_outline_24dp" android:selectable="false" android:key="op_haptic_feedback_tip" android:summary="@string/oneplus_haptic_feedback_tips" settings:allowDividerAbove="true" />
+</PreferenceScreen>

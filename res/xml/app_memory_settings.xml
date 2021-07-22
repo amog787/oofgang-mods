@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/memory_usage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/average_memory_use">
+        <com.android.settings.SummaryPreference android:selectable="false" android:key="status_header" />
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/running_frequency" android:selectable="false" android:key="frequency" />
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/memory_maximum_usage" android:selectable="false" android:key="max_usage" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/memory_details" android:key="processes" />
+</PreferenceScreen>

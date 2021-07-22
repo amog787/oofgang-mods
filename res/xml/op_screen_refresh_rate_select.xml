@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_screen_refresh_rate"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_mode_choose" android:key="mode_choose">
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_refresh_rate_auto" android:key="op_auto_mode" android:summary="@string/oneplus_screen_refresh_rate_auto_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_refresh_rate_high_vsync" android:key="high_vsync_mode" android:summary="@string/oneplus_screen_refresh_rate_auto_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_refresh_rate_60hz" android:key="op_60hz_mode" android:summary="@string/oneplus_screen_refresh_rate_60hz_summary" />
+    </PreferenceCategory>
+    <com.oneplus.settings.widget.OPFooterPreference />
+</PreferenceScreen>

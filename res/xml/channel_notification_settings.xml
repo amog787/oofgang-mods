@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_channel_title" android:key="channel_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:key="pref_app_header" android:order="1" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/styled_switch_bar" android:key="block" android:order="2" />
+    <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/allow_interruption" android:key="allow_sound" android:summary="@string/allow_interruption_summary" android:order="3" />
+    <com.android.settings.notification.app.ImportancePreference android:title="@string/notification_importance_title" android:key="importance" android:order="4" settings:allowDividerBelow="true" />
+    <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_importance_min_title" android:key="min_importance" android:summary="@string/notification_channel_summary_min" android:order="5" settings:allowDividerAbove="true" />
+    <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_importance_high_title" android:key="high_importance" android:summary="@string/notification_channel_summary_high" android:order="6" settings:allowDividerAbove="true" />
+    <Preference android:icon="@drawable/ic_promote_conversation" android:title="@string/promote_conversation_title" android:key="convo_promote" android:summary="@string/promote_conversation_summary" android:order="7" settings:allowDividerAbove="true" />
+    <PreferenceCategory android:key="channel_advanced" android:order="50" settings:initialExpandedChildrenCount="0">
+        <com.android.settings.notification.app.NotificationSoundPreference android:title="@string/notification_channel_sound_title" android:key="ringtone" android:order="11" android:dialogTitle="@string/notification_channel_sound_title" android:showDefault="true" android:showSilent="true" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_vibrate_title" android:key="vibrate" android:order="12" settings:useAdditionalSummary="true" />
+        <com.android.settings.RestrictedListPreference android:title="@string/app_notification_visibility_override_title" android:key="visibility_override" android:order="13" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_show_lights_title" android:key="lights" android:order="14" settings:useAdditionalSummary="true" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_channel_badge_title" android:key="badge" android:order="15" settings:restrictedSwitchSummary="@string/enabled_by_admin" settings:useAdditionalSummary="true" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/app_notification_override_dnd_title" android:key="bypass_dnd" android:summary="@string/app_notification_override_dnd_summary" android:order="17" settings:useAdditionalSummary="true" />
+        <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="18" settings:allowDividerAbove="true" />
+    </PreferenceCategory>
+    <com.android.settings.notification.app.NotificationFooterPreference android:key="desc" android:order="100" />
+    <com.android.settings.notification.app.NotificationFooterPreference android:key="block_desc" android:order="110" settings:allowDividerAbove="false" />
+</PreferenceScreen>

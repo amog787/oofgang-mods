@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="6.0dip" />
+    <solid android:color="@color/op_control_bg_color_popup_default" />
+    <padding android:top="@dimen/op_control_margin_space2" android:bottom="@dimen/op_control_margin_space2" />
+</shape>

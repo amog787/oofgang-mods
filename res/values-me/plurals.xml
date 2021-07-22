@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">I dalje imate %1$d šanse</item>
+        <item quantity="one">I dalje imate %1$d šanu</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Pokuašajte ponovo za %d sekundi.</item>
+        <item quantity="one">Pokuašajte ponovo za %d sekundu.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d hours (unless turned on automatically)</item>
+        <item quantity="one">1 hour (unless turned on automatically)</item>
+    </plurals>
+</resources>

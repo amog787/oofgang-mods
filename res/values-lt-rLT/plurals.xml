@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">Dar turite %1$d bandymus (-ų)</item>
+        <item quantity="one">Dar turite %1$d bandymą</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Bandykite dar kartą po %d sek.</item>
+        <item quantity="one">Bandykite dar kartą po %d sek.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d val. (nebent įjungiama automatiškai)</item>
+        <item quantity="one">1 val. (nebent įjungiama automatiškai)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">Įjungta – %1$d programų turi prieigą prie vietos</item>
+        <item quantity="one">Įjungta – %1$d programa turi prieigą prie vietos</item>
+    </plurals>
+</resources>

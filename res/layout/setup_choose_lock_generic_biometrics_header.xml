@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:paddingTop="@dimen/sud_description_glif_margin_top" android:paddingBottom="@dimen/sud_description_glif_margin_bottom_lists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_settings_picker_biometrics_added_security_message" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" style="@style/OnePlusSuwGlifHeaderTitle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.settings.opfinger.SvgView android:id="@id/svg" android:layout_width="fill_parent" android:layout_height="fill_parent" svg:duration="300" svg:fadeFactor="10.0" svg:lineColor="@color/primary_default_light" svg:lineWidth="10.0" svg:phase="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:svg="http://schemas.android.com/apk/res/com.android.settings" />

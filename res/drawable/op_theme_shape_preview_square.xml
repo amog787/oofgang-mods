@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="3.0dip" />
+            <stroke android:width="1.0dip" android:color="@color/op_control_divider_color_default" />
+            <solid android:color="@color/oneplus_contorl_bg_color_cardview" />
+        </shape>
+    </item>
+</layer-list>

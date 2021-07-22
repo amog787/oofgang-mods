@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition android:duration="@integer/op_control_time_225" class="androidx.appcompat.widget.EpicenterTranslateClipReveal" />
+    <fade android:duration="@integer/op_control_time_225" android:fromAlpha="0.0" android:toAlpha="@dimen/op_control_alpha_100" />
+</transitionSet>

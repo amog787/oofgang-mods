@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_marginEnd="@dimen/op_control_margin_space9" android:elevation="@dimen/dashboard_category_elevation" style="@style/Theme.Settings.MainDashbordTileClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/left_ico" android:layout_width="@dimen/oneplus_contorl_avatar_mini" android:layout_height="@dimen/oneplus_contorl_avatar_mini" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/oneplus_contorl_margin_avatar_left2" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/oneplus_contorl_layout_margin_left4" android:layout_marginEnd="@dimen/oneplus_settings_layout_margin_right2" android:layout_toStartOf="@id/right_button">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/oneplus_settings_text_color_primary" android:ellipsize="marquee" android:id="@id/lefttitle" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </RelativeLayout>
+    <Button android:id="@id/right_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/oneplus_contorl_list_item_height" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/OnePlus.Widget.AppCompat.Button.Borderless" />
+</RelativeLayout>

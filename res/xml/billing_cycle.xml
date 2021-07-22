@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/billing_cycle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/app_usage_cycle" android:key="billing_cycle" />
+    <SwitchPreference android:title="@string/set_data_warning" android:key="set_data_warning" />
+    <Preference android:title="@string/data_warning" android:key="data_warning" />
+    <SwitchPreference android:title="@string/set_data_limit" android:key="set_data_limit" />
+    <Preference android:title="@string/data_limit" android:key="data_limit" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/data_warning_footnote" android:selectable="false" android:key="billing_cycle_footer" settings:searchable="false" />
+</PreferenceScreen>

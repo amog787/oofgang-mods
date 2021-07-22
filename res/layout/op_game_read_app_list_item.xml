@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/tv" android:paddingTop="@dimen/op_control_margin_space7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingStart="@dimen/op_control_margin_screen_left3" style="@style/op_control_text_style_subtitle" />
+    <View android:id="@id/group_divider_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_contorl_list_item_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginTop="@dimen/op_control_margin_list_top3" android:layout_marginBottom="@dimen/op_control_margin_list_top3" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="@dimen/op_control_margin_screen_left3" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/op_control_margin_space3" android:layout_toEndOf="@id/icon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:layout_marginEnd="8.0dip">
+                <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/op_control_text_style_h6" />
+                <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="center_vertical" android:id="@id/summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" android:singleLine="false" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <CheckBox android:layout_gravity="center" android:id="@id/check_box" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/oneplus_settings_padding_right" />
+        </LinearLayout>
+        <View android:id="@id/bottom_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

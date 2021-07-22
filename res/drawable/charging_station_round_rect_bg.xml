@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/op_control_bg_color_control_default" />
+    <corners android:radius="@dimen/oneplus_contorl_radius_r8" />
+    <stroke android:width="0.5dip" android:color="@color/op_control_card_color_border_default" />
+</shape>

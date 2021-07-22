@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Ne možete da upućujete hitne pozive pomoću pozivanja preko Wi-Fi-ja. Ako probate da uputite hitan poziv, uređaj će automatski koristiti mobilnu mrežu. Hitni pozivi mogu da se upućuju samo u oblastima pokrivenim mobilnom mrežom."</string>
+</resources>

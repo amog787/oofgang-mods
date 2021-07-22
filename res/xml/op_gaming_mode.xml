@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/oneplus_gaming_mode" android:key="op_gaming_mode" settings:keywords="@string/oneplus_gaming_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_do_not_disturb_settings" android:key="do_not_disturb_settings">
+        <SwitchPreference android:title="@string/oneplus_do_not_disturb_answer_call_by_speaker_title" android:key="do_not_disturb_answer_call_by_speaker" android:summary="@string/oneplus_do_not_disturb_answer_call_by_speaker_summary" />
+        <Preference android:title="@string/oneplus_notification_ways_title" android:key="notification_ways" android:fragment="com.oneplus.settings.OPGamingModeNotificationWaySettings" />
+        <SwitchPreference android:title="@string/oneplus_notifications_3rd_calls" android:key="notifications_3rd_calls" android:summary="@string/oneplus_notifications_3rd_calls_summary" />
+        <SwitchPreference android:title="@string/oneplus_block_notifications" android:key="block_notifications" android:summary="@string/oneplus_block_notifications_summary" />
+        <SwitchPreference android:title="@string/oneplus_lock_buttons" android:key="lock_buttons" android:summary="@string/oneplus_lock_buttons_summary" />
+        <Preference android:title="@string/oneplus_gaming_mode_game_battery_saver" android:key="battery_saver" android:summary="@string/oneplus_gaming_mode_game_battery_saver_summary" android:fragment="com.oneplus.settings.better.OPGameModeBatterySaver" />
+        <SwitchPreference android:title="@string/oneplus_gaming_mode_close_automatic_brightness" android:key="close_automatic_brightness" android:summary="@string/oneplus_gaming_mode_close_automatic_brightness_summary" />
+        <SwitchPreference android:title="@string/oneplus_gaming_mode_network_acceleration" android:key="network_acceleration" android:summary="@string/oneplus_gaming_mode_network_acceleration_summary" />
+        <SwitchPreference android:title="@string/oneplus_game_mode_ad_title" android:key="op_game_mode_ad_enable" android:summary="@string/oneplus_game_mode_ad_summary" />
+        <com.android.settings.widget.MasterSwitchPreference android:persistent="false" android:title="@string/oneplus_haptic_feedback_title" android:key="op_haptic_feedback" android:summary="@string/oneplus_haptic_feedback_summary" android:fragment="com.oneplus.settings.better.OPHapticFeedback" />
+    </PreferenceCategory>
+    <Preference android:title="@string/oneplus_fnatic_mode_title" android:key="oneplus_e_sports_mode" android:summary="@string/oneplus_fnatic_mode_summary" settings:allowDividerAbove="true">
+        <intent android:action="oneplus.intent.action.ONEPLUS_FNATIC_MODE" />
+    </Preference>
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/oneplus_auto_turn_on_apps" android:key="auto_turn_on_apps" settings:allowDividerBelow="false" />
+    <PreferenceScreen android:icon="@drawable/ic_menu_add" android:title="@string/oneplus_gaming_mode_add_apps" android:key="gaming_mode_add_apps" />
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="oneplus_gaming_mode_summary" android:summary="@string/oneplus_gaming_mode_summary" settings:allowDividerAbove="true" />
+</PreferenceScreen>

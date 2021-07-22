@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_touch_vibrate" android:key="system_vibrate"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/oneplus_vibrate_intensity" android:key="vibrate_intensity">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_light" android:key="light" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_moderate" android:key="moderate" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_intensely" android:key="intensely" />
+    </PreferenceCategory>
+</PreferenceScreen>

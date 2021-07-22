@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="63.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/opfingerprint_item_highlight_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="63.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/opfingerprint_item_image" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="#dd000000" android:id="@id/opfingerprint_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim_settings_title" />
+            <TextView android:textSize="13.0sp" android:textColor="#89000000" android:id="@id/opfingerprint_item_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim_settings_title" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

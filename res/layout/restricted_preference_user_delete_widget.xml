@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/restricted_icon" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/user_delete_widget" android:layout_width="45.0dip" android:layout_height="45.0dip">
+        <View android:id="@id/divider_manage" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/manage_user" android:background="?android:selectableItemBackground" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_settings_accent" android:scaleType="center" android:contentDescription="@string/settings_label" />
+        <View android:id="@id/divider_delete" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/trash_user" android:background="?android:selectableItemBackground" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_delete" android:scaleType="center" android:contentDescription="@string/user_delete_user_description" />
+    </LinearLayout>
+</merge>

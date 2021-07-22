@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/aod_clock_detail_preview" android:layout_width="fill_parent" android:layout_height="@dimen/op_aod_clock_detail_preview_image_height" android:layout_marginTop="@dimen/op_control_margin_space2" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/op_control_text_style_h3" android:textColor="?android:textColorPrimary" android:id="@id/aod_clock_detail_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/op_control_margin_space5" android:layout_marginTop="@dimen/op_aod_clock_detail_title_margin_top" android:layout_marginRight="@dimen/op_control_margin_space5" />
+        <TextView android:textSize="@dimen/op_aod_clock_detail_content_text_size" android:textColor="?android:textColorPrimary" android:id="@id/aod_clock_detail_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/op_control_margin_space5" android:layout_marginTop="@dimen/op_aod_clock_detail_content_margin_top" android:layout_marginRight="@dimen/op_control_margin_space5" android:lineSpacingMultiplier="1.6" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/ok_button" android:layout_width="@dimen/op_aod_clock_detail_okbutton_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_aod_clock_detail_okbutton_margin_top" android:layout_marginBottom="@dimen/op_aod_clock_detail_okbutton_margin_bottom" android:text="@string/close_dialog" style="@style/OnePlus.Widget.AppCompat.Button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_not_show" android:layout_marginStart="@dimen/oneplus_contorl_layout_margin_left3" android:layout_marginEnd="@dimen/oneplus_contorl_layout_margin_right6" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/account_dashboard_title" android:key="user_and_account_settings_screen" settings:keywords="@string/keywords_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="30" />
+    <SwitchPreference android:title="@string/auto_sync_account_title" android:key="auto_sync_account_data" android:summary="@string/auto_sync_account_summary" android:order="100" settings:allowDividerAbove="true" />
+    <SwitchPreference android:title="@string/account_settings_menu_auto_sync_personal" android:key="auto_sync_personal_account_data" android:summary="@string/auto_sync_account_summary" android:order="110" />
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneplus_faceulock_mode_lottie_top_margin">300.0px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_secondary_text_size">34.0px</dimen>
+    <dimen name="oneplus_fingerprint_enroll_top_title_text_size">84.0px</dimen>
+    <dimen name="oneplus_fnatic_video_height">1080.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_height">1039.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_margin">84.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_margin">166.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_top_title_textsize">84.0px</dimen>
+    <dimen name="oneplus_fnatic_wallpaper_width">480.0px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_height">800.0px</dimen>
+    <dimen name="oneplus_fod_finger_introduction_anim_width">600.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_complete_layout_margin_top">815.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_height">780.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_edge_lottie_witdh">552.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_layout_margin_top">450.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_layout_margin_top">600.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_lottie_view_width">473.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_top_margin">142.0px</dimen>
+    <dimen name="oneplus_fod_fingerprint_enroll_view_width">387.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_complete_layout_margin_top">605.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_layout_margin_top">500.0px</dimen>
+    <dimen name="oneplus_fod_setup_fingerprint_enroll_top_margin">278.0px</dimen>
+    <dimen name="op_guide_anim_show_height">780.0px</dimen>
+    <dimen name="op_lab_feature_plugin_head_height">609.0px</dimen>
+    <dimen name="op_reading_mode_effect_show_height">704.0px</dimen>
+</resources>

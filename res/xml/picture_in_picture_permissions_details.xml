@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/picture_in_picture_app_detail_title" android:key="picture_in_picture_permission_detail_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/picture_in_picture_app_detail_switch" android:key="app_ops_settings_switch" />
+    <Preference android:selectable="false" android:summary="@string/picture_in_picture_app_detail_summary" />
+</PreferenceScreen>

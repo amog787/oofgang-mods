@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/sud_layout_icon" android:layout_width="@dimen/oneplus_setupwizard_icon_size" android:layout_height="@dimen/oneplus_setupwizard_icon_size" android:src="@drawable/ic_opfinger_logo_bg" style="@style/OnePlusSuwGlifIcon" />
+                <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/op_control_margin_space5" android:paddingRight="@dimen/op_control_margin_space5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+                <com.google.android.setupdesign.view.RichTextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_how_to_use_fingerprint_summary_no_note" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+                <TextView android:textColor="@color/settings_accent_color" android:gravity="center_horizontal" android:id="@id/functional_terms" android:paddingTop="@dimen/oneplus_legale_functional_tarms_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_fingerprint_functional_declaration" android:textAllCaps="true" android:layout_marginStart="@dimen/op_control_margin_space5" android:layout_marginEnd="@dimen/op_control_margin_space5" style="@style/op_control_text_style_button" />
+                <com.google.android.setupdesign.view.RichTextView android:id="@id/error_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif" />
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/op_how_to_use_fingerprint_tips_view" android:layout_width="fill_parent" android:layout_height="265.0dip" android:layout_marginTop="100.0dip" app:lottie_autoPlay="false" app:lottie_fileName="op_custom_fingerprint_guide.json" app:lottie_loop="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/OnePlusSuwGlifButtonBar">
+        <android.widget.Button android:id="@id/fingerprint_enroll_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="95.0dip" android:text="@string/security_settings_face_enroll_introduction_cancel" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Borderless.Mini" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.widget.Button android:textColor="@color/op_btn_colored_raised_text_material_light" android:id="@id/fingerprint_enroll_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="95.0dip" android:text="@string/wizard_next" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Mini" />
+    </LinearLayout>
+</RelativeLayout>

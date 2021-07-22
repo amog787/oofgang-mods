@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="installed_app_detail_settings_screen" settings:initialExpandedChildrenCount="6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:selectable="false" android:key="header_view" android:order="-10000" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/instant_app_buttons" android:selectable="false" android:key="instant_app_buttons" android:order="-9999" />
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="action_buttons" android:order="-9998" />
+    <Preference android:title="@string/notifications_label" android:key="notification_settings" settings:controller="com.android.settings.applications.appinfo.AppNotificationPreferenceController" />
+    <com.android.settings.widget.FixedLineSummaryPreference android:title="@string/permissions_label" android:key="permission_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.AppPermissionPreferenceController" settings:summaryLineCount="1" />
+    <Preference android:title="@string/storage_settings_for_app" android:key="storage_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.AppStoragePreferenceController" />
+    <com.android.settings.applications.AppDomainsPreference android:title="@string/app_launch_supported_domain_urls_title" android:selectable="true" android:key="instant_app_launch_supported_domain_urls" settings:controller="com.android.settings.applications.appinfo.InstantAppDomainsPreferenceController" />
+    <Preference android:title="@string/data_usage_app_summary_title" android:key="data_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.AppDataUsagePreferenceController" />
+    <Preference android:title="@string/time_spent_in_app_pref_title" android:key="time_spent_in_app" settings:controller="com.android.settings.applications.appinfo.TimeSpentInAppPreferenceController" />
+    <Preference android:title="@string/power_usage_summary_title" android:key="battery" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/launch_by_default" android:selectable="true" android:key="preferred_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.AppOpenByDefaultPreferenceController" />
+    <Preference android:enabled="false" android:title="@string/memory_settings_title" android:key="memory" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/home_app" android:key="default_home" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.applications.defaultapps.DefaultHomePicker" />
+    <Preference android:title="@string/default_browser_title" android:key="default_browser" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.applications.defaultapps.DefaultBrowserPicker" />
+    <Preference android:title="@string/default_phone_title" android:key="default_phone_app" android:summary="@string/default_phone_title" android:fragment="com.android.settings.applications.defaultapps.DefaultPhonePicker" />
+    <Preference android:title="@string/default_emergency_app" android:key="default_emergency_app" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/sms_application_title" android:key="default_sms_app" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.applications.defaultapps.DefaultSmsPicker" />
+    <PreferenceCategory android:title="@string/advanced_apps" android:key="advanced_app_info" settings:controller="com.android.settings.applications.appinfo.AdvancedAppInfoPreferenceCategoryController">
+        <Preference android:title="@string/draw_overlay" android:key="system_alert_window" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.DrawOverlayDetailPreferenceController" />
+        <Preference android:title="@string/write_settings" android:key="write_settings_apps" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.WriteSystemSettingsPreferenceController" />
+        <Preference android:title="@string/picture_in_picture_app_detail_title" android:key="picture_in_picture" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureDetailPreferenceController" />
+        <Preference android:title="@string/install_other_apps" android:key="install_other_apps" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.appinfo.ExternalSourceDetailPreferenceController" />
+        <Preference android:title="@string/interact_across_profiles_title" android:key="interact_across_profiles" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesDetailsPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_install_details_group_title" android:key="app_installer" settings:controller="com.android.settings.applications.appinfo.AppInstallerPreferenceCategoryController">
+        <Preference android:title="@string/app_install_details_title" android:key="app_info_store" settings:controller="com.android.settings.applications.appinfo.AppInstallerInfoPreferenceController" />
+    </PreferenceCategory>
+    <Preference android:title="@string/app_settings_link" android:key="app_settings_link" settings:allowDividerAbove="true" settings:controller="com.android.settings.applications.appinfo.AppSettingPreferenceController" />
+    <Preference android:selectable="false" android:key="app_version" android:order="9999" settings:allowDividerAbove="true" settings:controller="com.android.settings.applications.appinfo.AppVersionPreferenceController" settings:enableCopying="true" />
+</PreferenceScreen>

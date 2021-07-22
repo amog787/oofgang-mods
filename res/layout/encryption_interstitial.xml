@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_lock" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:id="@id/sud_layout_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SudDescription.Glif" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

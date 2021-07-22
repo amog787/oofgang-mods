@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable android:height="@dimen/op_control_avatar_size3" android:width="@dimen/op_control_avatar_size3" android:color="@color/op_control_condition_icon_bg_color" />
+    </item>
+    <item android:gravity="center" android:id="@id/icon_view" android:height="@dimen/dashboard_tile_foreground_image_size" android:width="@dimen/dashboard_tile_foreground_image_size" android:drawable="@drawable/op_ic_homepage_connected_device" />
+</layer-list>

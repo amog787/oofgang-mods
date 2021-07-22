@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/phone_hardware_info" android:paddingTop="33.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3">
+        <ImageView android:id="@id/phone_image" android:layout_width="88.0dip" android:layout_height="184.0dip" android:src="@drawable/oneplus_6" android:antialias="true" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="17.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space4" android:layout_marginBottom="@dimen/op_control_margin_space4" android:layout_centerVertical="true" android:layout_marginStart="26.0dip" android:layout_toEndOf="@id/phone_image">
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/cpu_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_cpu" style="@style/op_control_text_style_subtitle" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/cpu_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" style="@style/op_control_text_style_body1" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/storage_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_storage" style="@style/op_control_text_style_subtitle" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/storage_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" style="@style/op_control_text_style_body1" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/camera_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_camera" style="@style/op_control_text_style_subtitle" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/camera_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" style="@style/op_control_text_style_body1" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/screen_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_screen" style="@style/op_control_text_style_subtitle" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/screen_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space7" android:paddingBottom="13.0dip" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/data_usage_left_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/traffic_package_used" android:textAllCaps="true" style="@style/op_control_text_style_subtitle" />
+    <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/data_usage_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:textAllCaps="true" style="@style/op_control_text_style_h4" />
+    <ProgressBar android:id="@id/data_usage_progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="@dimen/op_control_margin_space2" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/data_usage_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/data_usage_total" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/op_control_text_style_body1" />
+        <View android:layout_width="@dimen/op_control_margin_space3" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="right" android:id="@id/data_usage_used_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/op_control_text_style_body1" />
+    </LinearLayout>
+</LinearLayout>

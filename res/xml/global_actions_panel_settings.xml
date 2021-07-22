@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/cards_passes_sentence"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.widget.OPLottieAnimPreference android:selectable="false" android:key="op_global_actions_panel_instructions_anim" />
+    <SwitchPreference android:title="@string/cards_passes_setting_toggle" android:key="gesture_global_actions_panel_switch" android:summary="@string/cards_passes_setting_subtitle" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" app:keywords="@string/keywords_cards_passes" />
+</PreferenceScreen>

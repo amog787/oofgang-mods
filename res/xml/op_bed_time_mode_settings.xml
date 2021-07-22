@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/oneplus_bed_time_mode_title" android:key="bed_time_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="bed_time_mode_wall_text" android:summary="@string/oneplus_bed_time_mode_wall_text" settings:allowDividerAbove="true" />
+    <SwitchPreference android:persistent="true" android:title="@string/oneplus_open_bed_time_mode_schedule_title" android:key="auto_activate" android:summary="@string/oneplus_open_bed_time_mode_schedule_summary" />
+    <Preference android:title="@string/oneplus_turn_on_time" android:key="turn_on_time" />
+    <Preference android:title="@string/oneplus_turn_off_time" android:key="turn_off_time" />
+</PreferenceScreen>

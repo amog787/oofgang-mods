@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_notification_ways_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_notification_ways" android:key="notification_ways">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_suspension_notice" android:key="suspension_notice" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_weak_text_reminding" android:key="weak_text_reminding" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_shielding_notification" android:key="shielding_notification" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPGamingModeNotificationWayCategory android:title="@string/oneplus_instrucitons" android:key="oneplus_instrucitons" />
+</PreferenceScreen>

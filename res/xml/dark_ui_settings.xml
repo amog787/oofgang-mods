@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dark_ui_mode" android:key="dark_ui_mode_screen" settings:keywords="@string/keywords_dark_ui_mode" settings:staticPreferenceLocation="append"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

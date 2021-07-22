@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/sim_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/operator_name_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_operator" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/operator_name_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/number_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_number_sim_status" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/number_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/data_state_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_data_state" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/data_state_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/latest_area_info_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_latest_area_info" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/latest_area_info_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/service_state_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_service_state" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/service_state_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/signal_strength_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_signal_strength" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/signal_strength_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/voice_network_type_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_voice_network_type" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/voice_network_type_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/data_network_type_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_data_network_type" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/data_network_type_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/roaming_state_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_roaming" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/roaming_state_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/icc_id_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_icc_id" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/icc_id_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/esim_id_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_esim_id" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/esim_id_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/ims_reg_state_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ims_reg_title" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/ims_reg_state_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/meid_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/meid_title" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/meid_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+        <TextView android:id="@id/imsi_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/imsi_title" style="@style/device_info_dialog_label" />
+        <TextView android:id="@id/imsi_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" style="@style/device_info_dialog_value" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_control_icon_size_button" android:width="@dimen/op_control_icon_size_button" android:viewportWidth="63.0" android:viewportHeight="63.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?colorAccent" android:pathData="M14,6L49,6A8,8 0,0 1,57 14L57,49A8,8 0,0 1,49 57L14,57A8,8 0,0 1,6 49L6,14A8,8 0,0 1,14 6z" />
+    <path android:fillColor="?onePlusCheckBoxCheckedColor" android:pathData="M47.2093,32.989L28.2222,34.9877C28.0427,35.0066 27.8615,35.0022 27.6831,34.9748L14.6959,32.9767L15.3041,29.0233L28.0481,30.9839L46.7906,29.011L47.2093,32.989Z" android:fillType="evenOdd" />
+</vector>

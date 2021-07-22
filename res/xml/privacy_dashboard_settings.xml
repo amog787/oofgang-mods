@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_app_locker_catagory" android:key="privacy_dashboard_page" settings:initialExpandedChildrenCount="4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <Preference android:title="@string/work_policy_privacy_settings" android:key="work_policy_info" android:summary="@string/work_policy_privacy_settings_summary" settings:allowDividerAbove="true" settings:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController" />
+    <Preference android:title="@string/interact_across_profiles_title" android:key="interact_across_profiles_privacy" android:fragment="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesSettings" settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesController" settings:searchable="false" />
+    <Preference android:title="@string/accessibility_usage_title" android:key="privacy_accessibility_usage" settings:allowDividerAbove="true" settings:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
+        <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES" />
+    </Preference>
+    <Preference android:title="@string/oneplus_privacy_protection_title" android:key="oneplus_privacy_protection" settings:allowDividerAbove="true" settings:controller="com.oneplus.settings.PrivacyProtectionPreferenceController" settings:keywords="@string/oneplus_search_keyword_app_lock">
+        <intent android:targetPackage="com.oneplus.applocker" android:targetClass="com.oneplus.settings.SettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/app_permissions" android:key="privacy_manage_perms" android:summary="@string/runtime_permissions_summary_control_app_access" settings:controller="com.android.settings.applications.AppPermissionsPreferenceController" settings:searchable="false">
+        <intent android:action="android.intent.action.MANAGE_PERMISSIONS" />
+    </Preference>
+    <SwitchPreference android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" settings:controller="com.android.settings.security.ShowPasswordPreferenceController" />
+    <com.android.settings.RestrictedListPreference android:title="@string/lock_screen_notifications_title" android:key="privacy_lock_screen_notifications" android:summary="@string/summary_placeholder" settings:searchable="false" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="privacy_services" />
+    <PreferenceCategory android:title="@string/oneplus_google_services_title" android:key="google_services" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" />
+    <PreferenceCategory android:title="@string/profile_section_header" android:key="privacy_work_profile_notifications_category" android:order="998" settings:searchable="false">
+        <com.android.settings.RestrictedListPreference android:title="@string/locked_work_profile_notification_title" android:key="privacy_lock_screen_work_profile_notifications" android:summary="@string/summary_placeholder" android:order="999" settings:searchable="false" />
+    </PreferenceCategory>
+    <SwitchPreference android:title="@string/content_capture" android:key="content_capture" android:summary="@string/content_capture_summary" settings:controller="com.android.settings.privacy.EnableContentCapturePreferenceController" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/content_capture" android:key="content_capture_custom_settings" android:summary="@string/content_capture_summary" settings:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController" />
+</PreferenceScreen>

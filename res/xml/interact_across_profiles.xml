@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/interact_across_profiles_title" settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesController"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

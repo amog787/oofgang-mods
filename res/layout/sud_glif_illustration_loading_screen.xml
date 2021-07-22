@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/default_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:id="@id/sud_layout_description" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif" />
+        <com.google.android.setupdesign.view.FillContentLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.setupdesign.view.IllustrationVideoView android:id="@id/sud_illustration_video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentIllustration" />
+        </com.google.android.setupdesign.view.FillContentLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

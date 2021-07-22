@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>કલાક, મિનિટ અને સેકન્ડ બતાવો</item>
+        <item>કલાક, મિનિટ બતાવો (મૂળભૂત)</item>
+        <item>આ આઈકન બતાવશો નહીં</item>
+    </string-array>
+</resources>

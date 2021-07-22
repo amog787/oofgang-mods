@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/video_container_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/video_container_group" android:background="#fff5f5f5" android:paddingTop="16.0px" android:paddingBottom="16.0px" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <ImageView android:id="@id/anim_bg" android:background="@drawable/op_custom_fingerprint_anim_bg" android:layout_width="505.0px" android:layout_height="1079.0px" android:layout_centerInParent="true" />
+        <com.android.settings.widget.AspectRatioFrameLayout android:id="@id/video_container" android:layout_width="465.0px" android:layout_height="969.0px" android:layout_centerInParent="true">
+            <TextureView android:layout_gravity="center" android:id="@id/video_texture_view" android:padding="30.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/video_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/video_play_button" android:visibility="gone" android:layout_width="@dimen/gestures_play_button_size" android:layout_height="@dimen/gestures_play_button_size" android:src="@drawable/ic_gesture_play_button" />
+        </com.android.settings.widget.AspectRatioFrameLayout>
+        <ImageView android:id="@id/bottom_icon_image" android:background="@drawable/op_ic_custom_finger_logo_bg" android:layout_width="86.0px" android:layout_height="86.0px" android:layout_marginBottom="127.0px" android:layout_alignBottom="@id/anim_bg" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

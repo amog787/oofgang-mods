@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/dialog_scrollview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false" android:scrollIndicators="bottom|top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/l_adbwirelessdialog" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/l_pairing_six_digit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_section">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adb_pairing_device_dialog_pairing_code_label" android:textDirection="locale" style="@style/adb_wireless_item_label" />
+                <TextView android:id="@id/pairing_code" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/adb_wireless_item_content" />
+                <TextView android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adb_wireless_ip_addr_preference_title" android:textDirection="locale" style="@style/adb_wireless_item_label" />
+                <TextView android:id="@id/ip_addr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/summary_placeholder" android:textDirection="locale" style="@style/adb_wireless_item_label" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/l_pairing_failed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_section">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_item">
+                <TextView android:id="@id/pairing_failed_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/adb_wireless_item_label" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/l_qrcode_pairing_failed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_section">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/adb_wireless_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adb_qrcode_pairing_device_failed_msg" android:textDirection="locale" style="@style/adb_wireless_item_label" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

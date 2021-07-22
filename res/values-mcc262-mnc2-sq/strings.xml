@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Nuk mund të kryesh telefonata urgjence përmes telefonatave me Wi-Fi. Nëse përpiqesh të kryesh një telefonatë urgjence, pajisja do të përdorë automatikisht rrjetin celular. Telefonatat e urgjencës mund të kryhen vetëm në zona që kanë mbulim me rrjet celular."</string>
+</resources>

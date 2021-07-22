@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_appbar_size_landscape"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_icons_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageView android:id="@id/expand_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_expand_more" android:tint="@color/op_control_icon_color_active" android:paddingStart="@dimen/contextual_condition_header_indicator_padding_start" android:paddingEnd="@dimen/op_control_margin_space9" />
+</LinearLayout>

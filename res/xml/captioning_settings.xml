@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/accessibility_captioning_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/accessibility_captions_preview" android:title="@string/summary_placeholder" android:selectable="false" android:key="captions_preview" settings:allowDividerBelow="false" settings:searchable="false" />
+    <SwitchPreference android:persistent="false" android:title="@string/accessibility_caption_master_switch_title" android:key="captioning_preference_switch" android:summary="@string/accessibility_caption_master_switch_summary" settings:allowDividerAbove="false" />
+    <Preference android:persistent="false" android:title="@string/captioning_caption_appearance_title" android:key="captioning_caption_appearance" android:fragment="com.android.settings.accessibility.CaptionAppearanceFragment" />
+    <Preference android:persistent="false" android:title="@string/captioning_more_options_title" android:key="captioning_more_options" android:fragment="com.android.settings.accessibility.CaptionMoreOptionsFragment" />
+    <com.android.settingslib.widget.FooterPreference android:persistent="false" android:title="@string/accessibility_caption_preference_summary" android:selectable="false" settings:searchable="false" />
+</PreferenceScreen>

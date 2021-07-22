@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="device_name" />
+    <PreferenceCategory android:title="@string/bluetooth_paired_device_title" android:key="paired_devices" />
+    <PreferenceCategory>
+        <Preference android:title="@string/bluetooth_device_name" android:key="bt_rename_device" android:summary="@string/summary_placeholder" />
+        <Preference android:title="@string/bluetooth_show_received_files" android:key="bt_received_files" />
+    </PreferenceCategory>
+    <com.oneplus.settings.widget.OPFooterPreference />
+</PreferenceScreen>

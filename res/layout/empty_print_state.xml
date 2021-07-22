@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="120.0dip" android:layout_height="110.0dip" android:layout_marginBottom="12.0dip" android:src="@android:drawable/ic_print_error" android:scaleType="fitEnd" android:tint="?android:colorForeground" android:alpha="0.1" android:importantForAccessibility="no" />
+    <TextView android:textColor="@color/op_control_text_color_secondary_default" android:gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" style="@style/op_control_text_style_h6" />
+    <Button android:textColor="?android:textColorSecondary" android:id="@id/add_new_service" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/print_menu_item_add_service" style="?android:borderlessButtonStyle" />
+</LinearLayout>

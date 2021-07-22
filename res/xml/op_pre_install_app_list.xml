@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="oneplus_pre_install_app_summary" android:summary="@string/oneplus_pre_install_app_tips1" settings:allowDividerAbove="true" />
+    <PreferenceCategory android:title="@string/oneplus_app_list" android:key="oneplus_pre_install_app_category" settings:allowDividerBelow="false" />
+</PreferenceScreen>

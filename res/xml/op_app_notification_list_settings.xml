@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/led_settings_per_app_notification_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_app_notification_allow_led" android:key="op_notification_allow_led" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:title="@string/oneplus_app_notification_not_allow_led" android:key="op_notification_not_allow_led" settings:allowDividerBelow="false" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/restricted_app_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="restrict_app_list" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/restricted_app_detail_footer" android:selectable="false" android:key="restricted_app_footer" settings:searchable="false" />
+</PreferenceScreen>

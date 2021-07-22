@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+    <RelativeLayout android:background="@color/op_control_bg_color_weaken_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_appbar_size_landscape" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="10.0dip">
+        <TextView android:textColor="@color/op_control_text_color_primary" android:ellipsize="end" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="@string/app_list" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/setting_all" android:layout_alignParentStart="true" style="@style/op_control_text_style_h6" />
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/setting_all" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="180.0dip" android:text="@string/firewall_rule_batch_operation" android:singleLine="true" android:drawablePadding="@dimen/op_control_margin_space2" android:layout_centerVertical="true" android:drawableEnd="@drawable/ic_down" android:layout_alignParentEnd="true" style="@style/op_control_text_style_body1" />
+    </RelativeLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.edgeeffect.SpringRelativeLayout android:id="@id/spring_layout" android:focusable="true" android:focusableInTouchMode="true" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.edgeeffect.SpringListView android:id="@id/app_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="@dimen/oneplus_security_divider_height_standard" />
+        </com.google.android.material.edgeeffect.SpringRelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

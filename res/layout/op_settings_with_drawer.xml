@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.lib.design.widget.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip">
+        <com.oneplus.lib.widget.actionbar.Toolbar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:popupTheme="@style/Oneplus.ThemeOverlay.Material.Light" />
+    </com.oneplus.lib.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/content_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:actionBarStyle" />
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

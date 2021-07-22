@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_opfinger_logo_bg" style="@style/OnePlusSuwGlifIcon" />
+        <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_head" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="@dimen/op_control_margin_space8">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/oneplus_settings_text_color_primary" android:id="@id/start_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:text="@string/oneplus_opfinger_input_setting_back_tips_sub" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+            <TextView android:textColor="@color/oneplus_settings_text_color_primary" android:id="@id/repeat_message" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_repeat_message" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+        </FrameLayout>
+        <include android:layout_gravity="center" android:id="@id/fingerprint_enroll_enrolling_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" layout="@layout/fingerprint_enroll_enrolling_content" />
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.ErrorText" />
+        <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space10" android:layout_marginBottom="@dimen/op_control_margin_space9" android:text="@string/skip_label" style="@style/SetupWizardButton.Negative" />
+    </LinearLayout>
+</RelativeLayout>

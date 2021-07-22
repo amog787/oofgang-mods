@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="op_custom_shape_alpha_1">1.0</item>
+    <item type="dimen" name="op_custom_shape_alpha_2">0.11399999</item>
+    <item type="dimen" name="op_custom_shape_alpha_3">0.1</item>
+    <item type="dimen" name="btn_highlight_alpha_material">0.2</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_zen_mode_automation_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/op_zen_mode_automation_settings_title" android:key="zen_mode_automatic_rules" />
+    <Preference android:icon="@drawable/ic_add_24dp" android:title="@string/zen_mode_add_rule" android:key="zen_mode_add_automatic_rule" />
+</PreferenceScreen>

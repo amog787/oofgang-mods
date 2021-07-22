@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:textAppearance="?android:textAppearanceListItem" android:id="@id/upstream_auto" android:background="?android:selectableItemBackgroundBorderless" layout="@layout/op_hotspot_select_radio_with_summary" />
+        <include android:textAppearance="?android:textAppearanceListItem" android:id="@id/upstream_wifi" android:background="?android:selectableItemBackgroundBorderless" layout="@layout/op_hotspot_select_radio_with_summary" />
+        <include android:textAppearance="?android:textAppearanceListItem" android:id="@id/upstream_cell" android:background="?android:selectableItemBackgroundBorderless" layout="@layout/op_hotspot_select_radio_with_summary" />
+    </LinearLayout>
+</ScrollView>

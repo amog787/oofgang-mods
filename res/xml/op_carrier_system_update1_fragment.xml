@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="op_carrier_system_update1_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-400" />
+    <Preference android:title="@string/system_update_uss_title" android:key="update_system_dashboard" android:order="0">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+    <PreferenceCategory>
+        <Preference android:title="@string/update_prl" android:key="update_prl">
+            <intent android:action="com.oneplus.simota.start_update_prl_activity" />
+        </Preference>
+        <Preference android:title="@string/update_profile" android:key="update_profile">
+            <intent android:action="com.redbend.app.SETTING_UPDATE_PROFILE" />
+        </Preference>
+        <Preference android:title="@string/uicc_unlock" android:key="uicc_unlock" android:summary="" settings:controller="com.oneplus.settings.system.OPCarrierUiccUnlockController">
+            <intent android:action="com.redbend.app.SETTING_UICC_UNLOCK" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

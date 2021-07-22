@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:key="pref_app_header" />
+    <PreferenceCategory android:title="@string/zen_mode_bypassing_app_channels_header" android:key="zen_mode_bypassing_app_channels_list" />
+</PreferenceScreen>

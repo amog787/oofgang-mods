@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_connected_devices_dashboard_title" android:key="connected_devices_advanced_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-20" />
+    <com.android.settings.widget.MasterSwitchPreference android:persistent="false" android:title="@string/bluetooth_settings_title" android:key="bluetooth_settings" android:order="-9" android:fragment="com.android.settings.connecteddevice.BluetoothDashboardFragment" settings:searchable="false" />
+    <Preference android:title="@string/nfc_quick_toggle_title" android:key="nfc_and_payment_settings" android:order="-7" android:fragment="com.android.settings.connecteddevice.NfcAndPaymentFragment" settings:controller="com.android.settings.connecteddevice.NfcAndPaymentFragmentController" />
+    <Preference android:title="@string/oneplus_wifi_display_settings_title" android:key="wifi_display_settings" android:order="-6" android:fragment="com.android.settings.wfd.WifiDisplaySettings" settings:controller="com.android.settings.wfd.WifiDisplayPreferenceController" settings:keywords="@string/keywords_wifi_display_settings" />
+    <SwitchPreference android:title="@string/nfc_quick_toggle_title" android:key="toggle_nfc" android:summary="@string/nfc_quick_toggle_summary" android:order="-7" settings:controller="com.android.settings.nfc.NfcPreferenceController" />
+    <com.android.settings.widget.MasterSwitchPreference android:persistent="false" android:title="@string/oneplus_share_settings_title" android:key="oneplus_share_settings" android:summary="@string/oneplus_share_settings_summary" android:order="-6" settings:controller="com.oneplus.settings.OnePlusSharePreferenceController">
+        <intent android:action="oneplus.share.intent.action.SETTINGS" />
+    </com.android.settings.widget.MasterSwitchPreference>
+    <com.android.settingslib.RestrictedPreference android:title="@string/android_beam_settings_title" android:key="android_beam_settings" android:order="-5" android:fragment="com.android.settings.nfc.AndroidBeam" settings:controller="com.android.settings.nfc.AndroidBeamPreferenceController" />
+    <SwitchPreference android:title="@string/nfc_secure_settings_title" android:key="nfc_secure_settings" android:summary="@string/nfc_secure_toggle_summary" android:order="-7" settings:controller="com.android.settings.nfc.SecureNfcPreferenceController" />
+    <Preference android:title="@string/oneplus_nfc_payment_settings_title" android:key="default_payment_app" android:order="-4" android:fragment="com.android.settings.nfc.PaymentSettings" settings:controller="com.android.settings.applications.specialaccess.DefaultPaymentSettingsPreferenceController" settings:keywords="@string/keywords_default_payment_app" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/print_settings" android:key="connected_device_printing" android:summary="@string/summary_placeholder" android:order="-3" android:fragment="com.android.settings.print.PrintSettingsFragment" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="-8" />
+    <PreferenceCategory android:key="usb_connected_device_list" android:order="200" settings:controller="com.android.settings.connecteddevice.OPUSBConnectedDeviceGroupController" />
+</PreferenceScreen>

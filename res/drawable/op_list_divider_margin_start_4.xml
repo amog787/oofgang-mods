@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/oneplus_divider_color" android:insetLeft="@dimen/oneplus_settings_layout_margin_left4" android:insetRight="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

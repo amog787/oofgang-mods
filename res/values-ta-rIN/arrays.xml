@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>மணிநேரங்கள், நிமிடங்கள் மற்றும் விநாடிகளைக் காண்பி</item>
+        <item>மணிநேரங்கள் மற்றும் நிமிடங்கள் காண்பி (இயல்புநிலை)</item>
+        <item>இந்தச் சின்னத்தைக் காண்பிக்க வேண்டாம்</item>
+    </string-array>
+</resources>

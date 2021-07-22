@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Negalite atlikti skambučių pagalbos numeriais naudodami „Wi-Fi“ skambinimą. Jei bandysite atlikti skambutį pagalbos numeriu, įrenginys automatiškai naudos mobiliojo ryšio tinklą. Skambučius pagalbos numeriais galite atlikti tik tose srityse, kuriose veikia mobiliojo ryšio tinklas."</string>
+</resources>

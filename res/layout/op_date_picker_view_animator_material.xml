@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.picker.DialogViewAnimator android:gravity="center" android:id="@id/animator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:inAnimation="@anim/op_date_picker_fade_in_material" android:outAnimation="@anim/op_date_picker_fade_out_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.picker.DayPickerView android:id="@id/date_picker_day_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space2" />
+    <com.google.android.material.picker.YearPickerView android:id="@id/date_picker_year_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/op_control_margin_space6" android:paddingEnd="@dimen/op_control_margin_space6" android:scrollIndicators="bottom" />
+</com.google.android.material.picker.DialogViewAnimator>

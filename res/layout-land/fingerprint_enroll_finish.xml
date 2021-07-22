@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout="@layout/sud_glif_blank_template" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?fingerprint_layout_theme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+            <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="?sudGlifHeaderGravity" android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/ic_fingerprint_header" android:contentDescription="@null" style="@style/SudGlifIcon" />
+                <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/SudGlifHeaderTitle" />
+                <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_finish_message" style="@style/SudDescription.Glif" />
+            </LinearLayout>
+            <com.google.android.setupdesign.view.FillContentLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/fingerprint_in_app_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fingerprint_enroll_finish" android:contentDescription="@android:string/fingerprint_icon_content_description" style="@style/SudContentIllustration" />
+            </com.google.android.setupdesign.view.FillContentLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.setupdesign.GlifLayout>

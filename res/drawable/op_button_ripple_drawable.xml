@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/op_button_padding_horizontal_material" />
+        <solid android:color="#ff00ff00" />
+        <padding android:left="@dimen/op_button_padding_horizontal_material" android:top="8.0dip" android:right="@dimen/op_button_padding_horizontal_material" android:bottom="8.0dip" />
+    </shape>
+</inset>

@@ -1,0 +1,6 @@
+signature,file,startline,startcol,endline,endcol,properties
+Lcom/oneplus/compat/telephony/TelephonyManagerNative;->getCurrentPhoneType(Landroid/telephony/TelephonyManager;I)I,vendor/oneplus/OPSupportLibFramework/support_lib/src/com/oneplus/compat/telephony/TelephonyManagerNative.java,126,5,126,63,maxTargetSdk=24
+Lcom/oneplus/compat/telephony/TelephonyManagerNative;->getSimOperatorNumeric(Landroid/telephony/TelephonyManager;I)Ljava/lang/String;,vendor/oneplus/OPSupportLibFramework/support_lib/src/com/oneplus/compat/telephony/TelephonyManagerNative.java,137,5,137,63,maxTargetSdk=24
+Lcom/oneplus/compat/telephony/TelephonyManagerNative;->isNetworkRoaming(Landroid/telephony/TelephonyManager;I)Z,vendor/oneplus/OPSupportLibFramework/support_lib/src/com/oneplus/compat/telephony/TelephonyManagerNative.java,148,5,148,63,maxTargetSdk=24
+Lcom/oneplus/compat/telephony/TelephonyManagerNative;->getSimCount(Landroid/telephony/TelephonyManager;)I,vendor/oneplus/OPSupportLibFramework/support_lib/src/com/oneplus/compat/telephony/TelephonyManagerNative.java,159,5,159,63,maxTargetSdk=24
+Lcom/oneplus/compat/telephony/TelephonyManagerNative;->getTelephonyProperty(ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;,vendor/oneplus/OPSupportLibFramework/support_lib/src/com/oneplus/compat/telephony/TelephonyManagerNative.java,170,5,170,63,maxTargetSdk=24

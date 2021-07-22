@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/oneplus_ic_all_unselected" android:id="@id/menu_all_pick" android:checked="false" android:title="@string/select_all" android:checkable="true" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/oneplus_ic_delete" android:id="@id/menu_delete" android:title="@string/menu_uninstallapps" android:showAsAction="ifRoom" />
+</menu>

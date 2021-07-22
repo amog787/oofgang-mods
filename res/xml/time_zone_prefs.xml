@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_time_set_timezone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <PreferenceCategory android:key="time_zone_region_preference_category">
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_select_region" android:key="region" android:summary="@string/summary_placeholder" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_set_timezone_title" android:key="region_zone" android:summary="@string/summary_placeholder" />
+        <com.oneplus.settings.widget.OPFooterPreference android:key="timezone_footer" settings:controller="com.android.settings.datetime.timezone.TimeZoneInfoPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="time_zone_fixed_offset_preference_category">
+        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_select_fixed_offset_time_zones" android:key="fixed_offset" android:summary="@string/summary_placeholder" />
+    </PreferenceCategory>
+</PreferenceScreen>

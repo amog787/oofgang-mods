@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_app_security_recommend" android:key="oneplus_app_security_recommend"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="oneplus_app_security_recommend_description" android:summary="@string/oneplus_app_security_recommend_description" settings:allowDividerAbove="true" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/oneplus_app_security_recommend" android:key="op_app_security_recommend" android:defaultValue="false" />
+</PreferenceScreen>

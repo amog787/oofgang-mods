@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/dialog_scrollview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false" android:scrollIndicators="bottom|top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/l_wifidialog" android:paddingTop="@dimen/op_control_margin_space4" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section" />
+        <LinearLayout android:id="@id/type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space6" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ssid" android:textDirection="locale" style="@style/wifi_item_label" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+                    <EditText android:id="@id/ssid" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/wifi_ssid_hint" android:singleLine="true" android:inputType="textNoSuggestions" app:layout_constraintEnd_toStartOf="@id/ssid_scanner_button" app:layout_constraintStart_toStartOf="parent" style="@style/wifi_item_edit_content" />
+                    <ImageButton android:id="@id/ssid_scanner_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_scan_24dp" android:minWidth="@dimen/min_tap_target_size" android:minHeight="@dimen/min_tap_target_size" android:contentDescription="@string/wifi_dpp_scan_qr_code" app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:id="@id/ssid_too_long_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ssid_too_long" style="@style/wifi_item_warning" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_security" android:minEms="16" style="@style/wifi_item_label" />
+                <Spinner android:id="@id/security" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_security" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/security_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+            <LinearLayout android:id="@id/eap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+                <LinearLayout android:id="@id/l_method" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_method" style="@style/wifi_item_label" />
+                    <Spinner android:id="@id/method" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_method" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_sim_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_sim_card" style="@style/wifi_item_label" />
+                    <Spinner android:id="@id/sim_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/select_sim_card" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_phase2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_select_phase2" style="@style/wifi_item_label" />
+                    <Spinner android:id="@id/phase2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/please_select_phase2" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_ca_cert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_ca_cert" style="@style/wifi_item_label" />
+                    <Spinner android:id="@id/ca_cert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_ca_cert" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_ocsp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_ocsp" style="@style/wifi_item_label" />
+                    <Spinner android:entries="@array/eap_ocsp_type" android:id="@id/ocsp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_ocsp" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/no_ca_cert_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_do_not_validate_eap_server_warning" style="@style/wifi_item_warning" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_domain" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_domain" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/no_domain_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_no_domain_warning" style="@style/wifi_item_warning" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_user_cert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_user_cert" style="@style/wifi_item_label" />
+                    <Spinner android:id="@id/user_cert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_user_cert" style="@style/wifi_item_spinner" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/no_user_cert_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_no_user_cert_warning" style="@style/wifi_item_warning" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_identity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_identity" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/identity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/l_anonymous" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_eap_anonymous" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/anonymous" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/wapi_psk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wapi_psk_type" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/wapi_psk_type" android:id="@id/wapi_psk_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wapi_psk_type" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:id="@id/password_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_password" style="@style/wifi_item_label" />
+                <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:password="true" android:singleLine="true" style="@style/wifi_item_edit_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/show_password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <CheckBox android:id="@id/show_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_show_password" android:paddingStart="6.0dip" android:layout_marginStart="8.0dip" style="@style/wifi_item_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/wapi_cert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wapi_cert_select" style="@style/wifi_item_label" />
+                <Spinner android:id="@id/wapi_cert_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wapi_cert_select" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/hidden_settings_field" android:paddingBottom="@dimen/op_control_margin_space7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+            <TextView android:id="@id/hidden_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_hidden_network" style="@style/wifi_item_label" />
+            <Spinner android:entries="@array/wifi_hidden_entries" android:id="@id/hidden_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_hidden_network" style="@style/wifi_item_spinner" />
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/contextual_card_bg" android:padding="@dimen/op_control_margin_space4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:src="@drawable/ic_warn" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/hidden_settings_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_wifi_hidden_network_warning" android:layout_marginStart="@dimen/op_control_margin_space2" android:breakStrategy="simple" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/wifi_advanced_toggle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:importantForAccessibility="no" style="@style/wifi_item">
+            <CheckBox android:id="@id/wifi_advanced_togglebox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_show_advanced" android:contentDescription="@string/wifi_advanced_toggle_description" android:importantForAccessibility="yes" style="@style/wifi_advanced_toggle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/wifi_advanced_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" style="@style/wifi_item">
+                <CheckBox android:textSize="14.0sp" android:id="@id/share_this_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_this_wifi" android:paddingStart="6.0dip" android:layout_marginStart="8.0dip" style="@style/wifi_item_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/metered_settings_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" style="@style/wifi_item">
+                <TextView android:id="@id/metered_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_usage_metered_yes" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/wifi_metered_entries" android:id="@id/metered_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/data_usage_metered_yes" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/proxy_settings_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:id="@id/proxy_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_settings_title" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/wifi_proxy_settings" android:id="@id/proxy_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/proxy_settings_title" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/proxy_warning_limited_support" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wifi_item_label" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/proxy_warning_limited_support" android:paddingStart="8.0dip" style="@style/wifi_item_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/proxy_pac_field" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_url_title" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/proxy_pac" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/proxy_url_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/proxy_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_hostname_label" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/proxy_hostname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/proxy_hostname_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_port_label" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/proxy_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/proxy_port_hint" android:singleLine="true" android:inputType="number" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_exclusionlist_label" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/proxy_exclusionlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/proxy_exclusionlist_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/ip_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ip_settings" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/wifi_ip_settings" android:id="@id/ip_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_ip_settings" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/staticip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ip_address" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/ipaddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_ip_address_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_gateway" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/gateway" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_gateway_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_network_prefix_length" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/network_prefix_length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_network_prefix_length_hint" android:singleLine="true" android:inputType="number" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_dns1" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/dns1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_dns1_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_dns2" style="@style/wifi_item_label" />
+                    <EditText android:id="@id/dns2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_dns2_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/privacy_settings_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                <TextView android:id="@id/privacy_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_privacy_settings" style="@style/wifi_item_label" />
+                <Spinner android:entries="@array/wifi_privacy_entries" android:id="@id/privacy_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_privacy_settings" style="@style/wifi_item_spinner" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_section">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item">
+                    <CheckBox android:textSize="14.0sp" android:id="@id/shared" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/wifi_shared" android:paddingStart="6.0dip" android:layout_marginStart="8.0dip" style="@style/wifi_item_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

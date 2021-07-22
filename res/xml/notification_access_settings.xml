@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/manage_notification_access_title" android:key="notification_access_screen" settings:controller="com.android.settings.applications.specialaccess.notificationaccess.NotificationAccessScreenPreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

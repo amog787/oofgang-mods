@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_restrict_notifications_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/zen_mode_restrict_notifications_category" android:key="restrict_category">
+        <com.android.settings.notification.OPZenNoDividerCustomRadioButtonPreference android:title="@string/zen_mode_restrict_notifications_mute" android:key="zen_mute_notifications" android:summary="@string/zen_mode_restrict_notifications_mute_summary" settings:searchable="false" />
+        <com.android.settings.notification.OPZenNoDividerCustomRadioButtonPreference android:title="@string/zen_mode_restrict_notifications_hide" android:key="zen_hide_notifications" android:summary="@string/zen_mode_restrict_notifications_hide_summary" settings:searchable="false" />
+        <com.android.settings.notification.zen.ZenCustomRadioButtonPreference android:title="@string/zen_mode_restrict_notifications_custom" android:key="zen_custom" settings:searchable="false" />
+    </PreferenceCategory>
+    <com.oneplus.settings.widget.OPFooterPreference />
+</PreferenceScreen>

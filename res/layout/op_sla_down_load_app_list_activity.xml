@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/op_app_list" android:paddingTop="@dimen/oneplus_settings_layout_margin_top2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="@dimen/op_control_divider_height_standard" />
+    <LinearLayout android:orientation="vertical" android:id="@id/op_empty_list_tips_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="54.0dip" android:layout_marginEnd="54.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/op_empty_list_tips_icon" android:background="@null" android:layout_width="170.0dip" android:layout_height="wrap_content" android:src="@drawable/op_empty_list_icon" />
+        <TextView android:textSize="@dimen/oneplus_settings_dashboard_tite_title_text_size" android:textColor="@color/op_control_text_color_primary_default" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/op_list_tips_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:text="@string/oneplus_no_support_apps_installed" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/op_control_text_style_h4" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_opfinger_logo_bg" android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:sudGlifIconStyle="@style/OnePlusSuwGlifIcon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/oneplus_suw_margin_start" android:paddingEnd="@dimen/oneplus_suw_margin_start">
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_enroll_fingerprint_tips_summary" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+            <include android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/oneplus_custom_fingerprint_enroll_find_sensor_graphic" />
+            <android.widget.Button android:textColor="@color/op_btn_colored_raised_text_material_light" android:layout_gravity="end" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/oneplus_suw_margin_bottom" android:minWidth="95.0dip" android:text="@string/fingerprint_enroll_button_next" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Mini" />
+        </LinearLayout>
+    </FrameLayout>
+</com.google.android.setupdesign.GlifLayout>

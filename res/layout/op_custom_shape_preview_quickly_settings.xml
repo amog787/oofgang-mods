@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/quickly_settings_group" android:background="@drawable/op_theme_shape_preview_round" android:layout_width="297.0dip" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.oneplus.settings.ui.OPSquarelLinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/adaptive_wifi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_op_shape_squircle_enable" android:layout_weight="2.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_op_shape_wifi_for_adaptive" />
+                </com.oneplus.settings.ui.OPSquarelLinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.oneplus.settings.ui.OPSquarelLinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/adaptive_flashlight" android:background="@drawable/ic_op_shape_squircle_disable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_op_shape_flashlight" />
+                </com.oneplus.settings.ui.OPSquarelLinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.oneplus.settings.ui.OPSquarelLinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/adaptive_nfc" android:background="@drawable/ic_op_shape_squircle_enable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_op_shape_nfc" />
+                </com.oneplus.settings.ui.OPSquarelLinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.oneplus.settings.ui.OPSquarelLinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/adaptive_airplane" android:background="@drawable/ic_op_shape_squircle_disable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_op_shape_airplane" />
+                </com.oneplus.settings.ui.OPSquarelLinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/notification_group" android:background="@drawable/op_theme_shape_preview_round" android:layout_width="297.0dip" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_weight="2.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_op_theme_shape_notification" android:scaleType="fitXY" android:layout_weight="4.0" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:background="@color/op_control_divider_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_op_theme_shape_notification" android:scaleType="fitXY" android:layout_weight="4.0" android:layout_marginStart="21.0dip" android:layout_marginEnd="21.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

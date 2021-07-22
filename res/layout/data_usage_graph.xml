@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left2" android:paddingEnd="@dimen/op_control_margin_screen_right2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/contextual_card_bg" android:paddingTop="@dimen/op_control_margin_space4" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left2" android:paddingEnd="@dimen/op_control_margin_screen_right2">
+        <TextView android:textColor="?colorAccent" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space4" android:textAllCaps="true" style="@style/op_control_text_style_subtitle" />
+        <com.android.settings.widget.UsageView android:gravity="end" android:id="@id/data_usage" android:layout_width="fill_parent" android:layout_height="@dimen/data_usage_chart_height" android:colorAccent="?android:colorAccent" settings:sideLabels="@array/battery_labels" settings:textColor="?android:textColorSecondary" />
+    </LinearLayout>
+</LinearLayout>

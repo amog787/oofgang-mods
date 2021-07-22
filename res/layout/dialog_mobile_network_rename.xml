@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sim_content_padding" android:paddingEnd="@dimen/sim_content_padding">
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:textColorPrimary" android:id="@id/name_label" android:paddingTop="@dimen/sim_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mobile_network_sim_name_label" />
+            <EditText android:id="@id/name_edittext" android:paddingTop="@dimen/sim_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="50" android:inputType="text" />
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:textColorPrimary" android:id="@id/color_label" android:paddingTop="@dimen/sim_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mobile_network_sim_color_label" />
+        </LinearLayout>
+        <Spinner android:id="@id/color_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sim_color_spinner_padding" android:layout_marginEnd="@dimen/sim_color_spinner_padding" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sim_content_padding" android:paddingEnd="@dimen/sim_content_padding">
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:textColorPrimary" android:id="@id/operator_name_label" android:paddingTop="@dimen/sim_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_operator" />
+            <TextView android:id="@id/operator_name_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" />
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:textColorPrimary" android:id="@id/number_label" android:paddingTop="@dimen/sim_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_number_sim_status" />
+            <TextView android:id="@id/number_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_not_available" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

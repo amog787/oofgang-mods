@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_and_notification_dashboard_title" android:key="apps_and_notification_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/applications_settings" android:key="all_app_info" android:order="-999" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:controller="com.android.settings.applications.AllAppsInfoPreferenceController" settings:keywords="@string/keywords_applications_settings" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_app_entities_header" android:title="@string/recent_app_category_title" android:selectable="false" android:key="recent_open_apps" android:order="-998" settings:allowDividerBelow="true" settings:controller="com.android.settings.applications.RecentAppsPreferenceController" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="recent_apps_divider" android:order="-997" />
+    <Preference android:title="@string/configure_notification_settings" android:key="configure_notification_settings" android:order="-440" android:fragment="com.android.settings.notification.ConfigureNotificationSettings" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="10" />
+    <Preference android:title="@string/app_default_dashboard_title" android:key="default_apps" android:order="11" settings:controller="com.android.settings.applications.DefaultAppsPreferenceController">
+        <intent android:action="oneplus.settings.MANAGE_DEFAULT_APPS_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/oneplus_app_ops_title" android:key="manage_perms" android:order="12" settings:controller="com.android.settings.applications.AppPermissionsPreferenceController" settings:keywords="@string/keywords_app_permissions">
+        <intent android:action="android.intent.action.MANAGE_PERMISSIONS" />
+    </Preference>
+    <Preference android:title="@string/oneplus_data_usage_control_title" android:key="data_usage_control" android:order="13" settings:keywords="@string/oneplus_search_keyword_data_usage_control" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/cell_broadcast_settings" android:key="app_and_notif_cell_broadcast_settings" android:order="15" settings:useAdminDisabledSummary="true" />
+    <Preference android:title="@string/special_access" android:key="special_access" android:order="20" android:fragment="com.android.settings.applications.specialaccess.SpecialAccessSettings" settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController" />
+</PreferenceScreen>

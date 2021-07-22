@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/hardware_info" settings:keywords="@string/keywords_model_and_hardware"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/model_info" android:selectable="false" android:key="hardware_info_device_model" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.hardwareinfo.DeviceModelPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/status_serial_number" android:selectable="false" android:key="hardware_info_device_serial" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.hardwareinfo.SerialNumberPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/hardware_revision" android:selectable="false" android:key="hardware_info_device_revision" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.hardwareinfo.HardwareRevisionPreferenceController" settings:enableCopying="true" />
+</PreferenceScreen>

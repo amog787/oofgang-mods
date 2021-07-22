@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/led_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPLedColorPickerPreference android:title="@string/led_settings_global_notification_title" android:key="led_settings_global_notification" android:summary="@string/led_settings_global_notification_summary" />
+    <com.oneplus.settings.ui.OPLedColorPickerPreference android:title="@string/led_settings_battery_full_title" android:key="led_settings_battery_full" android:summary="@string/led_settings_battery_full_summary" />
+    <com.oneplus.settings.ui.OPLedColorPickerPreference android:title="@string/led_settings_battery_charging_title" android:key="led_settings_battery_charging" android:summary="@string/led_settings_battery_charging_summary" />
+    <com.oneplus.settings.ui.OPLedColorPickerPreference android:title="@string/led_settings_battery_low_title" android:key="led_settings_battery_low" android:summary="@string/led_settings_battery_low_summary" />
+    <PreferenceScreen android:title="@string/led_settings_per_app_notification_title" android:key="led_settings_per_app_notification" android:fragment="com.oneplus.settings.notification.OPNotificationAppList" />
+</PreferenceScreen>

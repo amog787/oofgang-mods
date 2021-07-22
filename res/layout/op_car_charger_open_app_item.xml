@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/group_divider_area" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Material.Body2" android:textColor="@color/settings_accent_color" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" style="@style/op_control_text_style_subtitle" />
+    <RelativeLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_dashboard_two_line_minimum_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:layout_toEndOf="@id/icon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:layout_marginEnd="8.0dip">
+                <TextView android:textSize="@dimen/oneplus_settings_dashboard_tite_title_text_size" android:textColor="@color/oneplus_font_list_subtitle" android:gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:textAlignment="viewStart" />
+            </LinearLayout>
+            <RadioButton android:layout_gravity="center" android:id="@id/radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/oneplus_settings_padding_right" />
+        </LinearLayout>
+        <View android:id="@id/bottom_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wallpaper_settings_fragment_title" android:key="wallpaper_type" settings:controller="com.android.settings.wallpaper.WallpaperTypePreferenceController"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

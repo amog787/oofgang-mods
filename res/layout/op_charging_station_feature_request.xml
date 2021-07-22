@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/charging_station_round_rect_bg" android:paddingTop="@dimen/op_control_margin_space4" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space2" android:paddingEnd="@dimen/op_control_margin_space4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/op_charging_station_off_icon" android:layout_width="@dimen/op_control_icon_size_button" android:layout_height="@dimen/op_control_icon_size_button" android:src="@drawable/ic_charging_station_light" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/op_control_margin_space8">
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/op_feature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/op_charging_stations_off_header" style="@style/op_control_text_style_body1" />
+        <TextView android:textAppearance="@style/op_control_text_style_button" android:textColor="@color/oneplus_accent_text_color" android:id="@id/op_enable_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:text="@string/op_enable_text" />
+    </LinearLayout>
+</LinearLayout>

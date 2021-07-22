@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fnatic_wallpaper_layout" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/oneplus_fnatic_wallpaper_top_title_textsize" android:textColor="@color/op_control_text_color_primary_dark" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_horizontal" android:id="@id/head_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oneplus_fnatic_wallpaper_top_margin" android:text="@string/oneplus_fnatic_mode_unlock_wallpapers" android:maxLines="2" android:textAlignment="viewStart" android:layout_marginStart="64.0dip" android:layout_marginEnd="@dimen/op_control_margin_space8" style="@style/op_control_text_style_h3" />
+        <androidx.viewpager.widget.ViewPager android:layout_gravity="start" android:id="@id/fnatic_wallpapers_viewpager" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/oneplus_fnatic_wallpaper_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oneplus_fnatic_wallpaper_top_title_margin" android:layout_below="@id/head_title" android:layout_centerHorizontal="true" android:paddingStart="64.0dip" android:paddingEnd="@dimen/op_control_margin_space5" />
+        <HorizontalScrollView android:id="@id/fnatic_wallpapers_ScrollView" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oneplus_fnatic_wallpaper_top_title_margin" android:layout_below="@id/head_title" android:paddingStart="64.0dip" android:paddingEnd="@dimen/op_control_margin_space5">
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/fnatic_mode_wallpaper_01" android:layout_width="@dimen/oneplus_fnatic_wallpaper_width" android:layout_height="@dimen/oneplus_fnatic_wallpaper_height" />
+                <ImageView android:background="@drawable/fnatic_mode_wallpaper_02" android:layout_width="@dimen/oneplus_fnatic_wallpaper_width" android:layout_height="@dimen/oneplus_fnatic_wallpaper_height" android:layout_marginStart="@dimen/op_control_margin_space5" />
+                <ImageView android:background="@drawable/fnatic_mode_wallpaper_03" android:layout_width="@dimen/oneplus_fnatic_wallpaper_width" android:layout_height="@dimen/oneplus_fnatic_wallpaper_height" android:layout_marginStart="@dimen/op_control_margin_space5" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Button android:textColor="@color/fingerprint_title_color" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space9" android:text="@string/oneplus_fnatic_mode_add_to_wallpapers" android:layout_alignParentBottom="true" android:textAllCaps="true" android:layout_marginEnd="@dimen/op_control_margin_space9" android:layout_alignParentEnd="true" style="@style/OnePlus.DeviceDefault.Widget.Material.Button" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/fnatic_video_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_centerInParent="true" android:importantForAccessibility="noHideDescendants">
+        <com.android.settings.widget.AspectRatioFrameLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_fnatic_video_height">
+            <TextureView android:layout_gravity="center" android:id="@id/video_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/video_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </com.android.settings.widget.AspectRatioFrameLayout>
+    </LinearLayout>
+</RelativeLayout>

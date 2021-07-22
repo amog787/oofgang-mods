@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_car_charger_settings_title" android:key="oneplus_car_charger_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/oneplus_auto_turn_on_car_charger_title" android:key="car_charger_auto_turn_on" />
+    <SwitchPreference android:title="@string/oneplus_auto_turn_on_dnd" android:key="car_charger_auto_turn_on_dnd" />
+    <Preference android:title="@string/oneplus_auto_open_specified_app" android:key="auto_open_specified_app" android:summary="@string/oneplus_auto_open_app_none" />
+    <com.oneplus.settings.widget.OPFooterPreference />
+</PreferenceScreen>

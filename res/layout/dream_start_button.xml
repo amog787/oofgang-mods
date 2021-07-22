@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingTop="@dimen/op_control_margin_space7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center" android:id="@id/dream_start_now_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screensaver_settings_dream_start" android:layout_weight="1.0" />
+</LinearLayout>

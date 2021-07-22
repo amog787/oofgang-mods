@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/credentials_install"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <PreferenceCategory android:key="certificate_types">
+        <Preference android:title="@string/ca_certificate" android:key="install_ca_certificate">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.security.InstallCaCertificateWarning" />
+        </Preference>
+        <Preference android:title="@string/user_certificate" android:key="install_user_certificate">
+            <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL" android:targetClass="com.android.certinstaller.CertInstallerMain">
+                <extra android:name="certificate_install_usage" android:value="user" />
+            </intent>
+        </Preference>
+        <Preference android:title="@string/wifi_certificate" android:key="install_wifi_certificate">
+            <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL" android:targetClass="com.android.certinstaller.CertInstallerMain">
+                <extra android:name="certificate_install_usage" android:value="wifi" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/grid_item_img" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/mantle" android:background="@color/op_grid_item_background_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:layout_gravity="center|left|top" android:id="@id/grid_item_checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:layout_marginStart="@dimen/op_control_margin_space2" />
+</merge>

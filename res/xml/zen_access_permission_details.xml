@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/manage_zen_access_title" android:key="zen_access_permission_detail_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/zen_access_detail_switch" android:key="zen_access_switch" />
+</PreferenceScreen>

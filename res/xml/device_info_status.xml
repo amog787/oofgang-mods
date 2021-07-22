@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_status_activity_title" android:key="device_status_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:enabled="false" android:title="@string/battery_status_title" android:key="battery_status" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/battery_level_title" android:key="battery_level" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:title="@string/sim_status_title" android:key="sim_status">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SimStatusActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/imei_information_title" android:key="imei_info">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$ImeiInformationActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/wifi_advanced_ip_address_title" android:key="wifi_ip_address" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_wifi_mac_address" android:key="wifi_mac_address" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_bt_address" android:key="bt_address" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_serial_number" android:key="serial_number" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_up_time" android:key="up_time" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/ims_reg_title" android:key="ims_reg_state" android:shouldDisableView="false" />
+</PreferenceScreen>

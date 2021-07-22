@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/change_wifi_state_title" android:key="change_wifi_state"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/change_wifi_state_app_detail_switch" android:key="app_ops_settings_switch" />
+    <Preference android:selectable="false" android:key="app_ops_settings_preference" android:summary="@string/change_wifi_state_app_detail_summary" />
+</PreferenceScreen>

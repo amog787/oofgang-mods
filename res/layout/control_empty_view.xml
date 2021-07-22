@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/control_empty_space1" android:layout_width="fill_parent" android:layout_height="@dimen/control_empty_image_margin_top" />
+    <com.google.android.material.emptyview.EmptyImageView android:id="@id/empty_image" android:layout_width="@dimen/control_empty_image_width" android:layout_height="@dimen/control_empty_image_height" android:layout_marginBottom="@dimen/op_control_margin_space3" />
+    <View android:id="@id/empty_temp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/control_empty_temp_height" />
+    <TextView android:textAppearance="@style/op_control_text_style_h5" android:textColor="@color/op_control_text_color_primary_default" android:gravity="center" android:id="@id/empty_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space2" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    <TextView android:gravity="center" android:id="@id/empty_top_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="?smallBorderlessButtonStyle" />
+    <TextView android:gravity="center" android:id="@id/empty_middle_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="?smallBorderlessButtonStyle" />
+    <TextView android:gravity="center" android:id="@id/empty_bottom_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="?smallBorderlessButtonStyle" />
+</LinearLayout>

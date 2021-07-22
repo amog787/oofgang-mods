@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="270.0dip">
+        <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:id="@id/whatsnew_viewpager" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.viewpager.widget.PagerTitleStrip android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/pagertitle" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+        </androidx.viewpager.widget.ViewPager>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+                    <ImageView android:id="@id/page0" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/op_page_now" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/page1" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/op_page" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/page2" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/op_page" android:scaleType="fitXY" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_dashboard_tile_minimum_height">
+        <TextView android:textColor="@color/oneplus_settings_white" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_screen_better_cold" android:layout_marginStart="0.0dip" android:layout_toStartOf="@id/cb_bar" />
+        <SeekBar android:id="@id/cb_bar" android:layout_width="246.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/oneplus_settings_white" android:id="@id/end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_screen_better_warm" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/cb_bar" />
+    </RelativeLayout>
+    <View android:background="@color/oneplus_divider_fine" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <android.widget.Button android:textSize="@dimen/oneplus_settings_dashboard_tite_title_text_size" android:textColor="@color/oneplus_accent_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/reset" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="130.0dip" android:minWidth="50.0dip" android:text="@string/oneplus_screen_better_reset" />
+    </LinearLayout>
+</LinearLayout>

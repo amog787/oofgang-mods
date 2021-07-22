@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/op_system" android:key="system_category">
+        <SwitchPreference android:title="@string/timepower_power_on_title" android:key="accessibility_timer_startup_device" />
+        <PreferenceScreen android:title="@string/oneplus_timepower_power_on_title" android:key="accessibility_timer_startup_device_settings" android:fragment="com.android.settings.accessibility.CaptionPropertiesFragment" />
+        <SwitchPreference android:title="@string/timepower_power_off_title" android:key="accessibility_timer_shutdown_device" />
+        <PreferenceScreen android:title="@string/oneplus_timepower_power_off_title" android:key="accessibility_timer_shutdown_device_settings" android:fragment="com.oneplus.settings.timer.timepower.TimepowerSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,4430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accessibility_autoclick_control_selector_keys">
+        <item>accessibility_control_autoclick_default</item>
+        <item>accessibility_control_autoclick_200ms</item>
+        <item>accessibility_control_autoclick_600ms</item>
+        <item>accessibility_control_autoclick_1sec</item>
+        <item>accessibility_control_autoclick_custom</item>
+    </string-array>
+    <integer-array name="accessibility_autoclick_selector_values">
+        <item>0</item>
+        <item>200</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+    </integer-array>
+    <string-array name="accessibility_timeout_control_selector_keys">
+        <item>accessibility_control_timeout_default</item>
+        <item>accessibility_control_timeout_10secs</item>
+        <item>accessibility_control_timeout_30secs</item>
+        <item>accessibility_control_timeout_1min</item>
+        <item>accessibility_control_timeout_2mins</item>
+    </string-array>
+    <string-array name="accessibility_timeout_selector_values">
+        <item>0</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+    </string-array>
+    <string-array name="accessibility_timeout_summaries">
+        <item>@string/accessibility_timeout_default</item>
+        <item>@string/accessibility_timeout_10secs</item>
+        <item>@string/accessibility_timeout_30secs</item>
+        <item>@string/accessibility_timeout_1min</item>
+        <item>@string/accessibility_timeout_2mins</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP or CHAP</item>
+    </string-array>
+    <string-array name="apn_auth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="apn_protocol_values">
+        <item>IP</item>
+        <item>IPV6</item>
+        <item>IPV4V6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Internal device storage</item>
+        <item>Removable SD card</item>
+        <item>Let the system decide</item>
+    </string-array>
+    <string-array name="app_install_location_values">
+        <item>device</item>
+        <item>sdcard</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Location</item>
+        <item>Personal</item>
+        <item>Messaging</item>
+        <item>Media</item>
+        <item>Device</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Location</item>
+        <item>Location</item>
+        <item>Location</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contacts</item>
+        <item>Read call log</item>
+        <item>Modify call log</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Location</item>
+        <item>Post notification</item>
+        <item>Location</item>
+        <item>Call phone</item>
+        <item>Read SMS/MMS</item>
+        <item>Write SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Send SMS/MMS</item>
+        <item>Read SMS/MMS</item>
+        <item>Write SMS/MMS</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>Camera</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Media buttons</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Voice volume</item>
+        <item>Ring volume</item>
+        <item>Media volume</item>
+        <item>Alarm volume</item>
+        <item>Notification volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Location</item>
+        <item>Location</item>
+        <item>Get usage stats</item>
+        <item>Mute/unmute microphone</item>
+        <item>Show toast</item>
+        <item>Project media</item>
+        <item>Activate VPN</item>
+        <item>Write wallpaper</item>
+        <item>Assist structure</item>
+        <item>Assist screenshot</item>
+        <item>Read phone state</item>
+        <item>Add voicemail</item>
+        <item>Use sip</item>
+        <item>Process outgoing call</item>
+        <item>Fingerprint</item>
+        <item>Body sensors</item>
+        <item>Read cell broadcasts</item>
+        <item>Mock location</item>
+        <item>Read storage</item>
+        <item>Write storage</item>
+        <item>Turn on screen</item>
+        <item>Get accounts</item>
+        <item>Run in background</item>
+        <item>Accessibility volume</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>coarse location</item>
+        <item>fine location</item>
+        <item>GPS</item>
+        <item>vibrate</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>read call log</item>
+        <item>modify call log</item>
+        <item>read calendar</item>
+        <item>modify calendar</item>
+        <item>wi-fi scan</item>
+        <item>notification</item>
+        <item>cell scan</item>
+        <item>call phone</item>
+        <item>read SMS</item>
+        <item>write SMS</item>
+        <item>receive SMS</item>
+        <item>receive emergency SMS</item>
+        <item>receive MMS</item>
+        <item>receive WAP push</item>
+        <item>send SMS</item>
+        <item>read ICC SMS</item>
+        <item>write ICC SMS</item>
+        <item>modify settings</item>
+        <item>draw on top</item>
+        <item>access notifications</item>
+        <item>camera</item>
+        <item>record audio</item>
+        <item>play audio</item>
+        <item>read clipboard</item>
+        <item>modify clipboard</item>
+        <item>media buttons</item>
+        <item>audio focus</item>
+        <item>master volume</item>
+        <item>voice volume</item>
+        <item>ring volume</item>
+        <item>media volume</item>
+        <item>alarm volume</item>
+        <item>notification volume</item>
+        <item>bluetooth volume</item>
+        <item>keep awake</item>
+        <item>monitor location</item>
+        <item>monitor high power location</item>
+        <item>get usage stats</item>
+        <item>mute/unmute microphone</item>
+        <item>show toast</item>
+        <item>project media</item>
+        <item>activate VPN</item>
+        <item>write wallpaper</item>
+        <item>assist structure</item>
+        <item>assist screenshot</item>
+        <item>read phone state</item>
+        <item>add voicemail</item>
+        <item>use sip</item>
+        <item>process outgoing call</item>
+        <item>fingerprint</item>
+        <item>body sensors</item>
+        <item>read cell broadcasts</item>
+        <item>mock location</item>
+        <item>read storage</item>
+        <item>write storage</item>
+        <item>turn on screen</item>
+        <item>get accounts</item>
+        <item>run in background</item>
+        <item>accessibility volume</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard limit</item>
+        <item>No background processes</item>
+        <item>At most 1 process</item>
+        <item>At most 2 processes</item>
+        <item>At most 3 processes</item>
+        <item>At most 4 processes</item>
+    </string-array>
+    <string-array name="app_process_limit_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="auto_activate_mode">
+        <item>@string/oneplus_never_auto</item>
+        <item>@string/oneplus_sunrise_sunset</item>
+        <item>@string/oneplus_custom_time</item>
+    </string-array>
+    <string-array name="auto_activate_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Off</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
+    <string-array name="autofill_logging_level_values">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Over 30 days old</item>
+        <item>Over 60 days old</item>
+        <item>Over 90 days old</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days_values">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="background_activity_option_filter">
+        <item>com.oneplus.soundrecorder</item>
+        <item>com.oneplus.filemanager</item>
+        <item>net.oneplus.widget</item>
+        <item>net.oneplus.weather</item>
+        <item>cn.oneplus.photos</item>
+        <item>com.oneplus.calculator</item>
+        <item>com.oneplus.dirac.simplemanager</item>
+        <item>com.oneplus.opbackup</item>
+        <item>com.oneplus.deskclock</item>
+        <item>com.android.providers.settings</item>
+        <item>com.android.settings</item>
+        <item>com.oneplus.security</item>
+        <item>com.oneplus.calendar</item>
+        <item>com.oneplus.cloud</item>
+        <item>com.oneplus.appupgrader</item>
+        <item>com.oneplus.account</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.oneplus.note</item>
+        <item>com.oneplus.card</item>
+        <item>com.oneplus.calendar</item>
+        <item>com.oneplus.provision</item>
+        <item>com.oneplus.setupwizard</item>
+        <item>net.oneplus.push</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <integer-array name="battery_saver_trigger_values">
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>50</item>
+        <item>100</item>
+    </integer-array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>?android:colorError</item>
+        <item>@android:color/white</item>
+    </array>
+    <integer-array name="batterymeter_plus_points">
+        <item>3</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="bearer_entries">
+        <item>Unspecified</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+        <item>NR</item>
+    </string-array>
+    <string-array name="bearer_values">
+        <item>0</item>
+        <item>14</item>
+        <item>15</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>13</item>
+        <item>12</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="bed_time_mode_auto_activate">
+        <item>@string/oneplus_never_auto</item>
+        <item>@string/oneplus_custom_time</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_values">
+        <item>1000000</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, active</item>
+        <item>, active (media)</item>
+        <item>, active (phone)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Use System Default: %1$d</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices_values">
+        <item></item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>1 hour</item>
+        <item>Never time out</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Disabled</item>
+        <item>Enabled Filtered</item>
+        <item>Enabled</item>
+        <item>Enabled Headers Filtered</item>
+        <item>Enabled Media Pkts Filtered</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_values">
+        <item>disabled</item>
+        <item>filtered</item>
+        <item>full</item>
+        <item>snoopheadersfiltered</item>
+        <item>mediapktsfiltered</item>
+    </string-array>
+    <array name="bt_icon_bg_colors">
+        <item>@color/bt_color_bg_1</item>
+        <item>@color/bt_color_bg_2</item>
+        <item>@color/bt_color_bg_3</item>
+        <item>@color/bt_color_bg_4</item>
+        <item>@color/bt_color_bg_5</item>
+        <item>@color/bt_color_bg_6</item>
+        <item>@color/bt_color_bg_7</item>
+    </array>
+    <array name="bt_icon_fg_colors">
+        <item>@color/bt_color_icon_1</item>
+        <item>@color/bt_color_icon_2</item>
+        <item>@color/bt_color_icon_3</item>
+        <item>@color/bt_color_icon_4</item>
+        <item>@color/bt_color_icon_5</item>
+        <item>@color/bt_color_icon_6</item>
+        <item>@color/bt_color_icon_7</item>
+    </array>
+    <array name="bytes_picker_sizes">
+        <item>@android:string/mime_type_audio_ext</item>
+        <item>@android:string/global_action_toggle_silent_mode</item>
+    </array>
+    <string-array name="cached_apps_freezer_entries">
+        <item>@string/cached_apps_freezer_device_default</item>
+        <item>@string/cached_apps_freezer_enabled</item>
+        <item>@string/cached_apps_freezer_disabled</item>
+    </string-array>
+    <string-array name="cached_apps_freezer_values">
+        <item>device_default</item>
+        <item>enabled</item>
+        <item>disabled</item>
+    </string-array>
+    <string-array name="captioning_color_selector_titles">
+        <item>@string/color_unspecified</item>
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+        <item>@string/color_red</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_green</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_magenta</item>
+    </string-array>
+    <integer-array name="captioning_color_selector_values">
+        <item>0x00FFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFF000000</item>
+        <item>0xFFFF0000</item>
+        <item>0xFFFFFF00</item>
+        <item>0xFF00FF00</item>
+        <item>0xFF00FFFF</item>
+        <item>0xFF0000FF</item>
+        <item>0xFFFF00FF</item>
+        <item>0xFF000055</item>
+        <item>0xFF0000AA</item>
+        <item>0xFF005500</item>
+        <item>0xFF005555</item>
+        <item>0xFF0055AA</item>
+        <item>0xFF0055FF</item>
+        <item>0xFF00AA00</item>
+        <item>0xFF00AA55</item>
+        <item>0xFF00AAAA</item>
+        <item>0xFF00AAFF</item>
+        <item>0xFF00FF55</item>
+        <item>0xFF00FFAA</item>
+        <item>0xFF550000</item>
+        <item>0xFF550055</item>
+        <item>0xFF5500AA</item>
+        <item>0xFF5500FF</item>
+        <item>0xFF555500</item>
+        <item>0xFF555555</item>
+        <item>0xFF5555AA</item>
+        <item>0xFF5555FF</item>
+        <item>0xFF55AA00</item>
+        <item>0xFF55AA55</item>
+        <item>0xFF55AAAA</item>
+        <item>0xFF55AAFF</item>
+        <item>0xFF55FF00</item>
+        <item>0xFF55FF55</item>
+        <item>0xFF55FFAA</item>
+        <item>0xFF55FFFF</item>
+        <item>0xFFAA0000</item>
+        <item>0xFFAA0055</item>
+        <item>0xFFAA00AA</item>
+        <item>0xFFAA00FF</item>
+        <item>0xFFAA5500</item>
+        <item>0xFFAA5555</item>
+        <item>0xFFAA55AA</item>
+        <item>0xFFAA55FF</item>
+        <item>0xFFAAAA00</item>
+        <item>0xFFAAAA55</item>
+        <item>0xFFAAAAAA</item>
+        <item>0xFFAAAAFF</item>
+        <item>0xFFAAFF00</item>
+        <item>0xFFAAFF55</item>
+        <item>0xFFAAFFAA</item>
+        <item>0xFFAAFFFF</item>
+        <item>0xFFFF0055</item>
+        <item>0xFFFF00AA</item>
+        <item>0xFFFF5500</item>
+        <item>0xFFFF5555</item>
+        <item>0xFFFF55AA</item>
+        <item>0xFFFF55FF</item>
+        <item>0xFFFFAA00</item>
+        <item>0xFFFFAA55</item>
+        <item>0xFFFFAAAA</item>
+        <item>0xFFFFAAFF</item>
+        <item>0xFFFFFF55</item>
+        <item>0xFFFFFFAA</item>
+    </integer-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Default</item>
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+    </string-array>
+    <integer-array name="captioning_edge_type_selector_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>Very small text size</item>
+        <item>Small text size</item>
+        <item>Default text size</item>
+        <item>Large text size</item>
+        <item>Very large text size</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Default</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_values">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <integer-array name="captioning_opacity_selector_values">
+        <item>0x40FFFFFF</item>
+        <item>0x80FFFFFF</item>
+        <item>0xC0FFFFFF</item>
+        <item>0xFFFFFFFF</item>
+    </integer-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Set by app</item>
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Yellow on blue</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="captioning_preset_selector_values">
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>-1</item>
+    </integer-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Default</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_values">
+        <item></item>
+        <item>sans-serif</item>
+        <item>sans-serif-condensed</item>
+        <item>sans-serif-monospace</item>
+        <item>serif</item>
+        <item>serif-monospace</item>
+        <item>casual</item>
+        <item>cursive</item>
+        <item>sans-serif-smallcaps</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Home only</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="cdma_system_select_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Enhanced colors</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </string-array>
+    <integer-array name="color_mode_ids">
+        <item>0</item>
+        <item>-1</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Teal</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Red</item>
+    </string-array>
+    <integer-array name="config_5g_signal_rsrp_thresholds">
+        <item>-110</item>
+        <item>-90</item>
+        <item>-80</item>
+        <item>-30</item>
+    </integer-array>
+    <integer-array name="config_5g_signal_snr_thresholds">
+        <item>-5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+    </integer-array>
+    <array name="config_order_audio_and_caption_services" />
+    <array name="config_order_display_services" />
+    <array name="config_order_interaction_control_services" />
+    <array name="config_order_screen_reader_services" />
+    <string-array name="config_panel_keep_observe_uri">
+        <item>content://com.android.settings.slices/intent/media_output_indicator</item>
+    </string-array>
+    <array name="config_preinstalled_audio_and_caption_services" />
+    <array name="config_preinstalled_display_services" />
+    <array name="config_preinstalled_interaction_control_services" />
+    <array name="config_preinstalled_screen_reader_services" />
+    <array name="config_settings_slices_accessibility_components" />
+    <string-array name="config_skip_reset_apps_package_name">
+        <item>android</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.systemui</item>
+        <item>com.android.vending</item>
+    </string-array>
+    <array name="config_suppress_injected_tile_keys" />
+    <string-array name="custom_wifi_tether_security">
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_open</item>
+    </string-array>
+    <string-array name="daltonizer_mode_keys">
+        <item>daltonizer_mode_deuteranomaly</item>
+        <item>daltonizer_mode_protanomaly</item>
+        <item>daltonizer_mode_tritanomaly</item>
+    </string-array>
+    <string-array name="daltonizer_mode_summaries">
+        <item>@string/daltonizer_mode_deuteranomaly</item>
+        <item>@string/daltonizer_mode_protanomaly</item>
+        <item>@string/daltonizer_mode_tritanomaly</item>
+    </string-array>
+    <integer-array name="daltonizer_type_values">
+        <item>12</item>
+        <item>11</item>
+        <item>13</item>
+    </integer-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="dark_ui_mode_values">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="dark_ui_scheduler_preference_titles">
+        <item>@string/oneplus_never_auto</item>
+        <item>@string/oneplus_sunrise_sunset</item>
+        <item>@string/oneplus_custom_time</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Last 30 days</item>
+        <item>Set usage cycle...</item>
+    </string-array>
+    <string-array name="datausage_locale_operator_names">
+        <item>China_Mobile</item>
+        <item>China_Mobile</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Unicom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Telecom</item>
+        <item>China_Telecom</item>
+        <item>Far_EasTone</item>
+        <item>Far_EasTone</item>
+        <item>T_Star</item>
+        <item>T_Star</item>
+        <item>Chunghwa_Telecom</item>
+        <item>Chunghwa_Telecom</item>
+        <item>TW_Mobile</item>
+        <item>TW_Mobile</item>
+        <item>GT_4G</item>
+        <item>China_Tietong</item>
+    </string-array>
+    <string-array name="datausage_original_operator_names">
+        <item>"CHINA  MOBILE"</item>
+        <item>CHINA MOBILE — CMCC</item>
+        <item>CMCC</item>
+        <item>CHN-UNICOM</item>
+        <item>UNICOM</item>
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+        <item>中國移動</item>
+        <item>中國聯通</item>
+        <item>中國電信</item>
+        <item>CHN-CT</item>
+        <item>CT</item>
+        <item>Far EasTone</item>
+        <item>FET</item>
+        <item>T Star</item>
+        <item>VIBO</item>
+        <item>Chunghwa Telecom</item>
+        <item>Chunghwa</item>
+        <item>TW Mobile</item>
+        <item>TWM</item>
+        <item>GT 4G</item>
+        <item>China Tietong</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for Deuteranomaly</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_values">
+        <item>false</item>
+        <item>show</item>
+        <item>show_deuteranomaly</item>
+    </string-array>
+    <string-array name="disallowed_apps_managed_profile">
+        <item>net.oneplus.launcher</item>
+        <item>net.oneplus.h2launcher</item>
+    </string-array>
+    <string-array name="double_click_items">
+        <item>@string/earphone_function_control_play_pause</item>
+        <item>@string/earphone_function_listening_breeno</item>
+        <item>@string/earphone_function_control_last_song</item>
+        <item>@string/earphone_function_control_next_song</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Never</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="dream_timeout_values">
+        <item>0</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>Do not validate</item>
+        <item>Request certificate status</item>
+        <item>Require certificate status</item>
+        <item>Require all non-trusted certificate statuses</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_values">
+        <item>0</item>
+        <item>1</item>
+        <item>systrace</item>
+        <item>error</item>
+    </string-array>
+    <string-array name="enabled_networks_4g_choices">
+        <item>@string/network_4G</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_choices">
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_1x</item>
+        <item>@string/network_global</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_no_lte_choices">
+        <item>@string/network_3G</item>
+        <item>@string/network_1x</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_no_lte_values">
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_only_lte_choices">
+        <item>@string/network_lte</item>
+        <item>@string/network_global</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_only_lte_values">
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="enabled_networks_cdma_values">
+        <item>8</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="enabled_networks_choices">
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_4g_choices">
+        <item>@string/network_4G</item>
+        <item>@string/network_3G</item>
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_choices">
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_lte_choices">
+        <item>@string/network_3G</item>
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_lte_values">
+        <item>0</item>
+    </string-array>
+    <string-array name="enabled_networks_except_gsm_values">
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="enabled_networks_except_lte_choices">
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </string-array>
+    <string-array name="enabled_networks_except_lte_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="enabled_networks_gsm_wcdma_choices">
+        <item>@string/network_2G_only</item>
+        <item>@string/network_3G_only</item>
+        <item>@string/network_2G_3G_preferred</item>
+    </string-array>
+    <string-array name="enabled_networks_gsm_wcdma_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="enabled_networks_subsidy_locked_choices">
+        <item>LTE Only</item>
+        <item>GSM/WCDMA/LTE</item>
+    </string-array>
+    <string-array name="enabled_networks_subsidy_locked_values">
+        <item>11</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="enabled_networks_tdscdma_choices">
+        <item>@string/network_lte</item>
+        <item>@string/network_3G</item>
+        <item>@string/network_2G</item>
+    </string-array>
+    <string-array name="enabled_networks_tdscdma_values">
+        <item>22</item>
+        <item>18</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="enabled_networks_values">
+        <item>9</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="enhanced_4g_lte_mode_sumary_variant">
+        <item>@string/enhanced_4g_lte_mode_summary</item>
+        <item>@string/enhanced_4g_lte_mode_summary</item>
+        <item>@string/enhanced_4g_lte_mode_summary_4g_calling</item>
+    </string-array>
+    <string-array name="enhanced_4g_lte_mode_title_variant">
+        <item>@string/enhanced_4g_lte_mode_title</item>
+        <item>@string/enhanced_4g_lte_mode_title_advanced_calling</item>
+        <item>@string/enhanced_4g_lte_mode_title_4g_calling</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Small</item>
+        <item>Default</item>
+        <item>Large</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="entryvalues_font_size">
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
+    </string-array>
+    <string-array name="firewall_rule_items">
+        <item>@string/firewall_rule_allow</item>
+        <item>@string/firewall_rule_forbid</item>
+        <item>@string/firewall_rule_wlan_only</item>
+        <item>@string/firewall_rule_data_only</item>
+    </string-array>
+    <string-array name="forum_contributors_h2">
+        <item>wanxjj</item>
+        <item>溱洧之饥</item>
+        <item>Amorfati</item>
+        <item>情从何起</item>
+        <item>一个被迫改名的嗯哼</item>
+        <item>枪帅VS霸王枪</item>
+        <item>lj516330</item>
+        <item>森林狼</item>
+        <item>Durance</item>
+        <item>teddy917</item>
+        <item>人艰不拆</item>
+        <item>岷县任</item>
+        <item>韶山段少</item>
+        <item>漩涡科小比</item>
+        <item>倪瑞祥在江湖</item>
+        <item>啊维维</item>
+        <item>GaryWong</item>
+        <item>往事如风</item>
+        <item>萨月</item>
+        <item>小小落叶</item>
+        <item>秋天的阿苗</item>
+        <item>刘阿邦</item>
+        <item>紫陌城东</item>
+        <item>柯南007</item>
+        <item>xwxmrw</item>
+        <item>陈贝贝</item>
+        <item>叮叮叮</item>
+        <item>CharMe</item>
+        <item>年糕</item>
+        <item>娑娜小仙女</item>
+        <item>米路路</item>
+        <item>veinmin</item>
+        <item>alexyin1984</item>
+        <item>哥兜兜有棉花糖</item>
+        <item>猫本一</item>
+        <item>JimQin75</item>
+        <item>宁静之雨</item>
+        <item>我一笑而过</item>
+        <item>黙黙黙</item>
+        <item>加油常在</item>
+        <item>Emeno</item>
+        <item>青岛粉丝</item>
+        <item>晏郗</item>
+        <item>李大人</item>
+        <item>稻香seeyou</item>
+        <item>初见ol</item>
+        <item>涩虫_Beta</item>
+        <item>hello西城</item>
+        <item>划火柴的欠小孩</item>
+        <item>阿卡.Carson</item>
+        <item>好雄的</item>
+        <item>savannapan</item>
+        <item>眼睛想旅行</item>
+        <item>Alex小友</item>
+        <item>天别再黑</item>
+        <item>R907</item>
+        <item>肥仔米</item>
+        <item>冷亦难</item>
+        <item>科技小宇</item>
+        <item>Eliver_Sun</item>
+        <item>异域行者</item>
+        <item>帅帅帅帅帅</item>
+        <item>stonechou</item>
+        <item>Xw_</item>
+        <item>低调的陈大宝</item>
+        <item>小柯_</item>
+        <item>后辛鱼</item>
+        <item>AdiD</item>
+        <item>XupperBin</item>
+        <item>pengsg</item>
+        <item>玖天云</item>
+        <item>李李好好人人</item>
+        <item>jizhia</item>
+        <item>Geek启程</item>
+        <item>ALiar</item>
+    </string-array>
+    <string-array name="forum_contributors_o2">
+        <item>Never_Settle</item>
+        <item>Shivang Joshi</item>
+        <item>pillow35</item>
+        <item>Adam Krisko</item>
+        <item>Alvie</item>
+        <item>DRCH</item>
+        <item>rarog</item>
+        <item>inffy</item>
+        <item>maccamania</item>
+        <item>An.I.Am</item>
+        <item>drmartin</item>
+        <item>gaster</item>
+        <item>mojoyoyo77</item>
+        <item>Mark Falsing</item>
+        <item>noquarter</item>
+        <item>PVS Kharoud</item>
+        <item>youbi</item>
+        <item>Pablomoreno</item>
+        <item>superplus</item>
+        <item>OALEXANDER</item>
+        <item>Keithnyc</item>
+        <item>camohan</item>
+        <item>Pikota</item>
+        <item>ɢноѕтΘпе</item>
+        <item>Gav_W86</item>
+        <item>Cheetosdust</item>
+        <item>Plenkske</item>
+        <item>Pablofg1978</item>
+        <item>Script</item>
+        <item>dsmonteiro</item>
+        <item>K3MN1K</item>
+        <item>Fabio.Mar</item>
+        <item>Reivon Choccoli</item>
+        <item>sun90</item>
+        <item>gusuraman</item>
+        <item>Maximus Decimus Meridius</item>
+        <item>Baymax</item>
+        <item>Rediwed</item>
+        <item>qu4nd</item>
+        <item>Jkb114</item>
+        <item>idkwhoiam322</item>
+        <item>Jacob_DK</item>
+        <item>Rob W</item>
+        <item>HFPS</item>
+        <item>pdnked</item>
+        <item>rushilandrews</item>
+        <item>Aathif_Mahir</item>
+        <item>atindra26</item>
+        <item>manuel19</item>
+        <item>EpicLPer</item>
+        <item>jejehtc</item>
+        <item>MatteoFilisina</item>
+        <item>TheAvengingTITAN</item>
+        <item>Bast07</item>
+        <item>Ash645</item>
+        <item>Wissou050987</item>
+        <item>Discobol1</item>
+        <item>alogim</item>
+        <item>fonzobreaker</item>
+        <item>rajendra_1903</item>
+        <item>Tiagoesbastos</item>
+        <item>Evokkimus</item>
+        <item>PLPeeters</item>
+        <item>Son_Gotenks69</item>
+        <item>_Yash_Iyer</item>
+        <item>smoki3</item>
+        <item>aritzherrero</item>
+        <item>woutie3000</item>
+        <item>obakesan</item>
+        <item>friday051</item>
+        <item>locxFIN</item>
+        <item>Luke-S</item>
+        <item>ElfStone</item>
+        <item>SpaZioMilano</item>
+        <item>kekskruemel</item>
+        <item>Nils Kröger</item>
+        <item>JeJe007</item>
+        <item>jaywiseman</item>
+        <item>danielmajer</item>
+        <item>dmtsilva81</item>
+        <item>Subhasis.M</item>
+        <item>vaisakh7</item>
+        <item>Bartnl</item>
+        <item>petro pakarinen</item>
+        <item>Patschi</item>
+        <item>androholicrizzy</item>
+        <item>AzrielK</item>
+        <item>hkumar76</item>
+        <item>J0han</item>
+        <item>drumil17</item>
+        <item>herna</item>
+        <item>_davidpilar</item>
+        <item>gokulbalram</item>
+        <item>manish_ks</item>
+        <item>wesleywood2412</item>
+        <item>sommino</item>
+        <item>jartukovic</item>
+        <item>Kaptainen</item>
+        <item>ariblaze</item>
+        <item>HigePT</item>
+        <item>PankajS</item>
+        <item>MarkoBatrac</item>
+        <item>otto2</item>
+        <item>\@Omer</item>
+        <item>AnixOpz</item>
+        <item>Salt505</item>
+        <item>Meet Gohil</item>
+        <item>Hydra Bob</item>
+        <item>Horsault</item>
+        <item>repsakasper</item>
+        <item>Hanson Lee</item>
+        <item>Alecksander</item>
+        <item>miky.greo</item>
+        <item>schiv</item>
+        <item>agoinfly</item>
+        <item>Celsius 35</item>
+        <item>AIT-Solutions</item>
+        <item>Omkar.Narvekar</item>
+        <item>N1TeSH1FT</item>
+        <item>Funk Wizard</item>
+        <item>ming3r</item>
+        <item>Bast07</item>
+        <item>jpswer</item>
+        <item>spillow35</item>
+        <item>Android450</item>
+        <item>SoniaB</item>
+        <item>Oytoch</item>
+        <item>m2b999</item>
+        <item>nmatheis</item>
+        <item>AnuiBay</item>
+        <item>Liehjan</item>
+        <item>animeshdinda</item>
+        <item>Aashish Bhatia</item>
+        <item>CaptRosh</item>
+        <item>JRinPA</item>
+        <item>Abh1sh3k</item>
+        <item>nimeet</item>
+        <item>Jitesh Saitawadekar</item>
+        <item>xaser240</item>
+        <item>Gaston NP</item>
+        <item>alexhpeterson</item>
+        <item>vasu97</item>
+        <item>pigmeej</item>
+        <item>TheMurtuza</item>
+        <item>robomrburns</item>
+        <item>bronderb</item>
+        <item>JorgeDiesel</item>
+        <item>jlasensiofi</item>
+        <item>Nirgale</item>
+        <item>Killiaan</item>
+        <item>GoldenBoyRB</item>
+        <item>RajGopi</item>
+        <item>huxley1t</item>
+        <item>puma95</item>
+        <item>Lavin A.</item>
+        <item>bisim</item>
+        <item>Megatron007</item>
+        <item>MikeG247</item>
+        <item>Maxence R.</item>
+        <item>sud.vastav</item>
+        <item>evil_pro</item>
+        <item>sam9908</item>
+        <item>sakearzoo</item>
+        <item>Vito</item>
+        <item>WTFHSF</item>
+        <item>karlog_na</item>
+        <item>saatvikshukla</item>
+        <item>Va_Run_007</item>
+        <item>ZhaiJack</item>
+        <item>HatriGt</item>
+        <item>theincredible</item>
+        <item>vcostantino_eu</item>
+        <item>lemonhater</item>
+        <item>ujwalp15</item>
+        <item>dresa91</item>
+        <item>\@gautamhans1</item>
+        <item>\@kireetivarma</item>
+        <item>Andrew_Z</item>
+        <item>\@aufdiecouch</item>
+        <item>\@obol2</item>
+        <item>GopalB.</item>
+        <item>Its.Leandroo</item>
+        <item>JustASoftwareEngineer</item>
+        <item>Kar7hik</item>
+        <item>Batman360</item>
+        <item>TiramisuNY</item>
+    </string-array>
+    <string-array name="gesture_prevent_ringing_entries">
+        <item>@string/prevent_ringing_option_vibrate</item>
+        <item>@string/prevent_ringing_option_mute</item>
+        <item>@string/prevent_ringing_option_none</item>
+    </string-array>
+    <string-array name="gesture_prevent_ringing_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="graphics_driver_all_apps_preference_values">
+        <item>@string/graphics_driver_app_preference_default</item>
+        <item>@string/graphics_driver_app_preference_game_driver</item>
+        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
+    </string-array>
+    <string-array name="graphics_driver_app_preference_values">
+        <item>@string/graphics_driver_app_preference_default</item>
+        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
+        <item>@string/graphics_driver_app_preference_game_driver</item>
+        <item>@string/graphics_driver_app_preference_system</item>
+    </string-array>
+    <string-array name="hardware_keys_action_entries">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_recents</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_camera</item>
+        <item>@string/hardware_keys_action_voice_search</item>
+        <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="hardware_keys_action_entries_nogms">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_recents</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_camera</item>
+        <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="hardware_keys_action_entries_nogms_quickpay">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_recents</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_camera</item>
+        <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+        <item>@string/oneplus_quickpay</item>
+    </string-array>
+    <string-array name="hardware_keys_action_entries_quickpay">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_recents</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_camera</item>
+        <item>@string/hardware_keys_action_voice_search</item>
+        <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+        <item>@string/oneplus_quickpay</item>
+    </string-array>
+    <string-array name="hardware_keys_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="hardware_keys_action_values_nogms">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="hardware_keys_action_values_nogms_quickpay">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="hardware_keys_action_values_quickpay">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Never use HDCP checking</item>
+        <item>Use HDCP checking for DRM content only</item>
+        <item>Always use HDCP checking</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="incoming_call_vibrate_mode">
+        <item>@string/oneplus_rhythm_1</item>
+        <item>@string/oneplus_rhythm_2</item>
+        <item>@string/oneplus_rhythm_3</item>
+        <item>@string/oneplus_rhythm_4</item>
+        <item>@string/oneplus_rhythm_5</item>
+    </string-array>
+    <string-array name="incoming_call_vibrate_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="incoming_call_x_vibrate_mode">
+        <item>@string/oneplus_vibrate_dynamic_mode</item>
+        <item>@string/oneplus_rhythm_1</item>
+        <item>@string/oneplus_rhythm_2</item>
+        <item>@string/oneplus_rhythm_3</item>
+        <item>@string/oneplus_rhythm_4</item>
+        <item>@string/oneplus_rhythm_5</item>
+    </string-array>
+    <string-array name="incoming_call_x_vibrate_mode_values">
+        <item>5</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
+    </string-array>
+    <string-array name="input_method_selector_values">
+        <item>@string/input_method_selector_show_automatically_value</item>
+        <item>@string/input_method_selector_always_show_value</item>
+        <item>@string/input_method_selector_always_hide_value</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Immediately</item>
+        <item>5 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="lock_after_timeout_values">
+        <item>0</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_values">
+        <item>400</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string-array name="magnification_mode_summaries">
+        <item>@string/accessibility_magnification_area_settings_full_screen_summary</item>
+        <item>@string/accessibility_magnification_area_settings_window_screen_summary</item>
+        <item>@string/accessibility_magnification_area_settings_all_summary</item>
+    </string-array>
+    <integer-array name="magnification_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="mvno_type_entries">
+        <item>None</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </string-array>
+    <string-array name="mvno_type_values">
+        <item></item>
+        <item>spn</item>
+        <item>imsi</item>
+        <item>gid</item>
+        <item>iccid</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_entries">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_voice_search</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_entries_nogms">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_entries_nogms_quickpay">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_entries_quickpay">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_assist</item>
+        <item>@string/hardware_keys_action_turn_off_screen</item>
+        <item>@string/hardware_keys_action_voice_search</item>
+        <item>@string/hardware_keys_action_shelf</item>
+        <item>@string/hardware_keys_action_notification_center</item>
+        <item>@string/oneplus_hardware_keys_action_split_screen</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_values_nogms">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_values_nogms_quickpay">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="navigation_bar_keys_action_values_quickpay">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="oneplus_19_2nd_projects">
+        <item>@string/oneplus_oneplus_model_ee145</item>
+    </string-array>
+    <string-array name="oneplus_battery_style_entries">
+        <item>@string/battery_bar</item>
+        <item>@string/battery_circle</item>
+        <item>@string/battery_hidden</item>
+    </string-array>
+    <string-array name="oneplus_battery_style_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="oneplus_bluetooth_audio_codec">
+        <item>@string/oneplus_bluetooth_aptx_hd</item>
+        <item>@string/oneplus_bluetooth_aptX</item>
+        <item>@string/oneplus_bluetooth_sbc</item>
+    </string-array>
+    <string-array name="oneplus_bluetooth_audio_codec_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="oneplus_cannot_disable_package" />
+    <string-array name="oneplus_font_style_support_language">
+        <item>af</item>
+        <item>ca</item>
+        <item>zh</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>en</item>
+        <item>id-in</item>
+        <item>it</item>
+        <item>ms</item>
+        <item>nb</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>sw</item>
+    </string-array>
+    <string-array name="oneplus_gaming_mode_game_battery_saver_entries">
+        <item>@string/oneplus_gaming_mode_game_battery_saver_close</item>
+        <item>@string/oneplus_gaming_mode_game_battery_saver_light</item>
+        <item>@string/oneplus_gaming_mode_game_battery_saver_high</item>
+    </string-array>
+    <string-array name="oneplus_gaming_mode_game_battery_saver_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="oneplus_guacamole_lift_camera_project">
+        <item>@string/oneplus_oneplus_model_18821_for_cn</item>
+        <item>@string/oneplus_oneplus_model_18821_for_in</item>
+        <item>@string/oneplus_oneplus_model_18821_for_eu</item>
+        <item>@string/oneplus_oneplus_model_18821_for_us</item>
+        <item>@string/oneplus_oneplus_model_18831_for_us</item>
+        <item>@string/oneplus_oneplus_model_18827_for_eu</item>
+        <item>@string/oneplus_oneplus_model_18825_for_us</item>
+        <item>@string/oneplus_oneplus_model_19803_for_cn</item>
+    </string-array>
+    <string-array name="oneplus_guacamole_project">
+        <item>@string/oneplus_oneplus_model_18821_for_cn</item>
+        <item>@string/oneplus_oneplus_model_18821_for_in</item>
+        <item>@string/oneplus_oneplus_model_18821_for_eu</item>
+        <item>@string/oneplus_oneplus_model_18821_for_us</item>
+        <item>@string/oneplus_oneplus_model_18831_for_us</item>
+        <item>@string/oneplus_oneplus_model_18857_for_cn</item>
+        <item>@string/oneplus_oneplus_model_18857_for_in</item>
+        <item>@string/oneplus_oneplus_model_18857_for_eu</item>
+        <item>@string/oneplus_oneplus_model_18857_for_us</item>
+        <item>@string/oneplus_oneplus_model_18827_for_eu</item>
+        <item>@string/oneplus_oneplus_model_18825_for_us</item>
+        <item>@string/oneplus_oneplus_model_19803_for_cn</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company">
+        <item>高德软件有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>北京新浪互联信息服务有限公司</item>
+        <item>上海携程商务有限公司</item>
+        <item>北京三快科技有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>上海阅文信息技术有限公司</item>
+        <item>支付宝（中国）网络技术有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>Google Inc.</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_19811">
+        <item>杭州乐读科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>携程计算机技术（上海）有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>优视科技（中国）有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>掌阅科技股份有限公司</item>
+        <item>北京达佳互联信息技术有限公司</item>
+        <item>汉海信息技术（上海）有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>五八同城信息技术有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>东方财富信息股份有限公司</item>
+        <item>支付宝（杭州）信息技术有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_19821">
+        <item>杭州乐读科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>深圳市欢太科技有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>北京趣拿软件科技有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>优视科技（中国）有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>掌阅科技股份有限公司</item>
+        <item>北京达佳互联信息技术有限公司</item>
+        <item>汉海信息技术（上海）有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>五八同城信息技术有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>东方财富信息股份有限公司</item>
+        <item>支付宝（杭州）信息技术有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_5_5T">
+        <item>广东欢太科技有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>北京新浪互联信息服务有限公司</item>
+        <item>上海携程商务有限公司</item>
+        <item>北京三快科技有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>上海阅文信息技术有限公司</item>
+        <item>支付宝（中国）网络技术有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>Google Inc.</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>Google Inc</item>
+        <item>Google Inc</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_fat">
+        <item>掌阅科技股份有限公司</item>
+        <item>广东欢太科技有限公司</item>
+        <item>网易（杭州）网络有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>优视科技（中国）有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>携程计算机技术（上海）有限公司</item>
+        <item>北京三快科技有限公司</item>
+        <item>支付宝（中国）网络技术有限公司</item>
+        <item>上海阅文信息技术有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>北京字节跳动网络技术有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>浙江天猫技术有限公司</item>
+        <item>上海证大喜马拉雅网络科技有限公司</item>
+        <item>北京微播视界科技有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+        <item>广东欢太科技有限公司</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_gua">
+        <item>掌阅科技股份有限公司</item>
+        <item>广东欢太科技有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>优视科技（中国）有限公司</item>
+        <item>携程计算机技术（上海）有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>支付宝（中国）网络技术有限公司</item>
+        <item>杭州乐读科技有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>北京字节跳动网络技术有限公司</item>
+        <item>北京三快科技有限公司</item>
+        <item>北京微播视界科技有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>网易（杭州）网络有限公司</item>
+        <item>上海阅文信息技术有限公司</item>
+        <item>上海证大喜马拉雅网络科技有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>谷歌</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_hotdog">
+        <item>掌阅科技股份有限公司</item>
+        <item>网易（杭州）网络有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>携程计算机技术（上海）有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>上海证大喜马拉雅网络科技有限公司</item>
+        <item>优视科技（中国）有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>杭州乐读科技有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>北京达佳互联信息技术有限公司</item>
+        <item>招商银行股份有限公司</item>
+        <item>汉海信息技术（上海）有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>广东欢太科技有限公司</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+        <item>谷歌</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_company_new">
+        <item>掌阅科技股份有限公司</item>
+        <item>广东欢太科技有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>杭州乐读科技有限公司</item>
+        <item>广州网易计算机系统有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>携程计算机技术（上海）有限公司</item>
+        <item>北京三快科技有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>上海阅文信息技术有限公司</item>
+        <item>支付宝（中国）网络技术有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>Google Inc.</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>网易（杭州）网络有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>北京微播视界科技有限公司</item>
+        <item>上海证大喜马拉雅网络科技有限公司</item>
+        <item>浙江天猫技术有限公司</item>
+        <item>高德软件有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市微付充科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>Google Inc</item>
+        <item>Google Inc</item>
+        <item>广东欢太科技有限公司</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function">
+        <item>地图导航</item>
+        <item>观看视频</item>
+        <item>收听音乐</item>
+        <item>进行翻译</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>线下服务</item>
+        <item>购物软件</item>
+        <item>新闻阅读</item>
+        <item>电子书阅读</item>
+        <item>支付钱包</item>
+        <item>进行数学计算</item>
+        <item>记录事项</item>
+        <item>查看天气</item>
+        <item>同步通讯录</item>
+        <item>短信卡券</item>
+        <item>同步通讯录、短信等</item>
+        <item>收发邮件</item>
+        <item>社区讨论</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_19811">
+        <item>收听音频内容</item>
+        <item>游戏服务</item>
+        <item>游戏服务</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>购物软件</item>
+        <item>网页浏览</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>阅读服务</item>
+        <item>短视频服务</item>
+        <item>生活服务</item>
+        <item>新闻浏览</item>
+        <item>网页浏览</item>
+        <item>生活服务</item>
+        <item>观看视频</item>
+        <item>金融服务</item>
+        <item>金融服务</item>
+        <item>生活服务</item>
+        <item>数学计算</item>
+        <item>记录事项</item>
+        <item>数据迁移</item>
+        <item>查看天气</item>
+        <item>社区讨论</item>
+        <item>境外上网服务</item>
+        <item>短信卡券</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>同步通讯录、短信等</item>
+        <item>应用运行支持</item>
+        <item>联系人同步</item>
+        <item>彩蛋</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_19821">
+        <item>收听音频内容</item>
+        <item>游戏服务</item>
+        <item>游戏服务</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>购物软件</item>
+        <item>网页浏览</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>阅读服务</item>
+        <item>短视频服务</item>
+        <item>生活服务</item>
+        <item>新闻浏览</item>
+        <item>网页浏览</item>
+        <item>生活服务</item>
+        <item>观看视频</item>
+        <item>金融服务</item>
+        <item>金融服务</item>
+        <item>生活服务</item>
+        <item>数学计算</item>
+        <item>记录事项</item>
+        <item>数据迁移</item>
+        <item>查看天气</item>
+        <item>社区讨论</item>
+        <item>境外上网服务</item>
+        <item>短信卡券</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>同步通讯录、短信等</item>
+        <item>应用运行支持</item>
+        <item>联系人同步</item>
+        <item>彩蛋</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_5_5T">
+        <item>游戏服务</item>
+        <item>地图导航</item>
+        <item>收听音乐</item>
+        <item>进行翻译</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>线下服务</item>
+        <item>购物软件</item>
+        <item>新闻阅读</item>
+        <item>电子书阅读</item>
+        <item>支付钱包</item>
+        <item>进行数学计算</item>
+        <item>记录事项</item>
+        <item>查看天气</item>
+        <item>同步通讯录</item>
+        <item>短信卡券</item>
+        <item>同步通讯录、短信等</item>
+        <item>收发邮件</item>
+        <item>社区讨论</item>
+        <item>桌面应用</item>
+        <item>生活服务</item>
+        <item>境外上网服务</item>
+        <item>生活服务</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>彩蛋</item>
+        <item>Google组件</item>
+        <item>数据迁移</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_fat">
+        <item>阅读服务</item>
+        <item>游戏服务</item>
+        <item>收发邮件</item>
+        <item>地图导航</item>
+        <item>网页浏览</item>
+        <item>翻译</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>线下服务</item>
+        <item>支付钱包</item>
+        <item>电子书阅读</item>
+        <item>购物软件</item>
+        <item>新闻阅读</item>
+        <item>观看视频</item>
+        <item>购物软件</item>
+        <item>收听音频内容</item>
+        <item>观看视频</item>
+        <item>生活服务</item>
+        <item>境外上网服务</item>
+        <item>生活服务</item>
+        <item>记录事项</item>
+        <item>进行数学计算</item>
+        <item>短信卡券</item>
+        <item>桌面图标</item>
+        <item>查看天气</item>
+        <item>数据迁移</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>社区讨论</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>同步通讯录、短信等</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>彩蛋</item>
+        <item>同步通讯录</item>
+        <item>Google组件</item>
+        <item>网页浏览</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_gua">
+        <item>阅读服务</item>
+        <item>游戏服务</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>网页浏览</item>
+        <item>订票旅行</item>
+        <item>社交媒体</item>
+        <item>生活服务</item>
+        <item>支付钱包</item>
+        <item>收听音频内容</item>
+        <item>购物软件</item>
+        <item>新闻阅读</item>
+        <item>生活服务</item>
+        <item>社交媒体</item>
+        <item>生活服务</item>
+        <item>收发邮件</item>
+        <item>电子书阅读</item>
+        <item>收听音频内容</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>境外上网服务</item>
+        <item>生活服务</item>
+        <item>记录事项</item>
+        <item>数学计算</item>
+        <item>短信卡券</item>
+        <item>桌面图标</item>
+        <item>查看天气</item>
+        <item>数据迁移</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>社区讨论</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>同步通讯录、短信等</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>彩蛋</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_hotdog">
+        <item>阅读服务</item>
+        <item>收发邮件</item>
+        <item>生活服务</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>购物软件</item>
+        <item>收听音频内容</item>
+        <item>网页浏览</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>购物软件</item>
+        <item>收听音频内容</item>
+        <item>购物软件</item>
+        <item>短视频服务</item>
+        <item>金融服务</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>记录事项</item>
+        <item>数学计算</item>
+        <item>音频录制</item>
+        <item>短信卡券</item>
+        <item>桌面图标</item>
+        <item>查看天气</item>
+        <item>数据迁移</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>社区讨论</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>同步通讯录、短信等</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>境外上网服务</item>
+        <item>游戏服务</item>
+        <item>彩蛋</item>
+        <item>联系人同步</item>
+        <item>应用运行支持</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_function_new">
+        <item>阅读服务</item>
+        <item>游戏服务</item>
+        <item>地图导航</item>
+        <item>收听音乐</item>
+        <item>进行翻译</item>
+        <item>社交媒体</item>
+        <item>订票旅行</item>
+        <item>线下服务</item>
+        <item>购物软件</item>
+        <item>新闻阅读</item>
+        <item>电子书阅读</item>
+        <item>支付钱包</item>
+        <item>进行数学计算</item>
+        <item>记录事项</item>
+        <item>查看天气</item>
+        <item>同步通讯录</item>
+        <item>短信卡券</item>
+        <item>同步通讯录、短信等</item>
+        <item>收发邮件</item>
+        <item>社区讨论</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>收听音频内容</item>
+        <item>购物软件</item>
+        <item>生活服务</item>
+        <item>境外上网服务</item>
+        <item>公交出行</item>
+        <item>生活服务</item>
+        <item>数据迁移</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>桌面天气</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>彩蛋</item>
+        <item>Google组件</item>
+        <item>网页浏览</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name">
+        <item>高德地图</item>
+        <item>腾讯视频</item>
+        <item>网易云音乐</item>
+        <item>网易有道词典</item>
+        <item>新浪微博</item>
+        <item>携程旅行</item>
+        <item>美团</item>
+        <item>手机京东</item>
+        <item>腾讯新闻</item>
+        <item>QQ阅读</item>
+        <item>支付宝</item>
+        <item>计算器</item>
+        <item>便签</item>
+        <item>天气</item>
+        <item>Google通讯录同步</item>
+        <item>卡券</item>
+        <item>云同步</item>
+        <item>网易邮箱大师</item>
+        <item>一加社区</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_19811">
+        <item>网易云音乐</item>
+        <item>游戏中心</item>
+        <item>小游戏</item>
+        <item>智能家居</item>
+        <item>高德地图</item>
+        <item>微博</item>
+        <item>携程旅行</item>
+        <item>京东</item>
+        <item>UC浏览器</item>
+        <item>腾讯视频</item>
+        <item>优酷视频</item>
+        <item>手机淘宝</item>
+        <item>拼多多</item>
+        <item>阅读</item>
+        <item>快手</item>
+        <item>大众点评</item>
+        <item>腾讯新闻</item>
+        <item>QQ浏览器</item>
+        <item>58同城</item>
+        <item>爱奇艺</item>
+        <item>东方财富</item>
+        <item>支付宝</item>
+        <item>高德出行服务</item>
+        <item>计算器</item>
+        <item>便签</item>
+        <item>一加搬家</item>
+        <item>天气</item>
+        <item>一加社区</item>
+        <item>国际上网</item>
+        <item>卡券</item>
+        <item>一加小部件</item>
+        <item>一加氢图标包</item>
+        <item>一加氧图标包</item>
+        <item>云同步</item>
+        <item>Google 合作伙伴设置</item>
+        <item>Google 通讯录同步</item>
+        <item>PAINT.APK</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_19821">
+        <item>网易云音乐</item>
+        <item>游戏中心</item>
+        <item>小游戏</item>
+        <item>智能家居</item>
+        <item>高德地图</item>
+        <item>微博</item>
+        <item>去哪儿旅行</item>
+        <item>京东</item>
+        <item>UC浏览器</item>
+        <item>腾讯视频</item>
+        <item>优酷视频</item>
+        <item>手机淘宝</item>
+        <item>拼多多</item>
+        <item>阅读</item>
+        <item>快手</item>
+        <item>大众点评</item>
+        <item>腾讯新闻</item>
+        <item>QQ浏览器</item>
+        <item>58同城</item>
+        <item>爱奇艺</item>
+        <item>东方财富</item>
+        <item>支付宝</item>
+        <item>高德出行服务</item>
+        <item>计算器</item>
+        <item>便签</item>
+        <item>一加搬家</item>
+        <item>天气</item>
+        <item>一加社区</item>
+        <item>国际上网</item>
+        <item>卡券</item>
+        <item>一加小部件</item>
+        <item>一加氢图标包</item>
+        <item>一加氧图标包</item>
+        <item>云同步</item>
+        <item>Google 合作伙伴设置</item>
+        <item>Google 通讯录同步</item>
+        <item>PAINT.APK</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_5_5T">
+        <item>游戏中心</item>
+        <item>高德地图</item>
+        <item>网易云音乐</item>
+        <item>网易有道词典</item>
+        <item>新浪微博</item>
+        <item>携程旅行</item>
+        <item>美团</item>
+        <item>手机京东</item>
+        <item>腾讯新闻</item>
+        <item>QQ阅读</item>
+        <item>支付宝</item>
+        <item>计算器</item>
+        <item>便签</item>
+        <item>天气</item>
+        <item>Google通讯录同步</item>
+        <item>卡券</item>
+        <item>云同步</item>
+        <item>网易邮箱大师</item>
+        <item>一加社区</item>
+        <item>氢桌面</item>
+        <item>高德出行服务</item>
+        <item>国际上网</item>
+        <item>公交卡</item>
+        <item>一加方形图标包</item>
+        <item>一加默认图标包</item>
+        <item>氢默认图标包</item>
+        <item>一加圆形图标包</item>
+        <item>一加小部件</item>
+        <item>Folio</item>
+        <item>Light</item>
+        <item>Android Easter Egg</item>
+        <item>Google合作伙伴设置</item>
+        <item>一加搬家</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_fat">
+        <item>阅读</item>
+        <item>游戏中心</item>
+        <item>网易邮箱大师</item>
+        <item>高德地图</item>
+        <item>UC浏览器</item>
+        <item>网易有道词典</item>
+        <item>微博</item>
+        <item>携程旅行</item>
+        <item>美团</item>
+        <item>支付宝</item>
+        <item>QQ阅读</item>
+        <item>京东</item>
+        <item>今日头条</item>
+        <item>爱奇艺</item>
+        <item>天猫</item>
+        <item>喜马拉雅听书</item>
+        <item>抖音短视频</item>
+        <item>高德出行服务</item>
+        <item>国际上网</item>
+        <item>一加公交卡</item>
+        <item>便签</item>
+        <item>计算器</item>
+        <item>卡券</item>
+        <item>氢默认图标包</item>
+        <item>天气</item>
+        <item>一加搬家</item>
+        <item>一加方形图标包</item>
+        <item>一加默认图标包</item>
+        <item>一加社区</item>
+        <item>一加小部件</item>
+        <item>一加圆形图标包</item>
+        <item>云同步</item>
+        <item>Folio</item>
+        <item>Light</item>
+        <item>PAINT.APK</item>
+        <item>Google通讯录同步</item>
+        <item>Google合作伙伴设置</item>
+        <item>资讯浏览器</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_gua">
+        <item>阅读</item>
+        <item>游戏中心</item>
+        <item>手机淘宝</item>
+        <item>拼多多</item>
+        <item>UC浏览器</item>
+        <item>携程旅行</item>
+        <item>微博</item>
+        <item>高德地图</item>
+        <item>支付宝</item>
+        <item>网易云音乐</item>
+        <item>京东</item>
+        <item>今日头条</item>
+        <item>美团</item>
+        <item>抖音短视频</item>
+        <item>高德出行服务</item>
+        <item>网易邮箱大师</item>
+        <item>QQ阅读</item>
+        <item>喜马拉雅听书</item>
+        <item>优酷视频</item>
+        <item>腾讯视频</item>
+        <item>国际上网</item>
+        <item>一加公交卡</item>
+        <item>便签</item>
+        <item>计算器</item>
+        <item>卡券</item>
+        <item>氢默认图标包</item>
+        <item>天气</item>
+        <item>一加搬家</item>
+        <item>一加方形图标包</item>
+        <item>一加默认图标包</item>
+        <item>一加社区</item>
+        <item>一加小部件</item>
+        <item>一加圆形图标包</item>
+        <item>云同步</item>
+        <item>Folio</item>
+        <item>Light</item>
+        <item>PAINT.APK</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_hotdog">
+        <item>阅读</item>
+        <item>网易邮箱大师</item>
+        <item>高德地图</item>
+        <item>微博</item>
+        <item>携程旅行</item>
+        <item>京东</item>
+        <item>喜马拉雅听书</item>
+        <item>UC浏览器</item>
+        <item>腾讯视频</item>
+        <item>优酷视频</item>
+        <item>手机淘宝</item>
+        <item>网易云音乐</item>
+        <item>拼多多</item>
+        <item>快手</item>
+        <item>招商银行</item>
+        <item>大众点评</item>
+        <item>高德出行服务</item>
+        <item>便签</item>
+        <item>计算器</item>
+        <item>录音机</item>
+        <item>卡券</item>
+        <item>氢默认图标包</item>
+        <item>天气</item>
+        <item>一加搬家</item>
+        <item>一加方形图标包</item>
+        <item>一加默认图标包</item>
+        <item>一加社区</item>
+        <item>一加小部件</item>
+        <item>一加圆形图标包</item>
+        <item>云同步</item>
+        <item>Folio</item>
+        <item>Light</item>
+        <item>国际上网</item>
+        <item>游戏中心</item>
+        <item>PAINT.APK</item>
+        <item>Google 通讯录同步</item>
+        <item>Google 合作伙伴设置</item>
+    </string-array>
+    <string-array name="oneplus_h2_pre_installed_app_name_new">
+        <item>阅读</item>
+        <item>游戏中心</item>
+        <item>高德地图</item>
+        <item>网易云音乐</item>
+        <item>网易有道词典</item>
+        <item>微博</item>
+        <item>携程旅行</item>
+        <item>美团</item>
+        <item>京东</item>
+        <item>腾讯新闻</item>
+        <item>QQ阅读</item>
+        <item>支付宝</item>
+        <item>计算器</item>
+        <item>便签</item>
+        <item>天气</item>
+        <item>Google通讯录同步</item>
+        <item>卡券</item>
+        <item>云同步</item>
+        <item>网易邮箱大师</item>
+        <item>一加社区</item>
+        <item>爱奇艺</item>
+        <item>抖音短视频</item>
+        <item>喜马拉雅听书</item>
+        <item>天猫</item>
+        <item>高德出行服务</item>
+        <item>国际上网</item>
+        <item>交通微云卡</item>
+        <item>一加公交卡</item>
+        <item>一加搬家</item>
+        <item>一加方形图标包</item>
+        <item>一加默认图标包</item>
+        <item>氢默认图标包</item>
+        <item>一加圆形图标包</item>
+        <item>一加小部件</item>
+        <item>Folio</item>
+        <item>Light</item>
+        <item>PAINT.APK</item>
+        <item>Google合作伙伴设置</item>
+        <item>资讯浏览器</item>
+    </string-array>
+    <string-array name="oneplus_hd_project">
+        <item>@string/oneplus_model_19801_for_cn</item>
+        <item>@string/oneplus_model_19801_for_in</item>
+        <item>@string/oneplus_model_19801_for_eu</item>
+        <item>@string/oneplus_model_19801_for_us</item>
+        <item>@string/oneplus_model_18865_for_cn</item>
+        <item>@string/oneplus_model_18865_for_in</item>
+        <item>@string/oneplus_model_18865_for_eu</item>
+        <item>@string/oneplus_model_18865_for_us</item>
+        <item>@string/oneplus_model_18865_for_tmo</item>
+        <item>@string/oneplus_model_19861_for_tmo</item>
+        <item>@string/oneplus_model_19863_for_tmo</item>
+    </string-array>
+    <string-array name="oneplus_im_quick_reply_app_lists">
+        <item>com.tencent.mm</item>
+        <item>com.whatsapp</item>
+        <item>com.instagram.android</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.facebook.mlite</item>
+        <item>com.tencent.tim</item>
+        <item>org.telegram.messenger</item>
+        <item>org.thunderdog.challegram</item>
+        <item>com.tencent.mobileqqi</item>
+        <item>com.tencent.qqlite</item>
+    </string-array>
+    <string-array name="oneplus_lunar_day_translate">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="oneplus_lunar_month_translate">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="oneplus_lunar_year_translate">
+        <item>〇</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="oneplus_model_19811">
+        <item>IN2020</item>
+        <item>IN2021</item>
+        <item>IN2023</item>
+        <item>IN2025</item>
+    </string-array>
+    <string-array name="oneplus_model_19821">
+        <item>IN2010</item>
+        <item>IN2011</item>
+        <item>IN2013</item>
+        <item>IN2015</item>
+    </string-array>
+    <string-array name="oneplus_model_19855">
+        <item>IN2017</item>
+    </string-array>
+    <string-array name="oneplus_model_19867">
+        <item>IN2019</item>
+    </string-array>
+    <string-array name="oneplus_need_force_stop_app_list">
+        <item>com.ss.android.article.news</item>
+        <item>com.mt.mtxx.mtxx</item>
+    </string-array>
+    <string-array name="oneplus_nfc_uicc_projects">
+        <item>19855</item>
+        <item>19821</item>
+        <item>19867</item>
+        <item>19811</item>
+    </string-array>
+    <string-array name="oneplus_no_display_sar_value_project">
+        <item>@string/oneplus_oneplus_model_18821_for_cn</item>
+        <item>@string/oneplus_oneplus_model_18857_for_cn</item>
+        <item>@string/oneplus_oneplus_model_18827_for_eu</item>
+        <item>@string/oneplus_model_19811_for_eea</item>
+        <item>@string/oneplus_model_19821_for_eea</item>
+        <item>@string/oneplus_model_19801_for_cn</item>
+        <item>@string/oneplus_model_18865_for_cn</item>
+        <item>@string/oneplus_model_kebab_for_02</item>
+        <item>@string/oneplus_model_kebab_for_04</item>
+    </string-array>
+    <string-array name="oneplus_not_kill_app_white_list">
+        <item>com.android.systemui</item>
+        <item>net.oneplus.launcher</item>
+        <item>android.process.acore</item>
+        <item>com.redteamobile.oneplus.roaming</item>
+        <item>com.redteamobile.virtual.softsim</item>
+        <item>com.oneplus.soundrecorder</item>
+        <item>.qtidataservices</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.qualcomm.wfd.service</item>
+    </string-array>
+    <string-array name="oneplus_notification_ringtone">
+        <item>@string/oneplus_notification_dialog_ringtone_mode</item>
+        <item>@string/oneplus_notification_dialog_ringtone_silent_mode</item>
+        <item>@string/oneplus_notification_dialog_never_mode</item>
+    </string-array>
+    <string-array name="oneplus_notification_ringtone_summary">
+        <item>@string/oneplus_notification_ringtone_mode</item>
+        <item>@string/oneplus_notification_ringtone_silent_mode</item>
+        <item>@string/oneplus_notification_never_mode</item>
+    </string-array>
+    <string-array name="oneplus_notification_ringtone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="oneplus_quicklaunch_ways_name">
+        <item>@string/oneplus_quickpay_way_wecaht_qrcode</item>
+        <item>@string/oneplus_quickpay_way_wecaht_scanning</item>
+        <item>@string/oneplus_quickpay_way_alipay_qrcode</item>
+        <item>@string/oneplus_quickpay_way_alipay_scanning</item>
+        <item>@string/oneplus_quickpay_way_paytm</item>
+    </string-array>
+    <string-array name="oneplus_quickpay_ways_key">
+        <item>key_quickpay_way_wecaht_qrcode</item>
+        <item>key_quickpay_way_wecaht_scanning</item>
+        <item>key_quickpay_way_wecaht_ridecode</item>
+        <item>key_quickpay_way_alipay_qrcode</item>
+        <item>key_quickpay_way_alipay_scanning</item>
+        <item>key_quickpay_way_paytm</item>
+    </string-array>
+    <string-array name="oneplus_quickpay_ways_key_O2">
+        <item>key_quickpay_way_wecaht_qrcode</item>
+        <item>key_quickpay_way_wecaht_scanning</item>
+        <item>key_quickpay_way_alipay_qrcode</item>
+        <item>key_quickpay_way_alipay_scanning</item>
+        <item>key_quickpay_way_paytm</item>
+    </string-array>
+    <string-array name="oneplus_quickpay_ways_name">
+        <item>@string/oneplus_quickpay_way_wecaht_qrcode</item>
+        <item>@string/oneplus_quickpay_way_wecaht_scanning</item>
+        <item>@string/oneplus_quickpay_way_wecaht_ridecode</item>
+        <item>@string/oneplus_quickpay_way_alipay_qrcode</item>
+        <item>@string/oneplus_quickpay_way_alipay_scanning</item>
+        <item>@string/oneplus_quickpay_way_paytm</item>
+    </string-array>
+    <string-array name="oneplus_quickpay_ways_name_O2">
+        <item>@string/oneplus_quickpay_way_wecaht_qrcode</item>
+        <item>@string/oneplus_quickpay_way_wecaht_scanning</item>
+        <item>@string/oneplus_quickpay_way_alipay_qrcode</item>
+        <item>@string/oneplus_quickpay_way_alipay_scanning</item>
+        <item>@string/oneplus_quickpay_way_paytm</item>
+    </string-array>
+    <integer-array name="oneplus_quickpay_ways_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="oneplus_quickpay_ways_value_O2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="oneplus_reading_mode_effec_select">
+        <item>@string/oneplus_reading_mode_chromatic</item>
+        <item>@string/oneplus_reading_mode_mono</item>
+    </string-array>
+    <integer-array name="oneplus_screen_1080_new_dpi_values">
+        <item>420</item>
+        <item>450</item>
+        <item>480</item>
+        <item>510</item>
+        <item>540</item>
+    </integer-array>
+    <integer-array name="oneplus_screen_720_dpi_values">
+        <item>280</item>
+        <item>300</item>
+        <item>320</item>
+        <item>340</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="oneplus_screen_dpi_values">
+        <item>560</item>
+        <item>600</item>
+        <item>640</item>
+        <item>680</item>
+        <item>720</item>
+    </integer-array>
+    <string-array name="oneplus_select_items">
+        <item>@string/filter_apps_all</item>
+        <item>@string/op_fragment</item>
+    </string-array>
+    <string-array name="oneplus_theme_2__values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="oneplus_theme_2_entries">
+        <item>@string/oneplus_colorful_mode_title</item>
+        <item>@string/op_light_mode_title</item>
+        <item>@string/op_dark_mode_title</item>
+        <item>@string/op_theme_2__title</item>
+    </string-array>
+    <string-array name="oneplus_theme_3_entries">
+        <item>@string/oneplus_colorful_mode_title</item>
+        <item>@string/op_light_mode_title</item>
+        <item>@string/op_dark_mode_title</item>
+        <item>@string/op_theme_3_title</item>
+    </string-array>
+    <string-array name="oneplus_theme_3_values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="oneplus_theme_accent_color_black_entries">
+        <item>@string/op_primary_default_dark_label</item>
+        <item>@string/op_primary_golden_dark_label</item>
+        <item>@string/op_primary_lemon_yellow_dark_label</item>
+        <item>@string/op_primary_grass_green_dark_label</item>
+        <item>@string/op_primary_charm_purple_dark_label</item>
+        <item>@string/op_primary_sky_blue_dark_label</item>
+        <item>@string/op_primary_vigour_red_dark_label</item>
+        <item>@string/op_primary_fashion_pink_dark_label</item>
+        <item>@string/op_primary_red_label</item>
+        <item>@string/op_primary_royal_blue_label</item>
+        <item>@string/op_primary_dark_green_label</item>
+        <item>@string/customization_settings_title</item>
+    </string-array>
+    <array name="oneplus_theme_accent_color_black_values">
+        <item>@color/op_primary_default_dark</item>
+        <item>@color/op_primary_golden_dark</item>
+        <item>@color/op_primary_lemon_yellow_dark</item>
+        <item>@color/op_primary_grass_green_dark</item>
+        <item>@color/op_primary_charm_purple_dark</item>
+        <item>@color/op_primary_sky_blue_dark</item>
+        <item>@color/op_primary_vigour_red_dark</item>
+        <item>@color/op_primary_fashion_pink_dark</item>
+        <item>@color/op_primary_red_dark</item>
+        <item>@color/op_primary_blue_dark</item>
+        <item>@color/op_primary_green_dark</item>
+        <item>@color/op_primary_brown_dark</item>
+    </array>
+    <string-array name="oneplus_theme_accent_color_white_entries">
+        <item>@string/op_primary_default_light_label</item>
+        <item>@string/op_primary_golden_light_label</item>
+        <item>@string/op_primary_lemon_yellow_light_label</item>
+        <item>@string/op_primary_grass_green_light_label</item>
+        <item>@string/op_primary_charm_purple_light_label</item>
+        <item>@string/op_primary_sky_blue_light_label</item>
+        <item>@string/op_primary_vigour_red_light_label</item>
+        <item>@string/op_primary_fashion_pink_light_label</item>
+        <item>@string/op_primary_red_label</item>
+        <item>@string/op_primary_royal_blue_label</item>
+        <item>@string/op_primary_dark_green_label</item>
+        <item>@string/customization_settings_title</item>
+    </string-array>
+    <array name="oneplus_theme_accent_color_white_values">
+        <item>@color/op_primary_default_light</item>
+        <item>@color/op_primary_golden_light</item>
+        <item>@color/op_primary_lemon_yellow_light</item>
+        <item>@color/op_primary_grass_green_light</item>
+        <item>@color/op_primary_charm_purple_light</item>
+        <item>@color/op_primary_sky_blue_light</item>
+        <item>@color/op_primary_vigour_red_light</item>
+        <item>@color/op_primary_fashion_pink_light</item>
+        <item>@color/op_primary_red_light</item>
+        <item>@color/op_primary_blue_light</item>
+        <item>@color/op_primary_green_light</item>
+        <item>@color/op_primary_brown_light</item>
+    </array>
+    <string-array name="oneplus_theme_change_kill_process_whitelist">
+        <item>com.tencent.mm</item>
+        <item>com.oppo.im</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.snapchat.android</item>
+        <item>com.google.android.calendar</item>
+        <item>com.sina.weibo</item>
+        <item>com.ijinshan.browser</item>
+    </string-array>
+    <string-array name="oneplus_theme_icon_packs_action1">
+        <item>org.adw.launcher.THEMES</item>
+        <item>org.adw.launcher.icons.ACTION_PICK_ICON</item>
+        <item>ginlemon.smartlauncher.THEMES</item>
+        <item>ginlemon.smartlauncher.BUBBLESTYLE</item>
+        <item>ginlemon.smartlauncher.BUBBLEICONS</item>
+        <item>ginlemon.smartlauncher.CLOCKS</item>
+        <item>ginlemon.smartlauncher.CLOCKFONTS</item>
+        <item>mobi.bbase.ahome.THEME</item>
+        <item>com.rogro.GDE.THEME.1</item>
+        <item>cdproductions.crazyicons.TWO</item>
+        <item>com.gau.go.launcherex.theme</item>
+        <item>net.oneplus.launcher.icons.ACTION_PICK_ICON</item>
+    </string-array>
+    <string-array name="oneplus_theme_icon_packs_action2">
+        <item>android.intent.action.MAIN</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_entries">
+        <item>@string/oneplus_theme_preset_color</item>
+        <item>@string/oneplus_theme_preset_light</item>
+        <item>@string/oneplus_theme_preset_dark</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_entries_mcl">
+        <item>@string/oneplus_theme_preset_mcl</item>
+        <item>@string/oneplus_theme_preset_color</item>
+        <item>@string/oneplus_theme_preset_light</item>
+        <item>@string/oneplus_theme_preset_dark</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_starwar_entries">
+        <item>@string/oneplus_colorful_mode_title</item>
+        <item>@string/op_light_mode_title</item>
+        <item>@string/op_dark_mode_title</item>
+        <item>@string/op_starwar_mode_title</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_starwar_values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="oneplus_theme_mode_values_mcl">
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="oneplus_theme_shape_summary">
+        <item>@string/oneplus_theme_shape_effect_round</item>
+        <item>@string/oneplus_theme_shape_effect_square</item>
+        <item>@string/oneplus_theme_shape_effect_teardrop</item>
+        <item>@string/oneplus_theme_shape_effect_round_rectangle</item>
+    </string-array>
+    <string-array name="oneplus_uninstallation_app_list_H2">
+        <item>com.oneplus.screenrecord</item>
+        <item>com.oneplus.backuprestore</item>
+        <item>com.oneplus.calculator</item>
+        <item>net.oneplus.weather</item>
+        <item>com.oneplus.note</item>
+        <item>com.oneplus.bbs</item>
+        <item>com.oneplus.cloud</item>
+        <item>net.oneplus.widget</item>
+    </string-array>
+    <string-array name="oneplus_uninstallation_app_list_O2">
+        <item>com.oneplus.screenrecord</item>
+        <item>com.oneplus.backuprestore</item>
+        <item>com.oneplus.calculator</item>
+        <item>com.oneplus.filemanager</item>
+        <item>com.oneplus.soundrecorder</item>
+        <item>net.oneplus.weather</item>
+        <item>com.oneplus.note</item>
+        <item>net.oneplus.forums</item>
+        <item>net.oneplus.widget</item>
+    </string-array>
+    <string-array name="oneplus_wifi_peap_phase2_entries">
+        <item>@string/enterprise_privacy_none</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="oneplus_wifi_peap_phase2_entries_with_sim_auth">
+        <item>@string/enterprise_privacy_none</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="op_car_mode_recommended_apps">
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.drivemode.android</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.apps.mapslite</item>
+        <item>com.waze</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.tencent.map</item>
+        <item>com.spotify.music</item>
+        <item>com.amazon.dee.app</item>
+        <item>com.pandora.android</item>
+        <item>com.google.android.apps.youtube.music</item>
+        <item>com.amazon.mp3</item>
+        <item>com.gaana</item>
+        <item>com.bsbportal.music</item>
+        <item>com.shazam.android</item>
+        <item>com.jio.media.jiobeats</item>
+        <item>com.apple.android.music</item>
+        <item>com.netease.cloudmusic</item>
+        <item>fm.xiami.main</item>
+        <item>com.tencent.qqmusic</item>
+    </string-array>
+    <string-array name="op_custom_accent_color_entries">
+        <item>@string/op_control_accent_color_red_label</item>
+        <item>@string/op_control_accent_color_indigo_label</item>
+        <item>@string/op_control_accent_color_blue_label</item>
+        <item>@string/op_control_accent_color_cyan_label</item>
+        <item>@string/op_control_accent_color_teal_label</item>
+        <item>@string/op_control_accent_color_green_label</item>
+        <item>@string/op_control_accent_color_amber_label</item>
+        <item>@string/op_control_accent_color_orange_label</item>
+        <item>@string/op_control_accent_color_rose_red_label</item>
+        <item>@string/op_control_accent_color_purple_label</item>
+        <item>@string/op_control_accent_color_deeppurple_label</item>
+        <item>@string/op_control_accent_color_gin_label</item>
+    </string-array>
+    <string-array name="op_custom_accent_color_entries_red">
+        <item>@string/op_control_accent_color_red_label</item>
+        <item>@string/op_control_accent_color_indigo_label</item>
+        <item>@string/op_control_accent_color_blue_label</item>
+        <item>@string/op_control_accent_color_cyan_label</item>
+        <item>@string/op_control_accent_color_teal_label</item>
+        <item>@string/op_control_accent_color_green_label</item>
+        <item>@string/op_control_accent_color_red_theme_label</item>
+        <item>@string/op_control_accent_color_orange_label</item>
+        <item>@string/op_control_accent_color_rose_red_label</item>
+        <item>@string/op_control_accent_color_purple_label</item>
+        <item>@string/op_control_accent_color_deeppurple_label</item>
+        <item>@string/op_control_accent_color_gin_label</item>
+    </string-array>
+    <array name="op_custom_accent_color_values">
+        <item>@color/op_control_accent_color_red_default</item>
+        <item>@color/op_control_accent_color_indigo_default</item>
+        <item>@color/op_control_accent_color_blue_default</item>
+        <item>@color/op_control_accent_color_cyan_default</item>
+        <item>@color/op_control_accent_color_teal_default</item>
+        <item>@color/op_control_accent_color_green_default</item>
+        <item>@color/op_control_accent_color_amber_default</item>
+        <item>@color/op_control_accent_color_orange_default</item>
+        <item>@color/op_control_accent_color_pink_default</item>
+        <item>@color/op_control_accent_color_purple_default</item>
+        <item>@color/op_control_accent_color_deeppurple_default</item>
+        <item>@color/op_control_accent_color_gin_default</item>
+    </array>
+    <array name="op_custom_accent_color_values_red">
+        <item>@color/op_control_accent_color_red_default</item>
+        <item>@color/op_control_accent_color_indigo_default</item>
+        <item>@color/op_control_accent_color_blue_default</item>
+        <item>@color/op_control_accent_color_cyan_default</item>
+        <item>@color/op_control_accent_color_teal_default</item>
+        <item>@color/op_control_accent_color_green_default</item>
+        <item>@color/op_control_accent_color_default_red_theme</item>
+        <item>@color/op_control_accent_color_orange_default</item>
+        <item>@color/op_control_accent_color_pink_default</item>
+        <item>@color/op_control_accent_color_purple_default</item>
+        <item>@color/op_control_accent_color_deeppurple_default</item>
+        <item>@color/op_control_accent_color_gin_default</item>
+    </array>
+    <array name="op_custom_accent_text_color_values_dark">
+        <item>@color/op_control_text_color_red_dark</item>
+        <item>@color/op_control_text_color_indigo_dark</item>
+        <item>@color/op_control_text_color_blue_dark</item>
+        <item>@color/op_control_text_color_cyan_dark</item>
+        <item>@color/op_control_text_color_teal_dark</item>
+        <item>@color/op_control_text_color_green_dark</item>
+        <item>@color/op_control_text_color_amber_dark</item>
+        <item>@color/op_control_text_color_orange_dark</item>
+        <item>@color/op_control_text_color_pink_dark</item>
+        <item>@color/op_control_text_color_purple_dark</item>
+        <item>@color/op_control_text_color_deeppurple_dark</item>
+        <item>@color/op_control_text_color_gin_dark</item>
+    </array>
+    <array name="op_custom_accent_text_color_values_light">
+        <item>@color/op_control_text_color_red_light</item>
+        <item>@color/op_control_text_color_indigo_light</item>
+        <item>@color/op_control_text_color_blue_light</item>
+        <item>@color/op_control_text_color_cyan_light</item>
+        <item>@color/op_control_text_color_teal_light</item>
+        <item>@color/op_control_text_color_green_light</item>
+        <item>@color/op_control_text_color_amber_light</item>
+        <item>@color/op_control_text_color_orange_light</item>
+        <item>@color/op_control_text_color_pink_light</item>
+        <item>@color/op_control_text_color_purple_light</item>
+        <item>@color/op_control_text_color_deeppurple_light</item>
+        <item>@color/op_control_text_color_gin_light</item>
+    </array>
+    <array name="op_custom_accent_text_color_values_light_red">
+        <item>@color/op_control_text_color_red_light</item>
+        <item>@color/op_control_text_color_indigo_light</item>
+        <item>@color/op_control_text_color_blue_light</item>
+        <item>@color/op_control_text_color_cyan_light</item>
+        <item>@color/op_control_text_color_teal_light</item>
+        <item>@color/op_control_text_color_green_light</item>
+        <item>@color/op_control_accent_color_default_red_theme</item>
+        <item>@color/op_control_text_color_orange_light</item>
+        <item>@color/op_control_text_color_pink_light</item>
+        <item>@color/op_control_text_color_purple_light</item>
+        <item>@color/op_control_text_color_deeppurple_light</item>
+        <item>@color/op_control_text_color_gin_light</item>
+    </array>
+    <string-array name="op_haptic_feedback_apps">
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.ig</item>
+        <item>com.tencent.tmgp.pubgm</item>
+        <item>com.gameloft.android.ANMP.GloftA9HM</item>
+    </string-array>
+    <string-array name="op_local_sla_down_load_white_list_app">
+        <item>com.google.android.apps.docs</item>
+        <item>com.google.android.apps.translate</item>
+        <item>com.google.android.apps.docs.editors.docs</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+        <item>com.google.android.apps.docs.editors.slides</item>
+        <item>com.google.android.gm</item>
+        <item>com.microsoft.skydrive</item>
+        <item>com.microsoft.teams</item>
+        <item>com.microsoft.translator</item>
+        <item>mark.via.gp</item>
+        <item>com.oneplus.opbackup</item>
+        <item>com.heytap.market</item>
+    </string-array>
+    <string-array name="op_locale_carrier_names">
+        <item>China_Mobile</item>
+        <item>China_Mobile</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Unicom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Mobile</item>
+        <item>China_Unicom</item>
+        <item>China_Telecom</item>
+        <item>China_Telecom</item>
+        <item>China_Telecom</item>
+        <item>Far_EasTone</item>
+        <item>Far_EasTone</item>
+        <item>T_Star</item>
+        <item>T_Star</item>
+        <item>Chunghwa_Telecom</item>
+        <item>Chunghwa_Telecom</item>
+        <item>TW_Mobile</item>
+        <item>TW_Mobile</item>
+        <item>GT_4G</item>
+        <item>China_Tietong</item>
+    </string-array>
+    <string-array name="op_multiapp_white_list">
+        <item>com.example.plugindemo1</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.sina.weibo</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.qzone</item>
+        <item>com.ifreetalk.ftalk</item>
+        <item>im.yixin</item>
+        <item>com.alibaba.mobileim</item>
+        <item>com.p1.mobile.putong</item>
+        <item>com.baidu.tieba</item>
+        <item>com.zhihu.android</item>
+        <item>com.tencent.qqlite</item>
+        <item>com.tencent.tim</item>
+        <item>com.yx</item>
+        <item>com.soft.blued</item>
+        <item>com.duowan.mobile</item>
+        <item>com.immomo.momo</item>
+        <item>com.weico.international</item>
+        <item>com.linkedin.android</item>
+        <item>com.facebook.katana</item>
+        <item>com.facebook.lite</item>
+        <item>com.facebook.orca</item>
+        <item>com.whatsapp</item>
+        <item>com.instagram.android</item>
+        <item>com.tinder</item>
+        <item>com.snapchat.android</item>
+        <item>com.pinterest</item>
+        <item>com.tumblr</item>
+        <item>com.myyearbook.m</item>
+        <item>com.quora.android</item>
+        <item>com.twitter.android</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.badoo.mobile</item>
+        <item>com.sgiggle.production</item>
+        <item>jp.naver.line.android</item>
+        <item>com.kakao.talk</item>
+        <item>org.telegram.messenger</item>
+        <item>com.viber.voip</item>
+        <item>com.skype.raider</item>
+        <item>com.hellostudio.hellotalk</item>
+        <item>net.tandem</item>
+        <item>kik.android</item>
+        <item>foxycorp.textnow</item>
+        <item>com.enflick.android.TextNow</item>
+        <item>com.ubercab</item>
+        <item>com.ubercab.driver</item>
+        <item>net.one97.paytm</item>
+        <item>com.olacabs.customer</item>
+        <item>com.imo.android.imoim</item>
+        <item>com.discord</item>
+        <item>org.thunderdog.challegram</item>
+        <item>com.zoosk.zoosk</item>
+        <item>com.okcupid.okcupid</item>
+        <item>com.match.android.matchmobile</item>
+    </string-array>
+    <string-array name="op_origin_carrier_names">
+        <item>"CHINA  MOBILE"</item>
+        <item>CHINA MOBILE — CMCC</item>
+        <item>CMCC</item>
+        <item>CHN-UNICOM</item>
+        <item>UNICOM</item>
+        <item>China Mobile</item>
+        <item>China Unicom</item>
+        <item>China Telecom</item>
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+        <item>中國移動</item>
+        <item>中國聯通</item>
+        <item>中國電信</item>
+        <item>CHN-CT</item>
+        <item>CT</item>
+        <item>Far EasTone</item>
+        <item>FET</item>
+        <item>T Star</item>
+        <item>VIBO</item>
+        <item>Chunghwa Telecom</item>
+        <item>Chunghwa</item>
+        <item>TW Mobile</item>
+        <item>TWM</item>
+        <item>GT 4G</item>
+        <item>China Tietong</item>
+    </string-array>
+    <string-array name="op_tcp_timestamps_randomization_titles">
+        <item>Disable TCP TimeStamps</item>
+        <item>Enable TCP TimeStamps With Random Offset</item>
+        <item>Enable TCP TimeStamps Without Random Offset</item>
+    </string-array>
+    <string-array name="op_tcp_timestamps_randomization_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="op_tcp_timestamps_summaries">
+        <item>Disable TCP TimeStamps</item>
+        <item>Enable TCP TimeStamps With Random Offset</item>
+        <item>Enable TCP TimeStamps Without Random Offset</item>
+    </string-array>
+    <string-array name="op_theme_select_theme_entries">
+        <item>@string/aod_clock_default</item>
+        <item>@string/op_red_theme</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="overlay_display_devices_values">
+        <item></item>
+        <item>720x480/142</item>
+        <item>720x480/142,secure</item>
+        <item>1280x720/213</item>
+        <item>1280x720/213,secure</item>
+        <item>1920x1080/320</item>
+        <item>1920x1080/320,secure</item>
+        <item>3840x2160/320</item>
+        <item>3840x2160/320,secure</item>
+        <item>1920x1080/320|3840x2160/640</item>
+        <item>1920x1080/320|3840x2160/640,secure</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+    <string-array name="pre_installed_app_company_kebab">
+        <item>腾讯科技（北京）有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>百度在线网络技术（北京）有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>北京达佳互联信息技术有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>广州唯品会电子商务有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>五八同城信息技术有限公司</item>
+        <item>汉海信息技术（上海）有限公司</item>
+        <item>支付宝（杭州）信息技术有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>喜大（上海）网络科技有限公司</item>
+        <item>掌阅科技股份有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>广东欢太科技有限公司</item>
+        <item>广东欢太科技有限公司</item>
+    </string-array>
+    <string-array name="pre_installed_app_company_kebab_cbb">
+        <item>中国移动通信集团有限公司</item>
+        <item>中国移动通信集团有限公司</item>
+        <item>中国移动通信集团有限公司</item>
+        <item>中国移动通信集团有限公司</item>
+        <item>中国移动通信集团有限公司</item>
+        <item>腾讯科技（北京）有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>百度在线网络技术（北京）有限公司</item>
+        <item>北京爱奇艺科技有限公司</item>
+        <item>北京优酷科技有限公司</item>
+        <item>北京达佳互联信息技术有限公司</item>
+        <item>深圳市腾讯计算机系统有限公司</item>
+        <item>淘宝（中国）软件有限公司</item>
+        <item>深圳前海新之江信息技术有限公司</item>
+        <item>北京京东世纪贸易有限公司</item>
+        <item>广州唯品会电子商务有限公司</item>
+        <item>高德信息技术有限公司</item>
+        <item>五八同城信息技术有限公司</item>
+        <item>汉海信息技术（上海）有限公司</item>
+        <item>支付宝（杭州）信息技术有限公司</item>
+        <item>微梦创科网络科技（中国）有限公司</item>
+        <item>喜大（上海）网络科技有限公司</item>
+        <item>掌阅科技股份有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>深圳市万普拉斯科技有限公司</item>
+        <item>广东欢太科技有限公司</item>
+    </string-array>
+    <string-array name="pre_installed_app_function_kebab">
+        <item>新闻浏览</item>
+        <item>网页浏览</item>
+        <item>网页浏览</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>短视频服务</item>
+        <item>短视频服务</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>金融服务</item>
+        <item>社交媒体</item>
+        <item>收听音频内容</item>
+        <item>阅读服务</item>
+        <item>记录事项</item>
+        <item>短信卡券</item>
+        <item>查看天气</item>
+        <item>数据迁移</item>
+        <item>社区讨论</item>
+        <item>境外上网服务</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>收听音频内容</item>
+        <item>购物软件</item>
+    </string-array>
+    <string-array name="pre_installed_app_function_kebab_cbb">
+        <item>线上营业厅</item>
+        <item>网络云盘</item>
+        <item>电子邮箱</item>
+        <item>应用市场</item>
+        <item>5G业务助手</item>
+        <item>新闻浏览</item>
+        <item>网页浏览</item>
+        <item>网页浏览</item>
+        <item>观看视频</item>
+        <item>观看视频</item>
+        <item>短视频服务</item>
+        <item>短视频服务</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>购物软件</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>生活服务</item>
+        <item>金融服务</item>
+        <item>社交媒体</item>
+        <item>收听音频内容</item>
+        <item>阅读服务</item>
+        <item>记录事项</item>
+        <item>短信卡券</item>
+        <item>查看天气</item>
+        <item>数据迁移</item>
+        <item>社区讨论</item>
+        <item>境外上网服务</item>
+        <item>桌面图标</item>
+        <item>桌面图标</item>
+        <item>收听音频内容</item>
+    </string-array>
+    <string-array name="pre_installed_app_name_kebab">
+        <item>腾讯新闻</item>
+        <item>QQ浏览器</item>
+        <item>百度</item>
+        <item>爱奇艺</item>
+        <item>优酷</item>
+        <item>快手</item>
+        <item>微视</item>
+        <item>手机淘宝</item>
+        <item>拼多多</item>
+        <item>京东</item>
+        <item>唯品会</item>
+        <item>高德地图</item>
+        <item>58同城</item>
+        <item>大众点评</item>
+        <item>支付宝</item>
+        <item>微博</item>
+        <item>喜马拉雅</item>
+        <item>阅读</item>
+        <item>便签</item>
+        <item>卡券</item>
+        <item>天气</item>
+        <item>一加搬家</item>
+        <item>一加社区</item>
+        <item>国际上网</item>
+        <item>一加氢图标包</item>
+        <item>一加氧图标包</item>
+        <item>音乐</item>
+        <item>欢太商城</item>
+    </string-array>
+    <string-array name="pre_installed_app_name_kebab_cbb">
+        <item>手机营业厅</item>
+        <item>和彩云</item>
+        <item>139邮箱</item>
+        <item>必备应用</item>
+        <item>5G助手</item>
+        <item>腾讯新闻</item>
+        <item>QQ浏览器</item>
+        <item>百度</item>
+        <item>爱奇艺</item>
+        <item>优酷</item>
+        <item>快手</item>
+        <item>微视</item>
+        <item>手机淘宝</item>
+        <item>拼多多</item>
+        <item>京东</item>
+        <item>唯品会</item>
+        <item>高德地图</item>
+        <item>58同城</item>
+        <item>大众点评</item>
+        <item>支付宝</item>
+        <item>微博</item>
+        <item>喜马拉雅</item>
+        <item>阅读</item>
+        <item>便签</item>
+        <item>卡券</item>
+        <item>天气</item>
+        <item>一加搬家</item>
+        <item>一加社区</item>
+        <item>国际上网</item>
+        <item>一加氢图标包</item>
+        <item>一加氧图标包</item>
+        <item>音乐</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA preferred</item>
+        <item>GSM only</item>
+        <item>WCDMA only</item>
+        <item>GSM/WCDMA auto</item>
+        <item>CDMA/EvDo auto</item>
+        <item>CDMA w/o EvDo</item>
+        <item>EvDo only</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Global</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>TDSCDMA only</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>NR only</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Global</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_gsm_wcdma_choices">
+        <item>GSM only</item>
+        <item>WCDMA only</item>
+        <item>GSM/WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_gsm_wcdma_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>10</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Persistent</item>
+        <item>Top activity</item>
+        <item>Important (foreground)</item>
+        <item>Important (background)</item>
+        <item>Backup</item>
+        <item>Heavy weight</item>
+        <item>Service (running)</item>
+        <item>Service (restarting)</item>
+        <item>Receiver</item>
+        <item>Home</item>
+        <item>Last activity</item>
+        <item>Cached (activity)</item>
+        <item>Cached (activity client)</item>
+        <item>Cached (empty)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Critical</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="required_apps_managed_profile">
+        <item>com.android.settings</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.documentsui</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.documentsui</item>
+    </string-array>
+    <string-array name="restrict_background_values">
+        <item>@string/restrict_background_uss_never</item>
+        <item>@string/restrict_background_uss_always</item>
+        <item>@string/restrict_background_uss_roaming</item>
+    </string-array>
+    <string-array name="rtt_setting_mode">
+        <item></item>
+        <item>@string/rtt_settings_no_visible</item>
+        <item>@string/rtt_settings_visible_during_call</item>
+        <item>@string/rtt_settings_always_visible</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Ask</item>
+        <item>Never allow</item>
+        <item>Always allow</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_values">
+        <item>32768</item>
+        <item>65536</item>
+        <item>262144</item>
+        <item>1048576</item>
+        <item>4194304</item>
+        <item>16777216</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Off</item>
+        <item>All log buffers</item>
+        <item>All but radio log buffers</item>
+        <item>kernel log buffer only</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Off</item>
+        <item>All</item>
+        <item>All but radio</item>
+        <item>kernel only</item>
+    </string-array>
+    <string-array name="select_logpersist_values">
+        <item></item>
+        <item>all</item>
+        <item>default,security,kernel</item>
+        <item>kernel</item>
+    </string-array>
+    <string-array name="setting_palette_colors">
+        <item>@string/color_red</item>
+        <item>@string/color_orange</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_green</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_purple</item>
+    </string-array>
+    <array name="setting_palette_data">
+        <item>@color/palette_list_color_red</item>
+        <item>@color/palette_list_color_orange</item>
+        <item>@color/palette_list_color_yellow</item>
+        <item>@color/palette_list_color_green</item>
+        <item>@color/palette_list_color_cyan</item>
+        <item>@color/palette_list_color_blue</item>
+        <item>@color/palette_list_color_purple</item>
+    </array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_values">
+        <item>hide</item>
+        <item>region</item>
+        <item>highlight</item>
+    </string-array>
+    <string-array name="simulate_color_space_entries">
+        <item>@string/daltonizer_mode_disabled</item>
+        <item>@string/daltonizer_mode_monochromacy</item>
+        <item>@string/daltonizer_mode_deuteranomaly</item>
+        <item>@string/daltonizer_mode_protanomaly</item>
+        <item>@string/daltonizer_mode_tritanomaly</item>
+    </string-array>
+    <string-array name="simulate_color_space_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <array name="slice_whitelist_package_names" />
+    <string-array name="status_bar_settings_clock_options">
+        <item>Show hours, minutes, and seconds</item>
+        <item>Show hours and minutes (default)</item>
+        <item>"Don't show this icon"</item>
+    </string-array>
+    <string-array name="swipe_direction_titles">
+        <item>@string/swipe_direction_rtl</item>
+        <item>@string/swipe_direction_ltr</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <array name="texture_bg_color_array">
+        <item>@color/avatar_bg_red</item>
+        <item>@color/avatar_bg_sky_blue</item>
+        <item>@color/avatar_bg_yellow</item>
+        <item>@color/avatar_bg_blue</item>
+        <item>@color/avatar_bg_yellow_green</item>
+        <item>@color/avatar_bg_blue_violet</item>
+        <item>@color/avatar_bg_green</item>
+        <item>@color/avatar_bg_magenta</item>
+        <item>@color/avatar_bg_green_blue</item>
+        <item>@color/avatar_bg_gray</item>
+    </array>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>On screen as bars</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="track_frame_time_values">
+        <item>false</item>
+        <item>visual_bars</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="uplmn_cu_mcc_mnc_values">
+        <item>46001</item>
+        <item>46006</item>
+        <item>46009</item>
+    </string-array>
+    <string-array name="uplmn_prefer_network_mode_td_choices">
+        <item>GSM</item>
+        <item>TDSCDMA</item>
+        <item>LTE</item>
+        <item>Triple mode</item>
+    </string-array>
+    <string-array name="uplmn_prefer_network_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="uplmn_prefer_network_mode_w_choices">
+        <item>GSM</item>
+        <item>WCDMA</item>
+        <item>LTE</item>
+        <item>Triple mode</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Usage time</item>
+        <item>Last time used</item>
+        <item>App name</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Charging</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Source</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_configuration_values">
+        <item>none</item>
+        <item>mtp</item>
+        <item>ptp</item>
+        <item>rndis</item>
+        <item>audio_source</item>
+        <item>midi</item>
+    </string-array>
+    <string-array name="user_content_ratings_entries">
+        <item>Ascended being</item>
+        <item>Human</item>
+        <item>Neanderthal</item>
+        <item>Chimp</item>
+        <item>Monkey</item>
+    </string-array>
+    <string-array name="user_content_ratings_values">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="vibrate_intensity">
+        <item>@string/oneplus_light</item>
+        <item>@string/oneplus_moderate</item>
+        <item>@string/oneplus_intensely</item>
+    </string-array>
+    <string-array name="vibrate_intensity_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="volume_keys_adjust">
+        <item>@string/oneplus_volume_keys_adjust_ringtones</item>
+        <item>@string/oneplus_volume_keys_adjust_media</item>
+    </string-array>
+    <string-array name="volume_keys_adjust_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Disconnected</item>
+        <item>Initializing…</item>
+        <item>Connecting…</item>
+        <item>Connected</item>
+        <item>Timeout</item>
+        <item>Unsuccessful</item>
+    </string-array>
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+        <item>IKEv2/IPSec MSCHAPv2</item>
+        <item>IKEv2/IPSec PSK</item>
+        <item>IKEv2/IPSec RSA</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN with pre-shared keys</item>
+        <item>L2TP/IPSec VPN with certificates</item>
+        <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
+        <item>IPSec VPN with certificates and Xauth authentication</item>
+        <item>IPSec VPN with certificates and hybrid authentication</item>
+        <item>IKEv2/IPSec VPN with certificates and username/password authentication</item>
+        <item>IKEv2/IPSec VPN with pre-shared keys</item>
+        <item>IKEv2/IPSec VPN with certificates</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
+    </string-array>
+    <string-array name="when_to_start_screensaver_entries">
+        <item>@string/screensaver_settings_summary_sleep</item>
+        <item>@string/screensaver_settings_summary_dock</item>
+        <item>@string/screensaver_settings_summary_either_long</item>
+        <item>@string/screensaver_settings_summary_never</item>
+    </string-array>
+    <string-array name="when_to_start_screensaver_values">
+        <item>while_charging_only</item>
+        <item>while_docked_only</item>
+        <item>either_charging_or_docked</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="whitelist_hide_summary_in_battery_usage">
+        <item>com.google.android.googlequicksearchbox</item>
+    </string-array>
+    <string-array name="wifi_ap_band">
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_only">
+        <item>@string/wifi_ap_choose_auto</item>
+        <item>@string/wifi_ap_choose_2G</item>
+    </string-array>
+    <integer-array name="wifi_ap_band_config_full">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="wifi_ap_band_summary">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_prefer_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_band_summary_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_band_vendor_config_full">
+        <item>1</item>
+        <item>3</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="wifi_ap_band_vendor_config_no_dual">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_ap_band_vendor_summary_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_prefer_5G</item>
+        <item>@string/wifi_ap_choose_vendor_dual_band</item>
+    </string-array>
+    <string-array name="wifi_ap_band_vendor_summary_no_dual">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_band">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_config">
+        <item>Auto</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_upstream_type_config">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_ap_upstream_type_entry">
+        <item>@string/upstream_type_auto</item>
+        <item>@string/upstream_type_wifi</item>
+        <item>@string/upstream_type_cell</item>
+    </string-array>
+    <string-array name="wifi_ap_upstream_type_summary">
+        <item>@string/upstream_type_auto_summary</item>
+        <item>@string/upstream_type_wifi_summary</item>
+        <item>@string/upstream_type_cell_summary</item>
+    </string-array>
+    <array name="wifi_calling_mode_choices">
+        <item>@android:string/whichSendToApplication</item>
+        <item>@android:string/whichSendApplication</item>
+        <item>@android:string/whichSendApplicationNamed</item>
+    </array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+        <item>Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_with_ims_preferred">
+        <item>Ims Preferred</item>
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+        <item>Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only_with_ims_preferred">
+        <item>Ims Preferred</item>
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+    </string-array>
+    <array name="wifi_calling_mode_choices_with_ims_preferred">
+        <item>@android:string/whichSendApplicationLabel</item>
+        <item>@android:string/whichSendToApplication</item>
+        <item>@android:string/whichSendApplication</item>
+        <item>@android:string/whichSendApplicationNamed</item>
+    </array>
+    <array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>@android:string/whichSendToApplication</item>
+        <item>@android:string/whichSendApplication</item>
+    </array>
+    <array name="wifi_calling_mode_choices_without_wifi_only_with_ims_preferred">
+        <item>@android:string/whichSendApplicationLabel</item>
+        <item>@android:string/whichSendToApplication</item>
+        <item>@android:string/whichSendApplication</item>
+    </array>
+    <string-array name="wifi_calling_mode_summaries">
+        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
+        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
+        <item>@string/wifi_calling_mode_wifi_only_summary</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_summaries_with_ims_preferred">
+        <item>@string/wifi_calling_mode_ims_preferred_summary</item>
+        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
+        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
+        <item>@string/wifi_calling_mode_wifi_only_summary</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_summaries_without_wifi_only">
+        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
+        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_summaries_without_wifi_only_with_ims_preferred">
+        <item>@string/wifi_calling_mode_ims_preferred_summary</item>
+        <item>@string/wifi_calling_mode_wifi_preferred_summary</item>
+        <item>@string/wifi_calling_mode_cellular_preferred_summary</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_with_ims_preferred">
+        <item>10</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only_with_ims_preferred">
+        <item>10</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_eap_method_target_strings">
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_eap_method_tts_strings">
+        <item>AKA prime</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>@string/automatic</item>
+        <item>@string/ghzonly_5</item>
+        <item>@string/ghzonly_2.4</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Detect automatically</item>
+        <item>Treat as metered</item>
+        <item>Treat as unmetered</item>
+    </string-array>
+    <string-array name="wifi_metered_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Connected</item>
+        <item>Invited</item>
+        <item>Unsuccessful</item>
+        <item>Available</item>
+        <item>Out-of-range</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Push button</item>
+        <item>PIN from peer device</item>
+        <item>PIN from this device</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Use randomized MAC (default)</item>
+        <item>Use device MAC</item>
+    </string-array>
+    <string-array name="wifi_privacy_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Poor</item>
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_tether_custom_auto_turn_off_summary">
+        <item>@string/wifi_tether_custom_auto_turn_off_5_min_summary</item>
+        <item>@string/wifi_tether_custom_auto_turn_off_10_min_summary</item>
+        <item>@string/wifi_tether_custom_auto_turn_off_15_min_summary</item>
+        <item>@string/wifi_tether_custom_auto_turn_off_always_summary</item>
+    </string-array>
+    <string-array name="wifi_tether_custom_auto_turn_off_time">
+        <item>100</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+    <string-array name="wifi_tether_custom_auto_turn_off_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_tether_security">
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
+    </string-array>
+    <string-array name="wifi_tether_security_include_wpa3">
+        <item>@string/wifi_security_sae</item>
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_none</item>
+    </string-array>
+    <string-array name="wifi_tether_security_include_wpa3_uts">
+        <item>@string/wifi_security_sae</item>
+        <item>@string/wifi_security_wpa2</item>
+        <item>@string/wifi_security_open</item>
+    </string-array>
+    <string-array name="wifi_tether_security_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_tether_security_values_include_wpa3">
+        <item>8</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_tether_verizon_custom_auto_turn_off_summary">
+        <item>@string/wifi_tether_verizon_custom_auto_turn_off_5_min_summary</item>
+        <item>@string/wifi_tether_verizon_custom_auto_turn_off_10_min_summary</item>
+        <item>@string/wifi_tether_verizon_custom_auto_turn_off_20_min_summary</item>
+        <item>@string/wifi_tether_verizon_custom_auto_turn_off_30_min_summary</item>
+        <item>@string/wifi_tether_verizon_custom_auto_turn_off_60_min_summary</item>
+        <item>@string/wifi_tether_custom_auto_turn_off_always_summary</item>
+    </string-array>
+    <string-array name="wifi_tether_verizon_custom_auto_turn_off_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>12</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_wapi_key_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI 16进制</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="window_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="zen_mode_contacts_calls_entries">
+        <item>@string/zen_mode_from_anyone</item>
+        <item>@string/zen_mode_from_contacts</item>
+        <item>@string/zen_mode_from_starred</item>
+        <item>@string/zen_mode_none_calls</item>
+    </string-array>
+    <string-array name="zen_mode_contacts_messages_entries">
+        <item>@string/zen_mode_from_anyone</item>
+        <item>@string/zen_mode_from_contacts</item>
+        <item>@string/zen_mode_from_starred</item>
+        <item>@string/zen_mode_none_messages</item>
+    </string-array>
+    <string-array name="zen_mode_contacts_values">
+        <item>zen_mode_from_anyone</item>
+        <item>zen_mode_from_contacts</item>
+        <item>zen_mode_from_starred</item>
+        <item>zen_mode_from_none</item>
+    </string-array>
+    <string-array name="zen_mode_conversations_entries">
+        <item>@string/zen_mode_from_all_conversations</item>
+        <item>@string/zen_mode_from_important_conversations</item>
+        <item>@string/zen_mode_from_no_conversations</item>
+    </string-array>
+    <string-array name="zen_mode_conversations_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

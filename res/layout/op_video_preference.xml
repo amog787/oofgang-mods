@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/gesture_animation_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.AspectRatioFrameLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="938.0px">
+        <TextureView android:layout_gravity="center" android:id="@id/video_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/video_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.android.settings.widget.AspectRatioFrameLayout>
+</LinearLayout>

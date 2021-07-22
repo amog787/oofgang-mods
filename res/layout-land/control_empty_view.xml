@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/empty_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:paddingLeft="24.0dip" android:paddingRight="18.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <com.google.android.material.emptyview.EmptyImageView android:id="@id/empty_image" android:layout_width="@dimen/control_empty_image_width" android:layout_height="@dimen/control_empty_image_height" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.34">
+        <TextView android:textAppearance="@style/op_control_text_style_h5" android:textColor="@color/op_control_text_color_primary_default" android:gravity="center" android:id="@id/empty_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space4" />
+        <TextView android:id="@id/empty_top_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" style="?smallBorderlessButtonStyle" />
+        <TextView android:id="@id/empty_middle_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" style="?smallBorderlessButtonStyle" />
+        <TextView android:id="@id/empty_bottom_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="false" style="?smallBorderlessButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.16" />
+</LinearLayout>

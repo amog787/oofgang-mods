@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="188.0dip" android:width="685.0dip" android:viewportWidth="685.0" android:viewportHeight="188.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/oneplus_theme_shape_notification_color" android:pathData="M20.5,0L21.5,0C32.822,0 42,9.178 42,20.5L42,21.5C42,32.822 32.822,42 21.5,42L20.5,42C9.178,42 0,32.822 0,21.5L0,20.5C0,9.178 9.178,0 20.5,0ZM67,5L177,5C181.418,5 185,8.582 185,13L185,29C185,33.418 181.418,37 177,37L67,37C62.582,37 59,33.418 59,29L59,13C59,8.582 62.582,5 67,5ZM8,84L677,84C681.418,84 685,87.582 685,92L685,112C685,116.418 681.418,120 677,120L8,120C3.582,120 0,116.418 0,112L0,92C0,87.582 3.582,84 8,84ZM8,152L677,152C681.418,152 685,155.582 685,160L685,180C685,184.418 681.418,188 677,188L8,188C3.582,188 0,184.418 0,180L0,160C0,155.582 3.582,152 8,152Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

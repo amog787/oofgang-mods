@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_details_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:selectable="false" android:key="bluetooth_device_header" settings:allowDividerBelow="false" settings:searchable="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/advanced_bt_entity_header" android:selectable="false" android:key="advanced_bluetooth_device_header" settings:allowDividerBelow="false" settings:controller="com.android.settings.bluetooth.AdvancedBluetoothDetailsHeaderController" settings:searchable="false" />
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="action_buttons" settings:allowDividerAbove="false" />
+    <com.android.settings.slices.SlicePreference android:key="bt_device_slice" settings:controller="com.android.settings.slices.BlockingSlicePrefController" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <androidx.preference.Preference android:persistent="true" android:title="@string/headphone_function" android:key="headset_function" />
+    <PreferenceCategory android:key="bluetooth_profiles" />
+    <com.android.settingslib.widget.FooterPreference android:selectable="false" android:key="device_details_footer" settings:controller="com.android.settings.bluetooth.BluetoothDetailsMacAddressController" settings:searchable="false" />
+</PreferenceScreen>

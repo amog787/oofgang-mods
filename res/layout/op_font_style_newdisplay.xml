@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/font_size_preview" />
+    <TextView android:textAppearance="@style/op_control_text_style_subtitle" android:textColor="@color/op_control_text_color_secondary" android:gravity="start|center" android:id="@id/font_title" android:paddingTop="@dimen/op_control_margin_space7" android:paddingBottom="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_font_switch" android:textAllCaps="true" android:importantForAccessibility="no" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/font_style_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/op_bottom_actionbar" />
+</LinearLayout>

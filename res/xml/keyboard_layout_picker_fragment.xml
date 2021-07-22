@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/keyboard_layout_picker_title" android:key="keyboard_layout_picker" settings:controller="com.android.settings.inputmethod.KeyboardLayoutPickerController"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

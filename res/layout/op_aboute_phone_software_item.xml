@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="@dimen/op_control_margin_space2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/about_card_bg" android:paddingTop="@dimen/op_control_margin_list_top4" android:paddingBottom="@dimen/op_control_margin_list_top4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right2">
+        <TextView android:textColor="@color/op_control_text_color_primary" android:id="@id/tv_title_software_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/op_control_text_style_h6" />
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/tv_summary_software_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/tv_title_software_info" android:layout_marginEnd="41.0dip" style="@style/op_control_text_style_body1" />
+        <ImageView android:id="@id/img_software_info" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:tint="@color/op_control_icon_color_active" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

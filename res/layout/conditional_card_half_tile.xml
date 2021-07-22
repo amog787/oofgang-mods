@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContextualCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/contextual_condition_half_card_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/contextual_card_padding_end">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/contextual_card_icon_size" android:layout_height="@dimen/contextual_card_icon_size" android:tint="?android:colorAccent" android:layout_marginStart="@dimen/contextual_card_icon_padding_start" />
+            <TextView android:textAppearance="@style/TextAppearance.HomepageCardTitle" android:ellipsize="end" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contextual_condition_half_card_title_margin_top" android:layout_marginBottom="@dimen/contextual_condition_card_title_margin_bottom" android:maxLines="1" android:layout_marginStart="@dimen/contextual_card_text_padding_start" />
+            <TextView android:textAppearance="@style/TextAppearance.ConditionCardSummary" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/contextual_condition_half_card_summary_margin_bottom" android:lines="1" android:layout_marginStart="@dimen/contextual_card_text_padding_start" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <include layout="@layout/horizontal_divider" />
+        </FrameLayout>
+        <Button android:id="@id/first_action" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ConditionHalfCardBorderlessButton" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_configure_settings_preference_title" android:key="wifi_configure_settings_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/oneplus_smart_wifi_connection" android:key="smart_wifi_connection">
+        <SwitchPreference android:title="@string/wifi_wakeup" android:key="enable_wifi_wakeup" android:summary="@string/wifi_wakeup_summary" settings:controller="com.android.settings.wifi.WifiWakeupPreferenceController" />
+        <SwitchPreference android:title="@string/oneplus_intelligently_select_best_wifi" android:key="intelligently_select_best_wifi" android:summary="@string/oneplus_intelligently_select_best_wifi_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_settings" android:key="advanced_settings">
+        <SwitchPreference android:title="@string/wifi_notify_open_networks" android:key="notify_open_networks" android:summary="@string/wifi_notify_open_networks_summary" settings:controller="com.android.settings.wifi.NotifyOpenNetworksPreferenceController" settings:keywords="@string/keywords_wifi_notify_open_networks" />
+        <SwitchPreference android:persistent="false" android:title="@string/oneplus_wifi_scan_always_available" android:key="wifi_scan_always_available" android:summary="@string/oneplus_wifi_scan_always_available_summary" />
+        <SwitchPreference android:title="@string/oneplus_passpoint" android:key="oneplus_passpoint" android:summary="@string/oneplus_passpoint_summary" />
+        <Preference android:title="@string/wifi_menu_p2p" android:key="wifi_direct" android:fragment="com.android.settings.wifi.p2p.WifiP2pSettings" settings:keywords="@string/oneplus_search_keyword_wifi_direct" />
+        <SwitchPreference android:title="@string/use_open_wifi_automatically_title" android:key="use_open_wifi_automatically" android:summary="@string/use_open_wifi_automatically_summary" settings:controller="com.android.settings.wifi.UseOpenWifiPreferenceController" />
+        <Preference android:title="@string/wifi_install_credentials" android:key="install_credentials">
+            <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL_AS_USER" android:targetClass="com.android.certinstaller.CertInstallerMain">
+                <extra android:name="install_as_uid" android:value="1010" />
+            </intent>
+        </Preference>
+        <Preference android:title="@string/wapi_cert_manage_title" android:key="wapi_cert_manage">
+            <intent android:targetPackage="com.wapi.wapicertmanage" android:targetClass="com.wapi.wapicertmanage.WapiCertManageActivity" />
+        </Preference>
+        <Preference android:title="@string/network_scorer_picker_title" android:key="network_scorer_picker" android:fragment="com.android.settings.network.NetworkScorerPicker" settings:controller="com.android.settings.network.NetworkScorerPickerPreferenceController" />
+        <Preference android:title="@string/wifi_advanced_randomized_mac_address_title" android:key="mac_address" />
+        <Preference android:title="@string/wifi_advanced_ip_address_title" android:key="current_ip_address" />
+        <SwitchPreference android:title="@string/wifi_cellular_data_fallback_title" android:key="wifi_cellular_data_fallback" android:summary="@string/wifi_cellular_data_fallback_summary" settings:controller="com.android.settings.wifi.CellularFallbackPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

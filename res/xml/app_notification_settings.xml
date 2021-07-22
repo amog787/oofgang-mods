@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="app_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:key="pref_app_header" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/styled_switch_bar" android:key="block" />
+    <com.android.settings.notification.app.NotificationFooterPreference android:key="block_desc" />
+    <PreferenceCategory android:visibility="gone" android:title="@string/conversations_category_title" android:key="conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/conversation_section_switch_title" android:key="invalid_conversation_switch" />
+    <Preference android:key="invalid_conversation_info" />
+    <Preference android:title="@string/notification_bubbles_title" android:key="bubble_pref_link" settings:controller="com.android.settings.notification.app.BubbleSummaryPreferenceController" />
+    <PreferenceCategory android:visibility="gone" android:title="@string/conversations_category_title" android:key="conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:layout="@layout/empty_view" android:key="channels" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/allow_interruption" android:key="allow_sound" android:summary="@string/allow_interruption_summary" />
+    <com.android.settings.RestrictedListPreference android:title="@string/app_notification_visibility_override_title" android:key="visibility_override" />
+    <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/app_notification_override_dnd_title" android:key="bypass_dnd" android:summary="@string/app_notification_override_dnd_summary" settings:useAdditionalSummary="true" />
+    <PreferenceCategory android:key="app_advanced" android:order="1000" settings:initialExpandedChildrenCount="0">
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/notification_badge_title" android:key="badge" android:order="1001" settings:restrictedSwitchSummary="@string/enabled_by_admin" settings:useAdditionalSummary="true" />
+        <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="1003" />
+    </PreferenceCategory>
+    <com.android.settings.notification.app.NotificationFooterPreference android:key="desc" android:order="5000" />
+    <com.android.settings.notification.app.NotificationFooterPreference android:key="deleted" android:order="8000" />
+</PreferenceScreen>

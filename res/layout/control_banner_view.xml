@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/banner_layout" android:background="@color/op_control_bg_color_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/banner_text_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space3" android:layout_weight="1.0">
+            <ImageView android:id="@id/banner_icon" android:visibility="gone" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginEnd="@dimen/op_control_margin_space3" />
+            <TextView android:textAppearance="@style/op_control_text_style_body1" android:textColor="@color/op_control_text_color_primary_default" android:layout_gravity="center_vertical" android:id="@id/banner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/op_control_margin_space4" />
+        </LinearLayout>
+        <Button android:textColor="@color/op_control_text_color_red_default" android:layout_gravity="center_vertical" android:id="@id/single_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_dialog_item_width1" android:singleLine="true" android:layout_marginStart="@dimen/op_control_margin_space2" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.Small" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:id="@id/banner_vertical_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:layout_marginBottom="@dimen/op_control_margin_space2">
+        <Button android:textColor="@color/op_control_text_color_red_default" android:id="@id/multi_action_button_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_dialog_item_width1" android:singleLine="true" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.Small" />
+        <Button android:textColor="@color/op_control_text_color_red_default" android:id="@id/multi_action_button_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_dialog_item_width1" android:singleLine="true" style="@style/OnePlus.Widget.AppCompat.Button.Borderless.Small" />
+    </LinearLayout>
+</LinearLayout>

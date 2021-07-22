@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_controls_sentence"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.widget.OPLottieAnimPreference android:selectable="false" android:key="op_device_controls_instructions_anim" />
+    <SwitchPreference android:title="@string/device_controls_setting_toggle" android:key="gesture_device_controls_switch" android:summary="@string/device_controls_setting_subtitle" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.DeviceControlsPreferenceController" app:keywords="@string/keywords_device_controls" />
+</PreferenceScreen>

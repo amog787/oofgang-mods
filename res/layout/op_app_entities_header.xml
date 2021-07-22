@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/op_app_entities_header" android:paddingTop="@dimen/op_control_margin_space7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right3" android:breakStrategy="simple" style="@style/op_control_text_style_subtitle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/app_views_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/op_control_margin_space1">
+        <include android:id="@id/app1_view" layout="@layout/op_app_view" />
+        <include android:id="@id/app2_view" layout="@layout/op_app_view" />
+        <include android:id="@id/app3_view" layout="@layout/op_app_view" />
+    </LinearLayout>
+    <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/header_details" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space1" android:layout_marginStart="@dimen/op_control_margin_space1" style="?borderlessButtonStyle" />
+    <TextView android:textAppearance="@style/AppEntitiesHeader.Text.Summary" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+</LinearLayout>

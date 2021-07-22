@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?face_layout_theme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:FaceEnrollAccessibilitySwitch="http://schemas.android.com/apk/res/com.android.settings">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <com.google.android.setupdesign.view.RichTextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_education_message" android:textAlignment="center" style="@style/SudDescription.Glif" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="12.0dip">
+            <com.google.android.setupdesign.view.IllustrationVideoView android:id="@id/illustration_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sudVideo="@raw/face_education" style="@style/SudContentIllustration" />
+            <ImageView android:layout_gravity="center" android:id="@id/illustration_accessibility" android:background="@drawable/face_enroll_introduction" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:layout_gravity="center" android:id="@id/accessibility_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_introduction_accessibility" style="@style/SudGlifButton.Secondary" />
+                <com.android.settings.biometrics.face.FaceEnrollAccessibilityToggle android:id="@id/toggle_diversity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" FaceEnrollAccessibilitySwitch:messageText="@string/security_settings_face_enroll_introduction_accessibility_diversity" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

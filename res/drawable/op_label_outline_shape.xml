@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/op_control_radius_r16" />
+        <solid android:color="?onePlusBgColor" />
+        <size android:height="15.0dip" />
+        <stroke android:width="2.0px" android:color="?onePlusLabelStrokeColor" />
+        <padding android:left="@dimen/op_control_margin_space2" android:top="1.2999878dip" android:right="@dimen/op_control_margin_space2" android:bottom="2.1999817dip" />
+    </shape>
+</inset>

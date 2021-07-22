@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_summary" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_alignParentEnd="true" layout="@layout/preference_widget_two_summary" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/widget_summary" layout="@layout/preference_material" />
+</RelativeLayout>

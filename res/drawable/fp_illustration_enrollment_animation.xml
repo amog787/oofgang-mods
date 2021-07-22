@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/fp_illustration_enrollment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="background_5_path" android:animation="@anim/enrollment_fingerprint_background_5_path_animation" />
+    <target android:name="background_7_path" android:animation="@anim/enrollment_fingerprint_background_7_path_animation" />
+    <target android:name="background_6_path" android:animation="@anim/enrollment_fingerprint_background_6_path_animation" />
+    <target android:name="background_2_path" android:animation="@anim/enrollment_fingerprint_background_2_path_animation" />
+    <target android:name="background_1_path" android:animation="@anim/enrollment_fingerprint_background_1_path_animation" />
+</animated-vector>

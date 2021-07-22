@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Kablosuz çağrı ile acil durum aramaları yapamazsınız. Acil durum araması yapmaya çalışırsanız cihazınız otomatik olarak mobil ağa geçecektir. Acil durum aramaları yalnızca mobil ağ kapsamında olan yerlerden yapılabilir."</string>
+</resources>

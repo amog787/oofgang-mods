@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.display.MessageBubbleBackground android:orientation="vertical" android:id="@id/message_text_and_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <TextView android:textSize="@dimen/conversation_message_text_size" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h6" />
+        <TextView android:textSize="@dimen/conversation_status_text_size" android:id="@id/message_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_body1" />
+    </com.android.settings.display.MessageBubbleBackground>
+</LinearLayout>

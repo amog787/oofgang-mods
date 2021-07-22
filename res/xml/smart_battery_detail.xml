@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_battery_manager_title" android:key="smart_battery_detail" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.system.OPAutoAwesomeBatteryLottieAnimPreference />
+    <SwitchPreference android:title="@string/smart_battery_title" android:key="smart_battery" android:summary="@string/smart_battery_summary" settings:allowDividerAbove="true" settings:controller="com.android.settings.fuelgauge.SmartBatteryPreferenceController" />
+    <SwitchPreference android:title="@string/battery_auto_restriction_title" android:key="auto_restriction" android:summary="@string/battery_auto_restriction_summary" settings:controller="com.android.settings.fuelgauge.AutoRestrictionPreferenceController" />
+    <Preference android:title="@string/restricted_app_title" android:key="restricted_app" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/smart_battery_footer" android:selectable="false" android:key="smart_battery_detail_footer" settings:searchable="false" />
+</PreferenceScreen>

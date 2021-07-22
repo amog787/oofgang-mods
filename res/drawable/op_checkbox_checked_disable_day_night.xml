@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_control_icon_size_button" android:width="@dimen/op_control_icon_size_button" android:viewportWidth="63.0" android:viewportHeight="63.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#30000000" android:pathData="M6,14C6,9.5817 9.5817,6 14,6H49C53.4183,6 57,9.5817 57,14V49C57,53.4183 53.4183,57 49,57H14C9.5817,57 6,53.4183 6,49V14Z" />
+    <path android:fillColor="#30000000" android:pathData="M26.6963,37.5908L44.5454,19.7416L47.3296,22.5259L28.0884,41.7671C27.3195,42.536 26.073,42.536 25.3042,41.7671L15.6704,32.1334L18.4546,29.3491L26.6963,37.5908Z" android:fillType="evenOdd" />
+</vector>

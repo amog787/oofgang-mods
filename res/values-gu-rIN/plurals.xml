@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">તમારી પાસે હજી %1$d મોકાઓ છે</item>
+        <item quantity="one">તમારી પાસે હજી %1$d મોકો છે</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">%d સેકંડ્સમાં ફરી પ્રયાસ કરો.</item>
+        <item quantity="one">%d સેકન્ડમાં ફરી પ્રયાસ કરો.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d કલાક (આપોઆપ ચાલુ ન થાય ત્યાં સુધી)</item>
+        <item quantity="one">1 કલાક (આપોઆપ ચાલુ ન થાય ત્યાં સુધી)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">%1$d એપ્લિકેશન્સમાં સ્થાનની એક્સેસ છે</item>
+        <item quantity="one">%1$d એપ્લિકેશનમાં સ્થાનની એક્સેસ છે</item>
+    </plurals>
+</resources>

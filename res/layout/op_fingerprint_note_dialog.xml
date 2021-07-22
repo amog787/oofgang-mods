@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_contorl_list_item_height_one_line1" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_left3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_contorl_list_item_height_one_line1">
+        <CheckBox android:textAppearance="@style/oneplus_contorl_text_style_body1" android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:layout_gravity="start|center" android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_scan_notify_remember_choice" android:paddingStart="@dimen/oneplus_contorl_layout_margin_right6" />
+    </LinearLayout>
+</LinearLayout>

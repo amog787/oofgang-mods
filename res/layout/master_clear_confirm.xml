@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:theme="@style/OnePlusPasswordTheme" android:icon="@drawable/ic_delete_accent" android:textColor="@color/oneplus_contorl_text_color_primary" android:orientation="vertical" android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/master_clear_confirm_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:textColor="@color/oneplus_contorl_text_color_secondary" android:id="@id/sud_layout_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/master_clear_final_desc" style="@style/SudItemTitle.GlifDescription" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

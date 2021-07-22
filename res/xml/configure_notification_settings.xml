@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configure_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.NotificationLottiePreference android:persistent="false" android:selectable="false" android:key="notification_model_illustration" settings:controller="com.android.settings.widget.NotificationLottiePreferenceController" />
+    <PreferenceCategory android:title="@string/recent_notifications" android:key="recent_notifications_category" android:order="5" settings:allowDividerAbove="true">
+        <com.oneplus.settings.widget.OPBorderlessButtonPreference android:title="@string/notifications_title" android:key="all_notifications" android:order="6" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:searchable="false">
+            <extra android:name="classname" android:value="com.android.settings.Settings$NotificationAppListActivity" />
+        </com.oneplus.settings.widget.OPBorderlessButtonPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_screen_notifications_title" android:key="configure_notifications_lock" android:order="10">
+        <com.android.settings.RestrictedListPreference android:title="@string/oneplus_lock_screen_notifs_title" android:key="lock_screen_notifications" android:summary="@string/summary_placeholder" android:singleLineTitle="false" />
+        <SwitchPreference android:title="@string/lock_screen_notifs_redact" android:key="lock_screen_redact" android:summary="@string/lock_screen_notifs_redact_summary" settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
+        <SwitchPreference android:title="@string/lock_screen_notifs_redact_work" android:key="lock_screen_work_redact" android:summary="@string/lock_screen_notifs_redact_work_summary" settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
+        <SwitchPreference android:title="@string/lockscreen_bypass_title" android:key="notification_lockscreen_bypass" android:summary="@string/lockscreen_bypass_summary" settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" settings:searchable="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="configure_notifications_advanced" android:order="15" settings:initialExpandedChildrenCount="0">
+        <SwitchPreference android:title="@string/oneplus_silent_notifications_status_bar" android:key="silent_icons" settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController" />
+        <SwitchPreference android:title="@string/oneplus_snooze_options_title" android:key="show_snooze_options" settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
+        <SwitchPreference android:title="@string/asst_capabilities_actions_replies_title" android:key="asst_capabilities_actions_replies" android:summary="@string/asst_capabilities_actions_replies_summary" settings:controller="com.android.settings.notification.AssistantCapabilityPreferenceController" />
+        <SwitchPreference android:title="@string/notification_badging_title" android:key="notification_badging" settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController" />
+        <SwitchPreference android:title="@string/notification_pulse_title" android:key="notification_pulse" settings:controller="com.android.settings.notification.PulseNotificationPreferenceController" />
+        <Preference android:title="@string/notification_history" android:key="notification_history" android:summary="@string/op_notification_history_summary" android:order="2" settings:allowDividerAbove="false" settings:allowDividerBelow="false">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.notification.history.NotificationHistoryActivity" />
+        </Preference>
+        <Preference android:title="@string/conversations_category_title" android:key="conversations" android:fragment="com.android.settings.notification.app.ConversationListSettings" settings:controller="com.android.settings.notification.ConversationListSummaryPreferenceController" />
+        <Preference android:title="@string/notification_bubbles_title" android:key="notification_bubbles" android:summary="@string/notifications_bubble_setting_on_summary" android:fragment="com.android.settings.notification.BubbleNotificationSettings" settings:controller="com.android.settings.notification.BubbleSummaryNotificationPreferenceController" />
+        <Preference android:title="@string/oneplus_at_a_glance" android:key="at_a_glance" settings:controller="com.android.settings.notification.OPAtAGlancePreferenceController" />
+        <com.android.settings.DefaultRingtonePreference android:title="@string/notification_ringtone_title" android:key="notification_default_ringtone" android:summary="@string/summary_placeholder" android:dialogTitle="@string/notification_ringtone_title" android:ringtoneType="notification" settings:searchable="false" />
+        <Preference android:title="@string/fingerprint_swipe_for_notifications_title" android:key="gesture_swipe_down_fingerprint_notifications" android:fragment="com.android.settings.gestures.SwipeToNotificationSettings" settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/zen_mode_settings_title" android:key="zen_mode_notifications" android:fragment="com.android.settings.notification.zen.ZenModeSettings" settings:allowDividerAbove="false" settings:controller="com.android.settings.notification.zen.ZenModePreferenceController" settings:useAdminDisabledSummary="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
