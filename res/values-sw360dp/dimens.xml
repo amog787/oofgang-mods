@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fingerprint_enrolling_content_margin_vertical">56.0dip</dimen>
+    <dimen name="fingerprint_find_sensor_graphic_size">240.0dip</dimen>
+    <dimen name="storage_donut_view_label_text_size">14.0sp</dimen>
+    <dimen name="storage_donut_view_percent_text_size">30.0sp</dimen>
+    <dimen name="suggestion_card_padding_bottom_one_card">22.0dip</dimen>
+    <dimen name="support_escalation_card_padding_end">56.0dip</dimen>
+    <dimen name="support_escalation_card_padding_start">56.0dip</dimen>
+</resources>

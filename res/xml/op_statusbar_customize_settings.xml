@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/status_bar_title" settings:keywords="@string/status_bar_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settings.RestrictedListPreference android:entries="@array/oneplus_battery_style_entries" android:title="@string/battery_status_icon_title" android:key="battery_style" android:entryValues="@array/oneplus_battery_style_value" />
+    <SwitchPreference android:title="@string/power_show_in_statusbar_title" android:key="enable_show_statusbar" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_network_speed_title" android:key="networkspeed" settings:keywords="@string/oneplus_search_keyword_network_speed" />
+    <com.oneplus.settings.statusbar.ClockPreference android:entries="@array/status_bar_settings_clock_options" android:title="@string/status_bar_settings_time_title" android:key="clock" android:summary="%s" />
+    <Preference android:title="@string/statusbar_icon_manager" android:key="status_bar_icon_manager" settings:keywords="@string/oneplus_search_keyword_icon_manager" />
+</PreferenceScreen>

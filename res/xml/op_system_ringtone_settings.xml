@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_system_ringtone" android:key="system_ringtone" settings:keywords="@string/oneplus_system_ringtone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/touch_sounds_title" android:key="touch_sounds" />
+    <SwitchPreference android:title="@string/dial_pad_tones_title" android:key="dial_pad_tones" />
+    <SwitchPreference android:title="@string/screen_locking_sounds_title" android:key="screen_locking_sounds" />
+    <SwitchPreference android:persistent="false" android:title="@string/op_screenshot" android:key="screenshot_sounds" />
+    <SwitchPreference android:title="@string/charging_sounds_title" android:key="charging_sounds" />
+    <SwitchPreference android:title="@string/docking_sounds_title" android:key="docking_sounds" />
+    <DropDownPreference android:title="@string/dock_audio_media_title" android:key="dock_audio_media" android:summary="%s" />
+    <SwitchPreference android:title="@string/boot_sounds_title" android:key="boot_sounds" />
+</PreferenceScreen>

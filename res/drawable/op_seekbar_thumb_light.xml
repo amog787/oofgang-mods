@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:tint="@color/seekbar_normal_color_light" android:shape="oval">
+            <size android:height="15.0dip" android:width="15.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:id="@id/pressed" android:drawable="@drawable/op_ic_brightness_thumb" />
+    <item android:id="@id/unpressed" android:drawable="@drawable/op_ic_brightness_thumb" />
+</animated-selector>

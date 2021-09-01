@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_face_unlock_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/oneplus_face_unlock_choose_default_mode" android:key="key_faceunlock_mode_category">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_face_unlock_choose_swipe_up_mode" android:key="key_faceunlock_swipe_up_mode" android:summary="@string/oneplus_face_unlock_choose_swipe_up_mode_summary" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_face_auto_unlock_while_screen_on_title" android:key="key_faceunlock_use_power_button_mode" android:summary="@string/oneplus_face_unlock_choose_use_power_button_mode_summary" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPFaceUnlockModeLottieViewCategory android:enabled="false" android:title="@string/oneplus_face_unlock_choose_default_mode" android:key="key_faceunlock_mode_retain_view" />
+</PreferenceScreen>

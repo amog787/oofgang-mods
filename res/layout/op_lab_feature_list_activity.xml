@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.settings.edgeeffect.SpringNestScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space7" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/op_lab_feature_plugin_head" android:layout_width="fill_parent" android:layout_height="@dimen/op_lab_feature_plugin_head_height" android:contentDescription="@null" />
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:id="@id/op_lab_feature_plugin_features" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/oneplus_lab_features" android:textAllCaps="true" android:textDirection="locale" android:textAlignment="viewStart" android:layoutDirection="locale" android:layout_marginStart="@dimen/op_control_margin_screen_left3" style="@style/op_control_text_style_subtitle" />
+        <com.google.android.material.listview.OPListView android:id="@id/op_lab_feature_plugin_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </LinearLayout>
+</com.oneplus.settings.edgeeffect.SpringNestScrollView>

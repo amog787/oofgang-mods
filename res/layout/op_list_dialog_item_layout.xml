@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center" android:id="@id/choose_lock_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/oneplus_incoming_call_vibrate_mode" android:paddingStart="@dimen/oneplus_settings_layout_margin_left3" android:paddingEnd="@dimen/oneplus_settings_layout_margin_left3">
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_1" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:checked="true" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_2" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_3" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:checked="true" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_4" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_5" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+            <RadioButton android:textAppearance="?android:textAppearanceListItem" android:id="@id/item_6" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height" android:paddingStart="@dimen/oneplus_settings_layout_margin_left2" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

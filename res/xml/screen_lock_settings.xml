@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/unlock_set_unlock_launch_picker_title" android:key="security_settings_password_sub_screen" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title" android:key="visiblepattern" android:order="-40" />
+    <com.android.settings.display.TimeoutListPreference android:entries="@array/lock_after_timeout_entries" android:title="@string/oneplus_lock_after_timeout" android:key="lock_after_timeout" android:summary="@string/summary_placeholder" android:order="-30" android:entryValues="@array/lock_after_timeout_values" />
+    <SwitchPreference android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" android:key="power_button_instantly_locks" android:order="-20" />
+    <SwitchPreference android:title="@string/disable_quick_settings_when_locked" android:key="disable_quick_settings_when_locked" android:order="-10" />
+    <PreferenceCategory android:title="@string/oneplus_lockscreen_settings_title" android:key="lockscreen_settings" android:order="10">
+        <com.android.settings.RestrictedListPreference android:title="@string/lock_screen_notifications_title" android:key="security_setting_lock_screen_notif" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_lock_screen_notif" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+        <com.oneplus.settings.ui.OPRestrictedSwitchPreference android:title="@string/user_add_on_lockscreen_menu" android:key="security_lockscreen_add_users_when_locked" settings:controller="com.android.settings.users.AddUserWhenLockedPreferenceController" />
+        <SwitchPreference android:title="@string/lockdown_settings_title" android:key="security_setting_lockdown_enabled" android:summary="@string/oneplus_lockdown_settings_summary" settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

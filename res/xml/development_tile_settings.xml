@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/quick_settings_developer_tiles" android:key="development_tile_settings" settings:controller="com.android.settings.development.qstile.DevelopmentTilePreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

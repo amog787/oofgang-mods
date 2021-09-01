@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_devices_other_32dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginStart="?sudMarginSides" android:layout_marginEnd="?sudMarginSides" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.SudGlifBody" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/wifi_ap_picture_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wifi_dpp_success" android:scaleType="fitCenter" />
+            <Button android:id="@id/choose_different_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_dpp_choose_different_network" style="@style/SudGlifButton.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

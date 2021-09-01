@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/conversation_message_contact_icon_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/conversation_icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" android:fontFamily="sans-serif"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

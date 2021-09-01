@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/op_control_icon_color_active_default" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <group android:translateX="3.0" android:translateY="1.0">
+            <path android:fillColor="#ff000000" android:pathData="M17,21.75 L1,21.75 C0.585786438,21.75 0.25,21.4142136 0.25,21 L0.25,7 C0.25,6.80108763 0.32901763,6.6103222 0.469669914,6.46966991 L6.46966991,0.469669914 C6.6103222,0.32901763 6.80108763,0.25 7,0.25 L17,0.25 C17.4142136,0.25 17.75,0.585786438 17.75,1 L17.75,21 C17.75,21.4142136 17.4142136,21.75 17,21.75 Z M16.25,20.25 L16.25,1.75 L7.31066017,1.75 L1.75,7.31066017 L1.75,20.25 L16.25,20.25 Z M4.25,10 L5.75,10 L5.75,14 L4.25,14 L4.25,10 Z M4.25,15 L5.75,15 L5.75,18 L4.25,18 L4.25,15 Z M9.75,18 L8.25,18 L8.25,14 L9.75,14 L9.75,18 Z M9.75,13 L8.25,13 L8.25,10 L9.75,10 L9.75,13 Z M12.25,10 L13.75,10 L13.75,14 L12.25,14 L12.25,10 Z M12.25,15 L13.75,15 L13.75,18 L12.25,18 L12.25,15 Z" android:strokeWidth="1.0" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?face_layout_theme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:FaceEnrollAccessibilitySwitch="http://schemas.android.com/apk/res/com.android.settings">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <com.google.android.setupdesign.view.RichTextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_introduction_message" style="@style/SudDescription.Glif" />
+        <com.google.android.setupdesign.view.RichTextView android:id="@id/error_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="12.0dip">
+            <com.google.android.setupdesign.view.IllustrationVideoView android:id="@id/illustration_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sudVideo="@raw/face_settings" style="@style/SudContentIllustration" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/ic_info_outline_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Space android:layout_width="24.0dip" android:layout_height="wrap_content" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_introduction_footer_part_0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/ic_face_enroll_introduction_shield" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Space android:layout_width="24.0dip" android:layout_height="wrap_content" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_introduction_footer_part_1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/ic_face_enroll_introduction_visibility" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Space android:layout_width="24.0dip" android:layout_height="wrap_content" />
+                <TextView android:id="@id/face_enroll_introduction_footer_part_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/ic_face_enroll_introduction_people" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Space android:layout_width="24.0dip" android:layout_height="wrap_content" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_face_enroll_introduction_footer_part_3" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

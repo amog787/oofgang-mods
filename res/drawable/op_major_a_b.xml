@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="major_a_b" android:tint="?android:colorControlNormal" android:height="9.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="9.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="dot_01" android:translateX="4.0" android:translateY="4.5">
+        <group android:name="dot_group">
+            <path android:name="dot" android:fillColor="#ffffffff" android:pathData="M 0.0,-3.5 l 0.0,0.0 c 1.9329966244085,0.0 3.5,1.5670033755915 3.5,3.5 l 0.0,0.0 c 0.0,1.9329966244085 -1.5670033755915,3.5 -3.5,3.5 l 0.0,0.0 c -1.9329966244085,0.0 -3.5,-1.5670033755915 -3.5,-3.5 l 0.0,0.0 c 0.0,-1.9329966244085 1.5670033755915,-3.5 3.5,-3.5 Z" />
+        </group>
+    </group>
+</vector>

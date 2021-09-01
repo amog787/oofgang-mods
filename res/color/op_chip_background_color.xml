@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/op_control_icon_color_active_default" android:alpha="0.3" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="?chipSelectBgColor" android:alpha="1.0" />
+    <item android:state_enabled="true" android:state_checked="true" android:color="?chipSelectBgColor" android:alpha="1.0" />
+    <item android:state_enabled="true" android:color="?onePlusBgColorToast" android:alpha="1.0" />
+    <item android:color="?onePlusBgColorToast" android:alpha="0.12" />
+</selector>

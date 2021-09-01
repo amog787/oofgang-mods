@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/alertslider_settings_soc_tri_state"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_mode_settings" android:key="mode_settings_category">
+        <Preference android:title="@string/oneplus_silent_mode" android:key="silent_settings" android:summary="@string/oneplus_silent_mode_summary" android:fragment="com.oneplus.settings.notification.OPSilentMode" />
+        <Preference android:title="@string/oneplus_vibration_settings_soc_tri_state" android:key="vibration_settings" android:summary="@string/oneplus_vibration_settings_soc_tri_state_summary" android:fragment="com.oneplus.settings.notification.OPVibrationMode" />
+        <Preference android:title="@string/oneplus_do_not_disturb" android:key="do_not_disturb_settings" android:summary="@string/oneplus_not_disturb_summary" android:fragment="com.android.settings.notification.ZenModeSettings" />
+        <Preference android:title="@string/oneplus_ring_pattern" android:key="ring_settings" android:summary="@string/oneplus_ring_pattern_summary" android:fragment="com.oneplus.settings.notification.OPRingPattern" />
+    </PreferenceCategory>
+</PreferenceScreen>

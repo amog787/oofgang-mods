@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">%d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d నిమి క్రితం</item>
+        <item quantity="one">%d నిమి క్రితం</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d సం క్రితం</item>
+        <item quantity="one">%d సం క్రితం</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d యాప్‌లు మీ పరికరానికి పూర్తి యాక్సెస్‌ను కలిగి ఉన్నాయి</item>
+        <item quantity="one">1 యాప్ మీ పరికరానికి పూర్తి యాక్సెస్‌ను కలిగి ఉంది</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s సెకన్లు</item>
+        <item quantity="one">%1$s సెకను</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">ఎక్కువ ఆలస్యం (%1$s సెకన్లు)</item>
+        <item quantity="one">ఎక్కువ ఆలస్యం (%1$s సెకను)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">కాస్త ఆలస్యం (%1$s సెకన్లు)</item>
+        <item quantity="one">కాస్త ఆలస్యం (%1$s సెకను)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">తక్కువ ఆలస్యం (%1$s సెకన్లు)</item>
+        <item quantity="one">తక్కువ ఆలస్యం (%1$s సెకను)</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">యాప్ %d లింక్‌లను నిర్వహించే క్లెయిమ్ చేస్తుంది</item>
+        <item quantity="one">యాప్ %d లింక్‌ను నిర్వహించే క్లెయిమ్ చేస్తుంది</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d యాప్‌లలో ఆఫ్ చేయబడింది</item>
+        <item quantity="one">%d యాప్‌‌లో ఆఫ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d యాప్‌లు పరిమితం చేయబడ్డాయి</item>
+        <item quantity="one">%1$d యాప్ పరిమితం చేయబడింది</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d యాప్‌లను పరిమితం చేయాలా?</item>
+        <item quantity="one">యాప్‌ను పరిమితం చేయాలా?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">ఈ యాప్‌లను నేపథ్యంలో అమలు చేయడం సాధ్యపడదు</item>
+        <item quantity="one">ఈ యాప్‌ని నేపథ్యంలో అమలు చేయడం సాధ్యపడదు</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d యాప్‌లు ఇటీవల పరిమితం చేయబడ్డాయి</item>
+        <item quantity="one">%1$s ఇటీవల పరిమితం చేయబడింది</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d యాప్‌లు నేపథ్యంలో అధిక బ్యాటరీని వినియోగిస్తాయి</item>
+        <item quantity="one">%1$s నేపథ్యంలో అధిక బ్యాటరీని వినియోగిస్తుంది</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d యాప్‌‌లను పరిమితం చేయండి</item>
+        <item quantity="one">%1$d యాప్‌ను పరిమితం చేయండి</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d రోజులు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">%d రోజు మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">డేటా సేవర్ ఆన్‌లో ఉన్నప్పుడు అనియంత్రిత డేటాను ఉపయోగించడానికి %1$d యాప్‌లు అనుమతించబడ్డాయి</item>
+        <item quantity="one">డేటా సేవర్ ఆన్‌లో ఉన్నప్పుడు అనియంత్రిత డేటాను ఉపయోగించడానికి 1 యాప్ అనుమతించబడింది</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">కెమెరా అనువర్తనాలు</item>
+        <item quantity="one">కెమెరా అనువర్తనం</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">ఇమెయిల్ క్లయింట్ అనువర్తనాలు</item>
+        <item quantity="one">ఇమెయిల్ క్లయింట్ అనువర్తనం</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">ఫోన్ అనువర్తనాలు</item>
+        <item quantity="one">ఫోన్ అనువర్తనం</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d వర్గాలు తొలగించబడ్డాయి</item>
+        <item quantity="one">%d వర్గం తొలగించబడింది</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">ఎంచుకున్న భాషలను తీసివేయాలా?</item>
+        <item quantity="one">ఎంచుకున్న భాషను తీసివేయాలా?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">మద్దతు ఉన్న లింక్‌లను తెరవగల సామర్థ్యం %d అనువర్తనాలకు ఉంది</item>
+        <item quantity="one">మద్దతు ఉన్న లింక్‌లను తెరవగల సామర్థ్యం ఒక అనువర్తనానికి ఉంది</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">కనీసం %d CA ప్రమాణపత్రాలు</item>
+        <item quantity="one">కనీసం %d CA ప్రమాణపత్రం</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d ప్రయత్నాలు</item>
+        <item quantity="one">%d ప్రయత్నం</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d యాప్‌లు</item>
+        <item quantity="one">%d యాప్</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">కనీసం %d అనువర్తనాలు</item>
+        <item quantity="one">కనీసం %d అనువర్తనం</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s గంటలు</item>
+        <item quantity="one">1 గంట</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d యాప్‌లు కనెక్ట్ చేయబడ్డాయి</item>
+        <item quantity="one">%d యాప్ కనెక్ట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%2$d యాప్‌లలో %1$dకి లొకేషన్‌కు యాక్సెస్ ఉంది</item>
+        <item quantity="one">%2$d యాప్‌లలో %1$dకి లొకేషన్‌కు యాక్సెస్ ఉంది</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">లొకేషన్ ఆన్‌లో ఉన్నప్పుడు - %1$d యాప్‌లకు లొకేషన్ యాక్సెస్ ఉంటుంది</item>
+        <item quantity="one">లొకేషన్ ఆన్‌లో ఉన్నప్పుడు - %1$d యాప్‌నకు లొకేషన్ యాక్సెస్ ఉంటుంది</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d అక్షరాలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 అక్షరాన్ని కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d చిన్న అక్షరాలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 చిన్న అక్షరాన్ని కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d వర్ణమాల యేతర అక్షరాలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 వర్ణమాల యేతర అక్షరాన్ని కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d అసంఖ్యాత్మక అక్షరాలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 అసంఖ్యాత్మక అక్షరాన్ని కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d సంఖ్యాత్మక అంకెలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకెను కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d ప్రత్యేక గుర్తులను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 ప్రత్యేక గుర్తును కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">తప్పనిసరిగా కనీసం %d పెద్ద అక్షరాలను కలిగి ఉండాలి</item>
+        <item quantity="one">తప్పనిసరిగా కనీసం 1 పెద్ద అక్షరాన్ని కలిగి ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%d కంటే తక్కువ అక్షరాలు తప్పక ఉండాలి</item>
+        <item quantity="one">%d కంటే తక్కువ అక్షరం తప్పక ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">కనీసం %d అక్షరాలు తప్పక ఉండాలి</item>
+        <item quantity="one">కనీసం %d అక్షరం తప్పక ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d కంటే తక్కువ అంకెలు తప్పక ఉండాలి</item>
+        <item quantity="one">%d కంటే తక్కువ అంకె తప్పక ఉండాలి</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">పిన్‌లో కనీసం %d అంకెలు తప్పక ఉండాలి</item>
+        <item quantity="one">పిన్‌లో కనీసం %d అంకె తప్పక ఉండాలి</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d యాప్‌లు నోటిఫికేషన్‌లను చదవగలవు</item>
+        <item quantity="one">%d యాప్ నోటిఫికేషన్‌లను చదవగలదు</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d విశ్వసనీయ ఏజెంట్‌లు యాక్టివ్‌గా ఉన్నాయి</item>
+        <item quantity="one">1 విశ్వసనీయ ఏజెంట్ యాక్టివ్‌గా ఉంది</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">గత %2$sలో %1$d యాప్‌లు మెమరీని ఉపయోగించాయి</item>
+        <item quantity="one">గత %2$sలో 1 యాప్ మెమరీని ఉపయోగించింది</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s నిమిషాలు</item>
+        <item quantity="one">1 నిమిషం</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIMs</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d పరిమితులు</item>
+        <item quantity="one">1 పరిమితి</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d వర్గాలు</item>
+        <item quantity="one">%d వర్గం</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%d నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d అనువర్తనాలలో ఆఫ్ చేయబడింది</item>
+        <item quantity="one">1 అనువర్తనంలో ఆఫ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d వర్గాలు ఆఫ్ చేయబడ్డాయి</item>
+        <item quantity="one">%d వర్గం ఆఫ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">రోజుకు~%d నోటిఫికేషన్‌లు</item>
+        <item quantity="one">రోజుకు ~%d నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">వారానికి ~%dనోటిఫికేషన్‌లు</item>
+        <item quantity="one">వారానికి ~%d నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d యాప్‌లు యాక్టివ్‌గా ఉన్నాయి</item>
+        <item quantity="one">%d యాప్ యాక్టివ్‌గా ఉంది</item>
+    </plurals>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">మీకు ఇంకా %1$d అవకాశాలు ఉన్నాయి</item>
+        <item quantity="one">మీకు ఇంకా %1$d అవకాశం ఉంది</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">%d సెకనులలో మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="one">%d సెకనులో మళ్లీ ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d గంటలు (ఆటోమేటిక్‌గా ఆన్ అయితే మినహా)</item>
+        <item quantity="one">1 గంట (ఆటోమేటిక్‌గా ఆన్ అయితే మినహా)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">%1$d యాప్‌లు ప్రదేశానికి ప్రాప్తి కలిగి ఉన్నాయి</item>
+        <item quantity="one">%1$d పై యాప్ ప్రదేశానికి ప్రాప్తి కలిగి ఉంది</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s యాప్‌లు</item>
+        <item quantity="one">1 యాప్</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d అనుమతులు మంజూరయ్యాయి</item>
+        <item quantity="one">%d అనుమతి మంజూరైంది</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d యాప్‌లు అసాధారణంగా ప్రవర్తిస్తున్నాయి</item>
+        <item quantity="one">%1$s యాప్ అసాధారణంగా ప్రవర్తిస్తోంది</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">యాప్‌ల కారణంగా బ్యాటరీ ఖాళీ అవుతోంది</item>
+        <item quantity="one">%1$s కారణంగా బ్యాటరీ ఖాళీ అవుతోంది</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d ముద్రణ జాబ్‌లు</item>
+        <item quantity="one">1 ముద్రణ జాబ్</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d ప్రింట్‌ సేవలు ఆన్ చేయబడ్డాయి</item>
+        <item quantity="one">1 ప్రింట్‌ సేవ ఆన్ చేయబడింది</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d ప్రాధాన్య సంభాషణలు</item>
+        <item quantity="one">%d ప్రాధాన్య సంభాషణ</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d యాప్‌ల కోసం బ్యాటరీ వినియోగాన్ని పరిమితం చేయడం</item>
+        <item quantity="one">%1$d యాప్ కోసం బ్యాటరీ వినియోగాన్ని పరిమితం చేయడం</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d అదనపు అనుమతులు</item>
+        <item quantity="one">%d అదనపు అనుమతి</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$dలో %2$d అనుమతులు మంజూరు చేయబడ్డాయి</item>
+        <item quantity="one">%1$dలో %2$d అనుమతి మంజూరు చేయబడింది</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s సెకన్లు</item>
+        <item quantity="one">1 సెకను</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d వేలిముద్రలు సెటప్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d వేలిముద్ర సెటప్ చేయబడింది</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">అన్ని %1$d యాప్‌లను చూడండి</item>
+        <item quantity="one">అన్ని యాప్‌లను చూడండి</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">%d దాచబడిన అంశాలను చూపుతుంది</item>
+        <item quantity="one">%d దాచబడిన అంశాన్ని చూపుతుంది</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగుల దూరంలో ఉన్నారు.</item>
+        <item quantity="one">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగు దూరంలో ఉన్నారు.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d వినికిడి పరికరాలు సేవ్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d వినికిడి పరికరం సేవ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d యాప్‌లు అనియంత్రిత డేటాని ఉపయోగించగలవు</item>
+        <item quantity="one">1 యాప్ అనియంత్రిత డేటాని ఉపయోగించగలదు</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">ప్రమాణపత్రాలను విశ్వసించండి లేదా తీసివేయండి</item>
+        <item quantity="one">ప్రమాణపత్రాన్ని విశ్వసించండి లేదా తీసివేయండి</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s మీ కార్యాలయ ప్రొఫైల్ కోసం సర్టిఫికెట్ అధికారాలను ఇన్‌స్టాల్ చేసింది, దీని వల్ల వారు ఇమెయిల్‌లు, యాప్‌లు మరియు సురక్షితమైన వెబ్‌సైట్‌లతో సహా కార్యాలయ నెట్‌వర్క్ కార్యకలాపాన్ని పర్యవేక్షించడానికి అనుమతించబడవచ్చు.
+
+ఈ సర్టిఫికెట్ల గురించి మరింత సమాచారం కోసం, మీ నిర్వాహకులను సంప్రదించండి."</item>
+        <item quantity="one">"%s మీ కార్యాలయ ప్రొఫైల్ కోసం సర్టిఫికెట్ అధికారాన్ని ఇన్‌స్టాల్ చేసింది, దీని వల్ల వారు ఇమెయిల్‌లు, యాప్‌లు మరియు సురక్షితమైన వెబ్‌సైట్‌లతో సహా కార్యాలయ నెట్‌వర్క్ కార్యకలాపాన్ని పర్యవేక్షించడానికి అనుమతించబడవచ్చు.
+
+ఈ సర్టిఫికెట్ గురించి మరింత సమాచారం కోసం, మీ నిర్వాహకులను సంప్రదించండి."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s మీ పరికరంలో సర్టిఫికెట్ అధికారాలను ఇన్‌స్టాల్ చేసింది, దీని వల్ల వారు ఇమెయిల్‌లు, యాప్‌లు మరియు సురక్షితమైన వెబ్‌సైట్‌లతో సహా మీ పరికర నెట్‌వర్క్ కార్యకలాపాన్ని పర్యవేక్షించడానికి అనుమతించబడవచ్చు.
+
+ఈ సర్టిఫికెట్ల గురించి మరింత సమాచారం కోసం, మీ నిర్వాహకులను సంప్రదించండి."</item>
+        <item quantity="one">"%s మీ పరికరంలో సర్టిఫికెట్ అధికారాన్ని ఇన్‌స్టాల్ చేసింది, దీని వల్ల వారు ఇమెయిల్‌లు, యాప్‌లు మరియు సురక్షితమైన వెబ్‌సైట్‌లతో సహా మీ పరికర నెట్‌వర్క్ కార్యకలాపాన్ని పర్యవేక్షించడానికి అనుమతించబడవచ్చు.
+
+ఈ సర్టిఫికెట్ గురించి మరింత సమాచారం కోసం, మీ నిర్వాహకులను సంప్రదించండి."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">ప్రమాణపత్రాలను తనిఖీ చేయి</item>
+        <item quantity="one">ప్రమాణపత్రాన్ని తనిఖీ చేయి</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d సూచనలు</item>
+        <item quantity="one">+1 సూచన</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d సూచనలు</item>
+        <item quantity="one">1 సూచన</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d అంశాలు</item>
+        <item quantity="one">1 అంశం</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d నెట్‌వర్క్‌లు</item>
+        <item quantity="one">1 నెట్‌వర్క్</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d నెట్‌వర్క్‌లు &amp; సభ్యత్వాలు</item>
+        <item quantity="one">1 నెట్‌వర్క్ &amp; సభ్యత్వం</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d సభ్యత్వాలు</item>
+        <item quantity="one">1 సభ్యత్వం</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d పరికరాలు కనెక్ట్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d పరికరం కనెక్ట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM పిన్ కోడ్ తప్పు, మీకు మరో %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">SIM పిన్ కోడ్ చెల్లదు, మీరు మీ డివైజ్‌ను అన్‌లాక్ చేయడానికి తప్పనిసరిగా మీ క్యారియర్‌ను సంప్రదించడానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">%s అంతరాయం కలిగించవచ్చు</item>
+        <item quantity="one">%s అంతరాయం కలిగించవచ్చు</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d కాంటాక్ట్‌లు</item>
+        <item quantity="one">1 కాంటాక్ట్</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d సంభాషణలు</item>
+        <item quantity="one">1 సంభాషణ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">1 గంట</item>
+    </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s అంతరాయం కలిగించవచ్చు</item>
+        <item quantity="one">%s అంతరాయం కలిగించవచ్చు</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d షెడ్యూల్‌లు సెట్ చేయబడ్డాయి</item>
+        <item quantity="one">1 షెడ్యూల్ సెట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d షెడ్యూల్‌లు ఆటోమేటిక్‌గా ఆన్ అవుతాయి</item>
+        <item quantity="one">1 షెడ్యూల్ ఆటోమేటిక్‌గా ఆన్ అవుతుంది</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">మరో %d మంది</item>
+        <item quantity="one">మరో 1 వ్యక్తి</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%1$d గంటల పాటు అనగా %2$s వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
+        <item quantity="one">ఒక గంట పాటు అనగా %2$s వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d నిమిషాల పాటు అనగా (%2$s వరకు) అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
+        <item quantity="one">ఒక నిమిషం పాటు అనగా %2$s వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
+    </plurals>
+</resources>

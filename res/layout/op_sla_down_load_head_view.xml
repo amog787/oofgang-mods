@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/oneplus_contorl_text_color_secondary" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space8" android:text="@string/oneplus_sla_down_load_app_summary" android:maxLines="10" android:textAlignment="viewStart" android:layout_marginStart="@dimen/oneplus_contorl_layout_margin_left4" android:layout_marginEnd="@dimen/op_control_margin_space8" />
+    <View android:background="@color/oneplus_switchar_line" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" android:layout_marginBottom="@dimen/oneplus_settings_layout_margin_bottom2" />
+</LinearLayout>

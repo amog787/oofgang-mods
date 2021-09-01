@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill" android:id="@id/navigation_background" android:top="@dimen/op_control_divider_height_standard">
+        <shape android:shape="rectangle"> /> </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center|top" android:id="@id/navigation_divider">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/op_control_divider_height_standard" />
+            <solid android:color="@color/op_control_divider_color_default" />
+        </shape>
+    </item>
+</layer-list>

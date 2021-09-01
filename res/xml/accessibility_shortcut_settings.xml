@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_global_gesture_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/accessibility_shortcut_service_on_lock_screen_title" android:key="accessibility_shortcut_on_lock_screen" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/accessibility_shortcut_description" android:selectable="false" android:key="accessibility_shortcut_footer" settings:searchable="false" />
+</PreferenceScreen>

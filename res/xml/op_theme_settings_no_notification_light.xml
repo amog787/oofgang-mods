@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_theme_entrance_title" android:key="theme_setting_screen" settings:keywords="@string/oneplus_search_keyword_theme_settings_no_notification_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.oneplus.settings.widget.OPThemePresetDialogPreference android:icon="@drawable/op_ic_customization_theme" android:entries="@array/oneplus_theme_mode_entries" android:title="@string/oneplus_theme_preset" android:key="oneplus_theme_preset" android:dialogLayout="@layout/op_theme_preset_theme_select_dialog" android:entryValues="@array/oneplus_theme_mode_values" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPThemeIconPreference android:selectable="false" android:key="oneplus_theme_custom_key" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPThemePreference android:selectable="false" android:key="oneplus_theme_system_key" />
+</PreferenceScreen>

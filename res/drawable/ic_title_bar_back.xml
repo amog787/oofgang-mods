@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_control_icon_size_list" android:width="@dimen/op_control_icon_size_list" android:autoMirrored="true" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?colorActionBarControlNormal" android:pathData="M7.9936,12.6364C7.6421,12.2849 7.6421,11.7151 7.9936,11.3636L14.9936,4.3636L16.2664,5.6364L9.9028,12L16.2664,18.3636L14.9936,19.6364L7.9936,12.6364Z" android:fillType="evenOdd" />
+</vector>

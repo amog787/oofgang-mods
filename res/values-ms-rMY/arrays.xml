@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>Tunjuk jam, minit dan saat</item>
+        <item>Tunjuk jam dan minit (lalai)</item>
+        <item>Jangan tunjuk ikon ini</item>
+    </string-array>
+</resources>

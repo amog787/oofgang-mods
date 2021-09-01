@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/op_control_radius_r32" />
+        <solid android:color="@color/op_control_bg_color_override_default" />
+        <size android:height="@dimen/op_control_button_item_height_mini" />
+    </shape>
+</inset>

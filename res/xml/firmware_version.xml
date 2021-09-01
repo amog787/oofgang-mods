@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/firmware_version" settings:keywords="@string/keywords_android_version"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/firmware_version" android:key="os_firmware_version" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" settings:enableCopying="true" settings:searchable="false" />
+    <Preference android:title="@string/security_patch" android:key="security_key" settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/module_version" android:key="module_version" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/baseband_version" android:selectable="false" android:key="base_band" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/kernel_version" android:selectable="false" android:key="kernel_version" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/build_number" android:selectable="false" android:key="os_build_number" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController" settings:enableCopying="true" />
+</PreferenceScreen>

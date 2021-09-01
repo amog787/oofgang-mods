@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/text_layout" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/oneplus_contorl_text_color_primary" android:id="@android:id/title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/oneplus_contorl_text_color_secondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/apn_radiobutton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bluetooth_switchbar_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/bluetooth_show_files_received_via_bluetooth" android:key="bt_received_files" android:order="-10" />
+    <Preference android:title="@string/bluetooth_device_name" android:key="bluetooth_screen_bt_pair_rename_devices" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.bluetooth.BluetoothDeviceRenamePreferenceController" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/bluetooth_pairing_pref_title" android:key="bluetooth_screen_add_bt_devices" android:summary="@string/connected_device_add_device_summary" android:fragment="com.android.settings.bluetooth.BluetoothPairingDetail" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:controller="com.android.settings.connecteddevice.AddDevicePreferenceController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_bluetooth" />
+    <PreferenceCategory android:title="@string/connected_device_media_device_title" android:key="available_device_list" settings:controller="com.android.settings.connecteddevice.AvailableMediaDeviceGroupController" />
+    <PreferenceCategory android:title="@string/connected_device_other_device_title" android:key="connected_device_list" settings:controller="com.android.settings.connecteddevice.ConnectedDeviceGroupController" />
+    <PreferenceCategory android:title="@string/connected_device_previously_connected_title" android:key="previously_connected_devices" settings:controller="com.android.settings.connecteddevice.PreviouslyConnectedDevicePreferenceController">
+        <Preference android:icon="@drawable/ic_chevron_right_24dp" android:layout="@layout/op_see_all_preference" android:title="@string/previous_connected_see_all" android:key="previously_connected_devices_see_all" android:order="98" android:fragment="com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment" settings:searchable="false" />
+    </PreferenceCategory>
+    <com.oneplus.settings.widget.OPFooterPreference android:selectable="false" android:key="bluetooth_screen_footer" settings:searchable="false" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_icon_size_list" android:layout_marginBottom="26.0dip" android:contentDescription="@string/homepage_condition_footer_content_description" android:layout_marginEnd="@dimen/op_control_margin_screen_right2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/collapse_button" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:src="@drawable/ic_expand_less" android:tint="@color/op_control_icon_color_active" />
+</LinearLayout>

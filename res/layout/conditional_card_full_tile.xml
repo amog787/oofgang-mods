@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_list_top1" android:paddingBottom="@dimen/op_control_margin_list_top1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/op_control_margin_list_bottom1" android:paddingBottom="@dimen/op_control_margin_list_bottom1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/oneplus_contextual_condition_full_card_padding_start" android:paddingEnd="@dimen/contextual_condition_full_card_padding_end">
+            <TextView android:textColor="@color/op_control_text_color_primary" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" style="@style/op_control_text_style_h6" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/op_control_text_color_secondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/first_action" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_list_top2" android:layout_marginStart="69.0dip" style="@style/op_control_text_style_button" />
+</LinearLayout>

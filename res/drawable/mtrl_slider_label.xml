@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="45.0" android:toDegrees="45.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@android:color/white" />
+        <size android:height="@dimen/mtrl_slider_label_square_side" android:width="@dimen/mtrl_slider_label_square_side" />
+        <corners android:topLeftRadius="@dimen/mtrl_slider_label_radius" android:topRightRadius="@dimen/mtrl_slider_label_radius" android:bottomLeftRadius="@dimen/mtrl_slider_label_radius" />
+    </shape>
+</rotate>

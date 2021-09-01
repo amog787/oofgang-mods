@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sud_layout_decor" android:background="@drawable/sud_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/sud_title_area_elevation">
+        <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudHeaderTitle" />
+    </FrameLayout>
+    <ViewStub android:id="@id/sud_layout_progress_stub" android:layout="@layout/sud_progress_bar" android:inflatedId="@id/sud_layout_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sud_progress_bar_margin_vertical" android:layout_marginBottom="@dimen/sud_progress_bar_margin_vertical" />
+    <com.google.android.setupdesign.view.BottomScrollView android:id="@id/sud_bottom_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/sud_layout_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.setupdesign.view.BottomScrollView>
+    <com.google.android.setupdesign.view.NavigationBar android:id="@id/sud_layout_navigation_bar" android:layout_width="fill_parent" android:layout_height="@dimen/sud_navbar_height" style="@style/SudNavBarTheme" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_security_list_item_height_one_line2" android:paddingStart="@dimen/op_control_margin_screen_left3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" android:contentDescription="icon" />
+    <TextView android:textColor="@color/op_control_text_color_primary" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip" android:maxLines="2" android:singleLine="false" android:layout_marginStart="@dimen/op_control_margin_space3" style="@style/op_control_text_style_h6" />
+    <Spinner android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/setting" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:dropDownWidth="wrap_content" android:dropDownVerticalOffset="20.0dip" android:spinnerMode="dropdown" />
+</LinearLayout>

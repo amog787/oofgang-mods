@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Vous ne pouvez pas effectuer d'appels d'urgence via les appels Wi-Fi. Si vous essayez de passer un appel d'urgence, votre appareil utilisera automatiquement le réseau mobile. Les appels d'urgence ne sont possibles que dans les zones disposant d'une couverture réseau mobile."</string>
+</resources>

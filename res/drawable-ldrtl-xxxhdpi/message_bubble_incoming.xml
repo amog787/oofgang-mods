@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_filter_base_color" />
+    <corners android:topLeftRadius="@dimen/message_block_corner_radius_r" android:topRightRadius="@dimen/message_block_corner_radius_r" android:bottomLeftRadius="@dimen/message_block_corner_radius_r" android:bottomRightRadius="@dimen/message_block_corner_radius_l" />
+</shape>

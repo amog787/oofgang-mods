@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/account_sync_title" android:key="account_sync_details_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

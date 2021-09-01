@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="72.0dip" android:paddingEnd="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center" android:id="@id/state_on_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActionPrimaryButton" />
+    <Button android:layout_gravity="center" android:id="@id/state_off_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActionSecondaryButton" />
+</LinearLayout>

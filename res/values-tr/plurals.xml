@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d dk. önce</item>
+        <item quantity="one">%d dk. önce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d yıl önce</item>
+        <item quantity="one">%d yıl önce</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d hizmetin, cihazınıza tam erişimi var</item>
+        <item quantity="one">1 hizmetin, cihazınıza tam erişimi var</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s saniye</item>
+        <item quantity="one">%1$s saniye</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Uzun (%1$s saniye)</item>
+        <item quantity="one">Uzun (%1$s saniye)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Orta (%1$s saniye)</item>
+        <item quantity="one">Orta (%1$s saniye)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Kısa (%1$s saniye)</item>
+        <item quantity="one">Kısa (%1$s saniye)</item>
+    </plurals>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">Uygulama %d bağlantıyı işlemeyi talep ediyor</item>
+        <item quantity="one">Uygulama %d bağlantıyı işlemeyi talep ediyor</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d uygulama için kapalı</item>
+        <item quantity="one">%d uygulama için kapalı</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d uygulama kısıtlandı</item>
+        <item quantity="one">%1$d uygulama kısıtlandı</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d uygulama kısıtlansın mı?</item>
+        <item quantity="one">Uygulama kısıtlansın mı?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Bu uygulamalar arka planda çalışamaz</item>
+        <item quantity="one">Bu uygulama arka planda çalışamaz</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d uygulama yakın zamanda kısıtlandı</item>
+        <item quantity="one">%1$s yakın zamanda kısıtlandı</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d uygulama arka planda yüksek düzeyde pil kullanıyor</item>
+        <item quantity="one">%1$s arka planda yüksek düzeyde pil kullanıyor</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d uygulamayı kısıtla</item>
+        <item quantity="one">%1$d uygulamayı kısıtla</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d gün kaldı</item>
+        <item quantity="one">%d gün kaldı</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">Veri Tasarrufu açıkken %1$d uygulamanın sınırsız veri kullanmasına izin veriliyor</item>
+        <item quantity="one">Veri Tasarrufu açıkken 1 uygulamanın sınırsız veri kullanmasına izin veriliyor</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamera uygulamaları</item>
+        <item quantity="one">Kamera uygulaması</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">E-posta istemci uygulamaları</item>
+        <item quantity="one">E-posta istemci uygulaması</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefon uygulamaları</item>
+        <item quantity="one">Telefon uygulaması</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d kategori silindi</item>
+        <item quantity="one">%d kategori silindi</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Seçilen diller kaldırılsın mı?</item>
+        <item quantity="one">Seçilen dil kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">Desteklenen bağlantıları %d uygulama açıyor</item>
+        <item quantity="one">Desteklenen bağlantıları bir uygulama açıyor</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Minimum %d CA sertifikası</item>
+        <item quantity="one">Minimum %d CA sertifikası</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d deneme</item>
+        <item quantity="one">%d deneme</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d uygulama</item>
+        <item quantity="one">%d uygulama</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Minimum %d uygulama</item>
+        <item quantity="one">Minimum %d uygulama</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d uygulama bağlı</item>
+        <item quantity="one">%d uygulama bağlı</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%2$d uygulamadan %1$d tanesinin konuma erişimi var</item>
+        <item quantity="one">%2$d uygulamadan %1$d tanesinin konuma erişimi var</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Açık - %1$d uygulamanın konuma erişimi var</item>
+        <item quantity="one">Açık - %1$d uygulamanın konuma erişimi var</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">En az %d harf içermelidir</item>
+        <item quantity="one">En az 1 harf içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">En az %d küçük harf içermelidir</item>
+        <item quantity="one">En az 1 küçük harf içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Harf olmayan en az %d karakter içermelidir</item>
+        <item quantity="one">Harf olmayan en az 1 karakter içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">En az %d rakam olmayan karakter içermelidir</item>
+        <item quantity="one">En az 1 rakam olmayan karakter içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">En az %d rakam içermelidir</item>
+        <item quantity="one">En az 1 rakam içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">En az %d özel sembol içermelidir</item>
+        <item quantity="one">En az 1 özel sembol içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">En az %d büyük harf içermelidir</item>
+        <item quantity="one">En az 1 büyük harf içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%d karakterden az olmalıdır</item>
+        <item quantity="one">%d karakterden az olmalıdır</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">En az %d karakter olmalıdır</item>
+        <item quantity="one">En az %d karakter içermelidir</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d basamaktan az olmalıdır</item>
+        <item quantity="one">%d basamaktan az olmalıdır</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN en az %d basamak olmalıdır</item>
+        <item quantity="one">PIN en az %d basamak içermelidir</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d uygulama bildirimleri okuyabilir</item>
+        <item quantity="one">%d uygulama bildirimleri okuyabilir</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d etkin güven aracısı</item>
+        <item quantity="one">1 etkin güven aracısı</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Son %2$s içinde belleği %1$d uygulama kullandı</item>
+        <item quantity="one">Son %2$s içinde belleği 1 uygulama kullandı</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d kısıtlama</item>
+        <item quantity="one">1 kısıtlama</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d kategori</item>
+        <item quantity="one">%d kategori</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d bildirim</item>
+        <item quantity="one">%d bildirim</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d uygulama için kapalı</item>
+        <item quantity="one">1 uygulama için kapalı</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d kategori kapatıldı</item>
+        <item quantity="one">%d kategori kapatıldı</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">Günde yaklaşık %d bildirim</item>
+        <item quantity="one">Günde yaklaşık %d bildirim</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">Haftada yaklaşık %d bildirim</item>
+        <item quantity="one">Haftada yaklaşık %d bildirim</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d etkin uygulama</item>
+        <item quantity="one">%d etkin uygulama</item>
+    </plurals>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">Hala %1$d deneme hakkınız var</item>
+        <item quantity="one">Hala %1$d deneme hakkınız var</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">%d saniye içinde tekrar deneyin.</item>
+        <item quantity="one">%d saniye içinde tekrar deneyin.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d saat (otomatik olarak açılmadıkça)</item>
+        <item quantity="one">1 saat (otomatik olarak açılmadıkça)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">Açık - %1$d uygulamanın konum erişimi var</item>
+        <item quantity="one">Açık - %1$d uygulamanın konum erişimi var</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s uygulama</item>
+        <item quantity="one">1 uygulama</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d izin verildi</item>
+        <item quantity="one">%d izin verildi</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d uygulama anormal davranıyor</item>
+        <item quantity="one">%1$s anormal davranıyor</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Pili tüketen uygulamalar</item>
+        <item quantity="one">%1$s pili tüketiyor</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d yazdırma işi</item>
+        <item quantity="one">1 yazdırma işi</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d yazdırma hizmeti açık</item>
+        <item quantity="one">1 yazdırma hizmeti açık</item>
+    </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d öncelikli görüşme</item>
+        <item quantity="one">%d öncelikli görüşme</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d uygulama için pil kullanımı sınırlanıyor</item>
+        <item quantity="one">%1$d uygulama için pil kullanımı sınırlanıyor</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ek izin</item>
+        <item quantity="one">%d ek izin</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Toplam %1$d izinden %2$d tanesi onaylandı</item>
+        <item quantity="one">Toplam %1$d izinden %2$d tanesi onaylandı</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s saniye</item>
+        <item quantity="one">1 saniye</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d parmak izi ayarlandı</item>
+        <item quantity="one">%1$d parmak izi ayarlandı</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Tüm %1$d uygulamaları göster</item>
+        <item quantity="one">Tüm uygulamaları göster</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Gizli %d öğeyi göster</item>
+        <item quantity="one">Gizli %d öğeyi göster</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Geliştirici olmanıza %1$d adım kaldı.</item>
+        <item quantity="one">Geliştirici olmanıza %1$d adım kaldı.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d işitme cihazı kayıtlı</item>
+        <item quantity="one">%1$d işitme cihazı kayıtlı</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d uygulama sınırsız veri kullanabilir</item>
+        <item quantity="one">1 uygulama sınırsız veri kullanabilir</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Sertifikalara güvenin veya sertifikaları kaldırın</item>
+        <item quantity="one">Sertifikaya güvenin veya sertifikayı kaldırın</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s yöneticisi, iş profiliniz için sertifika yetkilileri yükledi. Yönetici, bu sertifikalarla e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere iş ağı etkinliğini izleyebilir.
+
+Bu sertifikalar hakkında daha fazla bilgi için yöneticinize başvurun."</item>
+        <item quantity="one">"%s yöneticisi, iş profiliniz için bir sertifika yetkilisi yükledi. Yönetici, bu sertifikayla e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere iş ağı etkinliğini izleyebilir.
+
+Bu sertifika hakkında daha fazla bilgi edinmek için yöneticinize başvurun."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s yöneticisi, cihazınıza sertifika yetkilileri yükledi. Yönetici, bu sertifikalarla e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere cihazınızın ağ etkinliğini izleyebilir.
+
+Bu sertifikalar hakkında daha fazla bilgi için yöneticinize başvurun."</item>
+        <item quantity="one">"%s yöneticisi, cihazınıza bir sertifika yetkilisi yükledi. Yönetici, bu sertifikayla e-postalar, uygulamalar ve güvenli web siteleri de dahil olmak üzere cihazınızın ağ etkinliğini izleyebilir.
+
+Bu sertifika hakkında daha fazla bilgi edinmek için yöneticinize başvurun."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Sertifikaları kontrol et</item>
+        <item quantity="one">Sertifikayı kontrol et</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d öneri</item>
+        <item quantity="one">+1 öneri</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d öneri</item>
+        <item quantity="one">1 öneri</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d öğe</item>
+        <item quantity="one">1 öğe</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d ağ</item>
+        <item quantity="one">1 ağ</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d ağ ve abonelik</item>
+        <item quantity="one">1 ağ ve abonelik</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d abonelik</item>
+        <item quantity="one">1 abonelik</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d cihaz bağlı</item>
+        <item quantity="one">%1$d cihaz bağlı</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Yanlış SIM PIN kodu, %d deneme hakkınız kaldı.</item>
+        <item quantity="one">Yanlış SIM PIN kodu. Cihazınızın kilidini açmak için operatörünüzle bağlantı kurmak zorunda kalmadan önce %d deneme hakkınız kaldı.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">%s kesintiye neden olabilir</item>
+        <item quantity="one">%s kesintiye neden olabilir</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">1 kişi</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d görüşme</item>
+        <item quantity="one">1 görüşme</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s kesintiye neden olabilir</item>
+        <item quantity="one">%s kesintiye neden olabilir</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d program ayarlandı</item>
+        <item quantity="one">1 program ayarlandı</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d program otomatik olarak açılabilir</item>
+        <item quantity="one">1 program otomatik olarak açılabilir</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d kişi daha</item>
+        <item quantity="one">1 kişi daha</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%1$d saat için yalnızca alarmlar olarak değiştir (şu saate kadar: %2$s)</item>
+        <item quantity="one">Bir saat için yalnızca alarmlar olarak değiştir (şu saate kadar: %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d dakika için yalnızca alarmlar seçeneğine geç (şu saate kadar: %2$s)</item>
+        <item quantity="one">Bir dakika için yalnızca alarmlar seçeneğine değiştir (şu saate kadar: %2$s)</item>
+    </plurals>
+</resources>

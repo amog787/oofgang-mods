@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_theme_tone_effect_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.ui.OPCustomTonePreference android:selectable="false" android:key="op_custom_fingerprint_anim" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/default_assist_title" android:key="manage_assist_screen" settings:keywords="@string/keywords_assist_input"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.android.settings.widget.GearPreference android:title="@string/default_digital_assistant_title" android:key="default_assist" android:summary="@string/summary_placeholder" settings:searchable="false" />
+    <Preference android:title="@string/assist_gesture_title" android:key="gesture_assist_application" android:fragment="com.android.settings.gestures.AssistGestureSettings" settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
+    <SwitchPreference android:title="@string/assist_access_context_title" android:key="context" android:summary="@string/assist_access_context_summary" />
+    <SwitchPreference android:title="@string/assist_access_screenshot_title" android:key="screenshot" android:summary="@string/assist_access_screenshot_summary" />
+    <SwitchPreference android:title="@string/assist_flash_title" android:key="flash" android:summary="@string/assist_flash_summary" />
+    <com.android.settings.widget.GearPreference android:title="@string/voice_input_settings_title" android:key="voice_input_settings" android:fragment="com.android.settings.applications.assist.DefaultVoiceInputPicker" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/assist_footer" android:selectable="false" android:key="manage_assist_footer" settings:searchable="false" />
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SmoothRoundLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:cornerRadius="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AlertDialogLayout android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imagePanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_dialog_image_panel_height" />
+        <FrameLayout android:id="@id/imageLayoutPanel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_dialog_image_panel_height" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/alert_dialog_title_material" />
+            <FrameLayout android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_gravity="top" android:id="@id/scrollIndicatorUp" android:background="@color/op_control_divider_color_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" />
+                <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="@style/op_control_text_style_body1" android:textColor="@color/op_control_text_color_secondary_default" android:gravity="start" android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:paddingStart="@dimen/op_control_margin_screen_left2" android:paddingEnd="@dimen/op_control_margin_space3" />
+                        <Space android:id="@id/textSpacerNoButtons" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="27.0dip" />
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+                <View android:layout_gravity="bottom" android:id="@id/scrollIndicatorDown" android:background="@color/op_control_divider_color_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:id="@android:id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <include layout="@layout/alert_dialog_button_bar_material" />
+    </androidx.appcompat.widget.AlertDialogLayout>
+</androidx.appcompat.widget.SmoothRoundLayout>

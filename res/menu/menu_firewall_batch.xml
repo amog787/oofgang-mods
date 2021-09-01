@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/firewall_rule_allow_batch" android:title="@string/firewall_rule_allow_batch" android:actionLayout="@layout/activity_network_restrict_applist" app:showAsAction="ifRoom" />
+    <item android:id="@id/firewall_rule_forbid_batch" android:title="@string/firewall_rule_forbid_batch" app:showAsAction="ifRoom" />
+    <item android:id="@id/firewall_rule_wlan_only_batch" android:title="@string/firewall_rule_wlan_only_batch" app:showAsAction="ifRoom" />
+    <item android:id="@id/firewall_rule_data_only_batch" android:title="@string/firewall_rule_data_only_batch" app:showAsAction="ifRoom" />
+</menu>

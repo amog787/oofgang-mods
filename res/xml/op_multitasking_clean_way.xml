@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_normal_clear_way" android:key="op_normal_clear_way" android:summary="@string/oneplus_normal_clear_way_summary" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_deep_clear_way" android:key="op_deep_clear_way" android:summary="@string/oneplus_deep_clear_way_summary" />
+</PreferenceScreen>

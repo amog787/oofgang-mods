@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings" android:key="about_settings" settings:keywords="@string/oneplus_search_keyword_about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPLayoutPreference android:layout="@layout/op_about_phone_hareware_layout" android:selectable="false" android:key="hardware_view" settings:allowDividerBelow="true" />
+    <com.oneplus.settings.ui.OPLayoutPreference android:layout="@layout/op_about_phone_software_layout" android:selectable="false" android:key="soft_view" />
+</PreferenceScreen>

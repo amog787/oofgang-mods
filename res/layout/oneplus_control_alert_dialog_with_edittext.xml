@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space3" android:paddingEnd="@dimen/op_control_margin_space3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space3" android:layout_marginBottom="@dimen/op_control_margin_space3">
+        <EditText android:gravity="fill_horizontal|bottom|center" android:id="@id/edit_text" android:background="?editTextBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:textCursorDrawable="@drawable/abc_text_cursor_material" />
+    </LinearLayout>
+</LinearLayout>

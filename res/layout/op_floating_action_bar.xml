@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:layout_gravity="center" android:id="@id/tool_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.google.android.material.bottomappbar.FloatingActionBar$FloatingToolBar" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="center" android:id="@id/floating_action_tool_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abc_ic_menu_overflow_material" app:backgroundTint="@color/op_control_icon_color_active_light" app:elevation="0.0dip" app:fabSize="mini" app:tint="@color/op_control_icon_color_active_dark" />
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_display_advanced_settings" android:key="display_advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <Preference android:title="@string/oneplus_screen_color_mode_title" android:key="screen_color_mode" android:fragment="com.oneplus.settings.better.OPScreenColorMode" settings:keywords="@string/oneplus_search_keyword_screen_color_mode" />
+    <Preference android:title="@string/oneplus_screen_resolution_adjust" android:key="oneplus_screen_resolution_adjust" android:fragment="com.oneplus.settings.OPScreenResolutionAdjust" />
+    <Preference android:title="@string/oneplus_screen_refresh_rate" android:key="oneplus_screen_refresh_rate" android:fragment="com.oneplus.settings.OPScreenRefreshRate" />
+    <Preference android:title="@string/oneplus_notch_display_title" android:key="oneplus_notch_display_guide" settings:controller="com.oneplus.settings.controllers.OPNotchDisplayGuidePreferenceController" settings:keywords="@string/oneplus_search_keyword_notch_display">
+        <intent android:action="com.oneplus.settings.action.NOTCHDISPLAYGUIDE" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/oneplus_app_display_fullscreen_title" android:key="display_size_adaption" android:summary="@string/oneplus_display_size_adaption_summary" settings:controller="com.oneplus.settings.controllers.OPDisplaySizeAdaptionPreferenceController" settings:keywords="@string/oneplus_search_keyword_fullscreen_app">
+        <extra android:name="classname" android:value="com.android.settings.Settings.DisplaySizeAdaptionAppListActivity" />
+        <intent android:action="com.android.settings.action.DISPLAYSIZEADAPTION" />
+    </Preference>
+</PreferenceScreen>

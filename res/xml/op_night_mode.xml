@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/op_night_display_title" android:key="night_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_header_margin" />
+    <SwitchPreference android:persistent="false" android:title="@string/oneplus_night_mode_manual_open" android:key="night_mode_enabled" />
+    <ListPreference android:persistent="true" android:entries="@array/auto_activate_mode" android:title="@string/oneplus_auto_activate" android:key="auto_activate" android:entryValues="@array/auto_activate_mode_values" />
+    <Preference android:title="@string/oneplus_turn_on_time" android:key="turn_on_time" />
+    <Preference android:title="@string/oneplus_turn_off_time" android:key="turn_off_time" />
+    <PreferenceCategory android:title="@string/oneplus_adjust_effect" android:key="night_mode_adjust_effect">
+        <com.oneplus.settings.ui.OPNightModeLevelPreferenceCategory android:key="night_mode_level_op" />
+    </PreferenceCategory>
+</PreferenceScreen>

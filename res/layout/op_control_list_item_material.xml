@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/op_control_margin_screen_left3" android:paddingRight="@dimen/op_control_margin_screen_right1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_right1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginTop="@dimen/op_control_margin_list_top3" android:layout_marginEnd="@dimen/op_control_margin_space3">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/op_control_avatar_size3" android:maxHeight="@dimen/op_control_avatar_size3" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top4" android:layout_marginBottom="@dimen/op_control_margin_list_bottom4" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OnePlus.TextAppearance.List.Title" />
+        <TextView android:layout_gravity="start" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" style="@style/OnePlus.TextAppearance.List.Summary" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_frame" android:paddingRight="0.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/op_control_margin_space2" android:layout_marginTop="@dimen/op_control_margin_list_top1" android:paddingEnd="0.0dip" android:layout_marginStart="@dimen/op_control_margin_space2" />
+</LinearLayout>

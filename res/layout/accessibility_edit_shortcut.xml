@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/software_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" layout="@layout/accessibility_edit_shortcut_component" />
+        <include android:id="@id/hardware_shortcut" layout="@layout/accessibility_edit_shortcut_component" />
+    </LinearLayout>
+</ScrollView>

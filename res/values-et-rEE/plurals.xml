@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">Teil on veel %1$d võimalust</item>
+        <item quantity="one">Teil on veel %1$d võimalus</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Proovige uuesti %d sekundi pärast.</item>
+        <item quantity="one">Proovige uuesti %d sekundi pärast.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d tundi (kui ei lülitu automaatselt sisse)</item>
+        <item quantity="one">1 tund (kui ei lülitu automaatselt sisse)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">Sees - %1$d rakendusel on juurdepääs asukohale</item>
+        <item quantity="one">Sees - %1$d rakendusel on juurdepääs asukohale</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/op_control_margin_list_top2" android:paddingBottom="@dimen/op_control_margin_list_bottom2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="@dimen/op_control_margin_screen_left3">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?android:textColorAlertDialogListItem" android:id="@id/checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h6" />
+            <CheckBox android:id="@id/checkbox" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_list_bottom1" android:layout_marginEnd="@dimen/op_control_margin_space4" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+</LinearLayout>

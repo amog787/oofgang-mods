@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_category_people"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/zen_mode_conversations_section_title" android:key="zen_mode_settings_category_conversations">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/zen_mode_senders_overlay_image" android:selectable="false" android:key="zen_mode_conversations_image" />
+        <Preference android:title="@string/zen_mode_conversations_title" android:key="zen_mode_conversations" android:fragment="com.android.settings.notification.zen.ZenModeConversationsSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/zen_mode_people_calls_messages_section_title" android:key="zen_mode_people_calls_messages_section">
+        <Preference android:title="@string/zen_mode_calls_title" android:key="zen_mode_people_calls" android:fragment="com.android.settings.notification.zen.ZenModeCallsSettings" />
+        <Preference android:title="@string/zen_mode_messages_title" android:key="zen_mode_people_messages" android:fragment="com.android.settings.notification.zen.ZenModeMessagesSettings" />
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference />
+</PreferenceScreen>

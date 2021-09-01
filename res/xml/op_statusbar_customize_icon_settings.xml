@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/statusbar_icon_manager" settings:keywords="@string/statusbar_icon_manager"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_auto_rotation_title" android:key="rotate" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_headset_title" android:key="headset" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_work_title" android:key="managed_profile" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_cast_title" android:key="cast" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_hotspot_title" android:key="hotspot" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_bluetooth_title" android:key="bluetooth" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_dnd_title" android:key="zen" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@null" android:key="volume" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_wifi_title" android:key="wifi" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_ethernet_title" android:key="ethernet" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_cellular_title" android:key="mobile" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_airplane_title" android:key="airplane" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_alarm_title" android:key="alarm_clock" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_volte_title" android:key="volte" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_vowifi_title" android:key="vowifi" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/nfc_quick_toggle_title" android:key="nfc" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/work_life_balance" android:key="wlb" />
+</PreferenceScreen>

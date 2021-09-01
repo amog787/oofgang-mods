@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/op_control_bg_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_bottom_navigation_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/op_control_divider_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/op_control_text_style_button" android:textColor="@color/oneplus_control_text_color_primary_with_disable_color_default" android:ellipsize="end" android:gravity="center" android:id="@id/positive_button" android:background="?controlBackground" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" android:paddingStart="@dimen/op_control_margin_space3" android:paddingEnd="@dimen/op_control_margin_space3" />
+        <TextView android:textAppearance="@style/op_control_text_style_button" android:textColor="@color/oneplus_control_text_color_primary_with_disable_color_default" android:ellipsize="end" android:gravity="center" android:id="@id/negative_button" android:background="?controlBackground" android:padding="@dimen/op_control_margin_space3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" android:paddingStart="@dimen/op_control_margin_space3" android:paddingEnd="@dimen/op_control_margin_space3" />
+    </LinearLayout>
+</LinearLayout>

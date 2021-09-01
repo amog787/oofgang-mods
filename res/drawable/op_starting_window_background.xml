@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/op_control_bg_color_default" />
+    <item android:gravity="top">
+        <shape android:tint="@color/oneplus_main_home_bg_ab" android:shape="rectangle">
+            <size android:height="@dimen/op_control_appbar_size_extended1" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

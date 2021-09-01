@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_screen_resolution_adjust"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/oneplus_mode_choose" android:key="mode_choose">
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_resolution_adjust_1080p" android:key="op_1080p_mode" android:summary="@string/oneplus_screen_resolution_adjust_1080p_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_resolution_adjust_1080p" android:key="op_1080p_mode_19811" android:summary="@string/oneplus_screen_resolution_adjust_1080p_summary_19811" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_resolution_adjust_other" android:key="op_other_resolution_mode" android:summary="@string/oneplus_screen_resolution_adjust_other_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_resolution_adjust_other" android:key="op_other_resolution_mode_19811" android:summary="@string/oneplus_screen_resolution_adjust_other_summary_19811" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_mode_choose" android:key="op_qhd_settings">
+        <SwitchPreference android:persistent="false" android:title="@string/op_auto_power_saving" android:key="op_intelligent_switch_resolution_mode" android:summary="@string/op_auto_power_saving_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

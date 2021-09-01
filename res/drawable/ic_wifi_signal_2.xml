@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.TintDrawable android:tint="?wifi_signal_color" android:drawable="@android:drawable/list_selector_background_focused_selected"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

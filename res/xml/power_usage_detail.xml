@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/high_power_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:selectable="false" android:key="header_view" android:order="-10000" settings:allowDividerBelow="true" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/smart_control_title" android:key="smart_optimze" android:summary="@string/smart_control_summery" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/ignore_optimizations_off" android:key="optimze" android:summary="@string/optimize_summery" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/ignore_optimizations_on" android:key="no_optimze" android:summary="@string/not_optimize_summery" />
+    <PreferenceCategory android:title="@string/battery_detail_info_title">
+        <Preference android:title="@string/battery_detail_foreground" android:selectable="false" android:key="app_usage_foreground" />
+        <Preference android:title="@string/battery_detail_background" android:selectable="false" android:key="app_usage_background" />
+    </PreferenceCategory>
+</PreferenceScreen>

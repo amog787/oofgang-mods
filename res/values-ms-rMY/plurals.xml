@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">Anda masih mempunyai %1$d peluang</item>
+        <item quantity="one">You still have %1$d chance</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Cuba lagi dalam %d saat.</item>
+        <item quantity="one">Try again in %d second.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d jam (kecuali dihidupkan secara automatik)</item>
+        <item quantity="one">1 hour (unless turned on automatically)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">Hidup - %1$d aplikasi mempunyai akses kepada lokasi</item>
+        <item quantity="one">On - %1$d app has access to location</item>
+    </plurals>
+</resources>

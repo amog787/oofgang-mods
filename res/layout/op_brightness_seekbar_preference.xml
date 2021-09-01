@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/op_control_appbar_size_landscape">
+        <ImageView android:id="@id/headerimage" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:src="@drawable/op_ic_settings_brightness_low" android:scaleType="fitXY" android:layout_weight="0.0" />
+        <SeekBar android:id="@id/opseekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/op_ic_brightness_thumb" android:layout_weight="1.0" android:paddingStart="@dimen/oneplus_settings_seekbar_padding" android:paddingEnd="@dimen/oneplus_settings_seekbar_padding" />
+        <ImageView android:id="@id/endimage" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:src="@drawable/op_ic_settings_brightness_high" android:scaleType="fitXY" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/op_control_margin_space2" />
+</LinearLayout>

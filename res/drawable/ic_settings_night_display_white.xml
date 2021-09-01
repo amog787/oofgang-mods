@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.TintDrawable android:tint="?android:colorPrimary" android:drawable="@drawable/ic_settings_night_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

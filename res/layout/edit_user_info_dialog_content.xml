@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="@dimen/op_control_margin_space9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space5" android:paddingEnd="@dimen/op_control_margin_space5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/oneplus_contorl_list_item_height_standard">
+        <EditText android:gravity="fill_horizontal" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/op_control_margin_space8" android:hint="@string/user_nickname" android:scrollHorizontally="true" android:selectAllOnFocus="true" android:capitalize="none" android:autoText="false" android:layout_weight="1.0" android:inputType="textCapWords" android:labelFor="@id/user_photo" />
+        <ImageView android:id="@id/user_photo" android:layout_width="@dimen/oneplus_contorl_avatar_mini" android:layout_height="@dimen/oneplus_contorl_avatar_mini" />
+    </LinearLayout>
+</LinearLayout>

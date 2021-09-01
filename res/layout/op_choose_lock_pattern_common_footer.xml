@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.view.ButtonBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OnePlusSuwGlifButtonBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skip_label" style="@style/SudGlifButton.Secondary" />
+    <Button android:id="@id/footerLeftButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockpattern_tutorial_cancel_label" style="@style/SudGlifButton.Secondary" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/footerRightButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockpattern_tutorial_continue_label" style="@style/SudGlifButton.Primary" />
+</com.android.setupwizardlib.view.ButtonBarLayout>

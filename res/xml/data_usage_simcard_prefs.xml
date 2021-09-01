@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.security.network.view.HeaderPreference android:key="header_data_preference" />
+    <PreferenceCategory android:title="@string/data_usage_tab_mobile" android:key="screen_brightness">
+        <Preference android:title="@string/data_usage_rank_sim" android:key="op_data_usage_rank" />
+        <Preference android:title="@string/data_usage_package_set" android:key="op_data_usage_package_set" />
+        <Preference android:title="@string/data_usage_hotspot" android:key="op_hotspot_usage" />
+    </PreferenceCategory>
+</PreferenceScreen>

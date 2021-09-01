@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_custom_rule_configuration_page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="zen_custom_rule_configuration_category">
+        <Preference android:title="@string/zen_mode_calls" android:key="zen_rule_calls_settings" />
+        <Preference android:title="@string/zen_mode_messages" android:key="zen_rule_messages_settings" />
+        <SwitchPreference android:title="@string/zen_mode_alarms" android:key="zen_rule_alarms" android:summary="@string/zen_mode_alarms_summary" />
+        <SwitchPreference android:title="@string/zen_mode_media" android:key="zen_rule_media" android:summary="@string/zen_mode_media_summary" />
+        <SwitchPreference android:title="@string/zen_mode_system" android:key="zen_rule_system" android:summary="@string/zen_mode_system_summary" />
+        <SwitchPreference android:title="@string/zen_mode_reminders" android:key="zen_rule_reminders" android:summary="@string/zen_mode_reminders_summary" />
+        <SwitchPreference android:title="@string/zen_mode_events" android:key="zen_rule_events" android:summary="@string/zen_mode_events_summary" />
+    </PreferenceCategory>
+    <Preference android:title="@string/zen_mode_restrict_notifications_title" android:key="zen_rule_notifications" settings:allowDividerAbove="true" />
+</PreferenceScreen>

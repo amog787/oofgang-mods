@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_no_icon_padding_start" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Holo.SuggestionHighlight" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/running_processes_header_title" android:singleLine="true" android:textAlignment="viewStart" />
+    <ProgressBar android:id="@id/color_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/color_bar_progress" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="8.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@color/running_processes_system_ram" android:scaleType="centerInside" android:contentDescription="@null" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/systemSizePrefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/running_processes_header_system_prefix" android:maxLines="1" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/systemSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="?android:colorAccent" android:scaleType="centerInside" android:contentDescription="@null" />
+        <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/appsSizePrefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/running_processes_header_apps_prefix" android:maxLines="1" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/appsSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@color/running_processes_free_ram" android:scaleType="centerInside" android:contentDescription="@null" />
+        <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/freeSizePrefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/running_processes_header_free_prefix" android:maxLines="1" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Holo.SearchResult" android:textColor="?android:textColorSecondary" android:id="@id/freeSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="@android:style/TextAppearance.Holo.SuggestionHighlight" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/listHeader" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:text="@string/running_processes_header_footer" android:singleLine="true" android:textAlignment="viewStart" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/traffic_usage_settings">
+        <Preference android:title="@string/traffic_reset_day_title" android:key="key_traffic_reset_day" />
+        <Preference android:title="@string/traffic_used_title" android:key="key_traffic_monthly_usage" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/traffic_usage_notification">
+        <SwitchPreference android:title="@string/traffic_auto_close_network" android:key="key_traffic_total_switch" android:summary="@string/traffic_auto_close_network_summary" android:defaultValue="false" />
+        <Preference android:title="@string/traffic_limit_value_title" android:key="key_traffic_total_settings" android:summary="5GB" android:dependency="key_traffic_total_switch" />
+        <SwitchPreference android:title="@string/traffic_set_warn_title" android:key="key_traffic_warn_switch" />
+        <Preference android:title="@string/traffic_warn_value_title" android:key="key_traffic_warn_settings" android:summary="2GB" android:dependency="key_traffic_warn_switch" />
+    </PreferenceCategory>
+</PreferenceScreen>

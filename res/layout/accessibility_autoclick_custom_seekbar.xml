@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="60.0dip" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView" android:layout_gravity="center_horizontal" android:id="@id/current_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/shorter" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_remove_24dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:contentDescription="@string/accessibility_autoclick_shorter_desc" android:tintMode="src_in" />
+        <SeekBar android:id="@id/autoclick_delay" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" android:contentDescription="@string/accessibility_autoclick_seekbar_desc" />
+        <ImageView android:id="@id/longer" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_add_24dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:contentDescription="@string/accessibility_autoclick_longer_desc" android:tintMode="src_in" />
+    </LinearLayout>
+</LinearLayout>

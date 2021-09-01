@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_saver_title" android:key="data_saver_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/unrestricted_data_saver" android:key="unrestricted_access" android:summary="@string/summary_two_lines_placeholder" android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" settings:controller="com.android.settings.applications.specialaccess.DataSaverController" />
+    <com.android.settingslib.widget.FooterPreference android:title="@android:string/keyguard_accessibility_pattern_unlock" android:selectable="false" android:key="data_saver_footer" settings:searchable="false" />
+</PreferenceScreen>

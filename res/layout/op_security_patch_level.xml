@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_contorl_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/security_patch" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="18.0dip">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/oneplus_contorl_text_color_primary" android:id="@id/security_patch_level_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_patch" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/oneplus_accent_text_color" android:id="@id/security_patch_level_value" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

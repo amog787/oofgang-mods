@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/date_picker_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/date_picker_selection_layout" android:layout_width="4.0dip" android:layout_height="wrap_content">
+        <View android:id="@id/date_picker_year_selection" android:background="@color/oneplus_accent_text_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_margin_space5" />
+        <View android:id="@id/date_picker_month_selection" android:background="@color/oneplus_accent_text_color" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_margin_space5" android:layout_marginTop="@dimen/op_control_margin_space2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="@dimen/op_control_margin_space6">
+        <TextView android:textAppearance="@style/OPTextAppearance.Material.DatePicker.YearLabel" android:id="@id/date_picker_header_year" android:padding="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_marginBottom="-8.0dip" android:includeFontPadding="false" android:nextFocusForward="@id/prev" android:layout_marginStart="-8.0dip" android:layout_marginEnd="-8.0dip" android:pointerIcon="hand" />
+        <TextView android:textAppearance="@style/OPTextAppearance.Material.DatePicker.DateLabel" android:ellipsize="none" android:gravity="start" android:id="@id/date_picker_header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:pointerIcon="hand" />
+        <TextView android:textAppearance="@style/op_control_text_style_h6" android:textColor="@color/op_control_text_color_secondary_default" android:ellipsize="none" android:gravity="start" android:id="@id/date_picker_header_lunar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:pointerIcon="hand" />
+    </LinearLayout>
+</LinearLayout>

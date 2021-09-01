@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_control_icon_size_button" android:width="@dimen/op_control_icon_size_button" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?onePlusActionBarTitleColor" android:pathData="M19.6373,5.5369L18.3633,4.2629L15.1818,7.4449L12.0003,10.6269L5.6373,4.2629L4.3633,5.5369L10.7273,11.8999L4.3633,18.2629L5.6373,19.5369L12.0003,13.1729L18.3633,19.5369L19.6373,18.2629L13.2733,11.8999L19.6373,5.5369Z" />
+</vector>

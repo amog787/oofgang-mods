@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Nie możesz wykonywać połączeń alarmowych przez Wi-Fi. Przy próbie wykonania takiego połączenia urządzenie automatycznie skorzysta z sieci komórkowej. Połączenia alarmowe są możliwe tylko w zasięgu sieci komórkowej."</string>
+</resources>

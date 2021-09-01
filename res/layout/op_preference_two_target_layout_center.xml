@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@android:color/transparent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_contorl_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="@dimen/oneplus_contorl_list_item_height" android:layout_weight="1.0" android:paddingEnd="0.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/icon_frame" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginEnd="8.0dip">
+            <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/oneplus_contorl_text_color_primary" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/oneplus_contorl_text_color_secondary" android:ellipsize="end" android:gravity="center_horizontal" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:id="@id/view_divider" android:background="@color/op_control_divider_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/oneplus_settings_layout_margin_left4" android:layout_marginEnd="@dimen/oneplus_settings_layout_margin_left4" />
+    </RelativeLayout>
+    <include layout="@layout/op_preference_two_target_divider" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0dip" android:paddingStart="18.0dip" android:paddingEnd="13.0dip" />
+</LinearLayout>

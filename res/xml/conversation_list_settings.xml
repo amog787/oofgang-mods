@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_conversations_title" android:key="conversation_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/conversation_onboarding" android:selectable="false" android:key="no_conversations" settings:isPreferenceVisible="false" />
+    <PreferenceCategory android:visibility="gone" android:title="@string/important_conversations" android:key="important_conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="true">
+        <Preference android:key="behavior" android:summary="@string/important_conversation_behavior_summary" />
+        <PreferenceCategory android:key="important_conversations_list" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other_conversations" android:key="other_conversations" settings:allowDividerAbove="true" settings:allowDividerBelow="false" />
+</PreferenceScreen>

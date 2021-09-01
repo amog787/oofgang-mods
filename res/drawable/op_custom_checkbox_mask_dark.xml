@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/op_theme_item_entity_size" android:width="@dimen/op_theme_item_entity_size" android:drawable="@drawable/op_custom_mask" />
+    <item android:gravity="start|center|top" android:drawable="@drawable/op_checkbox" android:top="@dimen/op_control_margin_space2" android:start="@dimen/op_control_margin_space2" />
+</layer-list>

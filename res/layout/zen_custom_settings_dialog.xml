@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false" android:scrollIndicators="bottom|top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_calls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_calls" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_calls_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_messages" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_messages" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_messages_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_alarms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_alarms" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_alarms_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_media" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_media" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_media_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_system" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_system" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_system_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_reminders" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_reminders" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_reminders_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_events" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_events" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_events_allow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/zen_custom_settings_dialog_notifications" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_custom_settings_notifications_header" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/zen_custom_settings_dialog_show_notifications" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

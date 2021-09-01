@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.TintDrawable android:tint="@color/oneplus_accent_color" android:drawable="@drawable/ic_delete"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

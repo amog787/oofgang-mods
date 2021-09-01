@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ไม่มี</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP หรือ CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ที่จัดเก็บข้อมูลอุปกรณ์ภายใน</item>
+        <item>การ์ด SD แบบนำออกได้</item>
+        <item>ให้ระบบเลือก</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ตำแหน่งที่ตั้ง</item>
+        <item>ส่วนตัว</item>
+        <item>การรับส่งข้อความ</item>
+        <item>สื่อ</item>
+        <item>อุปกรณ์</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ตำแหน่ง</item>
+        <item>ตำแหน่ง</item>
+        <item>ตำแหน่ง</item>
+        <item>สั่น</item>
+        <item>อ่านรายชื่อติดต่อ</item>
+        <item>แก้ไขรายชื่อติดต่อ</item>
+        <item>อ่านประวัติการโทร</item>
+        <item>แก้ไขประวัติการโทร</item>
+        <item>อ่านปฏิทิน</item>
+        <item>แก้ไขปฏิทิน</item>
+        <item>ตำแหน่ง</item>
+        <item>การแจ้งเตือนโพสต์</item>
+        <item>ตำแหน่ง</item>
+        <item>โทรเข้าโทรศัพท์</item>
+        <item>อ่าน SMS/MMS</item>
+        <item>เขียน SMS/MMS</item>
+        <item>รับ SMS/MMS</item>
+        <item>รับ SMS/MMS</item>
+        <item>รับ SMS/MMS</item>
+        <item>รับ SMS/MMS</item>
+        <item>ส่ง SMS/MMS</item>
+        <item>อ่าน SMS/MMS</item>
+        <item>เขียน SMS/MMS</item>
+        <item>แก้ไขการตั้งค่า</item>
+        <item>วาดด้านบน</item>
+        <item>เข้าถึงการแจ้งเตือน</item>
+        <item>กล้อง</item>
+        <item>บันทึกเสียง</item>
+        <item>เล่นเสียง</item>
+        <item>อ่านคลิปบอร์ด</item>
+        <item>แก้ไขคลิปบอร์ด</item>
+        <item>ปุ่มสื่อ</item>
+        <item>โฟกัสอัตโนมัติ</item>
+        <item>ระดับเสียงหลัก</item>
+        <item>ระดับเสียงสนทนา</item>
+        <item>ระดับเสียงเรียกเข้า</item>
+        <item>ระดับเสียงของสื่อ</item>
+        <item>ระดับเสียงปลุก</item>
+        <item>ระดับเสียงของการแจ้งเตือน</item>
+        <item>ระดับบลูทูธ</item>
+        <item>ทำงานตลอดเวลา</item>
+        <item>ตำแหน่ง</item>
+        <item>ตำแหน่ง</item>
+        <item>ดูสถิติการใช้งาน</item>
+        <item>ปิด/เปิดเสียงไมโครโฟน</item>
+        <item>แสดงข้อความโทสต์</item>
+        <item>สื่อของโครงการ</item>
+        <item>เปิดใช้งาน VPN</item>
+        <item>เขียนวอลเปเปอร์</item>
+        <item>สนับสนุนโครงสร้าง</item>
+        <item>สนับสนุนภาพหน้าจอ</item>
+        <item>อ่านสถานะโทรศัพท์</item>
+        <item>เพิ่มข้อความเสียง</item>
+        <item>ใช้ SIP</item>
+        <item>โทรออก</item>
+        <item>ลายนิ้วมือ</item>
+        <item>เซ็นเซอร์ร่างกาย</item>
+        <item>อ่านการส่งข้อมูลเตือนภัยทางมือถือ (CB)</item>
+        <item>จำลองสถานที่</item>
+        <item>อ่านพื้นที่เก็บข้อมูล</item>
+        <item>เขียนพื้นที่เก็บข้อมูล</item>
+        <item>เปิดหน้าจอ</item>
+        <item>สร้างบัญชี</item>
+        <item>ทำงานในพื้นหลัง</item>
+        <item>ระดับเสียงการเข้าถึง</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ตำแหน่งคร่าวๆ</item>
+        <item>ตำแหน่งโดยละเอียด</item>
+        <item>GPS</item>
+        <item>สั่น</item>
+        <item>อ่านรายชื่อติดต่อ</item>
+        <item>แก้ไขรายชื่อติดต่อ</item>
+        <item>อ่านประวัติการโทร</item>
+        <item>แก้ไขประวัติการโทร</item>
+        <item>อ่านปฏิทิน</item>
+        <item>แก้ไขปฏิทิน</item>
+        <item>ค้นหา WiFi</item>
+        <item>การแจ้งเตือน</item>
+        <item>ค้นหาเซลล์</item>
+        <item>โทรเข้าโทรศัพท์</item>
+        <item>อ่าน SMS</item>
+        <item>เขียน SMS</item>
+        <item>รับ SMS</item>
+        <item>รับ SMS ฉุกเฉิน</item>
+        <item>รับ MMS</item>
+        <item>รับ WAP Push</item>
+        <item>ส่ง SMS</item>
+        <item>อ่าน ICC SMS</item>
+        <item>เขียน ICC SMS</item>
+        <item>แก้ไขการตั้งค่า</item>
+        <item>วาดด้านบน</item>
+        <item>เข้าถึงการแจ้งเตือน</item>
+        <item>กล้อง</item>
+        <item>บันทึกเสียง</item>
+        <item>เล่นเสียง</item>
+        <item>อ่านคลิปบอร์ด</item>
+        <item>แก้ไขคลิปบอร์ด</item>
+        <item>ปุ่มสื่อ</item>
+        <item>โฟกัสอัตโนมัติ</item>
+        <item>ระดับเสียงหลัก</item>
+        <item>ระดับเสียงสนทนา</item>
+        <item>ระดับเสียงเรียกเข้า</item>
+        <item>ระดับเสียงของสื่อ</item>
+        <item>ระดับเสียงปลุก</item>
+        <item>ระดับเสียงการแจ้งเตือน</item>
+        <item>ระดับเสียงบลูทูธ</item>
+        <item>ทำงานตลอดเวลา</item>
+        <item>ตำแหน่งจอภาพ</item>
+        <item>ติดตามตำแหน่งโดยใช้พลังงานมาก</item>
+        <item>ดูสถิติการใช้งาน</item>
+        <item>ปิด/เปิดเสียงไมโครโฟน</item>
+        <item>แสดงข้อความโทสต์</item>
+        <item>สื่อของโครงการ</item>
+        <item>เปิดใช้งาน VPN</item>
+        <item>เขียนวอลเปเปอร์</item>
+        <item>สนับสนุนโครงสร้าง</item>
+        <item>สนับสนุนภาพหน้าจอ</item>
+        <item>อ่านสถานะโทรศัพท์</item>
+        <item>เพิ่มข้อความเสียง</item>
+        <item>ใช้ SIP</item>
+        <item>โทรออก</item>
+        <item>ลายนิ้วมือ</item>
+        <item>เซ็นเซอร์ร่างกาย</item>
+        <item>อ่านการส่งข้อมูลเตือนภัยทางมือถือ (CB)</item>
+        <item>จำลองสถานที่</item>
+        <item>อ่านพื้นที่เก็บข้อมูล</item>
+        <item>เขียนพื้นที่เก็บข้อมูล</item>
+        <item>เปิดหน้าจอ</item>
+        <item>สร้างบัญชี</item>
+        <item>ทำงานในพื้นหลัง</item>
+        <item>ระดับเสียงการเข้าถึง</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ขีดจำกัดมาตรฐาน</item>
+        <item>ไม่มีกระบวนการพื้นหลัง</item>
+        <item>มากที่สุด 1 กระบวนการ</item>
+        <item>มากที่สุด 2 กระบวนการ</item>
+        <item>มากที่สุด 3 กระบวนการ</item>
+        <item>มากที่สุด 4 กระบวนการ</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>ปิด</item>
+        <item>แก้ไขข้อบกพร่อง</item>
+        <item>รายละเอียด</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>เกิน 30 วัน</item>
+        <item>เกิน 60 วัน</item>
+        <item>เกิน 90 วัน</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>ไม่ระบุ</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+        <item>NR</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>16 บิต/ตัวอย่าง</item>
+        <item>24 บิต/ตัวอย่าง</item>
+        <item>32 บิต/ตัวอย่าง</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>16 บิต/ตัวอย่าง</item>
+        <item>24 บิต/ตัวอย่าง</item>
+        <item>32 บิต/ตัวอย่าง</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพเสียง</item>
+        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล</item>
+        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพการเชื่อมต่อ</item>
+        <item>ดีที่สุดเท่าที่ทำได้ (ปรับอัตราบิตอัตโนมัติ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพเสียง (990 kbps/909 kbps)</item>
+        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล (660 kbps/606 kbps)</item>
+        <item>เพิ่มประสิทธิภาพสำหรับคุณภาพการเชื่อมต่อ (330 kbps/303 kbps)</item>
+        <item>ดีที่สุดเท่าที่ทำได้ (ปรับอัตราบิตอัตโนมัติ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียง Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+        <item>เสียง Qualcomm® aptX™ Adaptive</item>
+        <item>เสียง Qualcomm® aptX™ TWS+</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียง Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+        <item>เสียง Qualcomm® aptX™ Adaptive</item>
+        <item>เสียง Qualcomm® aptX™ TWS+</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>ใช้งานอยู่</item>
+        <item>ใช้งานอยู่ (สื่อ)</item>
+        <item>ใช้งานอยู่ (โทรศัพท์)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (ค่าเริ่มต้น)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ค่าเริ่มต้น)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>ใช้ค่าเริ่มต้นของระบบ: %1$d</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>ไม่มีระยะหมดเวลา</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ปิดใช้</item>
+        <item>เปิดใช้รายการที่กรอง</item>
+        <item>เปิดใช้</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ค่าเริ่มต้น</item>
+        <item>ไม่มี</item>
+        <item>ตีกรอบ</item>
+        <item>เงาตกกระทบ</item>
+        <item>ยกขึ้น</item>
+        <item>ลดต่ำ</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>ตัวอักษรขนาดเล็กมาก</item>
+        <item>ตัวอักษรขนาดเล็ก</item>
+        <item>ขนาดข้อความตามค่าเริ่มต้น</item>
+        <item>ตัวอักษรขนาดใหญ่</item>
+        <item>ตัวอักษรขนาดใหญ่มาก</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>เล็กมาก</item>
+        <item>เล็ก</item>
+        <item>ค่าเริ่มต้น</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ตั้งค่าตามแอป</item>
+        <item>สีขาวบนพื้นสีดำ</item>
+        <item>สีดำบนพื้นสีขาว</item>
+        <item>สีเหลืองบนพื้นสีดำ</item>
+        <item>สีเหลืองบนพื้นสีน้ำเงิน</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ค่าเริ่มต้น</item>
+        <item>Sans Serif</item>
+        <item>Sans-serif แบบย่อ</item>
+        <item>Sans-serif ความกว้างคงที่</item>
+        <item>Serif</item>
+        <item>Serif ความกว้างคงที่</item>
+        <item>แบบไม่เป็นทางการ</item>
+        <item>คัดลายมือ</item>
+        <item>อักษรตัวพิมพ์ใหญ่ขนาดเล็ก</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>เครือข่ายบ้านเท่านั้น</item>
+        <item>อัตโนมัติ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>สีที่ได้รับการปรับปรุง</item>
+        <item>สีธรรมชาติตามที่ดวงตามองเห็น</item>
+        <item>สีที่เหมาะกับเนื้อหาดิจิทัล</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>สด (ค่าเริ่มต้น)</item>
+        <item>ธรรมชาติ</item>
+        <item>มาตรฐาน</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>น้ำเงินอมเขียว</item>
+        <item>น้ำเงิน</item>
+        <item>น้ำเงินอมม่วง</item>
+        <item>ม่วง</item>
+        <item>ชมพู</item>
+        <item>แดง</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>สีเข้ม</item>
+        <item>สีอ่อน</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>30 วันที่ผ่านมา</item>
+        <item>ตั้งรอบการใช้...</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ปิด</item>
+        <item>แสดงพื้นที่การวาดทับ</item>
+        <item>แสดงพื้นที่สำหรับคนตาบอดสีเขียว</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>ไม่เลย</item>
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>ไม่ต้องตรวจสอบ</item>
+        <item>ขอสถานะใบรับรอง</item>
+        <item>ต้องมีสถานะใบรับรอง</item>
+        <item>ต้องมีสถานะใบรับรองที่ไม่ใช่ \"เชื่อถือได้\" ทุกสถานะ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ไม่มี</item>
+        <item>Logcat</item>
+        <item>Systrace (กราฟิก)</item>
+        <item>ชุดรายการเรียกใน glGetError</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>เล็ก</item>
+        <item>ค่าเริ่มต้น</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่ที่สุด</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ห้ามใช้การตรวจสอบ HDCP</item>
+        <item>ใช้การตรวจสอบ HDCP สำหรับเนื้อหา DRM เท่านั้น</item>
+        <item>ใช้การตรวจสอบ HDCP เสมอ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ไม่ต้องตรวจสอบ</item>
+        <item>ตรวจสอบเนื้อหา DRM เท่านั้น</item>
+        <item>ตรวจสอบทุกครั้ง</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ทันที</item>
+        <item>5 วินาที</item>
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>สั้น</item>
+        <item>ปานกลาง</item>
+        <item>ยาว</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ไม่มี</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ไม่มี</item>
+        <item>480p</item>
+        <item>480p (ปลอดภัย)</item>
+        <item>720p</item>
+        <item>720p (ปลอดภัย)</item>
+        <item>1080p</item>
+        <item>1080p (ปลอดภัย)</item>
+        <item>4K</item>
+        <item>4K (ปลอดภัย)</item>
+        <item>4K (เพิ่มความละเอียด)</item>
+        <item>4K (เพิ่มความละเอียด ปลอดภัย)</item>
+        <item>720p, 1080p (หน้าจอคู่)</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>ต้องการ GSM/WCDMA</item>
+        <item>GSM เท่านั้น</item>
+        <item>WCDMA เท่านั้น</item>
+        <item>GSM/WCDMA อัตโนมัติ</item>
+        <item>CDMA/EvDo อัตโนมัติ</item>
+        <item>CDMA ที่ไม่มี EvDo</item>
+        <item>EvDo เท่านั้น</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>ทั่วโลก</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>TDSCDMA เท่านั้น</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>NR เท่านั้น</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ปกติ</item>
+        <item>ปานกลาง</item>
+        <item>ต่ำ</item>
+        <item>วิกฤต</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ต่อเนื่อง</item>
+        <item>กิจกรรมแรก</item>
+        <item>สำคัญ (พื้นหน้า)</item>
+        <item>สำคัญ (พื้นหลัง)</item>
+        <item>การสำรองข้อมูล</item>
+        <item>ใช้หน่วยความจำมาก</item>
+        <item>บริการ (กำลังทำงาน)</item>
+        <item>บริการ (กำลังรีสตาร์ท)</item>
+        <item>ผู้รับ</item>
+        <item>หน้าแรก</item>
+        <item>กิจกรรมสุดท้าย</item>
+        <item>แคชไว้ (กิจกรรม)</item>
+        <item>แคชไว้ (ไคลเอ็นต์กิจกรรม)</item>
+        <item>แคชไว้ (ว่างเปล่า)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ปกติ</item>
+        <item>ปานกลาง</item>
+        <item>ต่ำ</item>
+        <item>วิกฤต</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ถาม</item>
+        <item>ไม่อนุญาตเลย</item>
+        <item>อนุญาตเสมอ</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ปิด</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ปิด</item>
+        <item>64 K ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>256 K ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>1 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>4 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>16 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ปิด</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ปิด</item>
+        <item>บัฟเฟอร์บันทึกทั้งหมด</item>
+        <item>ทั้งหมดยกเว้นบัฟเฟอร์บันทึกวิทยุ</item>
+        <item>เฉพาะบัฟเฟอร์ไฟล์บันทึกเคอร์เนล</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ปิด</item>
+        <item>ทั้งหมด</item>
+        <item>ทั้งหมดเว้นวิทยุ</item>
+        <item>เฉพาะเคอร์เนล</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ปิด</item>
+        <item>วาดคลิปที่ไม่ใช่สี่เหลี่ยมด้วยสีฟ้า</item>
+        <item>ไฮไลต์คำสั่งวาดที่ทดสอบด้วยสีเขียว</item>
+    </string-array>
+    <string-array name="status_bar_settings_clock_options">
+        <item>แสดงชั่วโมง นาที และวินาที</item>
+        <item>แสดงชั่วโมงและนาที (ค่าเริ่มต้น)</item>
+        <item>ไม่แสดงไอคอนนี้</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>อเมริกา</item>
+        <item>ยุโรป</item>
+        <item>แอฟริกา</item>
+        <item>เอเชีย</item>
+        <item>ออสเตรเลีย</item>
+        <item>แปซิฟิก</item>
+        <item>ทั้งหมด</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ปิด</item>
+        <item>เป็นแถบบนหน้าจอ</item>
+        <item>ใน adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ช้ามาก</item>
+        <item>ช้า</item>
+        <item>ปกติ</item>
+        <item>เร็ว</item>
+        <item>เร็วขึ้น</item>
+        <item>เร็วมาก</item>
+        <item>เร็ว</item>
+        <item>เร็วมาก</item>
+        <item>เร็วที่สุด</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>เวลาในการใช้งาน</item>
+        <item>ครั้งสุดท้ายที่ใช้</item>
+        <item>ชื่อแอปพลิเคชัน</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>การชาร์จ</item>
+        <item>MTP (โปรโตคอลการโอนสื่อ)</item>
+        <item>PTP (โปรโตคอลการโอนรูปภาพ)</item>
+        <item>RNDIS (อีเทอร์เน็ต USB)</item>
+        <item>แหล่งที่มาของเสียง</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>ไม่มี</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ไม่ได้เชื่อมต่อ</item>
+        <item>กำลังเริ่มต้น...</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระยะหมดเวลา</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN พร้อมด้วยคีย์ที่แชร์ไว้ล่วงหน้า</item>
+        <item>L2TP/IPSec VPN พร้อมด้วยใบรับรอง</item>
+        <item>IPSec VPN พร้อมด้วยคีย์ที่แชร์ไว้ล่วงหน้าและการตรวจสอบสิทธิ์ Xauth</item>
+        <item>IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์ Xauth</item>
+        <item>IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์แบบผสม</item>
+        <item>IKEv2/IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์ชื่อผู้ใช้/รหัสผ่าน</item>
+        <item>IKEv2/IPSec VPN พร้อมด้วยคีย์ที่แชร์ล่วงหน้า</item>
+        <item>IKEv2/IPSec VPN พร้อมด้วยใบรับรอง</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>อินเทอร์เน็ตมือถือ</item>
+        <item>Wi-Fi เท่านั้น</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>อินเทอร์เน็ตมือถือ</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>ไม่</item>
+        <item>ใช่</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>คงที่</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>ตรวจหาโดยอัตโนมัติ</item>
+        <item>ถือว่ามีการวัดปริมาณอินเทอร์เน็ต</item>
+        <item>ถือว่าไม่มีการวัดปริมาณอินเทอร์เน็ต</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>เชื่อมต่อแล้ว</item>
+        <item>เชิญแล้ว</item>
+        <item>ไม่สำเร็จ</item>
+        <item>พร้อมใช้งาน</item>
+        <item>อยู่นอกระยะสัญญาณ</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>ปุ่มกด</item>
+        <item>PIN จากอุปกรณ์เพียร์</item>
+        <item>PIN จากอุปกรณ์นี้</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>ใช้ MAC แบบสุ่ม (ค่าเริ่มต้น)</item>
+        <item>ใช้ที่อยู่ MAC ของอุปกรณ์</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ไม่มี</item>
+        <item>ด้วยตนเอง</item>
+        <item>กำหนดค่าพร็อกซีอัตโนมัติ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>แย่</item>
+        <item>อ่อน</item>
+        <item>ปานกลาง</item>
+        <item>ดี</item>
+        <item>ยอดเยี่ยม</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>กำลังตรวจสอบความถูกต้อง…</item>
+        <item>กำลังรับที่อยู่ IP…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อ...</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+        <item>ถูกบล็อก</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อไปยัง %1$s...</item>
+        <item>กำลังตรวจสอบสิทธิ์กับ%1$s...</item>
+        <item>กำลังรับที่อยู่ IP จาก %1$s…</item>
+        <item>เชื่อมต่อกับ %1$s แล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อจาก %1$s</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+        <item>ถูกบล็อก</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+</resources>

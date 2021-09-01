@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:key="pref_app_header" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/styled_switch_bar" android:key="block" />
+    <Preference android:title="@string/app_settings_link" android:key="app_link" settings:allowDividerAbove="true" />
+    <com.android.settings.notification.NotificationFooterPreference android:key="desc" />
+    <com.android.settings.notification.NotificationFooterPreference android:key="block_desc" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Prostřednictvím volání přes Wi-Fi nelze uskutečňovat tísňová volání. Pokud se pokusíte zavolat na tísňovou linku, zařízení automaticky použije mobilní síť. Tísňová volání lze uskutečňovat jen v oblastech pokrytých mobilní sítí."</string>
+</resources>

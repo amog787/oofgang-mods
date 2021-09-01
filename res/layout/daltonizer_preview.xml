@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/preview_viewport" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.accessibility.PaletteListView android:id="@id/palette_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" />
+</FrameLayout>

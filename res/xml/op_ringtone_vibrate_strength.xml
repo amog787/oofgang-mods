@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_vibrate_strength"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_vibrate_rhythm" android:key="vibrate_rhythm">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_vibrate_dynamic_mode" android:key="dynamic_mode" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_rhythm_1" android:key="rhythm_1" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_rhythm_2" android:key="rhythm_2" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_rhythm_3" android:key="rhythm_3" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_rhythm_4" android:key="rhythm_4" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_rhythm_5" android:key="rhythm_5" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_vibrate_intensity" android:key="vibrate_intensity">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_light" android:key="light" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_moderate" android:key="moderate" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_intensely" android:key="intensely" />
+    </PreferenceCategory>
+</PreferenceScreen>

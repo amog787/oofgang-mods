@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/styled_switch_bar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/history_off" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="164.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/history_image" android:focusable="false" android:layout_width="67.0dip" android:layout_height="67.0dip" android:src="@drawable/ic_history" android:scaleType="fitCenter" android:tint="?android:colorControlNormal" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/history_off_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/notification_history_off_title_extended" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" style="@style/op_control_text_style_h5" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:layout_gravity="center_horizontal" android:id="@id/history_off_summary" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/op_notification_history_off_summary" android:textAlignment="center" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/history_on_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="164.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/history_image_on" android:focusable="false" android:layout_width="67.0dip" android:layout_height="67.0dip" android:src="@drawable/ic_history" android:scaleType="fitCenter" android:tint="?android:colorControlNormal" />
+            <TextView android:textColor="@color/op_control_text_color_primary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/history_toggled_on_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/history_toggled_on_title" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" style="@style/op_control_text_style_h5" />
+            <TextView android:textColor="@color/op_control_text_color_secondary" android:layout_gravity="center_horizontal" android:id="@id/history_toggled_on_summary" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/history_toggled_on_summary" android:layout_below="@id/history_off_title" android:textAlignment="center" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/history_on" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/snoozed_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip">
+                <TextView android:textAppearance="@style/TextAppearance.HomepageCardTitle" android:textColor="?android:textColorPrimary" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_history_snooze" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/notification_list" android:background="@drawable/rounded_bg" android:scrollbars="none" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/recently_dismissed_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip">
+                <TextView android:textAppearance="@style/TextAppearance.HomepageCardTitle" android:textColor="?android:textColorPrimary" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_history_dismiss" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/notification_list" android:background="@drawable/rounded_bg" android:scrollbars="none" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/today_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.HomepageCardTitle" android:textColor="?android:textColorPrimary" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_history_today" />
+                <LinearLayout android:orientation="vertical" android:id="@id/apps" android:background="@drawable/rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

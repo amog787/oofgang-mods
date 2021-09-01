@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/loading_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerHorizontal="true" style="?android:progressBarStyleLarge" />
+    <TextView android:textColor="@color/op_control_text_color_hint_light" android:paddingTop="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_text" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" style="@style/op_control_text_style_subtitle" />
+</RelativeLayout>

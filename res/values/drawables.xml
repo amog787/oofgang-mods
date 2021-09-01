@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="homepage_card_bg_bottom">@drawable/homepage_card_bg_bottom_light</item>
+    <item type="drawable" name="homepage_card_bg_middle">@drawable/homepage_card_bg_middle_light</item>
+    <item type="drawable" name="homepage_card_bg_top">@drawable/homepage_card_bg_top_light</item>
+    <item type="drawable" name="ic_battery_lightning">@drawable/ic_battery_lightning_light</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="oneplus_divider_color">@color/oneplus_settings_divider_color</item>
+    <item type="drawable" name="oneplus_starting_window_blank_background">@color/op_control_bg_color_default</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_hardware">@drawable/op_accessibility_shortcut_type_hardware_light</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_software">@drawable/op_accessibility_shortcut_type_software_light</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_triple_tap">@drawable/op_accessibility_shortcut_type_triple_tap_light</item>
+    <item type="drawable" name="op_ram_boost">@drawable/ram_boost_light</item>
+    <item type="drawable" name="op_seekbar_thumb">@drawable/op_seekbar_thumb_light</item>
+</resources>

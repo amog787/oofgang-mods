@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/picture_in_picture_title" android:key="picture_in_picture_screen" settings:controller="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureScreenPreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />

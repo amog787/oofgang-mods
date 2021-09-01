@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_manage_virtual_keyboard" android:key="available_virtual_keyboard_page"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <PreferenceCategory android:key="available_keyboards" />
+    <PreferenceCategory>
+        <com.oneplus.settings.widget.OPFooterPreference android:title="@string/oneplus_available_keyboard_description" android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

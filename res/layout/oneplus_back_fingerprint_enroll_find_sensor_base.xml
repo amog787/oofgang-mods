@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_opfinger_logo_bg" style="@style/OnePlusSuwGlifIcon" />
+        <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_head">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="@dimen/op_control_margin_space8">
+            <TextView android:textColor="@color/oneplus_settings_text_color_primary" android:gravity="center_horizontal" android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/op_security_settings_back_fingerprint_enroll_find_sensor_message" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+            <TextView android:textColor="@color/settings_accent_color" android:gravity="center_horizontal" android:id="@id/functional_terms" android:paddingTop="@dimen/oneplus_legale_functional_tarms_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_functional_terms" android:textAllCaps="true" style="@style/op_control_text_style_button" />
+            <include android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/oneplus_back_fingerprint_enroll_find_sensor_graphic" />
+            <android.widget.Button android:layout_gravity="end" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:minWidth="95.0dip" android:text="@string/fingerprint_enroll_button_next" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Mini" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>ঘণ্টা, মিনিট এবং সেকেন্ড প্রদর্শন করুন</item>
+        <item>ঘণ্টা, মিনিট এবং সেকেন্ড প্রদর্শন করুন (পূর্ব-নির্ধারিত)</item>
+        <item>এই আইকনটি প্রদর্শন করবেন না</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_status" android:key="my_device_info_pref_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:selectable="false" android:key="my_device_info_header" android:order="0" settings:isPreferenceVisible="false" />
+    <com.android.settings.widget.ValidatedEditTextPreference android:title="@string/my_device_info_device_name_preference_title" android:key="device_name" android:summary="@string/summary_placeholder" android:order="1" settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/my_device_info_account_preference_title" android:key="branded_account" android:summary="@string/summary_placeholder" android:order="2" settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController" />
+    <Preference android:title="@string/status_number" android:selectable="false" android:key="phone_number" android:summary="@string/summary_placeholder" android:order="3" settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/emergency_info_title" android:key="emergency_info" android:summary="@string/summary_placeholder" android:order="14" settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController" />
+    <Preference android:title="@string/legal_information" android:key="legal_container" android:order="15" android:fragment="com.android.settings.LegalSettings" settings:allowDividerAbove="true" settings:searchable="false" />
+    <Preference android:title="@string/safety_and_regulatory_info" android:key="safety_info" android:order="17">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
+    </Preference>
+    <Preference android:title="@string/sim_status_title" android:key="sim_status" android:summary="@string/summary_placeholder" android:order="18" settings:keywords="@string/keywords_sim_status" />
+    <Preference android:title="@string/hardware_info" android:key="device_model" android:summary="@string/summary_placeholder" android:order="31" android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment" settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController" settings:keywords="@string/keywords_model_and_hardware" />
+    <Preference android:title="@string/status_imei" android:key="imei_info" android:summary="@string/summary_placeholder" android:order="25" settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController" settings:keywords="@string/keywords_imei_info" />
+    <Preference android:title="@string/oneplus_carrier_config_version" android:key="carrier_config_version" android:summary="@string/summary_placeholder" android:order="28" settings:allowDividerAbove="true" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/summary_placeholder" android:order="32" android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings" settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_serial_number" android:key="serial_number" android:summary="@string/summary_placeholder" android:order="30" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/onplus_hardware_version_info" android:key="hardware_version_info" android:summary="@string/summary_placeholder" android:order="32" android:shouldDisableView="false" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/summary_placeholder" android:order="33" settings:keywords="@string/baseband_version" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/summary_placeholder" android:order="34" settings:keywords="@string/kernel_version" />
+    <com.oneplus.settings.aboutphone.OPSecurityPatchLevel android:title="@string/security_patch" android:key="security_patch" android:order="35" settings:keywords="@string/security_patch" />
+    <Preference android:title="@string/wifi_ip_address" android:selectable="false" android:key="wifi_ip_address" android:summary="@string/summary_placeholder" android:order="36" settings:enableCopying="true" />
+    <Preference android:title="@string/status_wifi_mac_address" android:selectable="false" android:key="wifi_mac_address" android:summary="@string/summary_placeholder" android:order="37" settings:enableCopying="true" />
+    <Preference android:title="@string/status_bt_address" android:selectable="false" android:key="bt_address" android:summary="@string/summary_placeholder" android:order="38" settings:enableCopying="true" />
+    <Preference android:title="@string/status_openid_title" android:key="oaid" android:order="39" android:fragment="com.oneplus.settings.aboutphone.OpenIdSettings" settings:controller="com.oneplus.settings.aboutphone.OPOpenIdPreferenceController" settings:keywords="@string/status_openid_title" />
+    <Preference android:title="@string/status_up_time" android:selectable="false" android:key="up_time" android:summary="@string/summary_placeholder" android:order="40" settings:allowDividerAbove="true" />
+    <Preference android:title="@string/manual" android:key="manual" android:order="50">
+        <intent android:action="android.settings.SHOW_MANUAL" />
+    </Preference>
+    <Preference android:title="@string/device_feedback" android:key="device_feedback" android:order="51" settings:keywords="@string/keywords_device_feedback" />
+    <Preference android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/summary_placeholder" android:order="52" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/summary_placeholder" android:order="53" settings:allowDividerAbove="true" settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController" settings:enableCopying="true" />
+    <Preference android:title="@string/brand_name" android:key="brand_name" android:summary="@string/summary_placeholder" android:order="26" settings:allowDividerAbove="true" />
+    <Preference android:title="@string/software_version" android:selectable="false" android:key="software_version" android:summary="@string/summary_placeholder" android:order="44" settings:enableCopying="true" />
+    <Preference android:title="@string/ram_total_size" android:selectable="false" android:key="key_storage_total_size" android:summary="@string/summary_placeholder" android:order="45" settings:allowDividerAbove="true" settings:enableCopying="true" />
+    <Preference android:title="@string/last_factory_reset" android:key="last_factory_reset" android:summary="@string/last_factory_reset_none" android:order="46" />
+    <Preference android:title="@string/warranty_date_code" android:key="warranty_code" android:summary="None" android:order="47" />
+</PreferenceScreen>

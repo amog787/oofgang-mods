@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.settings.edgeeffect.SpringNestScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:textDirection="locale" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="center_vertical" android:id="@android:id/title" android:paddingRight="@dimen/op_control_margin_screen_left3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space7" android:text="@string/oneplus_shortcuts_preview" android:textAllCaps="true" android:textAlignment="viewStart" android:paddingStart="@dimen/op_control_margin_screen_left3" style="@style/op_control_text_style_subtitle" />
+        <com.oneplus.settings.quicklaunch.OPAppRecyclerView android:id="@id/dragList" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_control_margin_space2" />
+        <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/add_more" android:paddingTop="@dimen/op_control_margin_space2" android:paddingBottom="@dimen/op_control_margin_space2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space2" android:layout_marginBottom="@dimen/op_control_margin_space2" android:text="@string/oneplus_app_locker_add_apps" style="?borderlessButtonStyle" />
+    </LinearLayout>
+</com.oneplus.settings.edgeeffect.SpringNestScrollView>

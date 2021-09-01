@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_buttons_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/oneplus_choose_navigation_bar" android:key="choose_navigation_bar">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_fixed_navigation_bar_title" android:key="always_show_navigation_bar" android:summary="@string/oneplus_always_show_navigation_bar_summary" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_hide_navkeys" android:key="hide_navigation_bar" android:summary="@string/oneplus_hide_navkeys_summary" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gesture_navigation_bar_title" android:key="gesture_navigation_bar" android:summary="@string/oneplus_gesture_navigation_bar_summary" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPPhoneControlWayCategory android:title="@string/oneplus_instrucitons" android:key="phone_control_way" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_vibration_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/accessibility_ring_vibration_title" android:key="ring_vibration_preference_screen" android:fragment="com.android.settings.accessibility.RingVibrationPreferenceFragment" settings:controller="com.android.settings.accessibility.RingVibrationIntensityPreferenceController" settings:keywords="@string/keywords_ring_vibration" />
+    <Preference android:title="@string/accessibility_notification_vibration_title" android:key="notification_vibration_preference_screen" android:fragment="com.android.settings.accessibility.NotificationVibrationPreferenceFragment" settings:controller="com.android.settings.accessibility.NotificationVibrationIntensityPreferenceController" settings:keywords="@string/keywords_notification_vibration" />
+    <Preference android:title="@string/accessibility_touch_vibration_title" android:key="touch_vibration_preference_screen" android:fragment="com.android.settings.accessibility.TouchVibrationPreferenceFragment" settings:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" settings:keywords="@string/keywords_touch_vibration" />
+</PreferenceScreen>

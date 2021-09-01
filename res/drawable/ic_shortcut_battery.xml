@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/shortcut_background" />
+    <foreground>
+        <vector android:height="120.0dip" android:width="120.0dip" android:viewportWidth="78.0" android:viewportHeight="78.0">
+            <group android:translateX="13.0" android:translateY="13.0">
+                <path android:fillColor="@color/oneplus_accent_color" android:pathData="M29.67,18H28v-2h-4v2h-1.67C21.6,18,21,18.6,21,19.33v15.33C21,35.4,21.6,36,22.33,36h7.33                             C30.4,36,31,35.4,31,34.67V19.33C31,18.6,30.4,18,29.67,18z" />
+            </group>
+        </vector>
+    </foreground>
+</adaptive-icon>

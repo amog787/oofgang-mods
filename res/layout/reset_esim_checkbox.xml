@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/erase_esim_container" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" style="@style/SudDescription"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/erase_esim" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" style="@style/SudCheckBox" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_esim_title" style="@style/TextAppearance.SudGlifItemTitle" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_esim_desc" style="@style/TextAppearance.SudGlifItemSummary" />
+    </LinearLayout>
+</LinearLayout>

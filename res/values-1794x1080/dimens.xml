@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="complete_icon_margin_top">669.0px</dimen>
+    <dimen name="control_empty_base_height">50.0px</dimen>
+    <dimen name="control_empty_image_height">600.0px</dimen>
+    <dimen name="control_empty_image_width">1080.0px</dimen>
+    <dimen name="design_tab_bar_indicator_height">6.0px</dimen>
+    <dimen name="oneplus_dialog_subtitle_minHeight_singleline">112.0px</dimen>
+    <dimen name="op_app_bar_collapsed_text_size">63.0px</dimen>
+    <dimen name="op_app_bar_collapsed_top_margin">12.0px</dimen>
+    <dimen name="op_app_bar_collapsed_top_subtitle_margin">18.0px</dimen>
+    <dimen name="op_app_bar_expand_text_size">144.0px</dimen>
+    <dimen name="op_app_bar_margin_top">12.0px</dimen>
+    <dimen name="op_app_bar_margin_top_without_tab">60.0px</dimen>
+    <dimen name="op_app_bar_subtitle_text_size">36.0px</dimen>
+    <dimen name="op_text_size_h1">165.0px</dimen>
+    <dimen name="op_text_size_h2">144.0px</dimen>
+    <dimen name="op_text_style_dialog_body1_size">36.0px</dimen>
+    <dimen name="op_text_style_dialog_title_size">48.0px</dimen>
+</resources>

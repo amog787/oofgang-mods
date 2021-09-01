@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/oneplus_screen_color_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_default" android:key="screen_color_mode_default_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_soft" android:key="screen_color_mode_soft_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_basic" android:key="screen_color_mode_basic_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_dci_p3" android:key="screen_color_mode_dci_p3_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_adaptive_model" android:key="screen_color_mode_adaptive_model_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_better_nature" android:key="screen_color_mode_auto_settings" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_defined" android:key="screen_color_mode_defined_settings" />
+    <com.android.settings.ui.OPSuwPreferenceCategory android:title="@string/screen_color_mode_advanced_settings" android:key="screen_color_mode_advanced_settings">
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_ntsc" android:key="screen_color_mode_advanced_settings_ntsc" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_basic" android:key="screen_color_mode_advanced_settings_srgb" />
+        <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_screen_color_mode_advanced_settings_display_p3" android:key="screen_color_mode_advanced_settings_display_p3" />
+    </com.android.settings.ui.OPSuwPreferenceCategory>
+    <com.oneplus.settings.ui.OPSuwSeekBarPreference android:key="screen_color_mode_seekbar" />
+    <com.oneplus.settings.ui.OPScreenColorModeSummary android:key="oneplus_screen_color_mode_title_summary" android:summary="@string/oneplus_screen_color_mode_title_summary" />
+</PreferenceScreen>

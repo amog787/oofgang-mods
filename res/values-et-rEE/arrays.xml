@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>Kuva tunnid, minutid ja sekundid</item>
+        <item>Kuva tunnid ja minutid (vaikesäte)</item>
+        <item>Ära seda ikooni kuva</item>
+    </string-array>
+</resources>

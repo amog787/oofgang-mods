@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" settings:keywords="@string/keywords_location"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/location_category_recent_location_requests" android:key="recent_location_requests" settings:controller="com.android.settings.location.RecentLocationRequestPreferenceController" />
+    <Preference android:layout="@layout/op_see_all_preference" android:title="@string/location_recent_location_requests_see_all" android:key="recent_location_requests_see_all_button" android:fragment="com.android.settings.location.RecentLocationRequestSeeAllFragment" settings:searchable="false" />
+    <CheckBoxPreference android:title="@string/assisted_gps" android:key="assisted_gps" android:summaryOn="@string/assisted_gps_enabled" android:summaryOff="@string/assisted_gps_disabled" settings:controller="com.android.settings.location.AgpsPreferenceController" />
+    <PreferenceCategory android:title="@string/oneplus_permission_fine_location_title" android:key="location_advanced_settings" settings:initialExpandedChildrenCount="2">
+        <Preference android:title="@string/location_app_level_permissions" android:key="app_level_permissions" settings:controller="com.android.settings.location.AppLocationPermissionPreferenceController">
+            <intent android:action="android.intent.action.MANAGE_PERMISSION_APPS">
+                <extra android:name="android.intent.extra.PERMISSION_NAME" android:value="android.permission-group.LOCATION" />
+            </intent>
+        </Preference>
+        <Preference android:title="@string/location_scanning_screen_title" android:key="location_scanning" android:fragment="com.android.settings.location.ScanningSettings" />
+        <Preference android:title="@string/location_carrier_location_access" android:key="carrier_location_access" settings:controller="com.android.settings.location.CarrierLocationAccessController">
+            <intent android:targetPackage="com.oneplus.carrierlocation" android:action="com.oneplus.carrierlocation.intent.action.NON_FRAMEWORK_LOCATION" />
+        </Preference>
+        <com.android.settingslib.RestrictedSwitchPreference android:enabled="false" android:title="@string/managed_profile_location_switch_title" android:selectable="true" android:key="managed_profile_location_switch" settings:controller="com.android.settings.location.LocationForWorkPreferenceController" settings:forWork="true" settings:useAdminDisabledSummary="true" />
+        <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="location_services" settings:controller="com.android.settings.location.LocationServicePreferenceController" />
+        <Preference android:title="@string/oneplus_location_information" android:key="op_location_information" />
+        <PreferenceCategory android:title="@string/managed_profile_location_services" android:key="location_services_managed_profile" settings:controller="com.android.settings.location.LocationServiceForWorkPreferenceController" settings:forWork="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="location_footer" settings:allowDividerAbove="false" settings:controller="com.android.settings.location.LocationFooterPreferenceController" />
+</PreferenceScreen>

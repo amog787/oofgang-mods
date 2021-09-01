@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.settings.opfinger.OPLottieAnimationView android:id="@id/guide_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:lottie_autoPlay="false" app:lottie_loop="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

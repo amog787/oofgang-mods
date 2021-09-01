@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_pairing_pref_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <Preference android:title="@string/bluetooth_device_name" android:key="bt_pair_rename_devices" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.bluetooth.BluetoothDeviceRenamePreferenceController" />
+    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/bluetooth_paired_device_title" android:key="available_devices" />
+    <com.oneplus.settings.widget.OPFooterPreference />
+</PreferenceScreen>

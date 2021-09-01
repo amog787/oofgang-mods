@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="homepage_card_bg_bottom">@drawable/homepage_card_bg_bottom_dark</item>
+    <item type="drawable" name="homepage_card_bg_middle">@drawable/homepage_card_bg_middle_dark</item>
+    <item type="drawable" name="homepage_card_bg_top">@drawable/homepage_card_bg_top_dark</item>
+    <item type="drawable" name="ic_battery_lightning">@drawable/ic_battery_lightning_dark</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_hardware">@drawable/op_accessibility_shortcut_type_hardware_dark</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_software">@drawable/op_accessibility_shortcut_type_software_dark</item>
+    <item type="drawable" name="op_accessibility_shortcut_type_triple_tap">@drawable/op_accessibility_shortcut_type_triple_tap_dark</item>
+    <item type="drawable" name="op_ram_boost">@drawable/ram_boost_dark</item>
+    <item type="drawable" name="op_seekbar_thumb">@drawable/op_seekbar_thumb_dark</item>
+</resources>

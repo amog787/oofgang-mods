@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/usb_preference" android:key="usb_details_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="usb_details_functions" />
+    <PreferenceCategory android:key="usb_details_power_role" />
+</PreferenceScreen>

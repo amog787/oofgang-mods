@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_e_sports_mode_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPNoSelectablePreference android:title="@string/oneplus_e_sports_mode_disturb_introduction_title" android:selectable="false" android:summary="@string/oneplus_e_sports_mode_disturb_introduction_summary" />
+    <com.oneplus.settings.ui.OPNoSelectablePreference android:title="@string/oneplus_e_sports_mode_background_introduction_title" android:selectable="false" android:summary="@string/oneplus_e_sports_mode_background_introduction_summary" />
+    <com.oneplus.settings.ui.OPNoSelectablePreference android:title="@string/oneplus_e_sports_mode_network_introduction_title" android:selectable="false" android:key="oneplus_e_sports_mode_network_introduction" android:summary="@string/oneplus_e_sports_mode_network_introduction_dual4g_summary" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPEsportModeIntroductionCategory android:title="@string/oneplus_instrucitons" android:key="oneplus_instrucitons" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/cycle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:scrollIndicators="bottom|top" style="?buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.ButtonBarLayout android:gravity="bottom" android:orientation="horizontal" android:paddingTop="@dimen/op_control_margin_list_top1" android:paddingBottom="@dimen/op_control_margin_space9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/op_control_margin_space9" android:paddingEnd="@dimen/op_control_margin_space9">
+        <Button android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:minHeight="36.0dip" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="@dimen/op_control_margin_space9" style="?android:buttonBarButtonStyle" />
+        <Space android:id="@android:id/widget" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:minHeight="36.0dip" android:paddingStart="@dimen/op_control_margin_space9" android:paddingEnd="@dimen/op_control_margin_space9" style="?android:buttonBarButtonStyle" />
+        <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:minHeight="36.0dip" android:paddingStart="@dimen/op_control_margin_space9" android:paddingEnd="@dimen/op_control_margin_space9" style="?android:buttonBarButtonStyle" />
+    </com.android.internal.widget.ButtonBarLayout>
+</ScrollView>

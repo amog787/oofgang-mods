@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tabs_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.SlidingTabLayout android:id="@id/sliding_tabs" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.android.settings.widget.RtlCompatibleViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

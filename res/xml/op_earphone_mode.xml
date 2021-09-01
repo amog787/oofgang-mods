@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_earphone_mode" settings:keywords="@string/oneplus_earphone_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/oneplus_auto_play" android:key="auto_play" android:summary="@string/oneplus_auto_play_summary" />
+    <SwitchPreference android:title="@string/oneplus_auto_answer_via_bluetooth_title" android:key="auto_answer_via_bluetooth" android:summary="@string/oneplus_auto_answer_via_bluetooth_summary" />
+    <SwitchPreference android:title="@string/oneplus_call_information_broadcast" android:key="call_information_broadcast" android:summary="@string/oneplus_call_information_broadcast_summary" />
+    <Preference android:title="@string/oneplus_google_tts" android:key="google_tts" />
+    <ListPreference android:entries="@array/oneplus_notification_ringtone" android:title="@string/oneplus_notification_ringtone_title" android:key="notification_ringtone" android:entryValues="@array/oneplus_notification_ringtone_values" />
+    <PreferenceCategory android:title="@string/oneplus_bluetooth_volume" android:key="bluetooth_volume">
+        <SwitchPreference android:title="@string/oneplus_bluetooth_volume_switch" android:key="bluetooth_volume_switch" android:summary="@string/oneplus_bluetooth_volume_switch_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

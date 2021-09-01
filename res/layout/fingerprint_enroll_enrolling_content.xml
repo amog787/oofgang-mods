@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_fod_fingerprint_enroll_edge_lottie_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.RingProgressBar android:id="@id/fingerprint_progress_bar" android:background="@drawable/fp_illustration" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:minHeight="@dimen/fingerprint_progress_bar_min_size"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.oneplus.settings.opfinger.OPFingerPrintEnrollView android:id="@id/op_finger_enroll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/op_finger_edge_enroll_view" android:visibility="invisible" android:layout_width="@dimen/oneplus_fod_fingerprint_enroll_edge_lottie_witdh" android:layout_height="@dimen/oneplus_fod_fingerprint_enroll_edge_lottie_height" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="op_fingerprint_edge_enroll_anim_dark.json" app:lottie_loop="false" />
+</RelativeLayout>

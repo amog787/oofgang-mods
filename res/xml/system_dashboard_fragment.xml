@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/header_category_system" android:key="system_dashboard_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/accessibility_settings" android:key="accessibility_settings" android:order="-270" android:fragment="com.android.settings.accessibility.AccessibilitySettings" settings:controller="com.oneplus.settings.controllers.AccessibilitySettingsPreferenceController" />
+    <Preference android:title="@string/gesture_preference_title" android:key="gesture_settings" android:order="-250" android:fragment="com.android.settings.gestures.GestureSettings" settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController" />
+    <Preference android:title="@string/date_and_time" android:key="date_time_settings" android:order="-240" android:fragment="com.android.settings.datetime.DateTimeSettings" settings:controller="com.android.settings.datetime.DateTimePreferenceController" />
+    <Preference android:title="@string/reset_dashboard_title" android:key="reset_dashboard" android:summary="@string/op_reset_options_summary" android:order="-55" android:fragment="com.android.settings.system.ResetDashboardFragment" settings:controller="com.android.settings.system.ResetPreferenceController" />
+    <SwitchPreference android:title="@string/otg_read_enable" android:key="otg_read_enable" android:summary="@string/oneplus_otg_ota_shutdown_summary" android:order="-50" settings:keywords="@string/otg_read_summary" />
+    <Preference android:title="@string/oneplus_experience_improvement_programs" android:key="experience_improvement" android:order="-47" android:fragment="com.oneplus.settings.others.OPExperienceImprovementFragment" />
+    <Preference android:title="@string/oneplus_ramboost_title" android:key="op_ramboost_settings" android:summary="@string/oneplus_ramboost_switch_summary" android:order="-40" android:fragment="com.oneplus.settings.system.OPRamBoostSettings" />
+    <Preference android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/summary_placeholder" android:order="-30" settings:controller="com.android.settings.system.SystemUpdatePreferenceController" settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+    <com.oneplus.settings.system.OPSystemUpdatePreference android:title="@string/system_update_settings_list_item_title" android:key="oneplus_system_update_settings" android:order="-30" settings:controller="com.oneplus.settings.system.OPSystemUpdatePreferenceController" settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="oneplus.intent.action.CheckUpdate" />
+    </com.oneplus.settings.system.OPSystemUpdatePreference>
+    <Preference android:title="@string/system_update_settings_list_item_title" android:key="op_carrier_system_update1_settings" android:order="-30" android:fragment="com.oneplus.settings.system.OPUssSystemUpdateFragment" settings:controller="com.oneplus.settings.system.OPUssSystemUpdateController" settings:keywords="@string/keywords_system_update_settings" />
+    <Preference android:title="@string/system_update_settings_list_item_title" android:key="op_na_system_update_settings" android:order="-31" settings:controller="com.oneplus.settings.system.OPNASystemUpdateController" settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings" android:order="-31" settings:controller="com.android.settings.system.AdditionalSystemUpdatePreferenceController">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
+    </Preference>
+    <Preference android:title="@string/privacy_settings_title" android:key="backup_settings" android:order="-60" settings:controller="com.oneplus.settings.backup.OPBackupSettingsActivityPreferenceController">
+        <intent android:action="oneplus.settings.BACKUP_AND_RESET_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/power_off" android:key="power_off" android:order="300" />
+</PreferenceScreen>

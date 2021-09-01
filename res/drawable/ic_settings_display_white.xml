@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/settings_accent_color" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M11.1,1V4H12.9V1H11.1Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M12,6.1001C8.7415,6.1001 6.1,8.7416 6.1,12.0001C6.1,15.2586 8.7415,17.9001 12,17.9001C15.2585,17.9001 17.9,15.2586 17.9,12.0001C17.9,8.7416 15.2585,6.1001 12,6.1001ZM12,16.1001C14.2644,16.1001 16.1,14.2645 16.1,12.0001C16.1,9.7357 14.2644,7.9001 12,7.9001V16.1001Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M17.0206,5.7067L19.1416,3.5857L20.4144,4.8585L18.2934,6.9795L17.0206,5.7067Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M23,11.1001H20V12.9001H23V11.1001Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M18.2934,17.0205L20.4144,19.1415L19.1416,20.4143L17.0206,18.2933L18.2934,17.0205Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M12.9,23V20H11.1V23H12.9Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M6.9794,18.2933L4.8584,20.4143L3.5856,19.1415L5.7066,17.0205L6.9794,18.2933Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M1,12.9001H4V11.1001H1V12.9001Z" />
+    <path android:fillColor="@color/settings_accent_color" android:pathData="M5.7066,6.9795L3.5856,4.8585L4.8584,3.5857L6.9794,5.7067L5.7066,6.9795Z" />
+</vector>

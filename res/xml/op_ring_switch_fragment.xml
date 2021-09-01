@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ringtone.OPPaddingPreferenceCategory android:title="@string/oneplus_vibrate" android:key="vibrate">
+        <Preference android:title="@string/oneplus_vibrate_strength" android:key="vibrate_strength" />
+        <com.oneplus.settings.ringtone.OPPaddingSwitchPreference android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" />
+    </com.oneplus.settings.ringtone.OPPaddingPreferenceCategory>
+    <com.oneplus.settings.ringtone.OPPaddingPreferenceCategory android:title="@string/op_ringtone" android:key="setting_title">
+        <com.oneplus.settings.ringtone.OPPaddingSwitchPreference android:title="@string/oneplus_setting_sim_ringtone_switch" android:key="setting_key" />
+        <com.oneplus.settings.ringtone.OPSimPreference android:title="@string/oneplus_sim1_ringtone_switch" android:key="sim1_select" android:summary="@string/oneplus_no_ringtone" />
+        <com.oneplus.settings.ringtone.OPSimPreference android:title="@string/oneplus_sim2_ringtone_switch" android:key="sim2_select" android:summary="@string/oneplus_no_ringtone" />
+        <com.oneplus.settings.ringtone.OPRadioButtonPreference android:title="@string/oneplus_local_ringtone" android:key="local_select" android:summary="@string/oneplus_no_choice" />
+        <com.oneplus.settings.ringtone.OPRadioButtonPreference android:title="@string/oneplus_no_ringtone" android:key="no_select" />
+    </com.oneplus.settings.ringtone.OPPaddingPreferenceCategory>
+</PreferenceScreen>

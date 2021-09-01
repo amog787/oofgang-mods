@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_must_reset" android:key="op_must_remove">
+        <com.oneplus.settings.ui.OPNoSelectablePreference android:title="@string/oneplus_system_data_title" android:key="op_system_data" android:summary="@string/oneplus_system_data_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_optional_reset" android:key="op_optional_remove">
+        <SwitchPreference android:title="@string/oneplus_clear_intenal_storage_data_title" android:key="op_optional_reset" android:summary="@string/oneplus_clear_intenal_storage_data_summary" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPFactoryResetConfirmCategory android:key="op_factory_reset_confirm" />
+</PreferenceScreen>

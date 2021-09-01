@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_opfinger_logo_bg" android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sudGlifIconStyle="@style/OnePlusSuwGlifIcon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/op_control_margin_space8" android:paddingEnd="@dimen/op_control_margin_space8">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/op_control_text_color_primary_dark" android:id="@id/start_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:text="@string/oneplus_fingerprint_enroll_summary" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+            <TextView android:textColor="@color/op_control_text_color_primary_dark" android:id="@id/repeat_message" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_repeat_message" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+        </FrameLayout>
+        <include android:layout_gravity="center" android:id="@id/fingerprint_enroll_enrolling_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" layout="@layout/fingerprint_enroll_enrolling_content" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.ErrorText" />
+        <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space10" android:layout_marginBottom="@dimen/op_control_margin_space9" android:text="@string/skip_label" style="@style/SetupWizardButton.Negative" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

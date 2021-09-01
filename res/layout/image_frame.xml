@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginTop="@dimen/op_control_margin_list_top3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/op_control_icon_size_list" android:minHeight="@dimen/op_control_icon_size_list" android:layout_marginEnd="@dimen/op_control_margin_space3" app:maxHeight="@dimen/op_control_avatar_size3" app:maxWidth="@dimen/op_control_avatar_size3" />
+</LinearLayout>

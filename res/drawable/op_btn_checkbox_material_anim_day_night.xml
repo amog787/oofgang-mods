@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oneplus="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:drawable="@drawable/op_checkbox_indeterminate_disable_day_night" android:alpha="?android:disabledAlpha" oneplus:state_indeterminate="true" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/op_checkbox_checked_disable_day_night" android:alpha="?android:disabledAlpha" />
+    <item android:state_enabled="false" android:drawable="@drawable/op_checkbox_unchecked_disable_day_night" android:alpha="?android:disabledAlpha" />
+    <item android:id="@id/indeterminate" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14_day_night" oneplus:state_indeterminate="true" />
+    <item android:state_checked="true" android:id="@id/on" android:drawable="@drawable/op_checkbox_15_day_night" />
+    <item android:id="@id/off" android:drawable="@drawable/op_checkbox_00_day_night" />
+    <transition android:toId="@id/on" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_08_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_09_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_10_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_11_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_12_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_13_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_14_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_15_day_night" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_14_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_13_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_12_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_11_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_10_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_09_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_08_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_00_day_night" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/indeterminate" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_08_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_09_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_10_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_11_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_12_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_13_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14_day_night" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/indeterminate">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_13_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_12_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_11_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_10_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_09_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_08_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_00_day_night" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/indeterminate" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_unchecked_to_indeterminate_14_day_night" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/on" android:fromId="@id/indeterminate">
+        <animation-list>
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_01_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_02_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_03_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_04_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_05_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_06_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_checked_to_indeterminate_07_day_night" />
+            <item android:duration="@integer/oneplus_selector_button_frame_druation" android:drawable="@drawable/op_checkbox_15_day_night" />
+        </animation-list>
+    </transition>
+</animated-selector>

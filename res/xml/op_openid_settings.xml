@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/status_openid_title" android:key="video_enhancer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <SwitchPreference android:title="@string/status_openid_title" android:key="get_opendi_switch" android:summary="@string/status_openid_summary" android:order="10" settings:allowDividerAbove="true" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/reset_openid_button" android:selectable="false" android:key="reset_openid_button_container" android:order="30" />
+</PreferenceScreen>

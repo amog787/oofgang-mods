@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="500" settings:allowDividerAbove="true" />
+</PreferenceScreen>

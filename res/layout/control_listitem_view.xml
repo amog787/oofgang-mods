@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root_layout" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/op_control_margin_screen_left3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/op_control_margin_screen_right1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:id="@id/icon_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/op_control_avatar_size3" android:layout_marginTop="@dimen/op_control_margin_list_top3" android:layout_marginEnd="@dimen/op_control_margin_space3">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" />
+        <com.google.android.material.checkbox.SelectedAvatarView android:id="@id/avatar_icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/text_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top2" android:layout_marginBottom="@dimen/op_control_margin_list_bottom2" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="@id/list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" style="@style/OnePlus.TextAppearance.List.Title" />
+        <TextView android:layout_gravity="start" android:id="@id/list_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/list_title" android:layout_alignLeft="@id/list_title" android:textAlignment="viewStart" android:layout_alignStart="@id/list_title" style="@style/OnePlus.TextAppearance.List.Summary" />
+    </RelativeLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="@color/op_control_divider_color_default" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/op_control_icon_size_button" android:layout_marginStart="@dimen/op_control_margin_space3" android:layout_marginEnd="12.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/list_widget_frame" android:paddingRight="0.0dip" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="@dimen/op_control_margin_list_top1" android:paddingEnd="0.0dip" android:layout_marginStart="@dimen/op_control_margin_space2" />
+</LinearLayout>

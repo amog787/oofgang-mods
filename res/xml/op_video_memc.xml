@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_memc_video" android:key="video_memc" settings:keywords="@string/oneplus_memc_video"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/oneplus_memc_video_effect" android:key="extra_add">
+        <com.android.settings.ui.RadioButtonPreference android:title="@string/oneplus_memc_video_smooth" android:key="video_smooth" />
+        <com.android.settings.ui.RadioButtonPreference android:title="@string/oneplus_memc_video_extreme" android:key="video_acme" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_memc_support_apps" android:key="support_video" />
+    <Preference android:icon="@drawable/ic_chevron_right_24dp" android:title="@string/oneplus_memc_more_support_apps" android:key="get_more_video" settings:searchable="false" />
+</PreferenceScreen>

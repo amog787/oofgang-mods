@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>Prikaži sate, minute, sekunde</item>
+        <item>Prikaži sate i minute (podrazumijevano)</item>
+        <item>Ne prikazuj ovu ikonicu</item>
+    </string-array>
+</resources>

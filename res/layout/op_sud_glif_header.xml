@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sud_layout_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sud_layout_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/op_ic_lock" style="@style/OnePlusSuwGlifIcon" />
+    <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="187.0dip" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+</LinearLayout>

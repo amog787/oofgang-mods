@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="battery_saver_summary" android:summary="@string/oneplus_battery_saver_summary" settings:allowDividerAbove="true" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gaming_mode_game_battery_saver_close" android:key="battery_saver_close" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gaming_mode_game_battery_saver_light" android:key="battery_saver_light" android:summary="@string/oneplus_gaming_mode_game_battery_saver_light_summary" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gaming_mode_game_battery_saver_high" android:key="battery_saver_high" android:summary="@string/oneplus_gaming_mode_game_battery_saver_high_summary" />
+</PreferenceScreen>

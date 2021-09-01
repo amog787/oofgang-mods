@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/media_controls_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/media_controls_summary" android:key="media_controls_resume_switch" android:summary="@string/media_controls_resume_description" app:allowDividerAbove="true" app:controller="com.android.settings.sound.MediaControlsPreferenceController" app:keywords="@string/keywords_media_controls" />
+</PreferenceScreen>

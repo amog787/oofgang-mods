@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.AlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@android:id/singleTop" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/op_settings_alert_dialog_title_material" />
+    <FrameLayout android:id="@android:id/fill" android:paddingTop="@dimen/op_control_margin_space10" android:paddingBottom="@dimen/op_control_margin_space10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <ScrollView android:id="@android:id/topPanel" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Space android:id="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/op_control_text_color_secondary_default" android:id="@android:id/message" android:paddingBottom="@dimen/op_control_margin_space10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space5" android:paddingEnd="@dimen/op_control_margin_space5" />
+                <Space android:id="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_margin_space10" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@android:id/floating" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:id="@android:id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/op_settings_alert_dialog_button_bar_material" />
+</com.android.internal.widget.AlertDialogLayout>

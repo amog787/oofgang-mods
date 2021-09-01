@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_aod_smart_display_title" android:key="aod_smart_pref_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/oneplus_aod_smart_display_music_info" android:key="aod_smart_display_music_info" settings:allowDividerAbove="false" />
+    <SwitchPreference android:title="@string/oneplus_aod_smart_display_calendar_event" android:key="aod_smart_display_calender" settings:allowDividerAbove="false" />
+</PreferenceScreen>

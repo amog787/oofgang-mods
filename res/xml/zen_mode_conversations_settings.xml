@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_conversations_title" android:key="zen_mode_conversations_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/zen_mode_conversations_section_title" android:key="zen_mode_conversations_radio_buttons">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/zen_mode_senders_overlay_image" android:selectable="false" android:key="zen_mode_conversations_image" />
+    </PreferenceCategory>
+</PreferenceScreen>

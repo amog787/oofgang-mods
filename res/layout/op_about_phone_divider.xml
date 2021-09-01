@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/op_control_divider_color_default" android:layout_width="fill_parent" android:layout_height="@dimen/op_control_divider_height_standard" android:layout_marginStart="@dimen/op_control_margin_space5" android:layout_marginEnd="@dimen/op_control_margin_space5"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

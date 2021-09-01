@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oneplus_applock_wrong_pattern_warning">
+        <item quantity="other">Jums ir vēl %1$d mēģinājumi</item>
+        <item quantity="one">Jums ir vēl %1$d mēģinājums</item>
+    </plurals>
+    <plurals name="oneplus_lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Mēģiniet vēlreiz pēc %d sekundēm.</item>
+        <item quantity="one">Mēģiniet vēlreiz pēc %d sekundes.</item>
+    </plurals>
+    <plurals name="oneplus_zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d stundas (ja netiek veikta automātiska ieslēgšana)</item>
+        <item quantity="one">1 stunda (ja netiek veikta automātiska ieslēgšana)</item>
+    </plurals>
+    <plurals name="op_location_settings_summary_location_on">
+        <item quantity="other">Ieslēgts - %1$d lietotnēm jāpiekļūst atrašanās vietai</item>
+        <item quantity="one">Ieslēgts - %1$d lietotnei jāpiekļūst atrašanās vietai</item>
+    </plurals>
+</resources>

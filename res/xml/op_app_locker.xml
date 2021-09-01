@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/oneplus_app_locker_switch" android:key="app_locker_switch" android:summary="@string/oneplus_app_locker_switch_summary" />
+    <PreferenceCategory android:title="@string/oneplus_app_locker_open_apps" android:key="app_locker_open_apps" settings:allowDividerBelow="false" />
+    <com.oneplus.settings.widget.OPBorderlessButtonPreference android:icon="@drawable/ic_menu_add" android:title="@string/oneplus_app_locker_add_apps" android:key="app_locker_add_apps" />
+</PreferenceScreen>

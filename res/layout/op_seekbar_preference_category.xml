@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="63.0dip" android:paddingStart="@dimen/oneplus_contorl_layout_margin_left4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/headerimage" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/op_ic_settings_brightness_header" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <SeekBar android:id="@id/opseekbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:thumb="@drawable/op_ic_brightness_thumb" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/endimage" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/op_ic_settings_brightness_end" android:scaleType="fitXY" android:layout_marginEnd="@dimen/op_control_margin_space8" />
+    </LinearLayout>
+</LinearLayout>

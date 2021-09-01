@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/adb_wireless_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preference_category_no_label">
+        <Preference android:title="@string/my_device_info_device_name_preference_title" android:selectable="false" android:key="adb_device_name_pref" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.development.AdbDeviceNamePreferenceController" settings:enableCopying="true" />
+        <Preference android:title="@string/adb_wireless_ip_addr_preference_title" android:selectable="false" android:key="adb_ip_addr_pref" android:summary="@string/summary_placeholder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="adb_pairing_methods_category">
+        <Preference android:icon="@drawable/ic_scan_24dp" android:title="@string/adb_pair_method_qrcode_title" android:key="adb_pair_method_qrcode_pref" android:summary="@string/adb_pair_method_qrcode_summary" settings:controller="com.android.settings.development.AdbQrCodePreferenceController" />
+        <Preference android:title="@string/adb_pair_method_code_title" android:key="adb_pair_method_code_pref" android:summary="@string/adb_pair_method_code_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/adb_paired_devices_title" android:key="adb_paired_devices_category" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="adb_wireless_footer_category" settings:allowDividerAbove="false" />
+</PreferenceScreen>

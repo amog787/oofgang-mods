@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/selection_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="start|center" android:id="@id/selection_close" android:background="@drawable/oneplus_action_bar_item_background_material" android:layout_width="@dimen/toolbar_icon_min_width" android:layout_height="fill_parent" android:src="@drawable/oneplus_ic_clear_material" android:tint="@color/oneplus_actionbar_icon_tint_color" android:layout_marginStart="6.0dip" />
+    <TextView android:textSize="@dimen/oneplus_actionbar_text_size" android:textColor="@color/oneplus_actionbar_icon_tint_color" android:layout_gravity="start|center" android:id="@id/selection_count_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="@dimen/oneplus_contorl_layout_margin_left4" />
+</FrameLayout>

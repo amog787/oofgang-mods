@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/sud_layout_icon" android:layout_width="@dimen/oneplus_setupwizard_icon_size" android:layout_height="@dimen/oneplus_setupwizard_icon_size" android:src="@drawable/op_ic_face_unlock_setup" style="@style/OnePlusSuwGlifIcon" />
+                <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" style="@style/OnePlusSuwGlifHeaderTitle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/op_control_margin_space5" android:paddingRight="@dimen/op_control_margin_space5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+                <com.google.android.setupdesign.view.RichTextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oneplus_face_setup_unlock_settings_summary" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+                <com.google.android.setupdesign.view.RichTextView android:textColor="@color/oneplus_contorl_text_color_secondary" android:id="@id/rich_warning_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top1" android:text="@string/oneplus_faceunlock_introduction_risk_warning" style="@style/OnePlusSuwGlifHeaderBodyStyle" />
+                <TextView android:textColor="@color/settings_accent_color" android:id="@id/functional_terms" android:paddingTop="@dimen/oneplus_legale_functional_tarms_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_functional_terms" android:textAllCaps="true" style="@style/op_control_text_style_button" />
+                <ImageView android:layout_gravity="center" android:id="@id/img_faceunlock_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="86.0dip" android:src="@drawable/op_faceunlock_guide_image" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/OnePlusSuwGlifButtonBar">
+        <android.widget.Button android:id="@id/fingerprint_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="95.0dip" android:text="@string/security_settings_fingerprint_enroll_introduction_cancel" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Borderless.Mini" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.widget.Button android:id="@id/fingerprint_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="95.0dip" android:text="@string/next_label" style="@style/OnePlus.DeviceDefault.Widget.Material.Button.Mini" />
+    </LinearLayout>
+</RelativeLayout>

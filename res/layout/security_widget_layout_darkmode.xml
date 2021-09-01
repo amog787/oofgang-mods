@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#66000000" android:gravity="start|bottom|center" android:id="@id/widget_action_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oneplus_security_layout_margin_top2" android:text="@string/widget_name" android:layout_alignParentTop="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/oneplus_security_layout_margin_left2" android:layout_marginEnd="@dimen/oneplus_security_layout_margin_left2" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/widget_action_bar">
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_datausage" android:layout_width="107.0dip" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_shelf_value_size" android:textColor="@color/white" android:gravity="bottom" android:id="@id/widget_datausage_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/white" android:id="@id/widget_datausage_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_invalid_value_hint" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_secondary_dark" android:layout_gravity="start" android:id="@id/widget_datausage_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="@string/data_usage_left_title" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_storage" android:layout_width="147.0dip" android:layout_height="wrap_content" android:layout_toEndOf="@id/widget_datausage">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_shelf_value_size" android:textColor="@color/white" android:gravity="bottom" android:id="@id/widget_storage_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_shelf_value_size" android:textColor="@color/white" android:gravity="bottom" android:id="@id/widget_storage_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/symbol_percent" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_secondary_dark" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="@string/storage_space" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/widget_battery" android:layout_width="76.0dip" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <LinearLayout android:gravity="bottom" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/widget_shelf_value_size" android:textColor="@color/white" android:gravity="bottom" android:id="@id/widget_battery_left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h5" />
+                <TextView android:textSize="@dimen/widget_shelf_value_size" android:textColor="@color/white" android:gravity="bottom" android:id="@id/widget_battery_left_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/symbol_percent" style="@style/op_control_text_style_body1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/widget_units_size" android:textColor="@color/op_control_text_color_secondary_dark" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="@string/battery_use" style="@style/op_control_text_style_body1" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

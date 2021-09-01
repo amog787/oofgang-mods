@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.wifi.LinkablePreference android:key="wifi_status_message" settings:searchable="false" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="connected_access_point" settings:searchable="false" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="access_points" settings:searchable="false" />
+    <PreferenceCategory android:title="@string/op_wlan_settings_and_management" android:key="wifi_settings_and_management">
+        <Preference android:title="@string/wifi_configure_settings_preference_title" android:key="configure_wifi_settings" android:fragment="com.android.settings.wifi.ConfigureWifiSettings" settings:allowDividerAbove="false" />
+        <Preference android:title="@string/wifi_saved_access_points_label" android:key="saved_networks" android:fragment="com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings" />
+        <com.android.settings.datausage.DataUsagePreference android:title="@string/wifi_data_usage" android:key="wifi_data_usage" settings:keywords="@string/keywords_wifi_data_usage" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_double_tap_power_gesture" android:key="quick_turn_on_assistant_app"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_double_tap_power_none" android:key="none" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_double_tap_power_gesture_camera" android:key="camera" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_double_tap_power_gesture_wallet" android:key="wallet" />
+    <com.android.settings.ui.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_double_tap_power_ask_alexa" android:key="ask_alexa" />
+</PreferenceScreen>

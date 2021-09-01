@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screensaver_settings_when_to_dream"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

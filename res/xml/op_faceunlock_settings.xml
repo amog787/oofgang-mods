@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_face_unlock_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/oneplus_face_unlock_manager_category_title" android:key="key_faceunlock_category">
+        <Preference android:title="@string/oneplus_face_unlock_add_title" android:key="key_add_face" />
+        <Preference android:title="@string/oneplus_face_unlock_remove_title" android:key="key_remove_face" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_face_unlock_settings_title" android:key="key_faceunlock_management_category">
+        <SwitchPreference android:enabled="false" android:title="@string/oneplus_face_unlock_title" android:key="key_face_unlock_enable" />
+        <SwitchPreference android:enabled="false" android:title="@string/oneplus_face_auto_unlock_while_screen_on_title" android:key="key_auto_face_unlock_enable" android:summary="@string/oneplus_face_auto_unlock_while_screen_on_sumary" />
+        <SwitchPreference android:enabled="false" android:title="@string/oneplus_face_unlock_assistive_lighting_title" android:key="key_face_unlock_assistive_lighting" android:summary="@string/oneplus_face_unlock_assistive_lighting_summary" />
+        <Preference android:title="@string/oneplus_face_unlock_mode" android:key="key_face_unlock_mode" android:fragment="com.oneplus.settings.faceunlock.OPFaceUnlockModeSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_bypassing_apps_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/zen_mode_bypassing_apps_header" android:key="zen_mode_bypassing_apps_list" />
+    <Preference android:icon="@drawable/ic_add_24dp" android:title="@string/zen_mode_bypassing_apps_add" android:key="zen_mode_bypassing_apps_add" settings:allowDividerAbove="true" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/zen_mode_bypassing_apps_footer" />
+</PreferenceScreen>

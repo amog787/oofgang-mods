@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_navigation_bar_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/oneplus_choose_navigation_bar" android:key="choose_navigation_bar">
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_fixed_navigation_bar" android:key="always_show_navigation_bar" android:summary="@string/oneplus_fixed_navigation_bar_title" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gesture_navigation_bar_title" android:key="gesture_navigation_bar" android:summary="@string/oneplus_gesture_navigation_bar_summary" />
+        <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/oneplus_gesture_navigation_bar_title_for_bottom" android:key="gesture_navigation_bar_deprecated" android:summary="@string/oneplus_gesture_navigation_bar_summary_for_bottom" />
+    </PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/oneplus_navigation_bar_custom_settings" android:key="custom_settings_category">
+        <Preference android:title="@string/oneplus_customization" android:key="customization" android:summary="@string/oneplus_customization_summary" android:fragment="com.oneplus.settings.navigationbargestures.OPButtonCustomSettings" />
+        <SwitchPreference android:title="@string/oneplus_gesture_hidden_bar_title" android:key="gesture_hidden_bar" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/oneplus_instrucitons">
+        <com.oneplus.settings.ui.OPPhoneControlWayCategory android:selectable="false" android:key="phone_control_way" />
+    </androidx.preference.PreferenceCategory>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/learn_gesture_button" android:selectable="false" android:key="learn_gesture_button_container" />
+</PreferenceScreen>

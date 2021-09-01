@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/op_control_margin_space2" android:insetRight="@dimen/op_control_margin_space2" android:insetTop="@dimen/op_control_margin_space5" android:insetBottom="@dimen/op_control_margin_space5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/op_control_radius_r12" />
+        <solid android:color="@color/op_control_bg_color_popup_default" />
+    </shape>
+</inset>

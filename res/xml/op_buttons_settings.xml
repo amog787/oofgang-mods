@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/buttons_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/oneplus_buttons_settings" android:key="buttons_settings">
+        <Preference android:title="@string/oneplus_navigation_bar_title" android:key="key_navigation_bar_type" android:fragment="com.oneplus.settings.OPPhoneControlWaySettings" />
+        <SwitchPreference android:title="@string/buttons_brightness_title" android:key="buttons_brightness" android:summary="@string/buttons_brightness_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/buttons_swap_navkeys_title" android:key="buttons_swap_navkeys" android:summary="@string/buttons_swap_navkeys_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/buttons_enable_on_screen_navkeys_title" android:key="buttons_enable_on_screen_navkeys" android:summary="@string/buttons_enable_on_screen_navkeys_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/buttons_force_home_title" android:key="buttons_force_home" android:summary="@string/buttons_force_home_summary" android:defaultValue="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/oneplus_hide_navkeys" android:key="hide_navkeys" android:summary="@string/oneplus_fullscreen_gesture_guide_will_enable" />
+    </PreferenceCategory>
+    <SwitchPreference android:persistent="false" android:title="@string/camera_double_tap_power_gesture_title" android:key="camera_double_tap_power_gesture" android:summary="@string/camera_double_tap_power_gesture_desc" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/hardware_keys_home_key_title" android:key="home_key">
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries_quickpay" android:title="@string/hardware_keys_long_press_title" android:key="hardware_keys_home_long_press" android:dialogTitle="@string/hardware_keys_long_press_title" android:entryValues="@array/hardware_keys_action_values_quickpay" />
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_double_tap_title" android:key="hardware_keys_home_double_tap" android:dialogTitle="@string/hardware_keys_double_tap_title" android:entryValues="@array/hardware_keys_action_values" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/hardware_keys_menu_key_title" android:key="menu_key">
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_long_press_title" android:key="hardware_keys_menu_long_press" android:dialogTitle="@string/hardware_keys_long_press_title" android:entryValues="@array/hardware_keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_double_tap_title" android:key="hardware_keys_menu_double_tap" android:dialogTitle="@string/hardware_keys_double_tap_title" android:entryValues="@array/hardware_keys_action_values" />
+    </PreferenceCategory>
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <PreferenceCategory android:title="@string/hardware_keys_back_key_title" android:key="back_key">
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_long_press_title" android:key="hardware_keys_back_long_press" android:dialogTitle="@string/hardware_keys_long_press_title" android:entryValues="@array/hardware_keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/hardware_keys_action_entries" android:title="@string/hardware_keys_double_tap_title" android:key="hardware_keys_back_double_tap" android:dialogTitle="@string/hardware_keys_double_tap_title" android:entryValues="@array/hardware_keys_action_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

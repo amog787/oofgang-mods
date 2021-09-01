@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/opfinger_fod_anim_bg_01" android:background="@drawable/opfinger_fod_anim_bg_01" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_02" android:background="@drawable/opfinger_fod_anim_bg_02" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_03" android:background="@drawable/opfinger_fod_anim_bg_03" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_04" android:background="@drawable/opfinger_fod_anim_bg_04" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_05" android:background="@drawable/opfinger_fod_anim_bg_05" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_06" android:background="@drawable/opfinger_fod_anim_bg_06" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_07" android:background="@drawable/opfinger_fod_anim_bg_07" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_08" android:background="@drawable/opfinger_fod_anim_bg_08" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_09" android:background="@drawable/opfinger_fod_anim_bg_09" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_10" android:background="@drawable/opfinger_fod_anim_bg_10" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/opfinger_fod_anim_bg_11" android:background="@drawable/opfinger_fod_anim_bg_11" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

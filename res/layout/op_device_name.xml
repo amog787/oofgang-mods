@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/oneplus_settings_title_text_size" android:textColor="@color/oneplus_font_list_subtitle" android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:maxLength="32" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/oneplus_settings_text_size" android:textColor="@color/oneplus_font_list_text" android:id="@id/device_name_summary" android:layout_width="fill_parent" android:layout_height="130.0dip" android:text="@string/oneplus_device_name" />
+    <TextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ok" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/oneplus_device_name_ok" />
+</LinearLayout>

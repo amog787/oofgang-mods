@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="header_view" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <Preference android:layout="@layout/horizontal_preference" android:title="@string/storage_used" android:selectable="false" android:key="storage_used" android:summary="@string/storage_type_internal" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/single_button_panel" android:selectable="false" android:key="change_storage_button" />
+    <PreferenceCategory android:title="@string/app_info_storage_title" android:key="storage_category" settings:allowDividerBelow="false">
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/application_size_label" android:selectable="false" android:key="app_size" />
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/data_size_label" android:selectable="false" android:key="data_size" />
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/cache_size_label" android:selectable="false" android:key="cache_size" />
+        <Preference android:layout="@layout/horizontal_preference" android:title="@string/total_size_label" android:selectable="false" android:key="total_size" />
+        <com.android.settings.applications.SpacePreference android:layout_height="8.0dip" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="uri_category" settings:allowDividerAbove="false" settings:allowDividerBelow="false">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/single_button_panel" android:selectable="false" android:key="clear_uri_button" />
+    </PreferenceCategory>
+</PreferenceScreen>

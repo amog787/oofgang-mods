@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/op_control_icon_color_active_default" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="2.0" android:translateY="8.0">
+        <path android:fillColor="#ff000000" android:pathData="M0,1.75 L0,0.25 L20,0.25 L20,1.75 L0,1.75 Z M0,7.75 L0,6.25 L20,6.25 L20,7.75 L0,7.75 Z" android:strokeWidth="1.0" />
+    </group>
+</vector>

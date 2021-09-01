@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_default_dashboard_title" android:key="app_default_settings_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.android.settings.widget.AppPreference android:title="@string/assist_and_voice_input_title" android:key="assist_and_voice_input" android:fragment="com.android.settings.applications.assist.ManageAssist" settings:keywords="@string/keywords_assist_input" />
+    <com.android.settings.widget.AppPreference android:title="@string/default_browser_title" android:key="default_browser" android:fragment="com.android.settings.applications.defaultapps.DefaultBrowserPicker" settings:keywords="@string/keywords_default_browser">
+        <extra android:name="for_work" android:value="false" />
+    </com.android.settings.widget.AppPreference>
+    <com.android.settings.widget.GearPreference android:title="@string/op_default_luncher_title" android:key="default_home" android:fragment="com.android.settings.applications.defaultapps.DefaultHomePicker" settings:keywords="@string/oneplus_search_keyword_default_launcher_app" />
+    <com.android.settings.widget.AppPreference android:title="@string/default_phone_title" android:key="default_phone_app" android:fragment="com.android.settings.applications.defaultapps.DefaultPhonePicker" settings:keywords="@string/keywords_default_phone_app" />
+    <com.android.settings.widget.AppPreference android:title="@string/sms_application_title" android:key="default_sms_app" android:fragment="com.android.settings.applications.defaultapps.DefaultSmsPicker" settings:keywords="@string/keywords_more_default_sms_app" />
+    <com.android.settings.widget.AppPreference android:title="@string/camera_application_title" android:key="op_default_app_camera" android:fragment="com.oneplus.settings.defaultapp.view.DefaultCameraPicker" settings:keywords="@string/camera_application_title" />
+    <com.android.settings.widget.AppPreference android:title="@string/gallery_application_title" android:key="op_default_app_gallery" android:fragment="com.oneplus.settings.defaultapp.view.DefaultGalleryPicker" settings:keywords="@string/gallery_application_title" />
+    <com.android.settings.widget.AppPreference android:title="@string/music_application_title" android:key="op_default_app_music" android:fragment="com.oneplus.settings.defaultapp.view.DefaultMusicPicker" settings:keywords="@string/music_application_title" />
+    <com.android.settings.widget.AppPreference android:title="@string/mail_application_title" android:key="op_default_app_email" android:fragment="com.oneplus.settings.defaultapp.view.DefaultMailPicker" settings:keywords="@string/mail_application_title" />
+    <com.android.settings.widget.AppPreference android:title="@string/default_emergency_app" android:key="default_emergency_app" settings:keywords="@string/keywords_emergency_app" />
+    <com.android.settings.widget.AppPreference android:title="@string/domain_urls_title" android:key="domain_urls" android:fragment="com.android.settings.applications.managedomainurls.ManageDomainUrls" settings:keywords="@string/keywords_default_links" />
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/default_for_work" android:key="work_app_defaults">
+        <com.android.settings.widget.AppPreference android:title="@string/default_browser_title" android:key="work_default_browser" android:fragment="com.android.settings.applications.defaultapps.DefaultBrowserPicker">
+            <extra android:name="for_work" android:value="true" />
+        </com.android.settings.widget.AppPreference>
+        <com.android.settings.widget.AppPreference android:title="@string/default_phone_title" android:key="work_default_phone_app" android:fragment="com.android.settings.applications.defaultapps.DefaultPhonePicker" settings:keywords="@string/keywords_default_phone_app">
+            <extra android:name="for_work" android:value="true" />
+        </com.android.settings.widget.AppPreference>
+    </com.android.settings.widget.WorkOnlyCategory>
+</PreferenceScreen>

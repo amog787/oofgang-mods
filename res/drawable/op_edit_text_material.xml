@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/op_control_margin_space2" android:insetBottom="@dimen/op_control_margin_space2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="false">
+            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="@color/op_edit_text_line_color_default" android:alpha="?android:disabledAlpha" />
+        </item>
+        <item android:state_focused="false" android:state_pressed="false">
+            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="@color/op_edit_text_line_color_default" />
+        </item>
+        <item>
+            <nine-patch android:src="@drawable/abc_textfield_activated_mtrl_alpha" android:tint="@color/op_control_icon_color_active_default" />
+        </item>
+    </selector>
+</inset>

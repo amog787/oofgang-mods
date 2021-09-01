@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.settings.edgeeffect.SpringNestScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/software_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" layout="@layout/accessibility_edit_shortcut_component" />
+            <include android:id="@id/hardware_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" layout="@layout/accessibility_edit_shortcut_component" />
+            <include android:id="@id/triple_tap_shortcut" layout="@layout/accessibility_edit_shortcut_component" />
+        </LinearLayout>
+    </com.oneplus.settings.edgeeffect.SpringNestScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_screen_left3" android:layout_marginBottom="28.0dip" android:text="@string/save" android:layout_marginEnd="@dimen/op_control_margin_screen_left3" android:layout_alignParentEnd="true" style="?outlineButtonStyle" />
+    </RelativeLayout>
+</LinearLayout>

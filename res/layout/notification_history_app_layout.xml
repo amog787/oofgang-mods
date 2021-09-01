@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/app_header" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerInside" />
+                <TextView android:textAppearance="@android:style/TextAppearance.Leanback.FormWizard.ListItem" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" />
+            </LinearLayout>
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.DatePicker.List.YearLabel.Activated" android:layout_gravity="center_vertical" android:id="@id/count" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="6.0dip" />
+        </LinearLayout>
+        <ImageButton android:id="@id/expand" android:background="@drawable/button_ripple_radius" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@android:drawable/ic_lockscreen_forgotpassword_normal" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.android.settings.notification.history.NotificationHistoryRecyclerView android:id="@id/notification_list" android:scrollbars="none" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" />
+</LinearLayout>

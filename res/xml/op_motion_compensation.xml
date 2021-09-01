@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/op_display_motion_graphics_compensation" android:key="motion_compensation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.widget.OPGraphicsOptimizationPreference android:key="video_source" settings:animation="@raw/op_motioncompent_preview_1080" />
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/oneplus_memc_video" android:key="oneplus_memc_video" />
+    <Preference android:layout="@layout/op_preference_summary" android:title="@string/oneplus_memc_notice" android:selectable="false" android:key="oneplus_memc_notice" settings:searchable="false" />
+    <PreferenceCategory android:title="@string/oneplus_memc_support_apps" android:key="support_video" />
+    <Preference android:layout="@layout/op_see_all_preference" android:title="@string/oneplus_memc_more_support_apps" android:key="get_more_video" settings:searchable="false" />
+</PreferenceScreen>

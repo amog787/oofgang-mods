@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="op_carrier_system_update1_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-400" />
+    <Preference android:title="@string/update_from_online" android:key="system_update_na_online" android:order="-10">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/update_from_local" android:key="system_update_na_local" android:order="0">
+        <intent android:targetPackage="com.oneplus.opbackup" android:action="android.intent.action.MAIN" android:targetClass="com.oneplus.opbackup.LocalUpdateActivity" />
+    </Preference>
+</PreferenceScreen>

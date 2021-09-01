@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/settings_accent_color" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <group>
+            <group>
+                <path android:pathData="M 0 0 H 24 V 24 H 0 V 0 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+                <path android:fillColor="@color/settings_accent_color" android:pathData="M2.75,16.4997 C2.75,18.0184864 3.98121356,19.2497 5.5,19.2497 C7.01878644,19.2497 8.25,18.0184864 8.25,16.4997 C8.25,14.9809136 7.01878644,13.7497 5.5,13.7497 C3.98121356,13.7497 2.75,14.9809136 2.75,16.4997 Z M14.6586278,8.73133242 L9.11926642,14.2706938 C9.51922269,14.9187284 9.75,15.6822633 9.75,16.4997 C9.75,18.8469136 7.84721356,20.7497 5.5,20.7497 C3.15278644,20.7497 1.25,18.8469136 1.25,16.4997 C1.25,14.1524864 3.15278644,12.2497 5.5,12.2497 C6.48730881,12.2497 7.39598526,12.5863595 8.11749534,13.1511445 L17.7989699,3.46966991 C18.0918631,3.1767767 18.5667369,3.1767767 18.8596301,3.46966991 L22.5306301,7.14066991 L21.4699699,8.20133009 L18.3293,5.06066017 L15.7192879,7.67067224 L18.8591023,10.8113422 L17.7982977,11.8718578 L14.6586278,8.73133242 Z" android:strokeWidth="1.0" />
+            </group>
+        </group>
+    </group>
+</vector>

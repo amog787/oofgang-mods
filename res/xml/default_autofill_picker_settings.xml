@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/autofill_app" android:key="default_autofill_picker" settings:keywords="@string/autofill_keywords"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <com.android.settings.widget.GearPreference android:title="@string/autofill_app" android:key="default_autofill_main" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" settings:keywords="@string/autofill_keywords" settings:searchable="false">
+        <extra android:name="for_work" android:value="false" />
+    </com.android.settings.widget.GearPreference>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/default_for_work" android:key="autofill_work_app_defaults">
+        <com.android.settings.widget.GearPreference android:title="@string/autofill_app" android:key="default_autofill_work" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" settings:keywords="@string/autofill_keywords" settings:searchable="false">
+            <extra android:name="for_work" android:value="true" />
+        </com.android.settings.widget.GearPreference>
+    </com.android.settings.widget.WorkOnlyCategory>
+</PreferenceScreen>

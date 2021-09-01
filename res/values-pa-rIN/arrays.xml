@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>ਘੰਟੇ, ਮਿੰਟ ਅਤੇ ਸਕਿੰਟ ਵਿਖਾਓ</item>
+        <item>ਘੰਟੇ ਅਤੇ ਮਿੰਟ (ਪੂਰਵ-ਨਿਰਧਾਰਤ) ਵਿਖਾਓ</item>
+        <item>ਇਹ ਆਈਕਨ ਨਾ ਵਿਖਾਓ</item>
+    </string-array>
+</resources>

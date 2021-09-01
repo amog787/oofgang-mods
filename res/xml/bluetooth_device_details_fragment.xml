@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_details_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/op_settings_entity_header" android:selectable="false" android:key="bluetooth_device_header" settings:allowDividerBelow="false" settings:searchable="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/advanced_bt_entity_header" android:selectable="false" android:key="advanced_bluetooth_device_header" settings:allowDividerBelow="false" settings:controller="com.android.settings.bluetooth.AdvancedBluetoothDetailsHeaderController" settings:searchable="false" />
+    <com.android.settingslib.widget.ActionButtonsPreference android:key="action_buttons" settings:allowDividerAbove="false" />
+    <com.android.settings.slices.SlicePreference android:key="bt_device_slice" settings:controller="com.android.settings.slices.BlockingSlicePrefController" />
+    <com.oneplus.settings.ui.OPPreferenceDivider android:key="preference_divider_line" />
+    <com.android.settings.RestrictedListPreference android:persistent="false" android:entries="@array/double_click_items" android:title="@string/earphone_function_control_click_left" android:key="function_click_left_key_preference" android:dialogTitle="@string/earphone_function_control_click_left" android:positiveButtonText="@string/earphone_usage_guide_complete" android:negativeButtonText="@null" android:entryValues="@array/double_click_items" />
+    <com.android.settings.RestrictedListPreference android:persistent="false" android:entries="@array/double_click_items" android:title="@string/earphone_function_control_click_right" android:key="function_click_right_key_preference" android:positiveButtonText="@string/earphone_usage_guide_complete" android:negativeButtonText="@null" android:entryValues="@array/double_click_items" />
+    <PreferenceCategory android:key="bluetooth_profiles" />
+    <androidx.preference.Preference android:persistent="false" android:title="@string/find_my_bluetooth_earphone" android:key="find_my_bluetooth_earphone_preference" android:summary="@string/find_my_bluetooth_earphone_summary" />
+    <androidx.preference.SwitchPreference android:persistent="true" android:title="@string/earphone_support_update_ota" android:key="ota_device_support_enable_preference" />
+    <androidx.preference.SwitchPreference android:persistent="true" android:title="@string/earphone_support_wifi_data" android:key="ota_device_wifi_data_enable_preference" />
+    <androidx.preference.Preference android:persistent="false" android:title="@string/earphone_function_introduction" android:key="function_introduction_earphone_preference" />
+    <com.android.settingslib.widget.FooterPreference android:selectable="false" android:key="device_details_footer" settings:controller="com.android.settings.bluetooth.BluetoothDetailsMacAddressController" settings:searchable="false" />
+</PreferenceScreen>

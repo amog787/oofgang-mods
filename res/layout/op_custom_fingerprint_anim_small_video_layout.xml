@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/video_container_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oneplus="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/video_container_group" android:background="@color/oneplus_theme_custom_background" android:paddingTop="@dimen/oneplus_finger_anim_video_container_padding" android:paddingBottom="@dimen/oneplus_finger_anim_video_container_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <com.oneplus.settings.ui.RadiusImageView android:id="@id/anim_bg" android:background="@drawable/op_custom_aodpreview_none" android:layout_width="@dimen/oneplus_finger_anim_anim_bg_width" android:layout_height="@dimen/oneplus_finger_anim_anim_bg_height" android:layout_centerInParent="true" oneplus:round_radius="@dimen/op_control_radius_r16" oneplus:shape_mode="round_rect" />
+        <com.android.settings.widget.AspectRatioFrameLayout android:id="@id/video_container" android:layout_width="@dimen/oneplus_finger_video_container_width" android:layout_height="@dimen/oneplus_finger_video_container_height" android:layout_centerInParent="true">
+            <TextureView android:layout_gravity="bottom|center" android:id="@id/video_texture_view" android:layout_width="@dimen/oneplus_finger_video_width" android:layout_height="@dimen/oneplus_finger_video_width" />
+            <ImageView android:id="@id/video_preview_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/video_play_button" android:visibility="gone" android:layout_width="@dimen/gestures_play_button_size" android:layout_height="@dimen/gestures_play_button_size" android:src="@drawable/ic_gesture_play_button" />
+        </com.android.settings.widget.AspectRatioFrameLayout>
+        <ImageView android:id="@id/bottom_icon_image" android:background="@drawable/op_ic_custom_finger_logo_bg" android:layout_width="@dimen/oneplus_finger_bottom_icon_image_size" android:layout_height="@dimen/oneplus_finger_bottom_icon_image_size" android:layout_marginBottom="@dimen/oneplus_finger_bottom_icon_image_margin_bottom" android:layout_alignBottom="@id/anim_bg" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

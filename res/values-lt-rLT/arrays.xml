@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>Rodyti valandas, minutes ir sekundes</item>
+        <item>Rodyti valandas ir minutes (numatytasis parametras)</item>
+        <item>Nerodyti šios piktogramos</item>
+    </string-array>
+</resources>

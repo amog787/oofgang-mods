@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/op_ic_lock" android:layout="@layout/sud_glif_blank_template" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:sucHeaderText="@string/oneplus_choose_screen_lock_method"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="horizontal" android:id="@id/topLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sud_content_frame_padding_bottom" android:layout_weight="1.0" android:layout_marginStart="?sudMarginSides">
+            <ScrollView android:id="@id/scroll_layout_title_header" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="?sudGlifHeaderGravity" android:id="@id/sud_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/op_ic_lock" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/OnePlusSuwGlifIcon" />
+                    <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/OnePlusSuwGlifHeaderTitle" />
+                    <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" style="@style/SudDescription.Glif" />
+                    <TextView android:textSize="18.0sp" android:gravity="?sudGlifHeaderGravity" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                    <TextView android:textSize="14.0sp" android:id="@id/footerText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+                    <Button android:gravity="?sudGlifHeaderGravity" android:id="@id/screen_lock_options" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/setup_lock_settings_options_button_label" style="@style/SudGlifButton.Tertiary" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <com.google.android.setupdesign.view.FillContentLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="0.0dip" style="@style/LockPatternContainerStyle">
+            <com.android.internal.widget.LockPatternView android:layout_gravity="center" android:id="@id/lockPattern" android:background="@color/lock_pattern_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.google.android.setupdesign.view.FillContentLayout>
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</com.google.android.setupdesign.GlifLayout>

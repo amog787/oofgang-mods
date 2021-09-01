@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Wi-Fi 通話で緊急通報を行うことはできません。緊急通報を試みると、デバイスは自動的にモバイル ネットワークを使用します。緊急通報は、モバイル ネットワーク対応のエリア内でのみ行えます。"</string>
+</resources>

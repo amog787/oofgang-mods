@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:theme="@style/GlifV3Theme.Footer" android:icon="@drawable/ic_delete_accent" android:orientation="vertical" android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/master_clear_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/master_clear_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/reset_master_clear_margin_start" android:layout_marginEnd="@dimen/reset_master_clear_margin_end">
+        <LinearLayout android:orientation="vertical" android:id="@id/master_clear_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+            <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_desc" style="@style/TextAppearance.SudGlifItemSummary" />
+            <TextView android:id="@id/also_erases_external" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_desc_also_erases_external" style="@style/TextAppearance.SudGlifItemSummary" />
+            <TextView android:id="@id/also_erases_esim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_desc_also_erases_esim" style="@style/TextAppearance.SudGlifItemSummary" />
+            <TextView android:id="@id/accounts_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_accounts" style="@style/TextAppearance.SudGlifItemSummary" />
+            <LinearLayout android:orientation="vertical" android:id="@id/accounts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/other_users_present" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_other_users_present" style="@style/TextAppearance.SudGlifItemSummary" />
+            <TextView android:id="@id/no_cancel_mobile_plan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_desc_no_cancel_mobile_plan" style="@style/TextAppearance.SudGlifItemSummary" />
+            <TextView android:id="@id/erase_external_option_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/master_clear_desc_erase_external_storage" style="@style/TextAppearance.SudGlifItemSummary" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/erase_external_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/erase_external" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SudCheckBox" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/erase_external_storage" style="@style/TextAppearance.SudGlifItemTitle" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/erase_external_storage_description" style="@style/TextAppearance.SudGlifItemSummary" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/reset_esim_checkbox" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.setupdesign.GlifLayout>

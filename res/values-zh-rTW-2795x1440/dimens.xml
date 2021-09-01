@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="op_app_bar_expand_text_size">172.0px</dimen>
+    <dimen name="op_text_size_h2">172.0px</dimen>
+</resources>

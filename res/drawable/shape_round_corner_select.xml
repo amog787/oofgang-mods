@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#10000000" />
+    <corners android:topLeftRadius="@dimen/op_control_radius_r12" android:topRightRadius="@dimen/op_control_radius_r12" android:bottomLeftRadius="@dimen/op_control_radius_r12" android:bottomRightRadius="@dimen/op_control_radius_r12" />
+    <stroke android:width="3.0dip" android:color="#ffffffff" />
+</shape>

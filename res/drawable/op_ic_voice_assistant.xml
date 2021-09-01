@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/oneplus_settings_dashboard_icon_cloud_service_color" android:height="@dimen/oneplus_dashboard_tile_iconinside_size" android:width="@dimen/oneplus_dashboard_tile_iconinside_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M3.25,10 L4.75,10 L4.75,14 L3.25,14 L3.25,10 Z M11.25,2 L12.75,2 L12.75,22 L11.25,22 L11.25,2 Z M19.25,10 L20.75,10 L20.75,14 L19.25,14 L19.25,10 Z M15.25,6 L16.75,6 L16.75,18 L15.25,18 L15.25,6 Z M7.25,6 L8.75,6 L8.75,18 L7.25,18 L7.25,6 Z" android:strokeWidth="1.0" />
+    <path android:fillColor="#ff000000" android:pathData="M3.25,10 L4.75,10 L4.75,14 L3.25,14 L3.25,10 Z M11.25,2 L12.75,2 L12.75,22 L11.25,22 L11.25,2 Z M19.25,10 L20.75,10 L20.75,14 L19.25,14 L19.25,10 Z M15.25,6 L16.75,6 L16.75,18 L15.25,18 L15.25,6 Z M7.25,6 L8.75,6 L8.75,18 L7.25,18 L7.25,6 Z" android:strokeWidth="1.0" />
+</vector>

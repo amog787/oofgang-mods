@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:gravity="end|center" android:id="@id/widget_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:textAlignment="viewEnd" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

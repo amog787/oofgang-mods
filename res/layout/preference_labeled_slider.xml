@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_primary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/op_control_text_style_h6" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@android:id/typeContextClicked" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="-16.0dip" android:layout_marginTop="-20.0dip" android:layout_marginRight="-16.0dip" android:layout_marginBottom="-28.0dip" android:layout_below="@android:id/title" style="@style/op_control_text_style_body1" />
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/typeContextClicked">
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="start" android:layout_gravity="start|center|top" android:id="@android:id/text1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/op_control_text_style_body1" />
+        <TextView android:textColor="@color/op_control_text_color_secondary" android:gravity="end" android:layout_gravity="end|center|top" android:id="@android:id/text2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/op_control_text_style_body1" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/tether_settings_title_all"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:layout="@layout/op_preference_header" android:selectable="false" android:key="op_preference_header" />
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="tether_prefs_footer" settings:searchable="false" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="tethering_type" />
+    <com.android.settings.widget.FixedLineSummaryPreference android:title="@string/wifi_hotspot_checkbox_text" android:key="wifi_tether" android:summary="@string/summary_two_lines_placeholder" android:fragment="com.android.settings.wifi.tether.WifiTetherSettings" />
+    <SwitchPreference android:title="@string/usb_tethering_button_text" android:key="usb_tether_settings" android:summary="@string/usb_tethering_subtext" settings:keywords="@string/keywords_hotspot_tethering" />
+    <SwitchPreference android:title="@string/bluetooth_tether_checkbox_text" android:key="enable_bluetooth_tethering" android:summary="@string/bluetooth_tethering_subtext" settings:keywords="@string/keywords_hotspot_tethering" />
+    <SwitchPreference android:title="@string/ethernet_tether_checkbox_text" android:key="enable_ethernet_tethering" android:summary="@string/ethernet_tethering_subtext" settings:keywords="@string/keywords_hotspot_tethering" />
+    <Preference android:selectable="false" android:key="disabled_on_data_saver" android:summary="@string/tether_settings_disabled_on_data_saver" settings:allowDividerAbove="true" />
+</PreferenceScreen>

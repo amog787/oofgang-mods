@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_silent_mode">false</bool>
+    <bool name="is_tablet">true</bool>
+    <bool name="sudUseTabletLayout">true</bool>
+    <bool name="crypt_keeper_allow_rotation">true</bool>
+</resources>

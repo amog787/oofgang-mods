@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_wifi_display_summary" android:key="wifi_display_settings_screen" settings:keywords="@string/keywords_display_cast_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:selectable="false" android:key="wifi_display_settings_description" android:summary="@string/op_cast_description" />
+    <PreferenceCategory android:title="@string/op_cast_nearby" android:key="wifi_display_settings_list" android:order="0">
+        <Preference android:key="wifi_display_settings_tips" android:summary="@string/op_cast_searching" />
+    </PreferenceCategory>
+</PreferenceScreen>

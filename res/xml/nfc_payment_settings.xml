@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_nfc_payment_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settings.nfc.NfcPaymentPreference android:title="@string/nfc_payment_default" android:key="nfc_payment" android:widgetLayout="@layout/preference_widget_gear" android:dialogTitle="@string/nfc_payment_pay_with" settings:controller="com.android.settings.nfc.NfcPaymentPreferenceController" />
+    <com.android.settings.nfc.OPNfcForegroundPreference android:title="@string/nfc_payment_use_default" android:key="nfc_foreground" settings:controller="com.android.settings.nfc.NfcForegroundPreferenceController" />
+</PreferenceScreen>

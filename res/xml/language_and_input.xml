@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_settings" android:key="language_and_input_settings_screen" settings:initialExpandedChildrenCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-300" />
+    <Preference android:title="@string/language_picker_title_o2" android:key="phone_language" android:fragment="com.android.settings.localepicker.LocaleListEditor" />
+    <Preference android:title="@string/phone_language" android:key="phone_language_h2os" android:fragment="com.android.settings.localepicker.OPLocalePicker" />
+    <Preference android:title="@string/oneplus_virtual_keyboard_category" android:key="virtual_keyboard_pref" android:fragment="com.android.settings.inputmethod.VirtualKeyboardFragment" settings:keywords="@string/keywords_virtual_keyboard" />
+    <Preference android:title="@string/hide_imeback_and_switcher" android:key="hide_imeback_and_switcher" settings:controller="com.android.settings.language.OPHideImebackAndSwitcherPreferenceController">
+        <intent android:action="com.oneplus.settings.action.HIDE_IMEBACK_AND_SWITCHER" />
+    </Preference>
+    <PreferenceCategory android:title="@string/input_assistance" android:key="input_assistance_category">
+        <Preference android:title="@string/physical_keyboard_title" android:key="physical_keyboard_pref" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.inputmethod.PhysicalKeyboardFragment" />
+        <Preference android:persistent="false" android:title="@string/spellcheckers_settings_title" android:key="spellcheckers_settings" android:fragment="com.android.settings.inputmethod.SpellCheckersSettings" />
+        <Preference android:title="@string/autofill_app" android:key="default_autofill" android:fragment="com.android.settings.applications.defaultapps.AutofillPicker" settings:keywords="@string/autofill_keywords" />
+        <Preference android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" android:fragment="com.android.settings.inputmethod.UserDictionaryList" settings:controller="com.android.settings.language.UserDictionaryPreferenceController" />
+        <com.android.settings.PointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:dialogTitle="@string/pointer_speed" />
+        <Preference android:title="@string/tts_settings_title" android:key="tts_settings_summary" android:fragment="com.android.settings.tts.TextToSpeechSettings" />
+    </PreferenceCategory>
+    <SwitchPreference android:title="@string/vibrate_input_devices" android:key="vibrate_input_devices" android:summary="@string/vibrate_input_devices_summary" settings:controller="com.android.settings.inputmethod.GameControllerPreferenceController" />
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/language_and_input_for_work_category_title" android:key="language_and_input_for_work_category" settings:searchable="false">
+        <Preference android:title="@string/virtual_keyboards_for_work_title" android:key="virtual_keyboards_for_work_pref" android:fragment="com.android.settings.inputmethod.VirtualKeyboardFragment" settings:controller="com.android.settings.inputmethod.VirtualKeyboardForWorkPreferenceController" settings:forWork="true" />
+        <Preference android:title="@string/spellcheckers_settings_for_work_title" android:key="spellcheckers_settings_for_work_pref" android:fragment="com.android.settings.inputmethod.SpellCheckersSettings" settings:controller="com.android.settings.language.UserDictionaryForWorkPreferenceController" settings:forWork="true" settings:searchable="false" />
+        <Preference android:title="@string/user_dict_settings_for_work_title" android:key="user_dictionary_settings_for_work_pref" android:fragment="com.android.settings.inputmethod.UserDictionaryList" settings:controller="com.android.settings.inputmethod.SpellCheckerForWorkPreferenceController" settings:forWork="true" />
+    </com.android.settings.widget.WorkOnlyCategory>
+</PreferenceScreen>

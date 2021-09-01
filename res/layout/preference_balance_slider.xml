@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:id="@id/icon_frame" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/op_control_margin_space3">
+        <com.android.internal.widget.PreferenceImageView android:id="@android:id/icon" android:layout_width="@dimen/op_control_avatar_size3" android:layout_height="@dimen/op_control_avatar_size3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top2" android:layout_marginBottom="@dimen/zen_schedule_day_margin">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.settings.accessibility.BalanceSeekBar android:layout_gravity="center_vertical" android:id="@android:id/typeContextClicked" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-16.0dip" android:layout_marginTop="@dimen/op_control_margin_space4" android:layout_marginRight="-16.0dip" android:layout_marginBottom="@dimen/op_control_shadow_z3" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_toggle_master_balance_left_label" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" />
+                <TextView android:id="@id/right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_toggle_master_balance_right_label" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewEnd" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

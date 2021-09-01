@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/wifi_dpp_fragment_icon_width_height" android:width="@dimen/wifi_dpp_fragment_icon_width_height" android:drawable="@drawable/ic_devices_other_opaque_black" />
+    <item android:gravity="center" android:drawable="@drawable/ic_check_circle_green" android:left="44.0dip" android:top="28.0dip" />
+</layer-list>

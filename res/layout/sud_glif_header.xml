@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sud_layout_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sud_layout_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="?sudGlifIconStyle" />
+    <TextView android:id="@id/suc_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudGlifHeaderTitle" />
+    <ViewStub android:id="@id/sud_layout_progress_stub" android:layout="@layout/sud_progress_bar" android:inflatedId="@id/sud_layout_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?sudMarginSides" android:layout_marginTop="@dimen/sud_glif_progress_bar_margin_vertical" android:layout_marginRight="?sudMarginSides" android:layout_marginBottom="@dimen/sud_glif_progress_bar_margin_vertical" />
+</LinearLayout>

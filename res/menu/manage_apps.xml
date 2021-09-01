@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/sort_apps_by_date" android:visible="false" android:title="@string/sort_apps_by_date" android:showAsAction="never" />
+    <item android:icon="@drawable/op_ic_menu_search_apps" android:id="@id/search_app_list_menu" android:title="@string/search_settings" settings:actionViewClass="androidx.appcompat.widget.SearchView" settings:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/op_ic_more_settings" android:id="@id/advanced" android:title="@string/advanced_apps" android:showAsAction="collapseActionView|ifRoom" />
+    <item android:id="@id/show_system" android:title="@string/menu_show_system" android:showAsAction="never" />
+    <item android:id="@id/hide_system" android:title="@string/menu_hide_system" android:showAsAction="never" />
+    <item android:id="@id/sort_order_alpha" android:title="@string/sort_order_alpha" android:showAsAction="never" />
+    <item android:id="@id/sort_order_size" android:title="@string/sort_order_size" android:showAsAction="never" />
+    <item android:id="@id/sort_order_recent_notification" android:title="@string/sort_order_recent_notification" android:showAsAction="never" />
+    <item android:id="@id/sort_order_frequent_notification" android:title="@string/sort_order_frequent_notification" android:showAsAction="never" />
+    <item android:id="@id/uninstall_multiple_apps" android:visible="false" android:title="@string/uninstall_multiple_apps" android:showAsAction="never" />
+    <item android:id="@id/reset_app_preferences" android:title="@string/reset_app_preferences" android:showAsAction="never" />
+    <item android:id="@id/bg_optimize_preferences" android:title="@string/bg_optimize_advance_settings" android:showAsAction="never" />
+</menu>

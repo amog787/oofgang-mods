@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_no_icon_padding_start" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Holo.Widget.Switch" android:textColor="@color/oneplus_accent_text_color" android:id="@android:id/title" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="5.0dip" android:fontFamily="@android:string/global_actions_airplane_mode_off_status" />
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="10" />
+    <ProgressBar android:id="@id/color_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/color_bar_progress" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/label_bar" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

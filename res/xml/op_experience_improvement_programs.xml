@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_experience_improvement_programs" settings:keywords="@string/oneplus_search_keyword_experience_improvement_programs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/oneplus_receive_notifications" android:key="receive_notifications" android:summary="@string/oneplus_receive_notifications_summary" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/user_experience" android:key="user_experience" android:summary="@string/user_experience_description" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/oneplus_system_stability_title" android:key="system_stability" android:summary="@string/oneplus_system_stability_summary" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/oneplus_splash_screen_info_service_title" android:key="splash_screen_info_service" android:summary="@string/oneplus_splash_screen_info_service_summary" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/oneplus_service_messaging_title" android:key="oneplus_service_messaging" android:summary="@string/oneplus_service_messaging_summary" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/built_in_app_updates_title" android:key="built_in_app_updates" android:summary="@string/built_in_app_updates_summary" />
+</PreferenceScreen>

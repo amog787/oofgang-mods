@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="0.0dip" android:layout_height="?android:listPreferredItemHeightSmall" android:singleLine="true" android:layout_weight="1.0" style="?android:spinnerDropDownItemStyle" />
+    <ImageView android:gravity="end|center" android:id="@id/restricted_icon" android:visibility="gone" android:layout_width="@android:dimen/accessibility_magnification_indicator_width" android:layout_height="@android:dimen/accessibility_magnification_indicator_width" android:src="@android:drawable/ab_share_pack_holo_light" android:tint="?android:colorAccent" android:baselineAlignBottom="true" android:layout_marginEnd="@dimen/restricted_icon_padding" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/op_control_icon_color_active_default" android:height="63.0dip" android:width="63.0dip" android:viewportWidth="63.0" android:viewportHeight="63.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <group android:translateX="-168.0" android:translateY="-610.0">
+            <group android:translateY="538.0">
+                <group android:translateX="168.0" android:translateY="72.0">
+                    <path android:pathData="M 0 0 H 63 V 63 H 0 V 0 Z" android:strokeWidth="1.0" android:strokeAlpha="0.4" android:fillAlpha="0.4" android:fillType="evenOdd" />
+                    <path android:fillColor="#ffb9b9b9" android:pathData="M32,38 L32,38 C35.3137085,38 38,35.3137085 38,32 C38,28.6862915 35.3137085,26 32,26 C28.6862915,26 26,28.6862915 26,32 C26,35.3137085 28.6862915,38 32,38 L32,38 Z M32,44 L32,44 C25.372583,44 20,38.627417 20,32 C20,25.372583 25.372583,20 32,20 C38.627417,20 44,25.372583 44,32 C44,38.627417 38.627417,44 32,44 L32,44 Z" android:strokeWidth="1.0" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

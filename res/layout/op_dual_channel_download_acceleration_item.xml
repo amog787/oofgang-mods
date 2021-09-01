@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/group_divider_area" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textColor="@color/settings_accent_color" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="@dimen/oneplus_contorl_layout_margin_left4" style="@style/op_control_text_style_subtitle" />
+    <RelativeLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="@dimen/op_list_item_min_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/op_control_icon_size_list" android:layout_height="@dimen/op_control_icon_size_list" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="@dimen/op_control_margin_space8" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:layout_toEndOf="@id/icon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:layout_marginEnd="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/oneplus_contorl_text_color_primary" android:gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/oneplus_contorl_text_color_secondary" android:gravity="center_vertical" android:id="@id/summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" android:singleLine="false" />
+            </LinearLayout>
+            <Switch android:layout_gravity="center" android:id="@id/switch_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/op_control_margin_space8" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/op_battery_suggestion_summary" android:key="smart_battery_manager" android:fragment="com.android.settings.fuelgauge.SmartBatterySettings" settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
+    <SwitchPreference android:title="@string/oneplus_sleep_standby_title" android:key="sleep_standby" android:summary="@string/oneplus_sleep_standby_summary" />
+    <SwitchPreference android:title="@string/op_optimize_app_power_title" android:key="op_optimize_app_power_consumption" android:summary="@string/op_optimize_app_power_summary" />
+</PreferenceScreen>

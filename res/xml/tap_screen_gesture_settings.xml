@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ambient_display_tap_screen_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.VideoPreference android:key="gesture_tap_screen_video" app:animation="@raw/gesture_ambient_tap_screen" app:preview="@drawable/gesture_ambient_tap_screen" />
+    <SwitchPreference android:title="@string/ambient_display_tap_screen_title" android:key="gesture_tap" android:summary="@string/ambient_display_tap_screen_summary" app:allowDividerAbove="true" app:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" app:keywords="@string/keywords_gesture" />
+</PreferenceScreen>

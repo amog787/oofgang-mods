@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/sud_layout_sticky_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.setupdesign.view.BottomScrollView android:id="@id/sud_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:scrollIndicators="?sudScrollIndicators">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/sud_glif_header" />
+            <FrameLayout android:id="@id/sud_layout_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.google.android.setupdesign.view.BottomScrollView>
+    <ViewStub android:id="@id/suc_layout_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

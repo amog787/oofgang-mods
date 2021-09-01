@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ConfirmDeviceCredentials" parent="@style/Theme.SubSettings">
+        <item name="confirmDeviceCredentialsSideMargin">@dimen/confirm_credentials_side_margin</item>
+        <item name="confirmDeviceCredentialsTopMargin">@dimen/confirm_credentials_top_margin</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Theme.CreateShortCut" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

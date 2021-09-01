@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_theme_entrance_title" android:key="theme_setting_screen" settings:keywords="@string/oneplus_search_keyword_theme_settings_new"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" android:order="-40" />
+    <ListPreference android:entries="@array/op_theme_select_theme_entries" android:title="@string/op_red_theme_dialog_title" android:key="theme_switch_listPreference" android:order="-30" android:dialogTitle="@string/op_red_theme_dialog_title" android:entryValues="@array/op_theme_select_theme_entries" settings:controller="com.oneplus.settings.controllers.OPThemeRedSwitchPreferenceController" />
+    <ListPreference android:entries="@array/op_mcl_theme_select_theme_entries" android:title="@string/op_theme_mode_title" android:key="mcl_theme_switch_listPreference" android:order="-30" android:dialogTitle="@string/op_theme_mode_title" android:entryValues="@array/op_mcl_theme_select_theme_entries" settings:controller="com.oneplus.settings.controllers.OPThemeMCLSwitchPreferenceController" />
+    <PreferenceCategory android:title="@string/oneplus_theme_lock_screen_customization" android:key="lock_screen_customization_category" android:order="-20">
+        <com.oneplus.settings.ui.OPThemeIconPreference android:selectable="false" android:key="oneplus_theme_custom_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_theme_system_customization" android:key="system_customization_category" android:order="-10">
+        <Preference android:title="@string/oneplus_theme_accent_color" android:key="oneplus_theme_accent_color" android:order="10" settings:controller="com.oneplus.settings.controllers.OPThemeAccentColorPreferenceController" />
+        <Preference android:title="@string/oneplus_theme_shape" android:key="oneplus_theme_shape" android:order="20" settings:controller="com.oneplus.settings.controllers.OPThemeShapePreferenceController" />
+        <Preference android:title="@string/oneplus_theme_icon_pack" android:key="oneplus_theme_icon_pack" android:order="30" settings:controller="com.oneplus.settings.controllers.OPThemeIconPackPreferenceController" />
+        <Preference android:title="@string/oneplus_theme_font" android:key="oneplus_theme_font" android:order="40" settings:controller="com.oneplus.settings.controllers.OPThemeFontPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+No puedes utilizar las llamadas por Wi-Fi para hacer llamadas de emergencia. Si lo intentas, el dispositivo se conectará automáticamente a la red móvil. Solo puedes hacer este tipo de llamadas en zonas con cobertura de red móvil."</string>
+</resources>

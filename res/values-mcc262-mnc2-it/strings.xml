@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling_off_explanation_2">"
+
+Non puoi fare chiamate di emergenza tramite la funzione Chiamate Wi-Fi. Se provi a fare una chiamata di emergenza, il dispositivo userà automaticamente la rete mobile. È possibile fare chiamate di emergenza soltanto nelle zone coperte dalla rete mobile."</string>
+</resources>

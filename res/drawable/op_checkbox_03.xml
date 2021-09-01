@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/op_control_icon_size_button" android:width="@dimen/op_control_icon_size_button" android:viewportWidth="63.0" android:viewportHeight="63.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M14,10L49,10A4,4 0,0 1,53 14L53,49A4,4 0,0 1,49 53L14,53A4,4 0,0 1,10 49L10,14A4,4 0,0 1,14 10z" android:strokeColor="?colorAccent" android:strokeWidth="8.0" />
+</vector>

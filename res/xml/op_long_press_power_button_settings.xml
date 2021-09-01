@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/long_press_power_button" settings:keywords="@string/long_press_power_button"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/select_function" android:key="select_function">
+        <com.oneplus.settings.widget.OPCustomTwoTargetPreference android:title="@string/power_menu" android:key="power_menu" />
+        <com.oneplus.settings.widget.OPCustomTwoTargetPreference android:title="@string/oneplus_voice_assistant" android:key="default_assist" />
+    </PreferenceCategory>
+</PreferenceScreen>

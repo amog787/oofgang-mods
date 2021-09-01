@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <SwitchPreference android:title="@string/zen_mode_settings_title" android:key="zen_turn_on" android:summary="@string/oneplus_zen_mode_mode_manual_switch_summary" />
+    <com.oneplus.settings.widget.WallOfTextPreference android:selectable="false" android:key="zen_mode_summary" android:summary="@string/oneplus_zen_mode_walloftext" />
+    <PreferenceCategory android:title="@string/zen_mode_when" android:key="zen_mode_when">
+        <Preference android:title="@string/op_zen_mode_automation_settings_title" android:key="zen_mode_automation_settings" android:fragment="com.android.settings.notification.zen.ZenModeAutomationSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/op_zen_mode_behavior_settings_title" android:key="zen_mode_settings_category_behavior">
+        <Preference android:title="@string/zen_category_people" android:key="zen_mode_behavior_people" android:fragment="com.android.settings.notification.zen.ZenModePeopleSettings" />
+        <Preference android:title="@string/zen_category_apps" android:key="zen_mode_behavior_apps" android:fragment="com.android.settings.notification.zen.ZenModeBypassingAppsSettings" />
+        <Preference android:title="@string/zen_category_exceptions" android:key="zen_sound_vibration_settings" android:fragment="com.android.settings.notification.zen.ZenModeSoundVibrationSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_zen_mode_settings" android:key="zen_mode_settings_category">
+        <Preference android:title="@string/op_zen_mode_restrict_notifications_title" android:key="zen_mode_block_effects_settings" android:fragment="com.android.settings.notification.zen.ZenModeRestrictNotificationsSettings" />
+        <com.android.settings.notification.zen.ZenDurationDialogPreference android:title="@string/oneplus_zen_mode_duration_settings_title" android:key="zen_mode_duration_settings" android:widgetLayout="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

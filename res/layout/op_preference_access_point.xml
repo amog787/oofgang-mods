@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/icon_frame" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/op_control_margin_space3">
+        <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:maxHeight="@dimen/op_control_avatar_size3" settings:maxWidth="@dimen/op_control_avatar_size3" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/op_control_margin_list_top4" android:paddingBottom="@dimen/op_control_margin_list_top4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_passpoint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="6.0dip" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/layout_title" android:layout_alignStart="@id/layout_title" />
+    </RelativeLayout>
+    <include layout="＠layout/op_preference_two_target_divider" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0dip" />
+    <ImageButton android:layout_gravity="center" android:id="@id/icon_button" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0dip" android:minHeight="@dimen/min_tap_target_size" />
+</LinearLayout>

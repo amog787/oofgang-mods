@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/suc_layout_status" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudGlifCardBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.google.android.setupdesign.view.IntrinsicSizeFrameLayout android:layout_width="@dimen/sud_glif_card_width" android:layout_height="wrap_content" android:height="@dimen/sud_glif_card_height" style="@style/SudGlifCardContainer">
+        <include layout="@layout/sud_glif_blank_template_content" />
+    </com.google.android.setupdesign.view.IntrinsicSizeFrameLayout>
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

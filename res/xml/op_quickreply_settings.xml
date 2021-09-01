@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_quick_reply" android:key="op_quickreply_settings" settings:keywords="@string/oneplus_quick_reply"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPViewPagerGuideCategory android:key="key_quick_reply_instructions" />
+    <PreferenceCategory android:title="@string/oneplus_floating_keyboard" android:key="oneplus_floating_keyboard">
+        <SwitchPreference android:title="@string/oneplus_quick_reply_title" android:key="key_enable_quick_reply" android:summary="@string/oneplus_quick_reply_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/oneplus_supported_apps" android:key="oneplus_surpported_apps" settings:allowDividerBelow="false">
+        <Preference android:enabled="false" android:title="@string/oneplus_no_supported_apps" android:key="oneplus_no_surpported_apps" />
+    </PreferenceCategory>
+</PreferenceScreen>

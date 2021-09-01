@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:tint="@color/op_seek_bar_disabled_color_light" android:shape="rectangle">
+            <size android:height="@dimen/op_seekbar_track_background_height_material" />
+            <corners android:radius="@dimen/op_seekbar_track_background_height_material" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false" android:drawable="@android:color/transparent" />
+                <item>
+                    <shape android:tint="@color/op_seek_bar_disabled_color_light" android:shape="rectangle">
+                        <size android:height="@dimen/op_seekbar_track_background_height_material" />
+                        <corners android:radius="@dimen/op_seekbar_track_background_height_material" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false" android:drawable="@android:color/transparent" />
+                <item>
+                    <shape android:tint="?colorAccent" android:shape="rectangle">
+                        <size android:height="@dimen/op_seekbar_track_background_height_material" />
+                        <solid android:color="@android:color/white" />
+                        <corners android:radius="@dimen/op_seekbar_track_background_height_material" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

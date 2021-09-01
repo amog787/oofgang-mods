@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/op_control_text_color_secondary_default" android:id="@id/device_model_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_space8" android:text="@string/model_info" android:layout_marginStart="@dimen/op_control_margin_space8" style="@style/op_control_text_style_descriptions" />" <TextView android:textColor="@color/op_control_text_color_primary_default" android:id="@id/device_model_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/device_model_label" android:layout_marginStart="@dimen/op_control_margin_space8" style="@style/op_control_text_style_h3" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.699982dip" android:layout_marginBottom="@dimen/op_control_margin_space8" android:layout_below="@id/device_model_value">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/op_control_margin_space8" android:layout_marginEnd="@dimen/op_control_margin_space8">
+            <TextView android:textColor="@color/op_control_text_color_secondary_default" android:id="@id/left_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_imei" style="@style/op_control_text_style_descriptions" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/op_control_text_color_primary_default" android:id="@id/left_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/left_label" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@dimen/op_control_margin_space8">
+            <TextView android:textColor="@color/op_control_text_color_secondary_default" android:id="@id/right_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_device_start_date" style="@style/op_control_text_style_descriptions" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/op_control_text_color_primary_default" android:id="@id/right_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/right_label" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

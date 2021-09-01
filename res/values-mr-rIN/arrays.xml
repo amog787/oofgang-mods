@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_bar_settings_clock_options">
+        <item>तास, मिनिटे आणि सेकंद दर्शवा</item>
+        <item>तास आणि मिनिटे दर्शवा (डिफॉल्ट)</item>
+        <item>हे चिन्ह दर्शवू नका</item>
+    </string-array>
+</resources>

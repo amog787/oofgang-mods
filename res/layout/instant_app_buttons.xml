@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/instant_app_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:id="@id/install" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/install_text" android:drawableTop="@drawable/ic_settings_install" style="@style/SettingsActionButton" />
+        <Button android:id="@id/launch" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/launch_instant_app" android:drawableTop="@drawable/ic_settings_open" style="@style/SettingsActionButton" />
+    </FrameLayout>
+    <Space android:layout_width="8.0dip" android:layout_height="wrap_content" />
+    <Button android:id="@id/clear_data" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/clear_instant_app_data" android:drawableTop="@drawable/ic_settings_delete" android:layout_weight="1.0" style="@style/SettingsActionButton" />
+</LinearLayout>

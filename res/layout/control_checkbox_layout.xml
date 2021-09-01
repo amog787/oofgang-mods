@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/checkbox_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/select_background" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@id/checkbox" android:layout_width="@dimen/op_control_icon_size_button" android:layout_height="@dimen/op_control_icon_size_button" android:layout_marginTop="@dimen/op_control_margin_space2" android:layout_marginStart="@dimen/op_control_margin_space2" />
+</LinearLayout>

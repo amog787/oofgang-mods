@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/op_control_margin_space3" android:paddingBottom="@dimen/op_control_margin_space3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_screen_left3" android:paddingEnd="@dimen/op_control_margin_screen_left3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="@style/op_text_style_dialog_title_h6" android:textColor="@color/op_control_text_color_primary_default" android:ellipsize="end" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_dialog_subtitle_minHeight_singleline" android:maxLines="2" android:drawableEnd="@drawable/op_btn_image_single_choice_selector" />
+    <TextView android:textAppearance="@style/op_text_style_dialog_body1" android:textColor="@color/op_control_text_color_secondary_default" android:ellipsize="end" android:id="@id/singlechoice_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignBottom="@android:id/text1" android:paddingEnd="37.0dip" />
+</RelativeLayout>

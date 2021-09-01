@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_settings_personal" android:id="@id/homepage_personal_settings" android:title="@string/homepage_personal_settings" />
+    <item android:icon="@drawable/ic_settings_all" android:id="@id/homepage_all_settings" android:title="@string/homepage_all_settings" />
+</menu>

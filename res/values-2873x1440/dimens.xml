@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_tab_bar_indicator_height">8.0px</dimen>
+    <dimen name="design_tab_bar_indicator_margin">0.0px</dimen>
+    <dimen name="op_about_button_max_size">630.0px</dimen>
+</resources>

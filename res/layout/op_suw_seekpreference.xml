@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="63.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="16.0dip">
+        <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_screen_better_cold" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <SeekBar android:id="@id/screen_color_mode_seekbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:layout_marginStart="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="16.0dip">
+        <TextView android:textColor="@color/oneplus_accent_text_color" android:id="@id/end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oneplus_screen_better_warm" />
+    </LinearLayout>
+</LinearLayout>
