@@ -13,6 +13,8 @@
 
 
 # static fields
+.field static batteryTemp:F
+
 .field private static mBatteryStats:Lcom/android/internal/app/IBatteryStats;
 
 
@@ -146,6 +148,21 @@
     move-result-wide v2
 
     iput-wide v2, v8, Lcom/android/settings/fuelgauge/BatteryInfo;->averageTimeToDischarge:J
+
+    const-string/jumbo v2, "temperature"
+
+    .line 237
+    const/4 v3, 0x0
+
+    invoke-virtual {p1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
+
+    move-result v2
+
+    div-int/lit8 v2, v2, 0xa
+
+    int-to-float v2, v2
+
+    sput v2, Lcom/android/settings/fuelgauge/BatteryInfo;->batteryTemp:F
 
     .line 242
     invoke-static {p0, p1}, Lcom/android/settingslib/Utils;->getBatteryStatus(Landroid/content/Context;Landroid/content/Intent;)Ljava/lang/String;

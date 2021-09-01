@@ -8113,6 +8113,8 @@ Update settings to:
     <string name="zzz_op_direct_boot_inputmethod_unaware_dialog_message">"If you restart your phone and have a screen lock set, this keyboard can't start until you unlock your phone"</string>
     <string name="zzz_op_ime_security_warning">%1$s may be able to collect all the text you type, including personal data like passwords and credit card numbers</string>
     <string name="zzz_op_ime_warning_confirm">TURN ON</string>
+    <string name="battery_stats_reset">Reset Status</string>
+    <string name="battery_stats_message">Battery history stats will be erased!</string>
     <item type="string" name="APKTOOL_DUMMY_825">false</item>
     <item type="string" name="APKTOOL_DUMMY_89c">false</item>
     <item type="string" name="APKTOOL_DUMMY_89d">false</item>

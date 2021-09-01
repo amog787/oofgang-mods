@@ -478,6 +478,10 @@
 
 .field public static final battery_saver_sticky_description_new:I = 0x7f1302f2
 
+.field public static final battery_stats_message:I = 0x7f131e3a
+
+.field public static final battery_stats_reset:I = 0x7f131e39
+
 .field public static final battery_summary:I = 0x7f130312
 
 .field public static final battery_tip_dialog_message:I = 0x7f130313

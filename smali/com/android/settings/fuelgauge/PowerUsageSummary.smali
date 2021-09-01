@@ -45,6 +45,8 @@
 
 .field mBatteryLayoutPref:Lcom/android/settingslib/widget/LayoutPreference;
 
+.field mBatteryTempPref:Landroidx/preference/Preference;
+
 .field mBatteryTipPreferenceController:Lcom/android/settings/fuelgauge/batterytip/BatteryTipPreferenceController;
 
 .field private mBatteryTipsCallbacks:Landroidx/loader/app/LoaderManager$LoaderCallbacks;
@@ -128,6 +130,189 @@
     return-void
 .end method
 
+.method public static ecAgo(Ljava/lang/String;)Ljava/lang/String;
+    .locals 7
+
+    .prologue
+    .line 35
+    const/4 v3, 0x0
+
+    .line 36
+    const-string v1, ""
+
+    .line 38
+    :try_start_0
+    invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+
+    move-result-object v4
+
+    .line 39
+    new-instance v2, Ljava/io/BufferedReader;
+
+    new-instance v0, Ljava/io/InputStreamReader;
+
+    invoke-virtual {v4}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+
+    move-result-object v5
+
+    invoke-direct {v0, v5}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+
+    invoke-direct {v2, v0}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-object v0, v1
+
+    .line 41
+    :goto_0
+    :try_start_1
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    .line 42
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v3, "\n"
+
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 44
+    :cond_0
+    invoke-virtual {v4}, Ljava/lang/Process;->waitFor()I
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_4
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    .line 48
+    if-eqz v2, :cond_1
+
+    .line 50
+    :try_start_2
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    .line 55
+    :cond_1
+    :goto_1
+    return-object v0
+
+    .line 51
+    :catch_0
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_1
+
+    .line 45
+    :catch_1
+    move-exception v0
+
+    move-object v2, v3
+
+    move-object v6, v1
+
+    move-object v1, v0
+
+    move-object v0, v6
+
+    .line 46
+    :goto_2
+    :try_start_3
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    .line 48
+    if-eqz v2, :cond_1
+
+    .line 50
+    :try_start_4
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_4
+    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
+
+    goto :goto_1
+
+    .line 51
+    :catch_2
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_1
+
+    .line 48
+    :catchall_0
+    move-exception v0
+
+    move-object v2, v3
+
+    :goto_3
+    if-eqz v2, :cond_2
+
+    .line 50
+    :try_start_5
+    invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
+    :try_end_5
+    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_3
+
+    .line 53
+    :cond_2
+    :goto_4
+    throw v0
+
+    .line 51
+    :catch_3
+    move-exception v1
+
+    .line 52
+    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_4
+
+    .line 48
+    :catchall_1
+    move-exception v0
+
+    goto :goto_3
+
+    .line 45
+    :catch_4
+    move-exception v1
+
+    goto :goto_2
+.end method
+
 .method private synthetic lambda$onCreate$0(Landroid/view/View;)V
     .locals 1
 
@@ -163,6 +348,63 @@
 
     .line 254
     invoke-virtual {p1}, Lcom/android/settings/core/SubSettingLauncher;->launch()V
+
+    return-void
+.end method
+
+.method private resetStats()V
+    .locals 2
+
+    .line 317
+    new-instance v0, Landroid/app/AlertDialog$Builder;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+
+    sget v1, Lcom/android/settings/R$string;->battery_stats_reset:I
+
+    .line 318
+    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    sget v1, Lcom/android/settings/R$string;->battery_stats_message:I
+
+    .line 319
+    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/android/settings/fuelgauge/PowerUsageSummary$6;
+
+    invoke-direct {v1, p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary$6;-><init>(Lcom/android/settings/fuelgauge/PowerUsageSummary;)V
+
+    const p0, 0x104000a
+
+    .line 320
+    invoke-virtual {v0, p0, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object p0
+
+    sget v0, Lcom/android/settings/R$string;->cancel:I
+
+    const/4 v1, 0x0
+
+    .line 327
+    invoke-virtual {p0, v0, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object p0
+
+    .line 328
+    invoke-virtual {p0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+
+    move-result-object p0
+
+    .line 329
+    invoke-virtual {p0}, Landroid/app/AlertDialog;->show()V
 
     return-void
 .end method
@@ -434,7 +676,20 @@
 
     move-result-object v0
 
+    check-cast v0, Landroidx/preference/Preference;
+
     iput-object v0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mScreenUsagePref:Landroidx/preference/Preference;
+
+    const-string v0, "battery_temp"
+
+    .line 232
+    invoke-virtual {p0, v0}, Lcom/android/settings/core/InstrumentedPreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/preference/Preference;
+
+    iput-object v0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mBatteryTempPref:Landroidx/preference/Preference;
 
     const-string v0, "last_full_charge"
 
@@ -491,6 +746,35 @@
 .method public onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
     .locals 3
 
+    sget v0, Lcom/android/settings/R$string;->battery_stats_reset:I
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x3
+
+    invoke-interface {p1, v1, v2, v1, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
+
+    move-result-object v0
+
+    sget v1, Lcom/android/settings/R$drawable;->ic_delete:I
+
+    .line 309
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
+
+    move-result-object v0
+
+    const/16 v1, 0x64
+
+    .line 310
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setAlphabeticShortcut(C)Landroid/view/MenuItem;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    .line 311
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setShowAsAction(I)V
+
     .line 307
     sget v0, Lcom/android/settings/R$string;->advanced_battery_title:I
 
@@ -523,26 +807,38 @@
 .end method
 
 .method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
-    .locals 2
+    .locals 3
 
-    .line 319
+    .line 339
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
     move-result v0
 
     const/4 v1, 0x2
 
+    const/4 v2, 0x1
+
+    if-eq v0, v1, :cond_1
+
+    const/4 v1, 0x3
+
     if-eq v0, v1, :cond_0
 
-    .line 328
+    .line 351
     invoke-super {p0, p1}, Lcom/android/settingslib/core/lifecycle/ObservablePreferenceFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result p0
 
     return p0
 
-    .line 321
+    .line 341
     :cond_0
+    invoke-direct {p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary;->resetStats()V
+
+    return v2
+
+    .line 344
+    :cond_1
     new-instance p1, Lcom/android/settings/core/SubSettingLauncher;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
@@ -553,14 +849,14 @@
 
     const-class v0, Lcom/android/settings/fuelgauge/PowerUsageAdvanced;
 
-    .line 322
+    .line 345
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/android/settings/core/SubSettingLauncher;->setDestination(Ljava/lang/String;)Lcom/android/settings/core/SubSettingLauncher;
 
-    .line 323
+    .line 346
     invoke-virtual {p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary;->getMetricsCategory()I
 
     move-result p0
@@ -569,15 +865,13 @@
 
     sget p0, Lcom/android/settings/R$string;->advanced_battery_title:I
 
-    .line 324
+    .line 347
     invoke-virtual {p1, p0}, Lcom/android/settings/core/SubSettingLauncher;->setTitleRes(I)Lcom/android/settings/core/SubSettingLauncher;
 
-    .line 325
+    .line 348
     invoke-virtual {p1}, Lcom/android/settings/core/SubSettingLauncher;->launch()V
 
-    const/4 p0, 0x1
-
-    return p0
+    return v2
 .end method
 
 .method public onPause()V
@@ -644,9 +938,9 @@
 .end method
 
 .method protected refreshUi(I)V
-    .locals 3
+    .locals 4
 
-    .line 333
+    .line 356
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -655,7 +949,7 @@
 
     return-void
 
-    .line 339
+    .line 361
     :cond_0
     iget-boolean v0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mNeedUpdateBatteryTip:Z
 
@@ -665,51 +959,99 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 341
+    .line 368
     invoke-virtual {p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary;->restartBatteryTipLoader()V
 
     goto :goto_0
 
-    .line 343
+    .line 370
     :cond_1
     iput-boolean v1, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mNeedUpdateBatteryTip:Z
 
-    .line 347
+    .line 373
     :goto_0
     invoke-virtual {p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary;->restartBatteryInfoLoader()V
 
-    .line 348
+    .line 374
     invoke-virtual {p0}, Lcom/android/settings/fuelgauge/PowerUsageSummary;->updateLastFullChargePreference()V
 
-    .line 352
+    .line 375
+    iget-object p1, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mScreenUsagePref:Landroidx/preference/Preference;
+
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
 
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mBatteryUtils:Lcom/android/settings/fuelgauge/BatteryUtils;
+
+    iget-object v2, p0, Lcom/android/settings/fuelgauge/PowerUsageBase;->mStatsHelper:Lcom/android/internal/os/BatteryStatsHelper;
+
+    .line 376
+    invoke-virtual {v1, v2}, Lcom/android/settings/fuelgauge/BatteryUtils;->calculateScreenUsageTime(Lcom/android/internal/os/BatteryStatsHelper;)J
+
+    move-result-wide v1
+
+    long-to-double v1, v1
+
+    const/4 v3, 0x0
+
+    .line 375
+    invoke-static {v0, v1, v2, v3}, Lcom/android/settingslib/utils/StringUtil;->formatElapsedTime(Landroid/content/Context;DZ)Ljava/lang/CharSequence;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
+
+    .line 377
+    iget-object p0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mBatteryTempPref:Landroidx/preference/Preference;
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget v0, Lcom/android/settings/fuelgauge/BatteryInfo;->batteryTemp:F
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+
+    const-string v0, " "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/16 v0, 0xb0
+
+    invoke-static {v0}, Ljava/lang/Character;->toString(C)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, "C"
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     move-result-object p1
 
-    iget-object v0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mBatteryUtils:Lcom/android/settings/fuelgauge/BatteryUtils;
+    new-instance v0, Ljava/io/File;
 
-    iget-object v1, p0, Lcom/android/settings/fuelgauge/PowerUsageBase;->mStatsHelper:Lcom/android/internal/os/BatteryStatsHelper;
+    const-string v1, "/system/etc/.amog787"
 
-    .line 353
-    invoke-virtual {v0, v1}, Lcom/android/settings/fuelgauge/BatteryUtils;->calculateScreenUsageTime(Lcom/android/internal/os/BatteryStatsHelper;)J
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    move-result-wide v0
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
-    long-to-double v0, v0
+    move-result v0
 
-    const/4 v2, 0x0
+    if-eqz v0, :cond_2
 
-    .line 352
-    invoke-static {p1, v0, v1, v2}, Lcom/android/settingslib/utils/StringUtil;->formatElapsedTime(Landroid/content/Context;DZ)Ljava/lang/CharSequence;
+    .line 23
+    invoke-virtual {p0, p1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    move-result-object p1
+    return-void
 
-    .line 354
-    iget-object p0, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mScreenUsagePref:Landroidx/preference/Preference;
-
-    invoke-static {p1}, Lcom/oneplus/settings/utils/OPUtils;->handleTimeSummary(Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object p1
+    :cond_2
+    const-string/jumbo p1, "\ud83c\udf6a"
 
     invoke-virtual {p0, p1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
