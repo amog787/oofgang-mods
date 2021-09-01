@@ -13,5 +13,6 @@
     <Preference android:title="@string/battery_last_full_charge" android:selectable="false" android:key="last_full_charge" />
     <Preference android:title="@string/device_screen_usage" android:selectable="false" android:key="screen_usage" />
     <com.android.settings.widget.MasterSwitchPreference android:title="@string/op_charging_station" android:key="op_charging_station_setting" android:summary="@string/op_charging_station_summary" android:fragment="com.oneplus.settings.chargingstations.OPChargingStationSettings" settings:controller="com.oneplus.settings.chargingstations.OPChargingStationPrefController" />
+    <com.android.settings.fuelgauge.PowerGaugePreference android:title="Battery Temperature" android:selectable="false" android:key="battery_temp" />
     <com.android.settingslib.widget.FooterPreference android:title="@string/battery_footer_summary" android:selectable="false" android:key="power_usage_footer" settings:searchable="false" />
 </PreferenceScreen>

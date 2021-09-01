@@ -18350,6 +18350,8 @@
     <public type="string" name="APKTOOL_DUMMY_198a" id="0x7f13198a" />
     <public type="string" name="APKTOOL_DUMMY_19df" id="0x7f1319df" />
     <public type="string" name="APKTOOL_DUMMY_19e0" id="0x7f1319e0" />
+    <public type="string" name="battery_stats_reset" id="0x7f131e39" />
+    <public type="string" name="battery_stats_message" id="0x7f131e3a" />    
     <public type="style" name="AccentColorHighlightBorderlessButton" id="0x7f140000" />
     <public type="style" name="AccessibilityDialog" id="0x7f140001" />
     <public type="style" name="AccessibilityDialogButton" id="0x7f140002" />
