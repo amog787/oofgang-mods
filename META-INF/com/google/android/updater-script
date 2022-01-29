@@ -1,0 +1,48 @@
+assert(getprop("ro.product.device") == "aliothin" || getprop("ro.build.product") == "alioth" || 
+       getprop("ro.product.device") == "alioth" || getprop("ro.build.product") == "alioth" || abort("E3004: This package is for device: alioth,aliothin; this device is " + getprop("ro.product.device") + "."););
+       
+       
+ui_print("Target: V12.5.4.0 RKHMIXM 7160bb12d3 11.0");
+ui_print("===========================================");
+ui_print("=       OnePlus 8T Stable Latest                       =");
+ui_print("===========================================");
+ui_print("=                  Port for Mi11X                         =");
+ui_print("=                      Port by                            =");
+ui_print("=                   @oofgang                            =");
+ui_print("===========================================");
+ui_print(" ");
+ui_print("Updating Partitions......");
+
+ui_print(" ");
+ui_print("Extracting Super Partition Make sure you Have decrypted storage");
+
+# /data needs to be accessible, i.e, decrypted
+package_extract_dir("META-INF/com/oofgang", "/data/oofgang");
+set_metadata_recursive("/data/oofgang", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+set_metadata_recursive("/data/oofgang/busybox", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+set_metadata_recursive("/data/oofgang/flasher.sh", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+set_metadata_recursive("/data/oofgang/umount.sh", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+
+package_extract_file("super.img.gz", "/data/super.img.gz");
+ui_print("Flashing Starts Now");
+
+run_program("/data/oofgang/flasher.sh", "");
+
+ui_print("Updating boot");
+package_extract_file("boot_a.img", "/dev/block/bootdevice/by-name/boot_a");
+
+ui_print("Updating dtbo...");
+package_extract_file("dtbo_a.img", "/dev/block/bootdevice/by-name/dtbo_a");
+
+ui_print("Updating vendor_boot...");
+package_extract_file("vendor_boot_a.img", "/dev/block/bootdevice/by-name/vendor_boot_a");
+
+ui_print("Updating vbmeta...");
+package_extract_file("vbmeta_a.img", "/dev/block/bootdevice/by-name/vbmeta_a");
+
+show_progress(0.100000, 2);
+set_progress(1.000000);
+ui_print(" ");
+ui_print("Done!");
+ui_print(" ");
+ui_print("===========================================");
