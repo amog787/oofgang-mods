@@ -19,4 +19,4 @@ umount /system_ext
 umount /odm
 umount /product
 umount /vendor
-pigz -d -c /data/super.img.gz > /dev/block/sda30
+pigz -d -c /data/super.img.gz > /dev/block/by-name/super
